@@ -1,0 +1,862 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoalSlider should render 1`] = `
+Array [
+  .c2 {
+  margin: 8px 0;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+.c3 {
+  padding: 8px 0;
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c5 {
+  color: #999999;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 {
+  display: none;
+}
+
+.c7 {
+  padding: 24px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  -webkit-appearance: none;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  height: 1px;
+  width: 1px;
+  background: #00C8DC;
+  cursor: pointer;
+  position: relative;
+}
+
+.c8:after {
+  content: '';
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: -16px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 5px solid #00C8DC;
+}
+
+.c9 {
+  width: 100%;
+  height: 32px;
+  -webkit-appearance: none;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  -webkit-transform: translateY(4px) scale(32);
+  -ms-transform: translateY(4px) scale(32);
+  transform: translateY(4px) scale(32);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c9::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border: 2px solid #FFFFFF;
+  -webkit-transform: scale(32);
+  -ms-transform: scale(32);
+  transform: scale(32);
+  border-radius: 50%;
+  opacity: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.c9::-ms-thumb {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c9::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c9:focus::-webkit-slider-runnable-track {
+  background: #E5E5E5;
+}
+
+.c9::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c9::-ms-track {
+  width: 100%;
+  height: 8pxpx;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+
+.c9::-ms-fill-lower {
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c9::-ms-fill-upper {
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c9:focus::-ms-fill-lower {
+  background: #E5E5E5;
+}
+
+.c9:focus::-ms-fill-upper {
+  background: #E5E5E5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c6 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: 100%;
+}
+
+@media (max-width:512px) {
+
+}
+
+@media (min-width:1008px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (max-width:1008px) {
+
+}
+
+@media (max-width:512px) {
+  .c7 {
+    padding: 24px 32px;
+  }
+}
+
+@media (max-width:752px) {
+  .c9::-webkit-slider-thumb {
+    -webkit-transform: translateY(4px) scale(16);
+    -ms-transform: translateY(4px) scale(16);
+    transform: translateY(4px) scale(16);
+  }
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="GoalInput__InformationContainer-sc-1gqrzm-4"
+      >
+        <h4
+          className="c2"
+          fontFamily="default"
+          fontSize="lg"
+          spacing="base"
+        >
+          Can I manage you as well as I should?
+        </h4>
+        <div
+          className="c3"
+          color="grey4"
+          fontSize="sm"
+        >
+          Where are you now:
+        </div>
+      </div>
+      <div
+        className="c4"
+      >
+        <div
+          className="c5 c6"
+          color="grey4"
+          display="flex"
+        />
+        <div
+          className="c7"
+        >
+          <div
+            className="c8"
+            style={
+              Object {
+                "left": "70%",
+              }
+            }
+          />
+          <input
+            className="c9"
+            list="test-goal"
+            max={1}
+            min={0}
+            name="test-goal"
+            onChange={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            step={0.1}
+            type="range"
+            value={0.7}
+          />
+        </div>
+        <div
+          className="c5 c6"
+          color="grey4"
+          display="flex"
+        />
+      </div>
+      <div
+        className="GoalInput__InformationContainer-sc-1gqrzm-4"
+      >
+        <div
+          className="c3"
+          color="grey4"
+          fontSize="sm"
+        >
+          Where do you need to be:
+        </div>
+      </div>
+      <div
+        className="c4"
+      >
+        <span
+          className="c5 c6"
+          color="grey4"
+          display="flex"
+        />
+        <div
+          className="c7"
+        >
+          <div
+            className="c8"
+            style={
+              Object {
+                "left": "10%",
+              }
+            }
+          />
+          <input
+            className="c9"
+            list="test-need"
+            max={1}
+            min={0}
+            name="test-need"
+            onChange={[Function]}
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchStart={[Function]}
+            step={0.1}
+            type="range"
+            value={0.1}
+          />
+        </div>
+        <span
+          className="c5 c6"
+          color="grey4"
+          display="flex"
+        />
+      </div>
+    </div>
+  </div>,
+  .c6 {
+  overflow: hidden;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: currentColor;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: currentColor;
+}
+
+.c10 {
+  margin: 8px 0;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+.c11 {
+  padding: 8px 0;
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c13 {
+  color: #999999;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  margin: 0 16px;
+  color: #666666;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  white-space: normal;
+  overflow: hidden;
+  max-height: calc(24px * 2);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.c7 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  padding: 16px 0;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  word-break: break-word;
+  max-height: calc(24px * 4);
+  -webkit-line-clamp: 4;
+}
+
+.c3 svg {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c8 {
+  padding: 16px;
+}
+
+.c8 font-weight:function (_ref6) {
+  -webkit-var: theme = _ref6.theme;
+  -moz-var: theme = _ref6.theme;
+  -ms-var: theme = _ref6.theme;
+  var: theme = _ref6.theme;
+  return: theme.font.weight.regular;
+}
+
+.c0 {
+  display: none;
+}
+
+.c15 {
+  padding: 24px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c16 {
+  -webkit-appearance: none;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  height: 1px;
+  width: 1px;
+  background: #00C8DC;
+  cursor: pointer;
+  position: relative;
+}
+
+.c16:after {
+  content: '';
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: -16px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 5px solid #00C8DC;
+}
+
+.c17 {
+  width: 100%;
+  height: 32px;
+  -webkit-appearance: none;
+}
+
+.c17:focus {
+  outline: none;
+}
+
+.c17::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  -webkit-transform: translateY(4px) scale(32);
+  -ms-transform: translateY(4px) scale(32);
+  transform: translateY(4px) scale(32);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c17::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border: 2px solid #FFFFFF;
+  -webkit-transform: scale(32);
+  -ms-transform: scale(32);
+  transform: scale(32);
+  border-radius: 50%;
+  opacity: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.c17::-ms-thumb {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 1px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.c17::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c17:focus::-webkit-slider-runnable-track {
+  background: #E5E5E5;
+}
+
+.c17::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c17::-ms-track {
+  width: 100%;
+  height: 8pxpx;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+
+.c17::-ms-fill-lower {
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c17::-ms-fill-upper {
+  background: #E5E5E5;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  border-radius: 4px;
+}
+
+.c17:focus::-ms-fill-lower {
+  background: #E5E5E5;
+}
+
+.c17:focus::-ms-fill-upper {
+  background: #E5E5E5;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c14 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: 100%;
+}
+
+@media (max-width:512px) {
+  .c1 {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:1008px) {
+
+}
+
+@media (max-width:1008px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (max-width:512px) {
+  .c15 {
+    padding: 24px 32px;
+  }
+}
+
+@media (max-width:752px) {
+  .c17::-webkit-slider-thumb {
+    -webkit-transform: translateY(4px) scale(16);
+    -ms-transform: translateY(4px) scale(16);
+    transform: translateY(4px) scale(16);
+  }
+}
+
+<div
+    className="c0"
+  >
+    <section>
+      <section
+        className="ewb-accordion-closed"
+        id="1"
+      >
+        <div
+          className="c1"
+          data-test="accordion-header"
+          onClick={[Function]}
+        >
+          <div
+            className="c2 c3"
+            height={24}
+            rotate={90}
+            width={24}
+          >
+            <svg
+              height={32}
+              viewBox="0 0 24 24"
+              width={32}
+            />
+          </div>
+          <div
+            className="c4 c5"
+            color="grey5"
+          >
+            Can I manage you as well as I should?
+          </div>
+        </div>
+        <div
+          className="c6"
+          data-test="foldable"
+          onTransitionEnd={[Function]}
+          style={
+            Object {
+              "height": 0,
+              "transition": "height 300ms linear",
+            }
+          }
+        >
+          <div
+            data-test="inner-foldable"
+          >
+            <div
+              className="c7 c8"
+              color="grey5"
+              fontSize="xs"
+            >
+              <div
+                className="c9"
+              >
+                <div
+                  className="GoalInput__InformationContainer-sc-1gqrzm-4"
+                >
+                  <h4
+                    className="c10"
+                    fontFamily="default"
+                    fontSize="lg"
+                    spacing="base"
+                  >
+                    Can I manage you as well as I should?
+                  </h4>
+                  <div
+                    className="c11"
+                    color="grey4"
+                    fontSize="sm"
+                  >
+                    Where are you now:
+                  </div>
+                </div>
+                <div
+                  className="c12"
+                >
+                  <div
+                    className="c13 c14"
+                    color="grey4"
+                    display="flex"
+                  />
+                  <div
+                    className="c15"
+                  >
+                    <div
+                      className="c16"
+                      style={
+                        Object {
+                          "left": "70%",
+                        }
+                      }
+                    />
+                    <input
+                      className="c17"
+                      list="test-goal"
+                      max={1}
+                      min={0}
+                      name="test-goal"
+                      onChange={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      step={0.1}
+                      type="range"
+                      value={0.7}
+                    />
+                  </div>
+                  <div
+                    className="c13 c14"
+                    color="grey4"
+                    display="flex"
+                  />
+                </div>
+                <div
+                  className="GoalInput__InformationContainer-sc-1gqrzm-4"
+                >
+                  <div
+                    className="c11"
+                    color="grey4"
+                    fontSize="sm"
+                  >
+                    Where do you need to be:
+                  </div>
+                </div>
+                <div
+                  className="c12"
+                >
+                  <span
+                    className="c13 c14"
+                    color="grey4"
+                    display="flex"
+                  />
+                  <div
+                    className="c15"
+                  >
+                    <div
+                      className="c16"
+                      style={
+                        Object {
+                          "left": "10%",
+                        }
+                      }
+                    />
+                    <input
+                      className="c17"
+                      list="test-need"
+                      max={1}
+                      min={0}
+                      name="test-need"
+                      onChange={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      step={0.1}
+                      type="range"
+                      value={0.1}
+                    />
+                  </div>
+                  <span
+                    className="c13 c14"
+                    color="grey4"
+                    display="flex"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>,
+]
+`;

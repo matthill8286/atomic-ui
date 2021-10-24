@@ -1,0 +1,15 @@
+
+version: 1
+update_configs:
+  - package_manager: 'javascript'
+    commit_message:
+      include_scope: true
+      prefix: 'chore'
+    #default_reviewers:
+    #  - enter-github-username-here
+    default_labels:
+      - 'dependencies'
+    directory: '/'
+    target_branch: 'master'
+    update_schedule: 'daily'
+    

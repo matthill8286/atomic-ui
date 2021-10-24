@@ -1,0 +1,116 @@
+{
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "import"
+  ],
+  "env": {
+    "jest": true,
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": ["src/svgs/*"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended", // recommended by eslint
+    "plugin:@typescript-eslint/eslint-recommended", // fixes typescript incompatible rules from eslint:recommended
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "prettier/@typescript-eslint",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:import/typescript"
+  ],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass", // Regex for Component Factory to use,
+      "pragma": "React", // Pragma to use, default to "React"
+      "version": "detect" // React version. "detect" automatically picks the version you have installed.
+    },
+    "propWrapperFunctions": [
+      // The names of any function used to wrap propTypes, e.g. `forbidExtraProps`. If this isn't set, any propTypes wrapped in a function will be skipped.
+      "forbidExtraProps",
+      {
+        "property": "freeze",
+        "object": "Object"
+      },
+      {
+        "property": "myFavoriteWrapper"
+      }
+    ],
+    "linkComponents": [
+      // Components used as alternatives to <a> for linking, eg. <Link to={ url } />
+      "Hyperlink",
+      {
+        "name": "Link",
+        "linkAttribute": "to"
+      }
+    ]
+  },
+  "rules": {
+    "indent": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/member-delimiter-style": 0,
+    "@typescript-eslint/camelcase": ["off"],
+    "@typescript-eslint/class-name-casing": ["off"],
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "@typescript-eslint/ban-ts-comment": ["off"],
+    "@typescript-eslint/no-var-requires": ["off"],
+    "no-case-declarations": 2,
+    "prefer-rest-params": 0,
+    "no-empty": 2,
+    "no-console": 2,
+    "no-duplicate-case": 2,
+    "no-nested-ternary": 0,
+    "prefer-const": 2,
+    "no-var": 2,
+    "no-inner-declarations": 2,
+    "camelcase": 2,
+    "require-yield": 2,
+    "no-undef": 0,
+    "no-dupe-keys": 2,
+    "sort-imports": 0, // must be disabled for simple-import-sort to work
+    "import-order": 0, // must be disabled for simple-import-sort to work
+    "import/no-default-export": 0,
+    "import/no-useless-path-segments": [0, {
+      "noUselessIndex": true
+    }],
+    "no-restricted-imports": ["error", {
+      "paths": [{
+        "name": "styled-components",
+        "importNames": ["default", "css"],
+        "message": "Please use import { styled, css } from '@/styles/styled' instead."
+      }]
+    }],
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/no-parameter-properties": 2,
+    "@typescript-eslint/no-inferrable-types": 2,
+    "@typescript-eslint/no-use-before-define": 0,
+    "@typescript-eslint/array-type": 2,
+    "@typescript-eslint/consistent-type-assertions": 2,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/ban-types": 2,
+    "@typescript-eslint/no-namespace": 2,
+    "@typescript-eslint/no-empty-interface": 2,
+    "@typescript-eslint/no-unused-expressions": 2,
+    "@typescript-eslint/triple-slash-reference": 2,
+    "@typescript-eslint/prefer-namespace-keyword": 2,
+    "@typescript-eslint/no-empty-function": 0,
+    "react/no-unescaped-entities": 2,
+    "react/prop-types": 0,
+    "react/display-name": 0,
+    "react/jsx-no-target-blank": 2,
+    "react/jsx-no-undef": 2,
+    "prettier/prettier": 2,
+    "@styled-components-a11y/click-events-have-key-events": 0,
+    "@styled-components-a11y/no-static-element-interactions": 0
+  }
+}

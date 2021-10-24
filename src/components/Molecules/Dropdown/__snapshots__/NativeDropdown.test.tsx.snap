@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NativeDropdown should match snapshot 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: currentColor;
+}
+
+.c3 svg g,
+.c3 svg p {
+  fill: currentColor;
+}
+
+.c0 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: calc(100% - 24px);
+  height: 48px;
+  padding: 0 12px;
+  border: 2px solid #666666;
+  border-radius: 12px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  width: 100%;
+  height: 48px;
+  padding: 8px 0;
+  z-index: 1;
+  color: #000000;
+}
+
+.c4 {
+  position: absolute;
+  z-index: -1;
+  background-color: #FFFFFF;
+  right: 14px;
+  top: 14px;
+}
+
+@media (max-width:512px) {
+  .c1 {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+  }
+}
+
+@media (max-width:512px) {
+  .c2 {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    color: transparent;
+  }
+}
+
+@media (max-width:512px) {
+  .c4 {
+    right: 6px;
+    top: 6px;
+  }
+}
+
+<label
+  className="c0 c1"
+  color="grey5"
+  fontSize="sm"
+>
+  <select
+    className="c2"
+    onChange={[Function]}
+    value="two"
+  >
+    <option
+      value="one"
+    >
+      one
+    </option>
+    <option
+      value=" two"
+    >
+       two
+    </option>
+  </select>
+  <div
+    className="c3 c4"
+    height={20}
+    rotate={90}
+    width={20}
+  >
+    <svg
+      height={16}
+      width={16}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.944 0a.74.74 0 01.106.007L9.944 0a.733.733 0 01.442.148l.07.06 4.332 4.267c.025.024.048.05.069.078l-.069-.078a.714.714 0 01.128.17l.011.022a.67.67 0 01.033.077l.007.023a.647.647 0 01.033.21v8.534c0 1.178-.97 2.133-2.167 2.133H4.167C2.97 15.644 2 14.69 2 13.511V2.133C2 .955 2.97 0 4.167 0zm-.722 1.422H4.167a.717.717 0 00-.723.711v11.378c0 .393.324.711.723.711h8.666a.717.717 0 00.723-.71l-.001-7.824h-3.61a.719.719 0 01-.716-.614l-.007-.096V1.422zm2.167 9.245c.399 0 .722.318.722.71a.717.717 0 01-.722.712H5.61a.717.717 0 01-.722-.711c0-.393.323-.711.722-.711zm0-2.845c.399 0 .722.319.722.711a.717.717 0 01-.722.711H5.61a.717.717 0 01-.722-.71c0-.393.323-.712.722-.712zM7.056 4.978c.398 0 .722.318.722.71a.717.717 0 01-.722.712H5.61a.717.717 0 01-.722-.711c0-.393.323-.711.722-.711zm3.61-2.551v1.84l1.867-.001-1.867-1.839z"
+        fill="#666"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</label>
+`;

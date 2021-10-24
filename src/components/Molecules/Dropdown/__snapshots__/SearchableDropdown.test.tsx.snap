@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchableDropdown renders 1`] = `
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #CCCCCC;
+}
+
+.c8 svg g,
+.c8 svg p {
+  fill: #CCCCCC;
+}
+
+.c3 {
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c11 {
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c9 {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 320px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 66px;
+  z-index: 3;
+  list-style: none;
+  padding: 8px 0;
+  margin: 16px 0;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  background-color: white;
+  border-radius: 8px;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform: false;
+  -ms-transform: false;
+  transform: false;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: -webkit-transform 0.15s ease;
+  -webkit-transition: transform 0.15s ease;
+  transition: transform 0.15s ease;
+  overflow-x: hidden;
+}
+
+.c10 {
+  display: block;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 8px 16px;
+  background: #FFFFFF;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.c10:hover {
+  cursor: pointer;
+  background: #FAFAFA;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c1 .c7 {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  outline: none;
+}
+
+.c1 .c7:focus svg {
+  fill: #000000;
+}
+
+.c5 {
+  border: 0;
+  box-sizing: content-box;
+  display: block;
+  font-size: 16px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  margin: 24px 0 0 0;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  min-width: 0;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 40px;
+  outline: none;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c5::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c5::-moz-placeholder {
+  opacity: 0;
+}
+
+.c5:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c5::placeholder {
+  opacity: 0;
+}
+
+.c5:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.c5:focus::-moz-placeholder {
+  opacity: 1;
+}
+
+.c5:focus:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.c5:focus::placeholder {
+  opacity: 1;
+}
+
+.c6 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 100%;
+}
+
+.c6 > button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  top: 28px;
+  outline: none;
+}
+
+.c6 > button:focus svg {
+  fill: #000000;
+}
+
+.c2 {
+  margin-right: 32px;
+}
+
+.c4 {
+  position: absolute;
+  margin-top: 4px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms,top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
+  transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms,top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
+  top: 24px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <label
+        className="c3 c4"
+        color="grey3"
+        fontSize="sm"
+      >
+        oh my label
+      </label>
+      <input
+        aria-invalid={false}
+        aria-required={false}
+        autoFocus={false}
+        className="c5"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        placeholder=""
+        required={false}
+        type="text"
+      />
+    </div>
+    <div
+      className="c6"
+    >
+      <span
+        className="c7 c8"
+        color="grey3"
+        height={20}
+        width={20}
+      >
+        <svg
+          height={22}
+          width={20}
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M18.308 14.616a3.637 3.637 0 00-2.862 1.416l-6.198-3.207a3.838 3.838 0 00-.032-1.987l6.314-3.534c1.23 1.472 3.333 1.75 4.88.644 1.547-1.106 2.04-3.24 1.145-4.951-.895-1.711-2.893-2.45-4.633-1.713-1.74.737-2.665 2.712-2.145 4.582L8.464 9.4C7.449 8.19 5.81 7.767 4.365 8.34c-1.445.573-2.39 2.02-2.364 3.622.025 1.602 1.016 3.017 2.48 3.54 1.463.523 3.086.043 4.062-1.202l6.198 3.208c-.385 1.578.242 3.235 1.56 4.124a3.583 3.583 0 004.277-.188c1.24-1.002 1.729-2.708 1.216-4.247-.513-1.54-1.913-2.572-3.486-2.57v-.01zm0-11.978c1.162 0 2.104.975 2.104 2.178 0 1.202-.942 2.177-2.104 2.177-1.162 0-2.105-.975-2.105-2.177 0-1.203.943-2.178 2.105-2.178zM5.68 14.072c-1.163 0-2.105-.975-2.105-2.178 0-1.203.942-2.178 2.105-2.178 1.162 0 2.104.975 2.104 2.178 0 1.203-.942 2.178-2.104 2.178zm12.627 6.534c-1.162 0-2.105-.975-2.105-2.178 0-1.203.943-2.178 2.105-2.178s2.104.975 2.104 2.178c0 1.203-.942 2.178-2.104 2.178z"
+              id="a"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(-2 -1)"
+          >
+            <mask
+              fill="#fff"
+              id="b"
+            >
+              <use
+                xlinkHref="#a"
+              />
+            </mask>
+            <use
+              fill="#000"
+              xlinkHref="#a"
+            />
+            <g
+              fill="#999"
+              mask="url(#b)"
+            >
+              <path
+                d="M0 0h24v24H0z"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+  </div>
+  <ol
+    className="c9"
+  >
+    <li
+      className="c10"
+      onClick={[Function]}
+    >
+      <strong
+        className="c11"
+        color="grey4"
+        fontSize="sm"
+      >
+        one
+      </strong>
+    </li>
+    <li
+      className="c10"
+      onClick={[Function]}
+    >
+      <strong
+        className="c11"
+        color="grey4"
+        fontSize="sm"
+      >
+        two
+      </strong>
+    </li>
+  </ol>
+</div>
+`;

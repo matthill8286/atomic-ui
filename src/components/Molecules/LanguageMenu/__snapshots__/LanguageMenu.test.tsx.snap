@@ -1,0 +1,1288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageMenu should render testIdSuffix 1`] = `
+.c5 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c17 {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c13 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c11 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c11 .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0 {
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.c8 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #666666;
+}
+
+.c8 svg g,
+.c8 svg p {
+  fill: #666666;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 svg {
+  width: 16px;
+  height: 16px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: #666666;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c10 svg g,
+.c10 svg p {
+  fill: #666666;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c15 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #666666;
+}
+
+.c15 svg g,
+.c15 svg p {
+  fill: #666666;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #666666;
+}
+
+.c1 .c7 {
+  padding: 0 8px;
+}
+
+.c1 .Status-sc-1e7585p-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c1 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c0 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  position: relative;
+}
+
+.c12 {
+  position: absolute;
+  left: -100px;
+  top: 56px;
+  width: 280px;
+  margin: 16px 0 0 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  -webkit-transform: translateY(-16px);
+  -ms-transform: translateY(-16px);
+  transform: translateY(-16px);
+  -webkit-transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,-webkit-transform 0.15s ease-in-out;
+  -webkit-transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,transform 0.15s ease-in-out;
+  transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,transform 0.15s ease-in-out;
+}
+
+.c2 {
+  padding: 0 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.c2:active,
+.c2:focus {
+  outline: none;
+}
+
+.c2:hover {
+  box-shadow: none;
+}
+
+.c2 .c7 {
+  padding: 0;
+}
+
+.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c6 {
+  justify-self: start;
+  white-space: nowrap;
+}
+
+.c9 {
+  margin: 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c3 {
+  display: none;
+}
+
+.c16 {
+  pointer-events: none;
+  position: absolute;
+  top: 14px;
+  left: 22px;
+}
+
+.c14 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  background: #FFFFFF;
+  padding: 16px 16px 16px 56px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.c14:hover {
+  cursor: pointer;
+  background: #E5E5E5;
+}
+
+.c14:hover > div {
+  color: #333333;
+}
+
+@media (min-width:512px) {
+  .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0,
+  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-11d7y5i-3 {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
+  .c2 {
+    width: 130px;
+  }
+}
+
+@media (min-width:752px) {
+  .c3 {
+    display: block;
+  }
+}
+
+<div
+  className="c0"
+  data-test="language-dropdown-language"
+>
+  <button
+    className="c1 c2 c3"
+    disabled={false}
+    onClick={[Function]}
+    size="md"
+    type="button"
+  >
+    <div
+      className="c4"
+    >
+      <span
+        className="c5 c6"
+        color="grey5"
+        fontSize="sm"
+      />
+      <div
+        className="c7 c8 c9"
+        color="grey5"
+      >
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        />
+      </div>
+      <div
+        className="c7 c10 c9"
+        color="grey5"
+        height={16}
+        rotate={90}
+        width={16}
+      >
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        />
+      </div>
+    </div>
+  </button>
+  <div
+    className="c11 c12"
+  >
+    <div
+      className="c13"
+      display="block"
+      elevation={2}
+      shape="rounded-small"
+    >
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c7 c15 c16"
+          color="grey5"
+          height={24}
+          width={24}
+        >
+          <svg
+            height={24}
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          English
+        </div>
+      </div>
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          German
+        </div>
+      </div>
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          French
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LanguageMenu should render with className 1`] = `
+.c5 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c17 {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c13 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c11 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c11 .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0 {
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.c8 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #666666;
+}
+
+.c8 svg g,
+.c8 svg p {
+  fill: #666666;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 svg {
+  width: 16px;
+  height: 16px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: #666666;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c10 svg g,
+.c10 svg p {
+  fill: #666666;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c15 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #666666;
+}
+
+.c15 svg g,
+.c15 svg p {
+  fill: #666666;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #666666;
+}
+
+.c1 .c7 {
+  padding: 0 8px;
+}
+
+.c1 .Status-sc-1e7585p-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c1 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c0 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  position: relative;
+}
+
+.c12 {
+  position: absolute;
+  left: -100px;
+  top: 56px;
+  width: 280px;
+  margin: 16px 0 0 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  -webkit-transform: translateY(-16px);
+  -ms-transform: translateY(-16px);
+  transform: translateY(-16px);
+  -webkit-transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,-webkit-transform 0.15s ease-in-out;
+  -webkit-transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,transform 0.15s ease-in-out;
+  transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,transform 0.15s ease-in-out;
+}
+
+.c2 {
+  padding: 0 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.c2:active,
+.c2:focus {
+  outline: none;
+}
+
+.c2:hover {
+  box-shadow: none;
+}
+
+.c2 .c7 {
+  padding: 0;
+}
+
+.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c6 {
+  justify-self: start;
+  white-space: nowrap;
+}
+
+.c9 {
+  margin: 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c3 {
+  display: none;
+}
+
+.c16 {
+  pointer-events: none;
+  position: absolute;
+  top: 14px;
+  left: 22px;
+}
+
+.c14 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  background: #FFFFFF;
+  padding: 16px 16px 16px 56px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.c14:hover {
+  cursor: pointer;
+  background: #E5E5E5;
+}
+
+.c14:hover > div {
+  color: #333333;
+}
+
+@media (min-width:512px) {
+  .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0,
+  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-11d7y5i-3 {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
+  .c2 {
+    width: 130px;
+  }
+}
+
+@media (min-width:752px) {
+  .c3 {
+    display: block;
+  }
+}
+
+<div
+  className="c0 selected"
+  data-test="language-dropdown-undefined"
+>
+  <button
+    className="c1 c2 c3"
+    disabled={false}
+    onClick={[Function]}
+    size="md"
+    type="button"
+  >
+    <div
+      className="c4"
+    >
+      <span
+        className="c5 c6"
+        color="grey5"
+        fontSize="sm"
+      />
+      <div
+        className="c7 c8 c9"
+        color="grey5"
+      >
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        />
+      </div>
+      <div
+        className="c7 c10 c9"
+        color="grey5"
+        height={16}
+        rotate={90}
+        width={16}
+      >
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        />
+      </div>
+    </div>
+  </button>
+  <div
+    className="c11 c12"
+  >
+    <div
+      className="c13"
+      display="block"
+      elevation={2}
+      shape="rounded-small"
+    >
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c7 c15 c16"
+          color="grey5"
+          height={24}
+          width={24}
+        >
+          <svg
+            height={24}
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          English
+        </div>
+      </div>
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          German
+        </div>
+      </div>
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          French
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LanguageMenu should render with languages 1`] = `
+.c5 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c17 {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c13 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  color: #000000;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c11 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c11 .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0 {
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.c8 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #666666;
+}
+
+.c8 svg g,
+.c8 svg p {
+  fill: #666666;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 svg {
+  width: 16px;
+  height: 16px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: #666666;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c10 svg g,
+.c10 svg p {
+  fill: #666666;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c15 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #666666;
+}
+
+.c15 svg g,
+.c15 svg p {
+  fill: #666666;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #666666;
+}
+
+.c1 .c7 {
+  padding: 0 8px;
+}
+
+.c1 .Status-sc-1e7585p-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c1:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c1 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c0 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  position: relative;
+}
+
+.c12 {
+  position: absolute;
+  left: -100px;
+  top: 56px;
+  width: 280px;
+  margin: 16px 0 0 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  -webkit-transform: translateY(-16px);
+  -ms-transform: translateY(-16px);
+  transform: translateY(-16px);
+  -webkit-transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,-webkit-transform 0.15s ease-in-out;
+  -webkit-transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,transform 0.15s ease-in-out;
+  transition: visibility 0.15s ease-in-out,opacity 0.15s ease-in-out,transform 0.15s ease-in-out;
+}
+
+.c2 {
+  padding: 0 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.c2:active,
+.c2:focus {
+  outline: none;
+}
+
+.c2:hover {
+  box-shadow: none;
+}
+
+.c2 .c7 {
+  padding: 0;
+}
+
+.c2::-moz-focus-inner {
+  border: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c6 {
+  justify-self: start;
+  white-space: nowrap;
+}
+
+.c9 {
+  margin: 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c3 {
+  display: none;
+}
+
+.c16 {
+  pointer-events: none;
+  position: absolute;
+  top: 14px;
+  left: 22px;
+}
+
+.c14 {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  background: #FFFFFF;
+  padding: 16px 16px 16px 56px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.c14:hover {
+  cursor: pointer;
+  background: #E5E5E5;
+}
+
+.c14:hover > div {
+  color: #333333;
+}
+
+@media (min-width:512px) {
+  .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0,
+  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-11d7y5i-3 {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
+  .c2 {
+    width: 130px;
+  }
+}
+
+@media (min-width:752px) {
+  .c3 {
+    display: block;
+  }
+}
+
+<div
+  className="c0"
+  data-test="language-dropdown-undefined"
+>
+  <button
+    className="c1 c2 c3"
+    disabled={false}
+    onClick={[Function]}
+    size="md"
+    type="button"
+  >
+    <div
+      className="c4"
+    >
+      <span
+        className="c5 c6"
+        color="grey5"
+        fontSize="sm"
+      />
+      <div
+        className="c7 c8 c9"
+        color="grey5"
+      >
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        />
+      </div>
+      <div
+        className="c7 c10 c9"
+        color="grey5"
+        height={16}
+        rotate={90}
+        width={16}
+      >
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
+        />
+      </div>
+    </div>
+  </button>
+  <div
+    className="c11 c12"
+  >
+    <div
+      className="c13"
+      display="block"
+      elevation={2}
+      shape="rounded-small"
+    >
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c7 c15 c16"
+          color="grey5"
+          height={24}
+          width={24}
+        >
+          <svg
+            height={24}
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          English
+        </div>
+      </div>
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          German
+        </div>
+      </div>
+      <div
+        className="c14"
+        onClick={[Function]}
+      >
+        <div
+          className="c17"
+          color="grey5"
+          fontSize="xs"
+        >
+          French
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
