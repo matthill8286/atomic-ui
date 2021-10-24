@@ -1,6 +1,6 @@
 {
   "name": "@excelwithbusiness/webmobile-sc-components",
-  "version": "1.128.1",
+  "version": "1.128.2",
   "description": "Shared React components for Filtered products, which are for external purposes",
   "repository": {
     "type": "git",
@@ -207,8 +207,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx}": [
-      "eslint --fix",
-      "jest  --env=jsdom --u --bail --findRelatedTests"
+      "eslint --fix"
     ]
   },
   "config": {

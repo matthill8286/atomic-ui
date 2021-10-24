@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.128.2 (2021-10-24)
+
+
+### Build & CI
+
+* init ([3e559f2](https://github.com/excelWithBusiness/TS-Filtered-SC-Components/commit/3e559f2ec98f1ca6a107aec72236eae9dcfdc624))
+
 ### [1.124.2](https://github.com/excelWithBusiness/TS-Filtered-SC-Components/compare/v1.124.1...v1.124.2) (2021-07-12)
 
 
