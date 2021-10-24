@@ -2,10 +2,11 @@ import React from 'react'
 import { media } from '@/styles'
 import { css, styled } from '@/styles/styled'
 import { ThemeColors } from '@/types'
+
 export interface TableRowProps {
-  children: React.ReactNode
+  children?: React.ReactNode
   collapsible?: boolean
-  isheadlineRow?: boolean
+  isReversed?: boolean
   verticalAlign?: 'top' | 'middle' | 'bottom'
   disableHover?: boolean
   className?: string
@@ -22,12 +23,25 @@ const StyledCollapsible = css`
 
 const StyledTableRow = styled.tr<TableRowProps>`
   ${({ collapsible }) => collapsible && StyledCollapsible}
-  ${({ disableHover, verticalAlign, theme, hoverColor = 'grey1' }) => `
-    display: table-row;
+  ${({ disableHover, verticalAlign, theme, isReversed, hoverColor = 'grey1' }) => `
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex: 1;
     vertical-align: ${verticalAlign};
     text-align: center;
+    
     ${media.md} {
       border: none;
+      
+      ${
+        isReversed
+          ? `
+            flex-direction: row-reverse;
+      `
+          : ``
+      };
+      
       ${
         !disableHover
           ? `&:hover {
@@ -40,6 +54,47 @@ const StyledTableRow = styled.tr<TableRowProps>`
   `}
 `
 
+export const StyledGhostRow = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+`
+
+export const StyledGhostSprite = styled.div<{ isReversed?: boolean }>`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  min-height: 56px;
+  height: 100%;
+
+  ${media.md} {
+    ${({ isReversed }) =>
+      isReversed
+        ? `
+            flex-direction: row-reverse;
+      `
+        : ``};
+  }
+`
+
+export const StyledColoredData = styled.div<{ showPercentage?: number; color?: ThemeColors }>`
+  width: ${({ showPercentage }) => (showPercentage ? `${showPercentage}%` : ``)};
+  background-color: ${({ theme, color }) => (color ? theme.color[color] : 'rgba(206,11,50, 0.3)')};
+`
+
+export const StyledSvgMarker = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column-reverse;
+`
+
 export const TableRow: React.FC<TableRowProps> = ({
   children,
   collapsible = true,
@@ -47,12 +102,14 @@ export const TableRow: React.FC<TableRowProps> = ({
   disableHover = false,
   className,
   hoverColor,
+  isReversed,
 }) => {
   return (
     <StyledTableRow
       collapsible={collapsible}
       verticalAlign={verticalAlign}
       disableHover={disableHover}
+      isReversed={isReversed}
       className={className}
       hoverColor={hoverColor}>
       {children}

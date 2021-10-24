@@ -1,6 +1,6 @@
 import React from 'react'
 import { css, styled } from '@/styles/styled'
-import { isFilteredTheme } from '@/utils/helper'
+import { isSaiyanTheme } from '@/utils/helper'
 import { ThemeColors } from '@/types'
 
 export interface TableHeadProps {
@@ -33,7 +33,9 @@ const StyledTableHeadSaturn = css<TableHeadProps>`
 `
 
 const StyledTableHead = styled.thead<TableHeadProps>`
-  display: table-header-group;
+  //display: table-header-group;
+  display: flex;
+  flex-direction: row;
   ${({ isMMTheme }) => (isMMTheme ? StyledTableHeadMedia : StyledTableHeadSaturn)}
 `
 
@@ -46,7 +48,7 @@ export const TableHead: React.FC<TableHeadProps> = ({
 }) => {
   return (
     <StyledTableHead
-      isMMTheme={isFilteredTheme()}
+      isMMTheme={isSaiyanTheme()}
       isOutlineRequired={isOutlineRequired}
       className={className}
       backgroundColor={backgroundColor}

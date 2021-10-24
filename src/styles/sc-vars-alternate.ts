@@ -76,6 +76,7 @@ const heading: HeadingTheme = {
   featured: {
     textTransform: 'uppercase',
     fontPadding: '8px',
+    fontSize: '75px',
     lineHeight: {
       xl: '48px',
       md: '40px',

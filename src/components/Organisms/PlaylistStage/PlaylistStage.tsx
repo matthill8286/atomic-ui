@@ -6,7 +6,7 @@ import { CopyText } from '@/components/Atoms/Typography'
 import { Breadcrumb } from '@/components/Molecules/Breadcrumb'
 import { IconArrow } from '@excelwithbusiness/webmobile-svg-library'
 import { ImageMap } from '@/types'
-import { isFilteredTheme } from '@/utils/helper'
+import { isSaiyanTheme } from '@/utils/helper'
 import { PlaylistStageProps } from './PlaylistStage.interface'
 import {
   StyledAssetTileMetaWrapper,
@@ -67,7 +67,7 @@ export const PlaylistStage: React.FC<PlaylistStageProps> = ({
         <StyledPlaylistStageTitle
           withImage={withImage}
           isSkewedBorder={false}
-          isRoundBorder={!isFilteredTheme()}>
+          isRoundBorder={!isSaiyanTheme()}>
           <StyledContentWrapper
             justifyContent="center"
             flexDirection="column"

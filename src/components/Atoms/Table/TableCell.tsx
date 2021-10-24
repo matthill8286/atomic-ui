@@ -3,7 +3,7 @@ import { Typo } from '@/components/Atoms/Typography'
 import { media } from '@/styles'
 import { css, styled } from '@/styles/styled'
 import { Theme } from '@/types'
-import { isFilteredTheme } from '@/utils/helper'
+import { isSaiyanTheme } from '@/utils/helper'
 
 export interface TableCellProps {
   children?: React.ReactNode
@@ -33,7 +33,7 @@ const StyledCollapsible = css<TableCellProps>`
 `
 
 const borderProperty = (theme: Theme) =>
-  isFilteredTheme() ? `1px solid ${theme.color.grey2}` : `1px solid ${theme.color.grey3}`
+  isSaiyanTheme() ? `1px solid ${theme.color.grey2}` : `1px solid ${theme.color.grey3}`
 
 const StyledCellBorder = css<TableCellProps>`
   ${({ theme, noBorder, borderDirection }) => `
@@ -49,7 +49,9 @@ const StyledDataCell = styled.td<TableCellProps>`
   ${({ collapsible }) => collapsible && StyledCollapsible}
   ${StyledCellBorder}
   ${({ cellWidth, textAlign, theme, noPadding }) => `
-    display: table-cell;
+    position: relative;
+    display: flex;
+    flex: 1;
     text-align: ${textAlign};
     width: ${cellWidth ? `${cellWidth}%` : ''};
     padding: ${noPadding ? 0 : theme.spacing.base.sm};

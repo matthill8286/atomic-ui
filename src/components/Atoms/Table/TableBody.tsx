@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from '@/styles/styled'
 import { ThemeColors } from '@/types'
+
 export interface TableBodyProps {
   children: React.ReactNode
   fullBorder?: boolean
@@ -12,7 +13,8 @@ export interface TableBodyProps {
 
 const StyledTableBody = styled.tbody<TableBodyProps>`
   ${({ fullBorder, topBorder, theme, borderColor = 'grey2', backgroundColor = 'white' }) => `
-    display: table-row-group;
+    display: flex;
+    flex-direction: column;
     background-color: ${theme.color[backgroundColor]};
     ${topBorder && `border-top: 1px solid ${theme.color[borderColor]};`}
     ${fullBorder &&

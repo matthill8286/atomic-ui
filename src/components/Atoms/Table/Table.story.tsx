@@ -1,11 +1,17 @@
 import { boolean, select } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { Table, TableBody, TableCell, TableHead, TableRow } from './'
-import { customTableElements, customTableElementsMobileData, tableData } from './Table.mock'
+import { Table, TableBody, TableCell, TableHead, TableRow } from './index'
+import { cryptoCurrenciesMock, customTableElements } from './Table.mock'
 import Readme from './Table.readme.md'
+import { useWindowDimensions } from '@/components/Helper'
+import {
+  StyledColoredData,
+  StyledGhostRow,
+  StyledGhostSprite,
+} from '@/components/Atoms/Table/TableRow'
 
-interface TableRow {
+interface TableRowType {
   type: string
   value: string
 }
@@ -14,11 +20,6 @@ interface RichTextRow {
   asset: string | React.ReactNode
   assetNumber?: string
   noBorder: boolean
-}
-
-interface RichTextPriceRow {
-  textLabel: string | React.ReactNode
-  text: string | React.ReactNode
 }
 
 storiesOf('Design System/Atoms/Table', module)
@@ -35,80 +36,46 @@ storiesOf('Design System/Atoms/Table', module)
         borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
         noBorder: boolean('noBorder', false, 'Cell'),
       }
-      return (
-        <Table {...tableKnobs}>
-          <TableHead>
-            <TableRow>
-              <TableCell cellType="th" {...tableCellKnobs}>
-                <div>Type</div>
-              </TableCell>
-              <TableCell cellType="th" {...tableCellKnobs} noPadding />
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {tableData.map((row: TableRow) => (
-              <TableRow key={row.type}>
-                <TableCell {...tableCellKnobs} cellWidth={30} mobileHeadline>
-                  {row.type}
-                </TableCell>
-                <TableCell {...tableCellKnobs} cellWidth={50}>
-                  {row.value}
-                </TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      )
-    },
-    {
-      info: Readme,
-    }
-  )
-  .add(
-    'customTableElements | mobile',
-    () => {
-      const tableKnobs = {
-        layout: select('table-laylout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
-        withBorderRadius: boolean('withBorderRadius', true, 'Table'),
-        ariaLabel: 'this is a table',
-      }
 
-      const tableCellKnobs = {
-        borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
-        noBorder: boolean('noBorder', false, 'Cell'),
-      }
       return (
         <Table {...tableKnobs}>
           <TableHead>
-            <TableRow>
-              <TableCell cellType="th" collapsible={false} {...tableCellKnobs}>
-                <div>Asset</div>
+            <TableRow isReversed disableHover>
+              <TableCell cellType="th" {...tableCellKnobs}>
+                <div>Price</div>
               </TableCell>
-              <TableCell cellType="th" collapsible={false} textAlign={'right'} {...tableCellKnobs}>
-                <div>Asset ID</div>
+              <TableCell cellType="th" {...tableCellKnobs}>
+                <div>Size</div>
+              </TableCell>
+              <TableCell cellType="th" {...tableCellKnobs}>
+                <div>Total</div>
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {customTableElementsMobileData.map((row: RichTextRow, index) => (
-              <TableRow key={index} verticalAlign={'top'} collapsible={false}>
-                <TableCell
-                  {...tableCellKnobs}
-                  cellWidth={30}
-                  collapsible={false}
-                  noBorder={row.noBorder}>
-                  {row.asset}
-                </TableCell>
-                <TableCell
-                  {...tableCellKnobs}
-                  cellWidth={10}
-                  textAlign={'right'}
-                  collapsible={false}
-                  noBorder={row.noBorder}>
-                  {row.assetNumber}
-                </TableCell>
-              </TableRow>
-            ))}
+            {Object.keys(cryptoCurrenciesMock.asks).map(crypto => {
+              const values = cryptoCurrenciesMock.asks[crypto]
+              const colorSpriteWidth =
+                (cryptoCurrenciesMock.asks[crypto].total / cryptoCurrenciesMock.maxPriceSize) * 100
+              return (
+                <>
+                  <StyledGhostRow>
+                    <StyledGhostSprite isReversed>
+                      {cryptoCurrenciesMock.ticker === 'PI_XBTUSD' ? (
+                        <StyledColoredData showPercentage={colorSpriteWidth} />
+                      ) : null}
+                    </StyledGhostSprite>
+                  </StyledGhostRow>
+                  <TableRow key={values.price} isReversed disableHover>
+                    <TableCell {...tableCellKnobs} mobileHeadline>
+                      {values.price}
+                    </TableCell>
+                    <TableCell {...tableCellKnobs}>{values.size}</TableCell>
+                    <TableCell {...tableCellKnobs}>{values.total}</TableCell>
+                  </TableRow>
+                </>
+              )
+            })}
           </TableBody>
         </Table>
       )

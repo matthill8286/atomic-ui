@@ -1,7 +1,7 @@
 import React from 'react'
 import { media } from '@/styles/media'
 import { css, styled } from '@/styles/styled'
-import { isFilteredTheme } from '@/utils/helper'
+import { isSaiyanTheme } from '@/utils/helper'
 import { TranslatedText } from '@/types/global'
 
 export interface TableProps {
@@ -31,7 +31,8 @@ const StyledScrollable = css`
 const StyledTable = styled.table<TableProps>`
   ${({ isScrollable }) => (isScrollable ? StyledScrollable : '')}
   ${({ layout, withBorderRadius, theme }) => `
-    display: table;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     overflow: hidden;
     border-spacing: 0;
@@ -130,7 +131,7 @@ export const Table: React.FC<TableProps> = ({
         <StyledFixedTable>
           <TableElement />
         </StyledFixedTable>
-        <StyledScrollTable isMMTheme={isFilteredTheme()}>
+        <StyledScrollTable isMMTheme={isSaiyanTheme()}>
           <TableElement />
         </StyledScrollTable>
       </>

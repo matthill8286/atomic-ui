@@ -9,7 +9,7 @@ export interface ChangeColorProps {
   color?: ThemeColors
 }
 
-export const isFilteredTheme = (): boolean => {
+export const isSaiyanTheme = (): boolean => {
   const { name } = useContext(ThemeContext)
   return name === saiyanTheme.name
 }
@@ -25,7 +25,7 @@ export const getColor = (changeColorProps: ChangeColorProps): ThemeColors => {
   const theme = changeColorProps.theme
   let colorProp: ThemeColors | undefined
   if (color === 'primary') {
-    if (isFilteredTheme()) {
+    if (isSaiyanTheme()) {
       colorProp = color
     } else {
       colorProp = 'grey6'
