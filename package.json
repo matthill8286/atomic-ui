@@ -1,13 +1,13 @@
 {
-  "name": "@excelwithbusiness/webmobile-sc-components",
-  "version": "1.128.2",
-  "description": "Shared React components for Filtered products, which are for external purposes",
+  "name": "saiyan-component-library",
+  "version": "1.0.1",
+  "description": "Shared React components for e-commerce products, which are for external purposes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/excelWithBusiness/TS-Filtered-SC-Components.git"
+    "url": "https://github.com/matthill8286/saiyan-component-library.git"
   },
   "license": "UNLICENSED",
-  "author": "Filtered",
+  "author": "Matthew Hill",
   "main": "dist/index.js",
   "sideEffects": false,
   "module": "dist/index",
