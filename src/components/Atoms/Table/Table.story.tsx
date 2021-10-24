@@ -4,12 +4,13 @@ import React from 'react'
 import { Table, TableBody, TableCell, TableHead, TableRow } from './index'
 import { cryptoCurrenciesMock, customTableElements } from './Table.mock'
 import Readme from './Table.readme.md'
-import { useWindowDimensions } from '@/components/Helper'
 import {
   StyledColoredData,
   StyledGhostRow,
   StyledGhostSprite,
 } from '@/components/Atoms/Table/TableRow'
+import { CopyText } from '@/components/Atoms/Typography'
+import { styled } from '@/styles'
 
 interface TableRowType {
   type: string
@@ -21,6 +22,10 @@ interface RichTextRow {
   assetNumber?: string
   noBorder: boolean
 }
+
+const StyledTableWrapper = styled.div`
+  max-width: 600px;
+`
 
 storiesOf('Design System/Atoms/Table', module)
   .add(
@@ -38,46 +43,65 @@ storiesOf('Design System/Atoms/Table', module)
       }
 
       return (
-        <Table {...tableKnobs}>
-          <TableHead>
-            <TableRow isReversed disableHover>
-              <TableCell cellType="th" {...tableCellKnobs}>
-                <div>Price</div>
-              </TableCell>
-              <TableCell cellType="th" {...tableCellKnobs}>
-                <div>Size</div>
-              </TableCell>
-              <TableCell cellType="th" {...tableCellKnobs}>
-                <div>Total</div>
-              </TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {Object.keys(cryptoCurrenciesMock.asks).map(crypto => {
-              const values = cryptoCurrenciesMock.asks[crypto]
-              const colorSpriteWidth =
-                (cryptoCurrenciesMock.asks[crypto].total / cryptoCurrenciesMock.maxPriceSize) * 100
-              return (
-                <>
-                  <StyledGhostRow>
-                    <StyledGhostSprite isReversed>
-                      {cryptoCurrenciesMock.ticker === 'PI_XBTUSD' ? (
-                        <StyledColoredData showPercentage={colorSpriteWidth} />
-                      ) : null}
-                    </StyledGhostSprite>
-                  </StyledGhostRow>
-                  <TableRow key={values.price} isReversed disableHover>
-                    <TableCell {...tableCellKnobs} mobileHeadline>
-                      {values.price}
-                    </TableCell>
-                    <TableCell {...tableCellKnobs}>{values.size}</TableCell>
-                    <TableCell {...tableCellKnobs}>{values.total}</TableCell>
-                  </TableRow>
-                </>
-              )
-            })}
-          </TableBody>
-        </Table>
+        <StyledTableWrapper>
+          <Table {...tableKnobs} withBackground>
+            <TableHead backgroundColor="secondary" borderColor="grey2" isOutlineRequired>
+              <TableRow isReversed disableHover backgroundColor="secondary">
+                <TableCell cellType="th" {...tableCellKnobs}>
+                  <CopyText padding="0" margin="0" color="grey4" toUpperCase>
+                    Price
+                  </CopyText>
+                </TableCell>
+                <TableCell cellType="th" {...tableCellKnobs}>
+                  <CopyText padding="0" margin="0" color="grey4" toUpperCase>
+                    Size
+                  </CopyText>
+                </TableCell>
+                <TableCell cellType="th" {...tableCellKnobs}>
+                  <CopyText padding="0" margin="0" color="grey4" toUpperCase>
+                    Total
+                  </CopyText>
+                </TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody backgroundColor="secondary">
+              {Object.keys(cryptoCurrenciesMock.asks).map(crypto => {
+                const values = cryptoCurrenciesMock.asks[crypto]
+                const colorSpriteWidth =
+                  (cryptoCurrenciesMock.asks[crypto].total / cryptoCurrenciesMock.maxPriceSize) *
+                  100
+                return (
+                  <>
+                    <StyledGhostRow>
+                      <StyledGhostSprite isReversed>
+                        {cryptoCurrenciesMock.ticker === 'PI_XBTUSD' ? (
+                          <StyledColoredData color="error" showPercentage={colorSpriteWidth} />
+                        ) : null}
+                      </StyledGhostSprite>
+                    </StyledGhostRow>
+                    <TableRow key={values.price} isReversed disableHover backgroundColor="white">
+                      <TableCell {...tableCellKnobs} mobileHeadline cellColor="white">
+                        <CopyText bold padding="0" margin="0" color="error">
+                          {values.price}
+                        </CopyText>
+                      </TableCell>
+                      <TableCell cellColor="white" {...tableCellKnobs}>
+                        <CopyText bold padding="0" margin="0" color="white">
+                          {values.size}
+                        </CopyText>
+                      </TableCell>
+                      <TableCell cellColor="white" {...tableCellKnobs}>
+                        <CopyText bold padding="0" margin="0" color="white">
+                          {values.total}
+                        </CopyText>
+                      </TableCell>
+                    </TableRow>
+                  </>
+                )
+              })}
+            </TableBody>
+          </Table>
+        </StyledTableWrapper>
       )
     },
     {

@@ -11,6 +11,7 @@ export interface TableProps {
   fullBorder?: boolean
   isScrollable?: boolean
   className?: string
+  withBackground?: boolean
   ariaLabel?: TranslatedText
 }
 
@@ -30,7 +31,7 @@ const StyledScrollable = css`
 
 const StyledTable = styled.table<TableProps>`
   ${({ isScrollable }) => (isScrollable ? StyledScrollable : '')}
-  ${({ layout, withBorderRadius, theme }) => `
+  ${({ layout, withBorderRadius, withBackground, theme }) => `
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -38,6 +39,7 @@ const StyledTable = styled.table<TableProps>`
     border-spacing: 0;
     border-collapse: collapse;
     table-layout: ${layout};
+    background-color: ${withBackground ? theme.color.secondary : ``};
     border-radius: ${withBorderRadius ? theme.dimension.borderRadius2 : '0'};
   `}
 `
@@ -112,11 +114,13 @@ export const Table: React.FC<TableProps> = ({
   isScrollable = false,
   className,
   ariaLabel,
+  withBackground,
 }) => {
   const TableElement: React.FC = () => (
     <StyledTable
       aria-label={ariaLabel}
       layout={layout}
+      withBackground={withBackground}
       withBorderRadius={withBorderRadius}
       fullBorder={fullBorder}
       isScrollable={isScrollable}

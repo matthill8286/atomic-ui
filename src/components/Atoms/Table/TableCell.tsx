@@ -2,7 +2,7 @@ import React from 'react'
 import { Typo } from '@/components/Atoms/Typography'
 import { media } from '@/styles'
 import { css, styled } from '@/styles/styled'
-import { Theme } from '@/types'
+import { Theme, ThemeColors } from '@/types'
 import { isSaiyanTheme } from '@/utils/helper'
 
 export interface TableCellProps {
@@ -18,6 +18,7 @@ export interface TableCellProps {
   fullBorder?: boolean
   colSpan?: number
   className?: string
+  cellColor?: ThemeColors
 }
 
 const StyledCollapsible = css<TableCellProps>`
@@ -48,10 +49,11 @@ const StyledCellBorder = css<TableCellProps>`
 const StyledDataCell = styled.td<TableCellProps>`
   ${({ collapsible }) => collapsible && StyledCollapsible}
   ${StyledCellBorder}
-  ${({ cellWidth, textAlign, theme, noPadding }) => `
+  ${({ cellWidth, textAlign, theme, noPadding, cellColor }) => `
     position: relative;
     display: flex;
     flex: 1;
+    color: ${cellColor ? theme.color[cellColor] : ''};
     text-align: ${textAlign};
     width: ${cellWidth ? `${cellWidth}%` : ''};
     padding: ${noPadding ? 0 : theme.spacing.base.sm};
@@ -71,6 +73,7 @@ export const TableCell: React.FC<TableCellProps> = ({
   fullBorder = false,
   colSpan,
   className,
+  cellColor,
 }) => {
   return (
     <StyledDataCell
@@ -82,6 +85,7 @@ export const TableCell: React.FC<TableCellProps> = ({
       noPadding={noPadding}
       collapsible={collapsible}
       textAlign={textAlign}
+      cellColor={cellColor}
       fullBorder={fullBorder}
       colSpan={colSpan}
       className={className}>

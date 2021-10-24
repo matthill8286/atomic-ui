@@ -18,7 +18,7 @@ const name = 'Saiyan'
 
 const color: Color = {
   primary: '#00C8DC', // Buttons, Dividers, Secondary Button text
-  secondary: '#164fa5',
+  secondary: '#0b1f38',
   grey1: '#FAFAFA',
   grey2: '#E5E5E5', // Dropdown active / hover, // Borders
   grey3: '#CCCCCC',

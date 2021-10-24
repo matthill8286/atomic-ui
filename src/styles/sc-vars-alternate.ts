@@ -23,9 +23,14 @@ import {
 
 const name = 'Alternate'
 
+// red: #b43135 - button: #b91d1d
+// green: #30885f
+// purple: #5741d9
+// table: #121723
+
 const color: Color = {
   primary: '#EF7C00',
-  secondary: '#009fe3',
+  secondary: '#121723',
   grey1: '#F2F3F4',
   grey2: '#C9CCCD',
   grey3: '#8B8F91',
@@ -34,10 +39,10 @@ const color: Color = {
   grey6: '#666666',
   black: '#000',
   white: '#fff',
-  success: '#70c118',
+  success: '#30885f',
   alert: '#ffbe00',
-  error: '#ff0000',
-  info: '#009fe3',
+  error: '#b43135',
+  info: '#5741d9',
   selected: '#eb680b',
   textColor: '#454647',
   clear: 'transparent',

@@ -11,6 +11,7 @@ export interface TableRowProps {
   disableHover?: boolean
   className?: string
   hoverColor?: ThemeColors
+  backgroundColor?: ThemeColors
 }
 
 const StyledCollapsible = css`
@@ -30,7 +31,8 @@ const StyledTableRow = styled.tr<TableRowProps>`
     flex: 1;
     vertical-align: ${verticalAlign};
     text-align: center;
-    
+      ${({ backgroundColor }) => backgroundColor && `color: ${theme.color[backgroundColor]};`};
+      
     ${media.md} {
       border: none;
       
@@ -68,8 +70,8 @@ export const StyledGhostSprite = styled.div<{ isReversed?: boolean }>`
   display: flex;
   flex: 1;
   flex-direction: row;
-  min-height: 56px;
-  height: 100%;
+  min-height: 52px;
+  padding: 2px 0;
 
   ${media.md} {
     ${({ isReversed }) =>
@@ -84,6 +86,7 @@ export const StyledGhostSprite = styled.div<{ isReversed?: boolean }>`
 export const StyledColoredData = styled.div<{ showPercentage?: number; color?: ThemeColors }>`
   width: ${({ showPercentage }) => (showPercentage ? `${showPercentage}%` : ``)};
   background-color: ${({ theme, color }) => (color ? theme.color[color] : 'rgba(206,11,50, 0.3)')};
+  opacity: 0.3;
 `
 
 export const StyledSvgMarker = styled.div`
@@ -102,6 +105,7 @@ export const TableRow: React.FC<TableRowProps> = ({
   disableHover = false,
   className,
   hoverColor,
+  backgroundColor,
   isReversed,
 }) => {
   return (
@@ -111,6 +115,7 @@ export const TableRow: React.FC<TableRowProps> = ({
       disableHover={disableHover}
       isReversed={isReversed}
       className={className}
+      backgroundColor={backgroundColor}
       hoverColor={hoverColor}>
       {children}
     </StyledTableRow>

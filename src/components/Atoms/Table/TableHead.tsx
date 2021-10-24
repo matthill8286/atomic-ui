@@ -33,7 +33,6 @@ const StyledTableHeadSaturn = css<TableHeadProps>`
 `
 
 const StyledTableHead = styled.thead<TableHeadProps>`
-  //display: table-header-group;
   display: flex;
   flex-direction: row;
   ${({ isMMTheme }) => (isMMTheme ? StyledTableHeadMedia : StyledTableHeadSaturn)}
