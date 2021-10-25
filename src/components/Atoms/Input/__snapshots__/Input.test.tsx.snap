@@ -26,14 +26,14 @@ exports[`Input should render 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 
@@ -165,14 +165,14 @@ exports[`Input should render with dense inputStyle 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 
@@ -304,14 +304,14 @@ exports[`Input should render with dense inputStyle 2`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 
@@ -443,14 +443,14 @@ exports[`Input should render with dense inputStyle 3`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 
@@ -582,14 +582,14 @@ exports[`Input should render with different states 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 
@@ -1525,14 +1525,14 @@ exports[`Input should render with helper component 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 
@@ -1679,14 +1679,14 @@ exports[`Input should render with masked input 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   position: absolute;
   right: 0;
   top: 28px;
   outline: none;
 }
 
-.c0 .Icon-sc-1kt1fsu-0:focus svg {
+.c0 .Icon-sc-1ate1r7-0:focus svg {
   fill: #000000;
 }
 

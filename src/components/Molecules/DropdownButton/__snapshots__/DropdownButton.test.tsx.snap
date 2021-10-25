@@ -51,11 +51,11 @@ exports[`DropdownButton renders 1`] = `
   color: #666666;
 }
 
-.c0 .Icon-sc-1kt1fsu-0 {
+.c0 .Icon-sc-1ate1r7-0 {
   padding: 0 8px;
 }
 
-.c0 .Status-sc-1e7585p-0 {
+.c0 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -97,7 +97,7 @@ exports[`DropdownButton renders 1`] = `
   box-shadow: none;
 }
 
-.c1 .Icon-sc-1kt1fsu-0 {
+.c1 .Icon-sc-1ate1r7-0 {
   padding: 0;
 }
 
