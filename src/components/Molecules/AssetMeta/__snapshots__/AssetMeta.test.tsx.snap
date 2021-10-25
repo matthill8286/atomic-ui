@@ -87,7 +87,7 @@ exports[`Asset page meta renders asset meta 1`] = `
   padding: 0 8px;
 }
 
-.c5 .Status-sc-1e7585p-0 {
+.c5 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -153,7 +153,7 @@ exports[`Asset page meta renders asset meta 1`] = `
   padding: 0 0px;
 }
 
-.c10 .Status-sc-1e7585p-0 {
+.c10 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -241,7 +241,7 @@ exports[`Asset page meta renders asset meta 1`] = `
   width: 100%;
 }
 
-.c3 .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0 {
+.c3 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -403,8 +403,8 @@ exports[`Asset page meta renders asset meta 1`] = `
 }
 
 @media (min-width:512px) {
-  .c3:hover .Cardstyled__StyledBadgeLineWrapper-sc-11d7y5i-0,
-  .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-11d7y5i-3 {
+  .c3:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
+  .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gx6c15-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

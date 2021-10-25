@@ -39,11 +39,11 @@ exports[`Cookie Layer Should render cookie layer wrapper 1`] = `
   color: #00C8DC;
 }
 
-.c6 .Icon-sc-1kt1fsu-0 {
+.c6 .Icon-sc-1ate1r7-0 {
   padding: 0 0px;
 }
 
-.c6 .Status-sc-1e7585p-0 {
+.c6 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -99,11 +99,11 @@ exports[`Cookie Layer Should render cookie layer wrapper 1`] = `
   color: #FFFFFF;
 }
 
-.c9 .Icon-sc-1kt1fsu-0 {
+.c9 .Icon-sc-1ate1r7-0 {
   padding: 0 8px;
 }
 
-.c9 .Status-sc-1e7585p-0 {
+.c9 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;

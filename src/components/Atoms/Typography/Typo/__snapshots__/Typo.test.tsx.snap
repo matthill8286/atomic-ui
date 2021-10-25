@@ -4,7 +4,7 @@ exports[`Typo should render default 1`] = `
 "<Component theme={{...}}>
   <Typo>
     <Typostyled__StyledInfoTypo as=\\"span\\" tag=\\"span\\">
-      <span className=\\"Typostyled__StyledInfoTypo-z9iwlv-0 kpwdMY\\">
+      <span className=\\"Typostyled__StyledInfoTypo-sc-1tlyr74-0 cQevjD\\">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis euismod ligula.
       </span>
     </Typostyled__StyledInfoTypo>
@@ -16,7 +16,7 @@ exports[`Typo should render different tags 1`] = `
 "<Component theme={{...}}>
   <Typo tag=\\"div\\">
     <Typostyled__StyledInfoTypo as=\\"div\\" tag=\\"div\\">
-      <div className=\\"Typostyled__StyledInfoTypo-z9iwlv-0 kpwdMY\\">
+      <div className=\\"Typostyled__StyledInfoTypo-sc-1tlyr74-0 cQevjD\\">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis euismod ligula.
       </div>
     </Typostyled__StyledInfoTypo>
@@ -28,7 +28,7 @@ exports[`Typo should render different tags 2`] = `
 "<Component theme={{...}}>
   <Typo tag=\\"p\\">
     <Typostyled__StyledInfoTypo as=\\"p\\" tag=\\"p\\">
-      <p className=\\"Typostyled__StyledInfoTypo-z9iwlv-0 kpwdMY\\">
+      <p className=\\"Typostyled__StyledInfoTypo-sc-1tlyr74-0 cQevjD\\">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis euismod ligula.
       </p>
     </Typostyled__StyledInfoTypo>
@@ -40,7 +40,7 @@ exports[`Typo should render different tags 3`] = `
 "<Component theme={{...}}>
   <Typo tag=\\"h1\\">
     <Typostyled__StyledInfoTypo as=\\"h1\\" tag=\\"h1\\">
-      <h1 className=\\"Typostyled__StyledInfoTypo-z9iwlv-0 kpwdMY\\">
+      <h1 className=\\"Typostyled__StyledInfoTypo-sc-1tlyr74-0 cQevjD\\">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis euismod ligula.
       </h1>
     </Typostyled__StyledInfoTypo>

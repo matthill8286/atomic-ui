@@ -10,14 +10,13 @@ export interface TableRowProps {
   verticalAlign?: 'top' | 'middle' | 'bottom'
   disableHover?: boolean
   className?: string
+  textColor?: ThemeColors
   hoverColor?: ThemeColors
   backgroundColor?: ThemeColors
 }
 
 const StyledCollapsible = css`
   ${media.maxSm} {
-    border-bottom: ${({ theme }) => `1px solid ${theme.color.grey2}`};
-    border-radius: ${({ theme }) => theme.dimension.borderRadius0};
     border-right: 0;
   }
 `
@@ -31,7 +30,9 @@ const StyledTableRow = styled.tr<TableRowProps>`
     flex: 1;
     vertical-align: ${verticalAlign};
     text-align: center;
-      ${({ backgroundColor }) => backgroundColor && `color: ${theme.color[backgroundColor]};`};
+    border: none;
+     
+    ${({ textColor }) => textColor && `color: ${theme.color[textColor]};`};
       
     ${media.md} {
       border: none;
@@ -100,7 +101,7 @@ export const StyledSvgMarker = styled.div`
 
 export const TableRow: React.FC<TableRowProps> = ({
   children,
-  collapsible = true,
+  collapsible = false,
   verticalAlign = 'middle',
   disableHover = false,
   className,

@@ -494,7 +494,7 @@ exports[`Modal Should render a Modal with two buttons 1`] = `
   padding: 0 8px;
 }
 
-.c12 .Status-sc-1e7585p-0 {
+.c12 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -554,7 +554,7 @@ exports[`Modal Should render a Modal with two buttons 1`] = `
   padding: 0 8px;
 }
 
-.c15 .Status-sc-1e7585p-0 {
+.c15 .Status-ekucpk-0 {
   position: absolute;
   top: -6px;
   right: -6px;

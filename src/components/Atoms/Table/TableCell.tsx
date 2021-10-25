@@ -65,7 +65,7 @@ export const TableCell: React.FC<TableCellProps> = ({
   cellWidth,
   cellType = 'td',
   borderDirection = 'bottom',
-  noBorder = false,
+  noBorder = true,
   mobileHeadline,
   noPadding,
   collapsible = true,
