@@ -1,5 +1,4 @@
-import React from 'react'
-import { cryptoCurrenciesMock } from '@/components/Atoms/Table/Table.mock'
+import React, { memo, ReactElement } from 'react'
 import {
   StyledColoredData,
   StyledGhostRow,
@@ -8,49 +7,57 @@ import {
 } from '@/components/Atoms/Table/TableRow'
 import { TableCell } from '@/components/Atoms/Table'
 import { CopyText } from '@/components/Atoms/Typography'
+import { ThemeColors } from '@/types'
 
-export const OrderBookEntries = ({ order, type, color, isReversed }) => {
-  if (!order) {
-    return null
-  }
-
-  return (
-    <>
-      {order.map(crypto => {
-        const values = cryptoCurrenciesMock[type][crypto]
-        const colorSpriteWidth =
-          (cryptoCurrenciesMock[type][crypto].total / cryptoCurrenciesMock.maxPriceSize) * 100
-        return (
-          <>
-            <StyledGhostRow>
-              <StyledGhostSprite isReversed={isReversed}>
-                <StyledColoredData color={color} showPercentage={colorSpriteWidth} />
-              </StyledGhostSprite>
-            </StyledGhostRow>
-            <TableRow
-              key={values.price}
-              isReversed={isReversed}
-              disableHover
-              backgroundColor="white">
-              <TableCell mobileHeadline cellColor="white">
-                <CopyText bold padding="0" margin="0" color={color}>
-                  {values.price}
-                </CopyText>
-              </TableCell>
-              <TableCell cellColor="white">
-                <CopyText bold padding="0" margin="0" color="white">
-                  {values.size}
-                </CopyText>
-              </TableCell>
-              <TableCell cellColor="white">
-                <CopyText bold padding="0" margin="0" color="white">
-                  {values.total}
-                </CopyText>
-              </TableCell>
-            </TableRow>
-          </>
-        )
-      })}
-    </>
-  )
+interface OrderBookEntriesProps {
+  rows: any
+  rowsKey: string
+  color: ThemeColors
+  isReversed: boolean
+  maxPriceSize: number
 }
+
+export const OrderBookEntries: React.NamedExoticComponent<OrderBookEntriesProps> = memo(
+  ({ rows, rowsKey, color, isReversed, maxPriceSize }): ReactElement | null => {
+    if (!rows) {
+      return null
+    }
+
+    return (
+      <>
+        {rows.map(row => {
+          const { price, size, total } = row
+
+          const colorSpriteWidth = (total / maxPriceSize) * 100
+
+          return (
+            <>
+              <StyledGhostRow>
+                <StyledGhostSprite isReversed={isReversed}>
+                  <StyledColoredData color={color} showPercentage={colorSpriteWidth} />
+                </StyledGhostSprite>
+              </StyledGhostRow>
+              <TableRow key={price} isReversed={isReversed} disableHover backgroundColor="white">
+                <TableCell mobileHeadline cellColor="white">
+                  <CopyText bold padding="0" margin="0" color={color}>
+                    {price}
+                  </CopyText>
+                </TableCell>
+                <TableCell cellColor="white">
+                  <CopyText bold padding="0" margin="0" color="white">
+                    {size}
+                  </CopyText>
+                </TableCell>
+                <TableCell cellColor="white">
+                  <CopyText bold padding="0" margin="0" color="white">
+                    {total}
+                  </CopyText>
+                </TableCell>
+              </TableRow>
+            </>
+          )
+        })}
+      </>
+    )
+  }
+)

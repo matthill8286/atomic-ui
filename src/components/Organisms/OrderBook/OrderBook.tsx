@@ -9,10 +9,13 @@ import {
 } from '@/components/Atoms/Table/TableRow'
 import { ThemeColors } from '@/types'
 import { OrderBookEntries } from '@/components/Organisms/OrderBook/OrderBookEntries'
+import { useWindowDimensions } from '@/components/Helper'
+import { breakpoints } from '@/styles'
 
-interface OrderBookProps {
-  order: any
-  type: string
+interface OrderBookTableProps {
+  rows: any
+  rowsKey: string
+  maxPriceSize: number
   isReversed?: boolean
   headerTextColor?: ThemeColors
   textColor?: ThemeColors
@@ -40,17 +43,29 @@ const OrderBookHeader: React.FC<OrderBookHeaderProps> = ({ textColor, cellText }
   )
 }
 
-export const OrderBook: React.FC<OrderBookProps> = ({
+export const OrderBookTable: React.FC<OrderBookTableProps> = ({
   isReversed,
   textColor,
   borderColor,
   backgroundColor,
   headerTextColor,
-  order,
-  type,
+  rows,
+  rowsKey,
+  maxPriceSize,
   hideOnMobile,
   isOutlineRequired,
 }) => {
+  const { breakpoint: currentBreakpoint } = useWindowDimensions()
+  const isMobile = currentBreakpoint < breakpoints.md
+
+  const displayRows = Object.keys(rows)
+    .map(key => rows[(key as unknown) as number])
+    .filter(k => k)
+
+  if (isMobile && rowsKey === 'asks') {
+    displayRows.reverse()
+  }
+
   return (
     <Table withBackground withBorderRadius={false}>
       <TableHead
@@ -73,8 +88,9 @@ export const OrderBook: React.FC<OrderBookProps> = ({
         <OrderBookEntries
           color={textColor || 'grey4'}
           isReversed={isReversed || false}
-          order={order}
-          type={type}
+          rows={displayRows}
+          maxPriceSize={maxPriceSize}
+          rowsKey={rowsKey}
         />
       </TableBody>
     </Table>

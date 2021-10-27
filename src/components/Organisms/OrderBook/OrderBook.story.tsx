@@ -1,7 +1,6 @@
-import { boolean, select } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { OrderBook } from './index'
+import { OrderBookTable } from './index'
 import { cryptoCurrenciesMock } from '@/components/Atoms/Table/Table.mock'
 import { FlexBox, FlexItem, useWindowDimensions } from '@/components/Helper'
 import { breakpoints, media, styled } from '@/styles'
@@ -21,13 +20,10 @@ storiesOf('Design System/Organisms/OrderBookTable', module).add(
     return (
       <StyledTableWrapper flexDirection="column">
         <FlexItem flex="1">
-          <OrderBook
-            order={
-              !isMobile
-                ? Object.keys(cryptoCurrenciesMock.asks)
-                : Object.keys(cryptoCurrenciesMock.asks).reverse()
-            }
-            type="asks"
+          <OrderBookTable
+            rows={cryptoCurrenciesMock.asks}
+            rowsKey="asks"
+            maxPriceSize={cryptoCurrenciesMock.maxPriceSize}
             textColor="error"
             headerTextColor="white"
             isReversed
@@ -36,13 +32,14 @@ storiesOf('Design System/Organisms/OrderBookTable', module).add(
           />
         </FlexItem>
         <FlexItem flex="1">
-          <OrderBook
-            order={Object.keys(cryptoCurrenciesMock.bids)}
-            type="bids"
+          <OrderBookTable
+            rows={cryptoCurrenciesMock.bids}
+            rowsKey="bids"
             backgroundColor="secondary"
             headerTextColor="white"
             textColor="info"
             hideOnMobile={isMobile}
+            maxPriceSize={cryptoCurrenciesMock.maxPriceSize}
             isOutlineRequired={false}
           />
         </FlexItem>
