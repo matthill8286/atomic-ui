@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/matthill8286/saiyan-component-library/compare/v1.0.7...v1.1.0) (2021-10-27)
+
+
+### Features
+
+* **orderbooktable:** fine tuning the orderbooktable ([951feec](https://github.com/matthill8286/saiyan-component-library/commit/951feec1316d3fbd195889792ce1b0847de33b9b))
+
 ### [1.0.7](https://github.com/matthill8286/saiyan-component-library/compare/v1.0.6...v1.0.7) (2021-10-27)
 
 
