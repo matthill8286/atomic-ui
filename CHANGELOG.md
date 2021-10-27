@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/matthill8286/saiyan-component-library/compare/v1.0.6...v1.0.7) (2021-10-27)
+
+
+### Tests
+
+* aligning tests ([3da109a](https://github.com/matthill8286/saiyan-component-library/commit/3da109a98ae4fff9e25e453c0c88612f79fd7726))
+
 ### [1.0.6](https://github.com/matthill8286/saiyan-component-library/compare/v1.0.5...v1.0.6) (2021-10-24)
 
 
