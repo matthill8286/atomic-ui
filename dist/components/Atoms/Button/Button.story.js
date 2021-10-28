@@ -19,11 +19,11 @@ import { Button } from "./Button";
 import Readme from "./Button.readme.md";
 var StyledButtonGroupContainer = styled('div').withConfig({
   displayName: "Buttonstory__StyledButtonGroupContainer",
-  componentId: "sc-68jhzt-0"
+  componentId: "mdnmbq-0"
 })(["flex:1;display:flex;flex-direction:row;"]);
 var StyledButtonGroup = styled('div').withConfig({
   displayName: "Buttonstory__StyledButtonGroup",
-  componentId: "sc-68jhzt-1"
+  componentId: "mdnmbq-1"
 })(["flex:1;"]);
 var actionTypes = {
   ghost: 'ghost',

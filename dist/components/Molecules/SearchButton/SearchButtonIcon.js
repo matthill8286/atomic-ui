@@ -7,7 +7,7 @@ import { IconCross, IconSearch } from '@excelwithbusiness/webmobile-svg-library'
 import { IconButton } from "../../Atoms/Button";
 var SearchIconWrapper = styled.div.withConfig({
   displayName: "SearchButtonIcon__SearchIconWrapper",
-  componentId: "u4tsm2-0"
+  componentId: "sc-4n18n1-0"
 })(["top:14px;position:absolute;right:", ";height:100%;> button{background:none;border:none;margin:0;padding:0;top:0;outline:none;&:focus{svg{fill:", ";}}}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.sm;

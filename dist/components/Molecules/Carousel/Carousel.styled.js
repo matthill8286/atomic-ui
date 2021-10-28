@@ -2,7 +2,7 @@ import { media } from "../../../styles/media";
 import { css, styled } from "../../../styles/styled";
 export var StyledCarousel = styled.div.withConfig({
   displayName: "Carouselstyled__StyledCarousel",
-  componentId: "sc-1i8nqk7-0"
+  componentId: "la974q-0"
 })(["width:100%;position:relative;margin:0 auto;", " & .slick-slider.mms-th-slider{", "{margin-top:", ";}& .slick-list{width:90%;margin:0 auto;box-sizing:content-box;& .slick-track{& .slick-current{border:2px solid ", " !important;box-shadow:", ";}& .slick-slide{margin:0 ", ";padding:", ";box-sizing:border-box;border:1px solid ", ";border-radius:", ";& div[tabindex]{outline:0;}}}}& div[tabindex]{outline:0;position:relative;> img{position:absolute;width:40%;top:0;bottom:0;left:0;right:0;margin:auto;}}}& .slick-slider{position:relative;display:block;box-sizing:border-box;user-select:none;touch-action:pan-y;-webkit-tap-highlight-color:transparent;", "{&:hover{& .slick-arrow{&.slick-prev,&.slick-next{display:block !important;}}}}& .slick-list{position:relative;padding:", ";transform:translate3d(0,0,0);box-sizing:content-box;overflow:", ";margin:", ";& .slick-track{display:flex;position:relative;top:0;left:0;transform:translate3d(0,0,0);& .slick-slide{", ";display:flex;align-items:center;justify-content:center;-webkit-justify-content:center;", " height:auto;position:relative;float:left;& img{display:block;margin:auto;max-width:100%;}& > div{width:100%;height:100%;display:flex;}}}}", " & .slick-dots{position:relative;list-style:none;display:block;float:left;margin:", ";padding:", " 0;& li{position:relative;display:inline-block;padding:0;padding-bottom:", ";margin-left:", ";margin-right:", ";", "{&:hover{padding-bottom:0;margin-left:", ";margin-right:", ";&:first-child{margin-left:0;}& div{background-color:", ";border-color:", ";height:", ";width:", ";cursor:pointer;}}}&:first-child{margin-left:", ";}& div{border:0;background-color:", ";border-color:", ";border-radius:", ";display:block;height:", ";width:", ";outline:none;color:transparent;border-style:solid;border-width:1px;box-sizing:border-box;}&.slick-active{padding-bottom:0;margin-left:", ";margin-right:", ";&:first-child{margin-left:0;}& div{background-color:", ";border-color:", ";height:", ";width:", ";opacity:1;}}}}& > .slick-arrow{z-index:1;position:absolute;top:calc(50% + 16px);outline:0;transform:translateY(-50%);margin-top:", ";border:none;height:", ";width:", ";border-radius:", ";background:", ";& svg{position:relative;cursor:pointer;top:", ";left:", ";}&:hover{cursor:pointer;}&.slick-disabled{opacity:0;&:hover{cursor:default;}}&.slick-next{right:", ";", "{right:", ";}display:none !important;}&.slick-prev{right:", ";", "{left:", ";}display:none !important;}}}", ""], function (_ref) {
   var theme = _ref.theme,
       boxShadow = _ref.boxShadow;
@@ -161,6 +161,6 @@ export var StyledCarousel = styled.div.withConfig({
 });
 export var StyledCarouselHandler = styled.div.withConfig({
   displayName: "Carouselstyled__StyledCarouselHandler",
-  componentId: "sc-1i8nqk7-1"
+  componentId: "la974q-1"
 })(["outline:none;"]);
 //# sourceMappingURL=Carousel.styled.js.map

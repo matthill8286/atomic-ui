@@ -1,7 +1,6 @@
 import React from 'react'
 import { ServicesItemProps, ServicesVariant } from '@/components/Molecules/ServicesItem'
 import { CopyText, Heading } from '@/components/Atoms/Typography'
-import './style.css'
 import { css, styled } from '@/styles'
 import { Picture } from '@/components/Atoms/Picture'
 

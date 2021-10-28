@@ -5,29 +5,29 @@ import { StyledNavArrow } from "./NavArrow";
 export var gridCss = css(["box-sizing:border-box;margin:0 auto;max-width:1472px;", ""], handleGridPadding(false));
 export var StyledOverflowWrapper = styled.div.withConfig({
   displayName: "ScrollSnapSliderstyled__StyledOverflowWrapper",
-  componentId: "sc-6r591w-0"
+  componentId: "sc-1hugk5l-0"
 })(["ul{", ";}"], gridCss);
 export var StyledHeading = styled.div.withConfig({
   displayName: "ScrollSnapSliderstyled__StyledHeading",
-  componentId: "sc-6r591w-1"
+  componentId: "sc-1hugk5l-1"
 })(["", " h1,h2,h3,h4{margin-left:0;margin-right:0;color:", ";}"], gridCss, function (_ref) {
   var theme = _ref.theme;
   return theme.color.primary;
 });
 export var StyledGridScrollbar = styled.div.withConfig({
   displayName: "ScrollSnapSliderstyled__StyledGridScrollbar",
-  componentId: "sc-6r591w-2"
+  componentId: "sc-1hugk5l-2"
 })(["", ""], gridCss);
 export var StyledHeadingNoGrid = styled.div.withConfig({
   displayName: "ScrollSnapSliderstyled__StyledHeadingNoGrid",
-  componentId: "sc-6r591w-3"
+  componentId: "sc-1hugk5l-3"
 })(["h1,h2,h3,h4{margin-left:0;margin-right:0;color:", ";}"], function (_ref2) {
   var theme = _ref2.theme;
   return theme.color.primary;
 });
 export var StyledWrapper = styled.div.withConfig({
   displayName: "ScrollSnapSliderstyled__StyledWrapper",
-  componentId: "sc-6r591w-4"
+  componentId: "sc-1hugk5l-4"
 })(function (_ref3) {
   var showArrowsOnHover = _ref3.showArrowsOnHover,
       isGridLayout = _ref3.isGridLayout;
@@ -35,7 +35,7 @@ export var StyledWrapper = styled.div.withConfig({
 });
 export var StyledScrollbar = styled.div.withConfig({
   displayName: "ScrollSnapSliderstyled__StyledScrollbar",
-  componentId: "sc-6r591w-5"
+  componentId: "sc-1hugk5l-5"
 })(function (_ref4) {
   var isSliderScrollable = _ref4.isSliderScrollable,
       theme = _ref4.theme;

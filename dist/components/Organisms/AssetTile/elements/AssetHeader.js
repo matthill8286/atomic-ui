@@ -10,7 +10,7 @@ import { useWindowDimensions } from "../../../Helper";
 import { breakpoints } from "../../../../styles";
 var StyledAssetHeaderWrapper = styled.div.withConfig({
   displayName: "AssetHeader__StyledAssetHeaderWrapper",
-  componentId: "kdrirn-0"
+  componentId: "gr5fwf-0"
 })(["margin-bottom:", ";margin-right:", ";"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.sm;
@@ -20,11 +20,11 @@ var StyledAssetHeaderWrapper = styled.div.withConfig({
 });
 var StyledHeading = styled(Heading).withConfig({
   displayName: "AssetHeader__StyledHeading",
-  componentId: "kdrirn-1"
+  componentId: "gr5fwf-1"
 })(["width:90%;"]);
 var StyledLink = styled(Link).withConfig({
   displayName: "AssetHeader__StyledLink",
-  componentId: "kdrirn-2"
+  componentId: "gr5fwf-2"
 })(["display:inline;"]);
 export var AssetHeader = function AssetHeader(_ref3) {
   var headerFontSize = _ref3.headerFontSize,

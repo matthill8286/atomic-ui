@@ -13,15 +13,15 @@ import { CallToActionElement } from "./CallToActionElement";
 import { AssetTile, AssetTileLayout } from "../AssetTile";
 var StyledAssetTile = styled.div.withConfig({
   displayName: "CallToActionPanel__StyledAssetTile",
-  componentId: "sg5894-0"
+  componentId: "sc-1kui1r2-0"
 })(["width:100%;", "{width:90%;margin:0 auto;}"], media.maxSm);
 export var StyledCtaTextColumn = styled.div.withConfig({
   displayName: "CallToActionPanel__StyledCtaTextColumn",
-  componentId: "sg5894-1"
+  componentId: "sc-1kui1r2-1"
 })(["flex-basis:100%;flex-wrap:nowrap;flex-direction:column;margin:", " auto;padding:", " ", ";", "{flex-direction:row;flex:1;padding:", ";margin:", " 0;}"], spacing.base.xs, spacing.base.sm, spacing.base.md, media.md, spacing.base.lg, spacing.base.sm);
 export var StyledCtaImageColumn = styled.div.withConfig({
   displayName: "CallToActionPanel__StyledCtaImageColumn",
-  componentId: "sg5894-2"
+  componentId: "sc-1kui1r2-2"
 })(["order:unset;flex:unset;flex-direction:column;display:flex;padding:0;margin:", " 0;> svg,img{margin:0 auto;}", "{flex-direction:row;flex:0.5;margin:", " 0;padding-right:", ";padding-left:", ";justify-content:", ";order:", ";> svg,img{margin:0 auto;justify-content:", ";", ";}}"], spacing.base.sm, media.md, spacing.base.sm, function (_ref) {
   var alignment = _ref.alignment;
   return alignment === 'left' ? spacing.base.lg : 0;
@@ -43,7 +43,7 @@ export var StyledCtaImageColumn = styled.div.withConfig({
 });
 export var StyledCtaRow = styled(Section).withConfig({
   displayName: "CallToActionPanel__StyledCtaRow",
-  componentId: "sg5894-3"
+  componentId: "sc-1kui1r2-3"
 })(["flex-wrap:wrap;display:flex;max-width:1250px;align-items:center;justify-content:space-around;padding:0 ", ";margin:0;"], spacing.base.sm);
 
 function getGraphCmsImageParams(imageUrl) {

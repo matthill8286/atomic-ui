@@ -21,7 +21,7 @@ var StyledTableHeadSaturn = css(["", ""], function (_ref2) {
 });
 var StyledTableHead = styled.thead.withConfig({
   displayName: "TableHead__StyledTableHead",
-  componentId: "sc-1y2vk4h-0"
+  componentId: "sc-1t7alt2-0"
 })(["display:flex;flex-direction:row;", ""], function (_ref3) {
   var isMMTheme = _ref3.isMMTheme;
   return isMMTheme ? StyledTableHeadMedia : StyledTableHeadSaturn;

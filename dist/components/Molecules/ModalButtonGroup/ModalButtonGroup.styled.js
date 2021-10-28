@@ -3,7 +3,7 @@ import { media } from "../../../styles/media";
 import { css, styled } from "../../../styles/styled";
 export var StyledModalFooter = styled.div.withConfig({
   displayName: "ModalButtonGroupstyled__StyledModalFooter",
-  componentId: "sc-1nnxv1-0"
+  componentId: "sc-19s6jss-0"
 })(["", ""], function (_ref) {
   var showButtonSeparator = _ref.showButtonSeparator,
       theme = _ref.theme,
@@ -15,7 +15,7 @@ export var StyledModalFooter = styled.div.withConfig({
 });
 export var StyledModalFooterPrimary = styled.div.withConfig({
   displayName: "ModalButtonGroupstyled__StyledModalFooterPrimary",
-  componentId: "sc-1nnxv1-1"
+  componentId: "sc-19s6jss-1"
 })(["", " ", " ", ""], function (_ref3) {
   var buttonType = _ref3.buttonAlignment;
   return buttonType === 'space-between' && "\n    text-align: right;\n    ";
@@ -30,7 +30,7 @@ export var StyledModalFooterPrimary = styled.div.withConfig({
 });
 export var StyledModalFooterSecondary = styled.div.withConfig({
   displayName: "ModalButtonGroupstyled__StyledModalFooterSecondary",
-  componentId: "sc-1nnxv1-2"
+  componentId: "sc-19s6jss-2"
 })(["", ""], function (_ref6) {
   var theme = _ref6.theme,
       buttonType = _ref6.buttonAlignment;
@@ -41,6 +41,6 @@ export var StyledModalFooterSecondary = styled.div.withConfig({
 });
 export var StyledModalFooterButton = styled(Button).withConfig({
   displayName: "ModalButtonGroupstyled__StyledModalFooterButton",
-  componentId: "sc-1nnxv1-3"
+  componentId: "sc-19s6jss-3"
 })(["width:100%;margin:0 auto;max-width:400px;", "{width:100%;}"], media.maxSm);
 //# sourceMappingURL=ModalButtonGroup.styled.js.map

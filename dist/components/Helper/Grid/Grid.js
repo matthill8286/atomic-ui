@@ -17,7 +17,7 @@ export var handleGridPadding = function handleGridPadding(noPadding) {
 };
 var StyledGrid = styled.div.withConfig({
   displayName: "Grid__StyledGrid",
-  componentId: "hursja-0"
+  componentId: "txz0nc-0"
 })(["box-sizing:border-box;margin:0 auto;max-width:1472px;", " ", " ", ""], function (_ref) {
   var noPadding = _ref.noPadding;
   return handleGridPadding(!!noPadding);

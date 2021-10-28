@@ -3,7 +3,7 @@ import { getBoxDimension } from "../../../styles/sc-shared-functions";
 import { styled } from "../../../styles/styled";
 export var StyledInputSearchWrapper = styled.div.withConfig({
   displayName: "SearchButtonstyled__StyledInputSearchWrapper",
-  componentId: "sc-14pk4sq-0"
+  componentId: "sc-19igbac-0"
 })(["display:inline-flex;flex-direction:column;position:relative;vertical-align:top;width:100%;max-width:300px;border-radius:", ";border:1px solid ", ";", " ", " ", "{position:absolute;right:0;top:0;outline:none;&:focus{svg{fill:", ";}}}"], function (_ref) {
   var theme = _ref.theme;
   return theme.dimension.borderRadius8;
@@ -24,7 +24,7 @@ export var StyledInputSearchWrapper = styled.div.withConfig({
 });
 export var StyledInputSearch = styled.input.withConfig({
   displayName: "SearchButtonstyled__StyledInputSearch",
-  componentId: "sc-14pk4sq-1"
+  componentId: "sc-19igbac-1"
 })(["border:0;box-sizing:border-box;display:block;font-size:", ";font-family:", ";padding-left:", ";padding-right:", ";margin:0;min-width:0;width:100%;height:", ";line-height:", ";outline:none;position:relative;background:transparent;-webkit-tap-highlight-color:transparent;::placeholder{color:", ";}"], function (_ref6) {
   var theme = _ref6.theme;
   return theme.font.size.sm;

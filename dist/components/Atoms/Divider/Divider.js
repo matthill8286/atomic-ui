@@ -10,7 +10,7 @@ import { getSizeInPx } from "../../../styles";
 var DefaultSize = 'xs';
 var StyledHR = styled.hr.withConfig({
   displayName: "Divider__StyledHR",
-  componentId: "sk7y5t-0"
+  componentId: "sc-22wmfm-0"
 })(function (_ref) {
   var theme = _ref.theme,
       color = _ref.color,

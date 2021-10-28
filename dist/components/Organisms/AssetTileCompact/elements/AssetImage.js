@@ -12,7 +12,7 @@ import { media } from "../../../../styles/media";
 import { styled } from "../../../../styles/styled";
 var StyledPictureWrapper = styled.div.withConfig({
   displayName: "AssetImage__StyledPictureWrapper",
-  componentId: "sc-7nj2xk-0"
+  componentId: "eom7vr-0"
 })(["align-items:center;display:flex;margin-left:12px;", "{text-align:unset;}"], media.md);
 export var AssetImage = function AssetImage(_ref) {
   var assetImage = _ref.assetImage,

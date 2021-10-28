@@ -22,7 +22,7 @@ export var skewRight = function skewRight(_ref3) {
 };
 export var StyledTypo = styled(Typo).withConfig({
   displayName: "Badgestyled__StyledTypo",
-  componentId: "sc-5svbji-0"
+  componentId: "sc-1euga1-0"
 })(function (_ref4) {
   var actionType = _ref4.actionType,
       theme = _ref4.theme;
@@ -30,7 +30,7 @@ export var StyledTypo = styled(Typo).withConfig({
 });
 export var StyledBadgeLineWrapper = styled.div.withConfig({
   displayName: "Badgestyled__StyledBadgeLineWrapper",
-  componentId: "sc-5svbji-1"
+  componentId: "sc-1euga1-1"
 })(["", ";"], function (_ref5) {
   var isBadgeLine = _ref5.isBadgeLine,
       theme = _ref5.theme;
@@ -38,13 +38,13 @@ export var StyledBadgeLineWrapper = styled.div.withConfig({
 });
 export var StyledBadgeWrapper = styled.div.withConfig({
   displayName: "Badgestyled__StyledBadgeWrapper",
-  componentId: "sc-5svbji-2"
+  componentId: "sc-1euga1-2"
 })(function (_ref6) {
   var theme = _ref6.theme;
   return css(["display:inline-block;position:relative;margin-right:", ";max-width:100%;"], theme.spacing.base.xs);
 });
 export var StyledOverflow = styled.div.withConfig({
   displayName: "Badgestyled__StyledOverflow",
-  componentId: "sc-5svbji-3"
+  componentId: "sc-1euga1-3"
 })(["display:inline-block;text-overflow:ellipsis;overflow:hidden;"]);
 //# sourceMappingURL=Badge.styled.js.map

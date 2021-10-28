@@ -5,7 +5,7 @@ import { styled, ThemeContext } from "../../../styles/styled";
 import { Logo } from "./Logo";
 var StyledBackground = styled.div.withConfig({
   displayName: "Logostory__StyledBackground",
-  componentId: "sc-1vaacwm-0"
+  componentId: "sc-1wvtotf-0"
 })(["padding:1em;background-color:", ";"], function (_ref) {
   var color = _ref.color,
       theme = _ref.theme;

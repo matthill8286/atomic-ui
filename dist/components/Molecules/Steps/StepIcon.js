@@ -10,7 +10,7 @@ import { css, styled } from "../../../styles/styled";
 var FlexCenter = css(["display:flex;align-items:center;justify-content:center;flex-shrink:0;"]);
 var StepIconRoot = styled.div.withConfig({
   displayName: "StepIcon__StepIconRoot",
-  componentId: "wak0ht-0"
+  componentId: "sc-1wwjlde-0"
 })(["margin-top:", ";margin-bottom:", ";position:relative;z-index:1;", ""], function (_ref) {
   var theme = _ref.theme,
       variant = _ref.variant,
@@ -23,7 +23,7 @@ var StepIconRoot = styled.div.withConfig({
 }, FlexCenter);
 var Circle = styled.div.withConfig({
   displayName: "StepIcon__Circle",
-  componentId: "wak0ht-1"
+  componentId: "sc-1wwjlde-1"
 })(["border:", " solid ", ";border-radius:50%;width:", ";height:", ";background-color:", ";box-shadow:", " ", ";", ""], function (_ref3) {
   var active = _ref3.active,
       completed = _ref3.completed;
@@ -56,7 +56,7 @@ var Circle = styled.div.withConfig({
 }, FlexCenter);
 var Checkmark = styled.div.withConfig({
   displayName: "StepIcon__Checkmark",
-  componentId: "wak0ht-2"
+  componentId: "sc-1wwjlde-2"
 })(["position:relative;display:inline-block;width:", ";height:", ";::before{position:absolute;left:0;top:13px;height:31%;width:2px;background-color:", ";content:'';transform:translateX(12px) rotate(-45deg);transform-origin:left bottom;}::after{position:absolute;left:0;bottom:9px;height:2px;width:55%;background-color:", ";content:'';transform:translateX(12px) rotate(-45deg);transform-origin:left bottom;}"], function (_ref10) {
   var theme = _ref10.theme;
   return theme.spacing.base.lg;
@@ -72,7 +72,7 @@ var Checkmark = styled.div.withConfig({
 });
 var Point = styled.div.withConfig({
   displayName: "StepIcon__Point",
-  componentId: "wak0ht-3"
+  componentId: "sc-1wwjlde-3"
 })(function (_ref14) {
   var theme = _ref14.theme,
       active = _ref14.active,

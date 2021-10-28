@@ -8,11 +8,11 @@ var StyledArrow = css(["", ""], function (_ref) {
 });
 export var StyledCarouselHandler = styled.div.withConfig({
   displayName: "SimpleCarouselstyled__StyledCarouselHandler",
-  componentId: "sc-1yq6pm7-0"
+  componentId: "nboeil-0"
 })(["outline:none;"]);
 export var StyledCarousel = styled.div.withConfig({
   displayName: "SimpleCarouselstyled__StyledCarousel",
-  componentId: "sc-1yq6pm7-1"
+  componentId: "nboeil-1"
 })(["width:100%;position:relative;margin:0 auto;", " & .slick-slider{position:relative;display:block;box-sizing:border-box;user-select:none;touch-action:pan-y;-webkit-tap-highlight-color:transparent;& .slick-list{position:relative;padding:", ";transform:translate3d(0,0,0);box-sizing:content-box;overflow:", ";margin:", ";& .slick-track{display:flex;justify-content:center;position:relative;top:0;left:0;transform:translate3d(0,0,0);margin-left:0;margin-right:auto;& .slick-slide{display:flex;align-items:center;justify-content:center;-webkit-justify-content:center;height:auto;position:relative;float:left;", ";", ";& img{display:block;margin:auto;max-width:100%;}& > div{width:", ";height:100%;display:flex;}}}}:hover{& .slick-next,& .slick-prev{display:block !important;}& .slick-next{right:-1%;}& .slick-prev{left:-1%;}}& .slick-dots{position:absolute;top:0;right:", ";max-height:", ";width:fit-content;list-style:none;display:block;text-align:center;margin:", ";& li{position:relative;display:inline-block;padding:0;margin-right:", ";& div{background-color:transparent;border-color:", ";border-radius:", ";display:block;height:", ";width:", ";outline:none;color:transparent;border-style:solid;border-width:1px;box-sizing:border-box;&:hover{cursor:pointer;}}&.slick-active div{background:", ";opacity:1;}}}}& .slick-arrow{::before{content:unset;}z-index:1;position:absolute;top:50%;outline:0;transform:translateY( calc(-50% - 19px) );border:none;& svg{position:relative;}&:hover{cursor:pointer;}&.slick-disabled{opacity:0;&:hover{cursor:default;}}&.slick-next{", ";right:3%;border-radius:", ";}&.slick-prev{", ";left:3%;border-radius:", ";}}", ""], function (_ref2) {
   var theme = _ref2.theme,
       boxShadow = _ref2.boxShadow;
@@ -79,7 +79,7 @@ export var StyledCarousel = styled.div.withConfig({
 });
 export var StyledNavArrow = styled.div.withConfig({
   displayName: "SimpleCarouselstyled__StyledNavArrow",
-  componentId: "sc-1yq6pm7-2"
+  componentId: "nboeil-2"
 })(["position:absolute;background:", ";fill:", ";border-radius:", ";box-shadow:", ";height:", ";width:", ";cursor:pointer;z-index:3;display:none;"], function (_ref22) {
   var theme = _ref22.theme;
   return theme.color.white;

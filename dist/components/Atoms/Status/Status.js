@@ -1,7 +1,7 @@
 import { css, styled } from "../../../styles/styled";
 export var Status = styled.div.withConfig({
   displayName: "Status",
-  componentId: "gkipfi-0"
+  componentId: "sc-1bmsh6k-0"
 })(["", ";width:", ";height:", ";background:", ";font-family:", ";font-size:", ";color:", ";border-radius:100%;text-align:center;display:flex;justify-content:center;align-items:center;"], function (_ref) {
   var withinIcon = _ref.withinIcon,
       theme = _ref.theme;

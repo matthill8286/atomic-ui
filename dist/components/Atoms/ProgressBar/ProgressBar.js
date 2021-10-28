@@ -8,7 +8,7 @@ import * as React from 'react';
 import { styled } from "../../../styles/styled";
 var StyledProgressBar = styled.progress.withConfig({
   displayName: "ProgressBar__StyledProgressBar",
-  componentId: "sc-1sy2sdl-0"
+  componentId: "s64lyh-0"
 })(["display:inline-block;appearance:none;position:relative;height:", ";border:none;background:", ";background-size:auto;width:100%;overflow:hidden;color:", ";&::-webkit-progress-value{background:", ";}&::-webkit-progress-bar{background:", ";}&::-moz-progress-bar{background:", ";}&::-ms-fill{background:", ";}"], function (_ref) {
   var isSmall = _ref.isSmall;
   return isSmall ? '4px' : '15px';

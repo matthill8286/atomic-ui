@@ -52,11 +52,11 @@ export var linkStyles = css(["display:", ";align-items:center;width:max-content;
 });
 export var StyledLinkAnchor = styled.a.withConfig({
   displayName: "Linkstyled__StyledLinkAnchor",
-  componentId: "sc-1wqz4ka-0"
+  componentId: "sc-1ntzs8j-0"
 })(["", ""], linkStyles);
 export var StyledLinkButton = styled.button.withConfig({
   displayName: "Linkstyled__StyledLinkButton",
-  componentId: "sc-1wqz4ka-1"
+  componentId: "sc-1ntzs8j-1"
 })(["appearance:none;background:transparent;border:0;padding:0;", " line-height:normal;-webkit-font-smoothing:inherit;-moz-osx-font-smoothing:inherit;-webkit-appearance:none;&::-moz-focus-inner{border:0;padding:0;}"], linkStyles);
 
 var RouterLinkWrapper = function RouterLinkWrapper(_ref13) {
@@ -74,11 +74,11 @@ var RouterLinkWrapper = function RouterLinkWrapper(_ref13) {
 
 export var StyledLinkRouter = styled(RouterLinkWrapper).withConfig({
   displayName: "Linkstyled__StyledLinkRouter",
-  componentId: "sc-1wqz4ka-2"
+  componentId: "sc-1ntzs8j-2"
 })(["", ""], linkStyles);
 export var StyledIconWrapper = styled.span.withConfig({
   displayName: "Linkstyled__StyledIconWrapper",
-  componentId: "sc-1wqz4ka-3"
+  componentId: "sc-1ntzs8j-3"
 })(["margin-left:", ";margin-right:", ";& svg{height:", ";width:", ";}"], function (_ref14) {
   var hasIconRight = _ref14.hasIconRight,
       theme = _ref14.theme;
@@ -98,7 +98,7 @@ export var StyledIconWrapper = styled.span.withConfig({
 });
 export var Text = styled(CopyText).withConfig({
   displayName: "Linkstyled__Text",
-  componentId: "sc-1wqz4ka-4"
+  componentId: "sc-1ntzs8j-4"
 })(["display:", ";background-color:", ";color:", ";padding:", ";border-radius:", ";"], function (props) {
   return props.isInline ? 'inline' : 'block';
 }, function (_ref18) {

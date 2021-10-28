@@ -8,36 +8,36 @@ export var TOP_CAROUSEL_HEIGHT_DESKTOP = 354;
 export var TOP_CAROUSEL_HEIGHT_MOBILE = 250;
 export var StyledWrapper = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledWrapper",
-  componentId: "sc-1ecjky3-0"
+  componentId: "sc-1r1wqhv-0"
 })(["width:100%;height:100%;", "{position:absolute;display:flex;z-index:1;right:0;top:0;transform:translateY(-50%);filter:drop-shadow(0 1px 1px gray);justify-content:flex-end;", "{display:flex;}}", ":hover ", "{transform:translateY(-50%);}"], StyledFeaturedAssetsContainer, media.sm, ExternalCardWrapper, StyledFeaturedAssetsContainer);
 export var StyledCard = styled(Card).withConfig({
   displayName: "AssetTeaserstyled__StyledCard",
-  componentId: "sc-1ecjky3-1"
+  componentId: "sc-1r1wqhv-1"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["width:100%;height:100%;outline:none;", "{overflow:visible;", "}"], ExternalStyledCard, theme.name === FILTERED && "overflow-x: hidden;");
 });
 export var StyledBadgeWrapper = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledBadgeWrapper",
-  componentId: "sc-1ecjky3-2"
+  componentId: "sc-1r1wqhv-2"
 })(function (_ref2) {
   var theme = _ref2.theme;
   return css(["", " ", ""], theme.name === ALTERNATE && "\n    margin: 0 0 0 -1em;\n    transform: translateY(-50%);\n  ", theme.name === FILTERED && "\n    margin: 0 0 1em 0;\n  ");
 });
 export var StyledLink = styled(Link).withConfig({
   displayName: "AssetTeaserstyled__StyledLink",
-  componentId: "sc-1ecjky3-3"
+  componentId: "sc-1r1wqhv-3"
 })(["width:100%;height:100%;align-items:flex-start;"]);
 export var StyledMainContainer = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledMainContainer",
-  componentId: "sc-1ecjky3-4"
+  componentId: "sc-1r1wqhv-4"
 })(function (_ref3) {
   var isClickable = _ref3.isClickable;
   return css(["", " display:flex;width:100%;flex-direction:column-reverse;justify-content:flex-end;transform:translateY(0px);", "{flex-direction:row;}"], isClickable ? 'cursor: pointer;' : 'cursor: initial;', media.md);
 });
 export var StyledInfoContainer = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledInfoContainer",
-  componentId: "sc-1ecjky3-5"
+  componentId: "sc-1r1wqhv-5"
 })(function (_ref4) {
   var hasAsset = _ref4.hasAsset,
       theme = _ref4.theme;
@@ -45,7 +45,7 @@ export var StyledInfoContainer = styled.div.withConfig({
 });
 export var StyledInfoContainerContent = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledInfoContainerContent",
-  componentId: "sc-1ecjky3-6"
+  componentId: "sc-1r1wqhv-6"
 })(function (_ref5) {
   var hasBadges = _ref5.hasBadges,
       theme = _ref5.theme;
@@ -53,7 +53,7 @@ export var StyledInfoContainerContent = styled.div.withConfig({
 });
 export var StyledInfoTextContainer = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledInfoTextContainer",
-  componentId: "sc-1ecjky3-7"
+  componentId: "sc-1r1wqhv-7"
 })(function (_ref6) {
   var theme = _ref6.theme;
   return css(["margin:", " 0 0 0;", "{margin:", " 0 0 0;", "}"], theme.spacing.base.xs, media.md, theme.spacing.base.sm, theme.name === ALTERNATE && "padding-right: ".concat(theme.spacing.base.xs));
@@ -65,7 +65,7 @@ var getAssetContainerHeight = function getAssetContainerHeight(fixedImageHeight)
 
 export var StyledAssetContainer = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledAssetContainer",
-  componentId: "sc-1ecjky3-8"
+  componentId: "sc-1r1wqhv-8"
 })(function (_ref7) {
   var theme = _ref7.theme,
       fixedImageHeight = _ref7.fixedImageHeight;
@@ -74,14 +74,14 @@ export var StyledAssetContainer = styled.div.withConfig({
 var topTeaserLazyLoadPictureStyle = css(["", "{height:100%;}"], StyledPicture);
 export var StyledPictureContainer = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledPictureContainer",
-  componentId: "sc-1ecjky3-9"
+  componentId: "sc-1r1wqhv-9"
 })(["", ""], function (_ref8) {
   var theme = _ref8.theme;
   return css(["display:flex;z-index:1;padding:8px;height:250px;", "{margin:0 ", " 0 ", ";height:unset;}img{height:100%;}", ""], media.md, theme.spacing.base.md, theme.spacing.base.xl, topTeaserLazyLoadPictureStyle);
 });
 export var StyledBackgroundImage = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledBackgroundImage",
-  componentId: "sc-1ecjky3-10"
+  componentId: "sc-1r1wqhv-10"
 })(function (_ref9) {
   var image = _ref9.image,
       theme = _ref9.theme,
@@ -93,13 +93,13 @@ export var StyledBackgroundImage = styled.div.withConfig({
 });
 export var StyledTongue = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledTongue",
-  componentId: "sc-1ecjky3-11"
+  componentId: "sc-1r1wqhv-11"
 })(function () {
   return css(["overflow:hidden;position:absolute;right:-24px;width:100%;transform:skew(10.3deg);margin-top:0;height:", "px;border-bottom-left-radius:", "px;border-top-left-radius:", "px;", "{right:-32px;height:", "px;border-bottom-left-radius:", "px;border-top-left-radius:", "px;}"], TOP_CAROUSEL_HEIGHT_MOBILE, TOP_CAROUSEL_HEIGHT_MOBILE / 5, TOP_CAROUSEL_HEIGHT_MOBILE / 25, media.md, TOP_CAROUSEL_HEIGHT_DESKTOP, TOP_CAROUSEL_HEIGHT_DESKTOP / 5, TOP_CAROUSEL_HEIGHT_DESKTOP / 25);
 });
 export var StyledUpsetRect = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledUpsetRect",
-  componentId: "sc-1ecjky3-12"
+  componentId: "sc-1r1wqhv-12"
 })(function (_ref10) {
   var image = _ref10.image,
       imageDesktop = _ref10.imageDesktop,
@@ -110,7 +110,7 @@ export var StyledUpsetRect = styled.div.withConfig({
 var StyledRectCommonStyles = css(["position:absolute;top:0;left:0;width:100%;height:100%;background-repeat:no-repeat;background-position:center;background-size:cover;"]);
 export var StyledRect = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledRect",
-  componentId: "sc-1ecjky3-13"
+  componentId: "sc-1r1wqhv-13"
 })(function (_ref11) {
   var image = _ref11.image,
       theme = _ref11.theme,
@@ -122,14 +122,14 @@ export var StyledRect = styled.div.withConfig({
 });
 export var StyledFlexBottomContainer = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledFlexBottomContainer",
-  componentId: "sc-1ecjky3-14"
+  componentId: "sc-1r1wqhv-14"
 })(function (_ref12) {
   var theme = _ref12.theme;
   return css(["display:flex;flex:1;margin-top:auto;flex-direction:column;padding-top:", ";"], theme.spacing.base.xs);
 });
 export var StyledTopTeaserTagWrapper = styled.div.withConfig({
   displayName: "AssetTeaserstyled__StyledTopTeaserTagWrapper",
-  componentId: "sc-1ecjky3-15"
+  componentId: "sc-1r1wqhv-15"
 })(function (_ref13) {
   var theme = _ref13.theme,
       limitLines = _ref13.limitLines;

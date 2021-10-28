@@ -16,7 +16,7 @@ var handlePadding = function handlePadding(paddingTop, paddingBottom) {
 
 export var Section = styled.section.withConfig({
   displayName: "Section",
-  componentId: "sc-1sriguu-0"
+  componentId: "sc-10dbgur-0"
 })(["width:100%;height:", ";left:0;right:0;background:", " no-repeat center center;background-image:", ";background-size:cover;", " ", " ", " ", "{background-image:", ";height:", ";}", "{background-image:", ";height:", ";}"], function (_ref) {
   var height = _ref.height;
   return height && height.mobile && "".concat(height.mobile, "px");

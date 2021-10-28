@@ -1,15 +1,15 @@
 import React from 'react';
 import { CopyText, Heading } from "../../Atoms/Typography";
-import "./style.css";
+import "./servicesitem.module.css";
 import { css, styled } from "../../../styles";
 import { Picture } from "../../Atoms/Picture";
 export var ServicesItemImage = styled(Picture).withConfig({
   displayName: "ServicesItem__ServicesItemImage",
-  componentId: "l3bftz-0"
+  componentId: "sc-13ovq3w-0"
 })(["position:absolute;top:0;right:0;bottom:0;opacity:0.2;filter:alpha(opacity=20);-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';transition:all 0.3s linear;z-index:1;@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.img-cover{display:none;visibility:hidden;}}"]);
 export var ServicesWrapper = styled.div.withConfig({
   displayName: "ServicesItem__ServicesWrapper",
-  componentId: "l3bftz-1"
+  componentId: "sc-13ovq3w-1"
 })(["position:relative;width:100%;height:100%;transition:all 0.3s linear;z-index:10;padding:", ";background:", " no-repeat center center;&:before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;z-index:2;}&:hover{transition:all 0.3s linear;img{opacity:0;filter:alpha(opacity=0);-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';transition:all 0.3s linear;}.the-overline{background:", ";}}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.md;
@@ -24,11 +24,11 @@ export var ServicesWrapper = styled.div.withConfig({
 });
 export var ServicesItemContent = styled.div.withConfig({
   displayName: "ServicesItem__ServicesItemContent",
-  componentId: "l3bftz-2"
+  componentId: "sc-13ovq3w-2"
 })(["position:relative;z-index:3;"]);
 export var PostTitle = styled(Heading).withConfig({
   displayName: "ServicesItem__PostTitle",
-  componentId: "l3bftz-3"
+  componentId: "sc-13ovq3w-3"
 })(["transition:all 0.3s linear;", ""], function (_ref4) {
   var theme = _ref4.theme,
       variant = _ref4.variant;

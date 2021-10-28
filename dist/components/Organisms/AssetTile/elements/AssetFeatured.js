@@ -3,7 +3,7 @@ import { Tag } from "../../../Atoms/Tag";
 import { css, styled } from "../../../../styles/styled";
 var StyledAssetFeatured = styled.div.withConfig({
   displayName: "AssetFeatured__StyledAssetFeatured",
-  componentId: "sc-14upx79-0"
+  componentId: "sc-1n195du-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["position:absolute;z-index:20;display:flex;padding:0 ", ";bottom:", ";right:0;"], theme.spacing.base.sm, theme.spacing.base.sm);

@@ -17,7 +17,7 @@ import { CopyText } from "../../Atoms/Typography";
 import { Label } from "../../Atoms/Label/Label";
 var StyledActionText = styled(CopyText).withConfig({
   displayName: "ReadMoreLabel__StyledActionText",
-  componentId: "gaep67-0"
+  componentId: "sc-1nywp26-0"
 })(["margin:0;text-decoration:underline;cursor:pointer;"]);
 export var ReadMoreLabel = function ReadMoreLabel(_ref) {
   var children = _ref.children,

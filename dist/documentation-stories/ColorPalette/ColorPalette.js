@@ -17,14 +17,14 @@ import { styled } from "../../styles/styled";
 import { useTheme } from "../../utils/helper";
 var Container = styled.div.withConfig({
   displayName: "ColorPalette__Container",
-  componentId: "sc-1xwyp45-0"
+  componentId: "zgi89v-0"
 })(["display:grid;grid-gap:", ";grid-template-columns:repeat(auto-fit,minmax(150px,1fr));"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.md;
 });
 var Color = styled.div.withConfig({
   displayName: "ColorPalette__Color",
-  componentId: "sc-1xwyp45-1"
+  componentId: "zgi89v-1"
 })(["border-radius:100%;width:50px;height:50px;margin:", ";"], function (_ref2) {
   var theme = _ref2.theme;
   return "0 ".concat(theme.spacing.base.xs, " 0 0");

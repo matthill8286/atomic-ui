@@ -6,7 +6,7 @@ import { FlexBox, FlexItem, useWindowDimensions } from "../../Helper";
 import { breakpoints, media, styled } from "../../../styles";
 var StyledTableWrapper = styled(FlexBox).withConfig({
   displayName: "OrderBookstory__StyledTableWrapper",
-  componentId: "sc-16znn66-0"
+  componentId: "sc-10e81ln-0"
 })(["", "{flex-direction:row;}"], media.md);
 storiesOf('Design System/Organisms/OrderBookTable', module).add('default', function () {
   var _useWindowDimensions = useWindowDimensions(),

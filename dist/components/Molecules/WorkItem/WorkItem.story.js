@@ -3,7 +3,7 @@ import { styled } from "../../../styles";
 import { WorkItem } from "./WorkItem";
 var NewsItemWrapper = styled.div.withConfig({
   displayName: "WorkItemstory__NewsItemWrapper",
-  componentId: "sc-1vlmqec-0"
+  componentId: "sc-14u2199-0"
 })(["max-width:1000px;"]);
 export default {
   title: 'Design System/Molecules/WorkItem',

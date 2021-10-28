@@ -5,7 +5,7 @@ import { getBoxDimension } from "../../../styles/sc-shared-functions";
 import { css, styled } from "../../../styles/styled";
 export var StyledAccordionEntry = styled.section.withConfig({
   displayName: "Accordionstyled__StyledAccordionEntry",
-  componentId: "sc-1rmofxt-0"
+  componentId: "sc-9osld1-0"
 })(function (_ref) {
   var noBorder = _ref.noBorder,
       theme = _ref.theme;
@@ -13,7 +13,7 @@ export var StyledAccordionEntry = styled.section.withConfig({
 });
 export var StyledLabel = styled.div.withConfig({
   displayName: "Accordionstyled__StyledLabel",
-  componentId: "sc-1rmofxt-1"
+  componentId: "sc-9osld1-1"
 })(function (_ref2) {
   var padding = _ref2.padding,
       theme = _ref2.theme,
@@ -23,21 +23,21 @@ export var StyledLabel = styled.div.withConfig({
 });
 export var StyledLabelHeading = styled(Typo).withConfig({
   displayName: "Accordionstyled__StyledLabelHeading",
-  componentId: "sc-1rmofxt-2"
+  componentId: "sc-9osld1-2"
 })(["word-break:break-word;max-height:", ";-webkit-line-clamp:4;"], function (_ref3) {
   var theme = _ref3.theme;
   return css(["calc(", " * 4)"], theme.spacing.base.md);
 });
 export var StyledIcon = styled(Icon).withConfig({
   displayName: "Accordionstyled__StyledIcon",
-  componentId: "sc-1rmofxt-3"
+  componentId: "sc-9osld1-3"
 })(["svg{transition:", ";}"], function (_ref4) {
   var theme = _ref4.theme;
   return "transform ".concat(theme.transition.medium, " ").concat(theme.transition.defaultEasing);
 });
 export var StyledEntryContent = styled(CopyText).withConfig({
   displayName: "Accordionstyled__StyledEntryContent",
-  componentId: "sc-1rmofxt-4"
+  componentId: "sc-9osld1-4"
 })(function (_ref5) {
   var padding = _ref5.padding,
       theme = _ref5.theme,

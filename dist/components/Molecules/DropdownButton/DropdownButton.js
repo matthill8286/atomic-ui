@@ -9,7 +9,7 @@ import { Picture } from "../../Atoms/Picture";
 import { isNonEmptyString } from "../../Helper/String";
 export var StyledContainer = styled.div.withConfig({
   displayName: "DropdownButton__StyledContainer",
-  componentId: "ity6qd-0"
+  componentId: "sc-37sbvi-0"
 })(["order:3;position:relative;"]);
 export var StyledDropdown = styled(Card).attrs(function () {
   return {
@@ -20,7 +20,7 @@ export var StyledDropdown = styled(Card).attrs(function () {
   };
 }).withConfig({
   displayName: "DropdownButton__StyledDropdown",
-  componentId: "ity6qd-1"
+  componentId: "sc-37sbvi-1"
 })(["position:", ";left:-100px;top:", ";width:280px;margin:", " 0 0 0;opacity:0;visibility:hidden;z-index:99;transform:translateY(-", ");transition:", ";", ""], function (_ref) {
   var isMobile = _ref.isMobile;
   return isMobile ? "relative" : "absolute";
@@ -45,7 +45,7 @@ export var StyledDropdown = styled(Card).attrs(function () {
 });
 var StyledButton = styled(Button).withConfig({
   displayName: "DropdownButton__StyledButton",
-  componentId: "ity6qd-2"
+  componentId: "sc-37sbvi-2"
 })(["padding:0 ", ";align-items:center;background-color:transparent;border-color:transparent;border-radius:", ";cursor:pointer;:active,:focus{outline:none;}:hover{box-shadow:none;}", "{padding:0;}@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){width:130px;}&::-moz-focus-inner{border:0;}"], function (_ref7) {
   var theme = _ref7.theme;
   return theme.spacing.base.xs;
@@ -55,7 +55,7 @@ var StyledButton = styled(Button).withConfig({
 }, Icon);
 var StyledContentGrid = styled.div.withConfig({
   displayName: "DropdownButton__StyledContentGrid",
-  componentId: "ity6qd-3"
+  componentId: "sc-37sbvi-3"
 })(["display:flex;flex-wrap:wrap;"]);
 var StyledLabel = styled(CopyText).attrs(function () {
   return {
@@ -66,7 +66,7 @@ var StyledLabel = styled(CopyText).attrs(function () {
   };
 }).withConfig({
   displayName: "DropdownButton__StyledLabel",
-  componentId: "ity6qd-4"
+  componentId: "sc-37sbvi-4"
 })(["justify-self:start;white-space:nowrap;"]);
 var StyledIcon = styled(Icon).attrs(function () {
   return {
@@ -75,7 +75,7 @@ var StyledIcon = styled(Icon).attrs(function () {
   };
 }).withConfig({
   displayName: "DropdownButton__StyledIcon",
-  componentId: "ity6qd-5"
+  componentId: "sc-37sbvi-5"
 })(["margin:0;align-self:center;"]);
 var StyledAdditionalLabel = styled(CopyText).attrs(function () {
   return {
@@ -85,14 +85,14 @@ var StyledAdditionalLabel = styled(CopyText).attrs(function () {
   };
 }).withConfig({
   displayName: "DropdownButton__StyledAdditionalLabel",
-  componentId: "ity6qd-6"
+  componentId: "sc-37sbvi-6"
 })(["grid-column:1 / 3;justify-self:start;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:9em;min-height:", ";"], function (_ref9) {
   var theme = _ref9.theme;
   return theme.font.lineHeight.sm;
 });
 var StyledPictureElement = styled(Picture).withConfig({
   displayName: "DropdownButton__StyledPictureElement",
-  componentId: "ity6qd-7"
+  componentId: "sc-37sbvi-7"
 })(["img{border-radius:50%;}"]);
 export var DropdownButton = function DropdownButton(_ref10) {
   var onClick = _ref10.onClick,

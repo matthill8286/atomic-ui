@@ -12,11 +12,11 @@ import { ThemeContext } from "../../../styles/styled";
 import { IconArrowThin } from '@excelwithbusiness/webmobile-svg-library';
 var StyledIcon = styled(Icon).withConfig({
   displayName: "BackToTop__StyledIcon",
-  componentId: "sc-1fh318x-0"
+  componentId: "sc-1eoil6d-0"
 })(["padding:0;justify-content:center;"]);
 var StyledBackToTop = styled(Button).withConfig({
   displayName: "BackToTop__StyledBackToTop",
-  componentId: "sc-1fh318x-1"
+  componentId: "sc-1eoil6d-1"
 })(["position:fixed;bottom:", ";top:auto;right:", ";transition:transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out,opacity 0.3s ease-in-out;opacity:", ";display:", ";z-index:5;transform:", ";", " &:focus,&:active{outline:none;border:none;}&:hover{box-shadow:", ";}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.md;

@@ -2,11 +2,11 @@ import { css, styled } from "../../../styles/styled";
 import { media } from "../../../styles";
 export var AssetTileLink = styled.div.withConfig({
   displayName: "ScrollAssetCarouselstyled__AssetTileLink",
-  componentId: "sc-1rgkf9s-0"
+  componentId: "tdzowo-0"
 })(["text-decoration:none;"]);
 export var TileWrapper = styled.article.withConfig({
   displayName: "ScrollAssetCarouselstyled__TileWrapper",
-  componentId: "sc-1rgkf9s-1"
+  componentId: "tdzowo-1"
 })(["outline:none;padding:", ";padding-top:", ";width:100%;", ""], function (_ref) {
   var theme = _ref.theme;
   return "".concat(theme.spacing.base.sm, " 0 ").concat(theme.spacing.base.sm, ";");
@@ -20,11 +20,11 @@ export var TileWrapper = styled.article.withConfig({
 });
 export var TileFragment = styled.div.withConfig({
   displayName: "ScrollAssetCarouselstyled__TileFragment",
-  componentId: "sc-1rgkf9s-2"
+  componentId: "tdzowo-2"
 })(["width:100%;"]);
 export var CarouselWrapper = styled.div.withConfig({
   displayName: "ScrollAssetCarouselstyled__CarouselWrapper",
-  componentId: "sc-1rgkf9s-3"
+  componentId: "tdzowo-3"
 })(["& li{margin:0 !important;padding:", " !important;", " & li:first-child{padding-left:0 !important;}& li:last-child{min-width:0;padding-right:calc((100vw - 100%) / 2 - 32px) !important;}"], function (_ref4) {
   var theme = _ref4.theme,
       tileMargin = _ref4.tileMargin;

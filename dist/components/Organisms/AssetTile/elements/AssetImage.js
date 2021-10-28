@@ -7,7 +7,7 @@ import { isAlternateTheme } from "../../../../utils/helper";
 import { isPortrait } from "../AssetTile.styled";
 var StyledPictureWrapper = styled.div.withConfig({
   displayName: "AssetImage__StyledPictureWrapper",
-  componentId: "rztgrf-0"
+  componentId: "ceisjs-0"
 })(["", ""], function (_ref) {
   var hasBottomMargin = _ref.hasBottomMargin,
       theme = _ref.theme,

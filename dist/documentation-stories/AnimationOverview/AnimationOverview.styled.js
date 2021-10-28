@@ -1,7 +1,7 @@
 import { css, styled } from "../../styles";
 export var AnimationBox = styled.div.withConfig({
   displayName: "AnimationOverviewstyled__AnimationBox",
-  componentId: "sc-1v9vbmf-0"
+  componentId: "sc-11f8iw5-0"
 })(["animation:", ";width:100px;height:100px;margin:18px;background-color:", ";"], function (_ref) {
   var keyframes = _ref.keyframes,
       infinite = _ref.infinite,
@@ -16,7 +16,7 @@ export var AnimationBox = styled.div.withConfig({
 });
 export var AnimationContainer = styled.div.withConfig({
   displayName: "AnimationOverviewstyled__AnimationContainer",
-  componentId: "sc-1v9vbmf-1"
+  componentId: "sc-11f8iw5-1"
 })(["font-family:", ";margin-top:12px;display:inline-flex;flex:1;"], function (_ref3) {
   var theme = _ref3.theme;
   return theme.font.family.default;

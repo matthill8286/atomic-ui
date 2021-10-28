@@ -32,7 +32,7 @@ import React from 'react';
 import { styled } from "../../../styles/styled";
 export var StyledFoldable = styled.div.withConfig({
   displayName: "Foldable__StyledFoldable",
-  componentId: "i6bop3-0"
+  componentId: "sc-16h3jw3-0"
 })(["overflow:hidden;", ""], function (_ref) {
   var looksOpenFromBreakpoint = _ref.looksOpenFromBreakpoint;
   return looksOpenFromBreakpoint && "\n    @media (min-width: ".concat(looksOpenFromBreakpoint, "px) {\n      height: auto !important;\n    }\n  ");

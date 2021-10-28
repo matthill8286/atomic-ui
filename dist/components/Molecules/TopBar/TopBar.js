@@ -9,7 +9,7 @@ import { styled } from "../../../styles/styled";
 import { IconCheckmarkCircle } from '@excelwithbusiness/webmobile-svg-library';
 var StyledLists = styled(Lists).withConfig({
   displayName: "TopBar__StyledLists",
-  componentId: "fmks0c-0"
+  componentId: "exkuce-0"
 })(["display:flex;flex-direction:row;z-index:1;> li{flex:1;display:none;justify-content:center;padding:", " 0;margin:0 ", ";overflow:hidden;> span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;> p{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}}&:nth-child(-n + 2){display:flex;}", "{&:nth-child(-n + 4){display:flex;}}}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.xxs;
@@ -19,11 +19,11 @@ var StyledLists = styled(Lists).withConfig({
 }, media.lg);
 var StyledIcon = styled(Icon).withConfig({
   displayName: "TopBar__StyledIcon",
-  componentId: "fmks0c-1"
+  componentId: "exkuce-1"
 })(["svg{position:relative;top:5px;}"]);
 var StyledSection = styled(Section).withConfig({
   displayName: "TopBar__StyledSection",
-  componentId: "fmks0c-2"
+  componentId: "exkuce-2"
 })(["background:", ";"], function (_ref3) {
   var theme = _ref3.theme;
   return theme.header.topBar;

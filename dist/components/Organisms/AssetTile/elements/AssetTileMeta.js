@@ -7,14 +7,14 @@ import { useWindowDimensions } from "../../../Helper/useWindowDimensions";
 import { breakpoints, styled } from "../../../../styles";
 var StyledFlexBox = styled(FlexBox).withConfig({
   displayName: "AssetTileMeta__StyledFlexBox",
-  componentId: "sc-1inb3xd-0"
+  componentId: "lw0fl0-0"
 })(["", ";"], function (_ref) {
   var isDisabled = _ref.isDisabled;
   return "\n    ".concat(isDisabled ? "\n        -ms-filter: grayscale(100%);\n        filter: grayscale(100%);\n        opacity: 0.4;\n        pointer-events: none;\n      " : '', "\n  ");
 });
 var StyledFlexItem = styled(FlexItem).withConfig({
   displayName: "AssetTileMeta__StyledFlexItem",
-  componentId: "sc-1inb3xd-1"
+  componentId: "lw0fl0-1"
 })(["flex-direction:row;justify-content:flex-start;align-items:stretch;padding:0 2px;", " ", ";"], function (_ref2) {
   var isCompact = _ref2.isCompact;
   return "".concat(isCompact && "padding: 0");

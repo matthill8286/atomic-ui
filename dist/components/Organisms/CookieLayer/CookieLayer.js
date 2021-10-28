@@ -12,7 +12,7 @@ import { useWindowDimensions } from "../../Helper";
 import { breakpoints, media } from "../../../styles";
 var StyledCookieWrapper = styled.div.withConfig({
   displayName: "CookieLayer__StyledCookieWrapper",
-  componentId: "sc-17zfmjc-0"
+  componentId: "fa9y3n-0"
 })(["position:", ";bottom:0;left:0;width:100%;z-index:200;box-sizing:border-box;& a{color:", ";:hover{color:", ";}}"], function (_ref) {
   var position = _ref.position;
   return position;
@@ -25,7 +25,7 @@ var StyledCookieWrapper = styled.div.withConfig({
 });
 var StyledButton = styled(Button).withConfig({
   displayName: "CookieLayer__StyledButton",
-  componentId: "sc-17zfmjc-1"
+  componentId: "fa9y3n-1"
 })(["display:inline-flex;flex-flow:column;margin-right:", ";", "{margin:", " 0;}"], function (_ref4) {
   var theme = _ref4.theme;
   return theme.spacing.base.md;
@@ -35,7 +35,7 @@ var StyledButton = styled(Button).withConfig({
 });
 var StyledCookieFooter = styled.div.withConfig({
   displayName: "CookieLayer__StyledCookieFooter",
-  componentId: "sc-17zfmjc-2"
+  componentId: "fa9y3n-2"
 })(["", ""], function (_ref6) {
   var showButtonSeparator = _ref6.showButtonSeparator,
       theme = _ref6.theme,
@@ -47,7 +47,7 @@ var StyledCookieFooter = styled.div.withConfig({
 });
 var StyledCookieFooterPrimary = styled.div.withConfig({
   displayName: "CookieLayer__StyledCookieFooterPrimary",
-  componentId: "sc-17zfmjc-3"
+  componentId: "fa9y3n-3"
 })(["", " ", " ", ""], function (_ref8) {
   var buttonType = _ref8.buttonAlignment;
   return buttonType === 'space-between' && "\n    text-align: right;\n    ";
@@ -62,7 +62,7 @@ var StyledCookieFooterPrimary = styled.div.withConfig({
 });
 var StyledCookieFooterSecondary = styled.div.withConfig({
   displayName: "CookieLayer__StyledCookieFooterSecondary",
-  componentId: "sc-17zfmjc-4"
+  componentId: "fa9y3n-4"
 })(["", ""], function (_ref11) {
   var theme = _ref11.theme,
       buttonType = _ref11.buttonAlignment;
@@ -73,7 +73,7 @@ var StyledCookieFooterSecondary = styled.div.withConfig({
 });
 var StyledCookieFooterButton = styled(Button).withConfig({
   displayName: "CookieLayer__StyledCookieFooterButton",
-  componentId: "sc-17zfmjc-5"
+  componentId: "fa9y3n-5"
 })(["width:100%;margin:0 auto;max-width:400px;", "{width:100%;}"], media.maxSm);
 export var CookieButtonGroup = function CookieButtonGroup(_ref13) {
   var _ref13$buttonAlignmen = _ref13.buttonAlignment,

@@ -5,11 +5,11 @@ import { styled } from "../../../styles";
 import { IconDone } from '@excelwithbusiness/webmobile-svg-library';
 var StyledTickIcon = styled(Icon).withConfig({
   displayName: "LanguageMenuList__StyledTickIcon",
-  componentId: "sc-12birvz-0"
+  componentId: "iqoiag-0"
 })(["pointer-events:none;position:absolute;top:14px;left:22px;"]);
 export var StyledLanguageMenuOption = styled.div.withConfig({
   displayName: "LanguageMenuList__StyledLanguageMenuOption",
-  componentId: "sc-12birvz-1"
+  componentId: "iqoiag-1"
 })(["", ""], function (_ref) {
   var theme = _ref.theme;
   return "\n    display: block;\n    position: relative;\n    max-width: 100%;\n    background: ".concat(theme.color.white, ";\n    padding: ").concat(theme.spacing.base.sm, " ").concat(theme.spacing.base.sm, " ").concat(theme.spacing.base.sm, " ").concat(theme.spacing.base.xxxl, ";\n    hyphens: auto;\n    text-align: left;\n\n    &:hover {\n      cursor: pointer;\n      background: ").concat(theme.color.grey2, ";\n      > div {\n        color: ").concat(theme.color.grey6, ";\n      }\n      }\n  ");

@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import "./style.css";
+import "./newsitem.module.css";
 import { CopyText, Typo } from "../../Atoms/Typography";
 export var NewsItem = memo(function (_ref) {
   var image = _ref.image,

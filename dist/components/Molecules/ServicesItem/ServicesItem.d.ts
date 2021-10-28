@@ -1,6 +1,6 @@
 import React from 'react';
 import { ServicesItemProps, ServicesVariant } from '@/components/Molecules/ServicesItem';
-import './style.css';
+import './servicesitem.module.css';
 export declare const ServicesItemImage: import("styled-components").StyledComponent<React.FC<import("../../Atoms/Picture").PictureProps>, import("../../..").Theme, {}, never>;
 export declare const ServicesWrapper: import("styled-components").StyledComponent<"div", import("../../..").Theme, {
     variant: ServicesVariant;

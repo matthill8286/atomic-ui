@@ -5,7 +5,7 @@ export var isPortrait = function isPortrait(orientation) {
 };
 export var StyledTeaser = styled.div.withConfig({
   displayName: "Teaserstyled__StyledTeaser",
-  componentId: "g69f8l-0"
+  componentId: "sc-1i95052-0"
 })(["height:calc(100% - ", ");display:flex;cursor:", ";margin-top:", ";", "{", "}& > div{width:100%;}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.sm;
@@ -23,14 +23,14 @@ export var StyledTeaser = styled.div.withConfig({
 });
 export var StyledResponsiveContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledResponsiveContainer",
-  componentId: "g69f8l-1"
+  componentId: "sc-1i95052-1"
 })(["display:flex;flex-direction:column;width:100%;", "{", "}"], media.md, function (_ref5) {
   var orientation = _ref5.orientation;
   return css(["flex-direction:", ";"], isPortrait(orientation) ? 'column' : 'row');
 });
 export var StyledPictureContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledPictureContainer",
-  componentId: "g69f8l-2"
+  componentId: "sc-1i95052-2"
 })(function (_ref6) {
   var withImagePadding = _ref6.withImagePadding,
       orientation = _ref6.orientation,
@@ -39,14 +39,14 @@ export var StyledPictureContainer = styled.div.withConfig({
 });
 export var StyledContentContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledContentContainer",
-  componentId: "g69f8l-3"
+  componentId: "sc-1i95052-3"
 })(function (_ref7) {
   var theme = _ref7.theme;
   return css(["flex:2 1 auto;display:flex;flex-direction:column;padding:", " ", ";", "{padding:", " ", ";}"], theme.spacing.base.md, theme.spacing.base.sm, media.md, theme.spacing.base.lg, theme.spacing.base.md);
 });
 export var StyledHeadingContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledHeadingContainer",
-  componentId: "g69f8l-4"
+  componentId: "sc-1i95052-4"
 })(["display:flex;", ";flex-direction:row;text-transform:", ";justify-content:space-between;cursor:pointer;"], function (_ref8) {
   var growHeadline = _ref8.growHeadline;
   return growHeadline && "flex: 1 0 auto";
@@ -56,46 +56,46 @@ export var StyledHeadingContainer = styled.div.withConfig({
 });
 export var StyledInfoTextContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledInfoTextContainer",
-  componentId: "g69f8l-5"
+  componentId: "sc-1i95052-5"
 })(["margin:0;"]);
 export var StyledInfoTextChildren = styled.div.withConfig({
   displayName: "Teaserstyled__StyledInfoTextChildren",
-  componentId: "g69f8l-6"
+  componentId: "sc-1i95052-6"
 })(["margin-top:", ";"], function (_ref10) {
   var theme = _ref10.theme;
   return theme.spacing.base.sm;
 });
 export var StyledLinkListContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledLinkListContainer",
-  componentId: "g69f8l-7"
+  componentId: "sc-1i95052-7"
 })(["margin-top:", ";"], function (_ref11) {
   var theme = _ref11.theme;
   return theme.spacing.base.md;
 });
 export var StyledLinkListItemSpace = styled.div.withConfig({
   displayName: "Teaserstyled__StyledLinkListItemSpace",
-  componentId: "g69f8l-8"
+  componentId: "sc-1i95052-8"
 })(["height:", ";"], function (_ref12) {
   var theme = _ref12.theme;
   return theme.spacing.base.sm;
 });
 export var StyledTextLinkContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledTextLinkContainer",
-  componentId: "g69f8l-9"
+  componentId: "sc-1i95052-9"
 })(function (_ref13) {
   var theme = _ref13.theme;
   return css(["margin-top:auto;padding-top:", ";", "{padding-top:", ";}"], theme.spacing.base.md, media.md, theme.spacing.base.lg);
 });
 export var StyledLinkContainer = styled.div.withConfig({
   displayName: "Teaserstyled__StyledLinkContainer",
-  componentId: "g69f8l-10"
+  componentId: "sc-1i95052-10"
 })(function (_ref14) {
   var theme = _ref14.theme;
   return css(["display:flex;align-items:flex-start;justify-content:center;"]);
 });
 export var StyledIcon = styled(Icon).withConfig({
   displayName: "Teaserstyled__StyledIcon",
-  componentId: "g69f8l-11"
+  componentId: "sc-1i95052-11"
 })(function (_ref15) {
   var theme = _ref15.theme,
       hasMarginLeft = _ref15.hasMarginLeft,
@@ -104,7 +104,7 @@ export var StyledIcon = styled(Icon).withConfig({
 });
 export var StyledDummyLink = styled.div.withConfig({
   displayName: "Teaserstyled__StyledDummyLink",
-  componentId: "g69f8l-12"
+  componentId: "sc-1i95052-12"
 })(function (_ref16) {
   var theme = _ref16.theme;
   return css(["display:inline-block;margin-top:auto;padding-top:", ";position:relative;width:100%;", "{padding-top:", ";}"], theme.spacing.base.md, media.md, theme.spacing.base.lg);

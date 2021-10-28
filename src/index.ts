@@ -77,9 +77,6 @@ export * from './components/Molecules/TopBar'
 export * from './components/Molecules/TabBar'
 
 // New Components
-export * from './components/Molecules/ServicesItem'
-export * from './components/Molecules/NewsItem'
-export * from './components/Molecules/WorkItem'
 export * from './components/Organisms/ProductsTable'
 export * from './components/Organisms/OrderBook'
 

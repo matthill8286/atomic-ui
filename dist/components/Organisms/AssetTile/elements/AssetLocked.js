@@ -5,14 +5,14 @@ import { StyleguideLock } from '@excelwithbusiness/webmobile-svg-library';
 import { Icon } from "../../../Atoms/Icon";
 var StyledAssetLocked = styled.div.withConfig({
   displayName: "AssetLocked__StyledAssetLocked",
-  componentId: "sc-1y8nn0m-0"
+  componentId: "sc-1vsnpp4-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["position:absolute;z-index:10;display:flex;bottom:calc(", " - 0.5px);right:calc(", " + 1px);"], theme.spacing.base.sm, theme.spacing.base.sm);
 });
 var StyledIconButton = styled(IconButton).withConfig({
   displayName: "AssetLocked__StyledIconButton",
-  componentId: "sc-1y8nn0m-1"
+  componentId: "sc-1vsnpp4-1"
 })(["border:none;display:flex;padding:0;min-width:auto;justify-content:center;"]);
 export var AssetLocked = function AssetLocked(_ref2) {
   var _ref2$color = _ref2.color,

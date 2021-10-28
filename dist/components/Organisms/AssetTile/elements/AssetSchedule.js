@@ -5,28 +5,28 @@ import { StyleguideCalendar, IconLiveLabel } from '@excelwithbusiness/webmobile-
 import { Icon } from "../../../Atoms/Icon";
 export var StyledIcon = styled(Icon).withConfig({
   displayName: "AssetSchedule__StyledIcon",
-  componentId: "ie3uv8-0"
+  componentId: "g3nk0m-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["position:absolute;z-index:25;padding-left:", ";top:4px;left:0;"], theme.spacing.base.md);
 });
 export var StyledLiveLabel = styled(Icon).withConfig({
   displayName: "AssetSchedule__StyledLiveLabel",
-  componentId: "ie3uv8-1"
+  componentId: "g3nk0m-1"
 })(function (_ref2) {
   var theme = _ref2.theme;
   return css(["position:absolute;z-index:25;padding-left:", ";top:0;left:0;"], theme.spacing.base.sm);
 });
 var StyledAssetSchedule = styled.div.withConfig({
   displayName: "AssetSchedule__StyledAssetSchedule",
-  componentId: "ie3uv8-2"
+  componentId: "g3nk0m-2"
 })(function (_ref3) {
   var theme = _ref3.theme;
   return css(["position:absolute;z-index:20;display:flex;padding:0 ", ";top:", ";left:0;"], theme.spacing.base.sm, theme.spacing.base.sm);
 });
 var StyledTag = styled(Tag).withConfig({
   displayName: "AssetSchedule__StyledTag",
-  componentId: "ie3uv8-3"
+  componentId: "g3nk0m-3"
 })(["border-radius:6px;background-color:rgba(0,0,0,0.5);border-color:transparent;span{font-size:12px;line-height:17px;}"]);
 export var AssetSchedule = function AssetSchedule(_ref4) {
   var timebox = _ref4.timebox,

@@ -170,7 +170,7 @@ stories.add('with connector', function () {
   var description = text('description', 'This is a description');
   var CustomConnectorLine = styled.span.withConfig({
     displayName: "Stepsstory__CustomConnectorLine",
-    componentId: "sc-17ub58m-0"
+    componentId: "sc-11xp4ei-0"
   })(["border-color:", ";border-style:solid;border-top-width:", ";border-bottom-width:", ";border-radius:", ";display:block;"], function (_ref4) {
     var theme = _ref4.theme,
         _ref4$color = _ref4.color,

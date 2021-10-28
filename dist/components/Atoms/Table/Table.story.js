@@ -11,7 +11,7 @@ import { CopyText } from "../Typography";
 import { styled } from "../../../styles";
 var StyledTableWrapper = styled.div.withConfig({
   displayName: "Tablestory__StyledTableWrapper",
-  componentId: "sc-1rlohyq-0"
+  componentId: "sc-1t2dlho-0"
 })(["max-width:600px;"]);
 storiesOf('Design System/Atoms/Table', module).add('default', function () {
   var tableKnobs = {

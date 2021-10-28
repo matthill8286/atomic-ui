@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './newsitem.module.css';
 export interface INewsItem {
     image: string;
     title: string;

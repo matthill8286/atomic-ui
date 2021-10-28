@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import { CopyText, Heading, HeadingFeatured } from '@/components/Atoms/Typography'
+import { CopyText, HeadingFeatured } from '@/components/Atoms/Typography'
 import { Button } from '@/components/Atoms/Button'
 import { Card } from '@/components/Atoms/Card'
 import { Spacer } from '@/components/Atoms/Spacer'

@@ -4,7 +4,7 @@ import { css, styled } from "../../../styles/styled";
 var StyledCollapsible = css(["", "{border-right:0;}"], media.maxSm);
 var StyledTableRow = styled.tr.withConfig({
   displayName: "TableRow__StyledTableRow",
-  componentId: "csl6ui-0"
+  componentId: "h1kscq-0"
 })(["", " ", ""], function (_ref) {
   var collapsible = _ref.collapsible;
   return collapsible && StyledCollapsible;
@@ -22,18 +22,18 @@ var StyledTableRow = styled.tr.withConfig({
 });
 export var StyledGhostRow = styled.div.withConfig({
   displayName: "TableRow__StyledGhostRow",
-  componentId: "csl6ui-1"
+  componentId: "h1kscq-1"
 })(["position:relative;display:flex;flex-direction:column;flex:1;"]);
 export var StyledGhostSprite = styled.div.withConfig({
   displayName: "TableRow__StyledGhostSprite",
-  componentId: "csl6ui-2"
+  componentId: "h1kscq-2"
 })(["width:100%;height:100%;position:absolute;display:flex;flex:1;flex-direction:row;min-height:52px;padding:2px 0;", "{", ";}"], media.md, function (_ref4) {
   var isReversed = _ref4.isReversed;
   return isReversed ? "\n            flex-direction: row-reverse;\n      " : "";
 });
 export var StyledColoredData = styled.div.withConfig({
   displayName: "TableRow__StyledColoredData",
-  componentId: "csl6ui-3"
+  componentId: "h1kscq-3"
 })(["width:", ";background-color:", ";opacity:0.3;"], function (_ref5) {
   var showPercentage = _ref5.showPercentage;
   return showPercentage ? "".concat(showPercentage, "%") : "";
@@ -44,7 +44,7 @@ export var StyledColoredData = styled.div.withConfig({
 });
 export var StyledSvgMarker = styled.div.withConfig({
   displayName: "TableRow__StyledSvgMarker",
-  componentId: "csl6ui-4"
+  componentId: "h1kscq-4"
 })(["position:absolute;top:0;left:0;right:0;display:flex;flex-direction:column-reverse;"]);
 export var TableRow = function TableRow(_ref7) {
   var children = _ref7.children,

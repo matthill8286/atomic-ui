@@ -3,7 +3,7 @@ import { media } from "../../../styles/media";
 import { css, styled } from "../../../styles/styled";
 var StyledMediaStyleSwitch = styled.div.withConfig({
   displayName: "MediaStyleSwitch__StyledMediaStyleSwitch",
-  componentId: "sc-1pcghsj-0"
+  componentId: "sc-1p310g0-0"
 })(function (_ref) {
   var query = _ref.query,
       activeCSS = _ref.activeCSS,

@@ -4,7 +4,7 @@ import { media, styled } from "../../../styles";
 import { IconUser as UserIcon } from '@excelwithbusiness/webmobile-svg-library';
 export var StyledDropdownButton = styled(DropdownButton).withConfig({
   displayName: "NavigationButton__StyledDropdownButton",
-  componentId: "sc-1l19o83-0"
+  componentId: "sc-3xqyz7-0"
 })(["display:none;", "{display:inline;}"], media.sm);
 export var NavigationButton = React.memo(function (_ref) {
   var label = _ref.label,

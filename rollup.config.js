@@ -9,8 +9,10 @@ import progress from 'rollup-plugin-progress'
 import { terser } from 'rollup-plugin-terser'
 import url from 'rollup-plugin-url'
 import visualizer from 'rollup-plugin-visualizer'
+import postcss from 'rollup-plugin-postcss-modules'
+import autoprefixer from 'autoprefixer'
 
-const extensions = ['.js', '.jsx', '.ts', '.tsx']
+const extensions = ['.js', '.jsx', '.ts', '.tsx', '.css']
 const isProduction = process.env.NODE_ENV === 'production'
 
 // eslint-disable-next-line import/no-default-export
@@ -64,6 +66,11 @@ export default [
             'clearAllBodyScrollLocks',
           ],
         },
+      }),
+      postcss({
+        extract: true,
+        plugins: [autoprefixer()],
+        writeDefinitions: true,
       }),
       // babel plugin to convert all src files into our target specified in .browserslistrc
       babel({ extensions, include: ['src/**/*'], exclude: /node_modules/, runtimeHelpers: true }),

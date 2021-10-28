@@ -5,11 +5,11 @@ import { rgba } from 'polished';
 import { fadingIn, fadingOut, falling, newspaper, shaking, slideFromBottom, slideFromRight, superScaled } from "../../../styles";
 export var ModalWrapper = styled.div.withConfig({
   displayName: "Modalstyled__ModalWrapper",
-  componentId: "sc-1nvlmq7-0"
+  componentId: "sc-1qlt2g2-0"
 })(["z-index:201;top:0;bottom:0;right:0;left:0;position:fixed;overflow-y:auto;"]);
 export var StyledModalBackground = styled.div.withConfig({
   displayName: "Modalstyled__StyledModalBackground",
-  componentId: "sc-1nvlmq7-1"
+  componentId: "sc-1qlt2g2-1"
 })(["position:fixed;position:sticky;right:0;bottom:0;top:0;left:0;z-index:100;width:100%;height:100%;background-color:", ";", "{overflow:auto;-webkit-overflow-scrolling:touch;}"], function (_ref) {
   var theme = _ref.theme,
       isWhite = _ref.isWhite;
@@ -61,7 +61,7 @@ var modalWrapperBottomMargins = function modalWrapperBottomMargins(position, the
 
 export var StyledModalInnerWrapper = styled.div.withConfig({
   displayName: "Modalstyled__StyledModalInnerWrapper",
-  componentId: "sc-1nvlmq7-2"
+  componentId: "sc-1qlt2g2-2"
 })(["background:", ";border-radius:", ";box-sizing:border-box;z-index:101;width:100%;height:100%;display:flex;flex-flow:column;overflow-y:", ";position:absolute;", " ", "{", " margin-bottom:", ";left:50%;display:block;padding:", ";border-radius:", ";height:", ";max-width:", ";};", ""], function (_ref2) {
   var contentBgColor = _ref2.contentBgColor,
       theme = _ref2.theme;
@@ -104,18 +104,18 @@ export var StyledModalInnerWrapper = styled.div.withConfig({
 });
 export var StyledModalContent = styled.div.withConfig({
   displayName: "Modalstyled__StyledModalContent",
-  componentId: "sc-1nvlmq7-3"
+  componentId: "sc-1qlt2g2-3"
 })(["width:100%;display:flex;flex-flow:column;& img{max-width:100%;}"]);
 export var StyledModalDesktopWrapper = styled.div.withConfig({
   displayName: "Modalstyled__StyledModalDesktopWrapper",
-  componentId: "sc-1nvlmq7-4"
+  componentId: "sc-1qlt2g2-4"
 })(["padding:", ";max-width:100%;overflow-y:scroll;-webkit-overflow-scrolling:touch;", "{overflow-y:scroll;-webkit-overflow-scrolling:touch;padding:0;}"], function (_ref13) {
   var theme = _ref13.theme;
   return "0 ".concat(theme.spacing.base.sm, " ").concat(theme.spacing.base.sm, " ").concat(theme.spacing.base.sm);
 }, media.sm);
 export var StyledModalHeader = styled.div.withConfig({
   displayName: "Modalstyled__StyledModalHeader",
-  componentId: "sc-1nvlmq7-5"
+  componentId: "sc-1qlt2g2-5"
 })(["display:flex;justify-content:", ";padding:", ";", ";", "{", ";", ";}"], function (_ref14) {
   var hasTitle = _ref14.hasTitle;
   return "".concat(hasTitle) ? 'center' : 'flex-start';
@@ -136,10 +136,10 @@ export var StyledModalHeader = styled.div.withConfig({
 });
 export var StyledIcon = styled(Icon).withConfig({
   displayName: "Modalstyled__StyledIcon",
-  componentId: "sc-1nvlmq7-6"
+  componentId: "sc-1qlt2g2-6"
 })(["flex:1;display:flex;justify-content:flex-end;align-items:center;cursor:pointer;padding:0;z-index:1;outline:none;background:none;border:none;"]);
 export var StlyedLeftContent = styled.div.withConfig({
   displayName: "Modalstyled__StlyedLeftContent",
-  componentId: "sc-1nvlmq7-7"
+  componentId: "sc-1qlt2g2-7"
 })(["flex:1;"]);
 //# sourceMappingURL=Modal.styled.js.map

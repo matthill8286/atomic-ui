@@ -1,7 +1,7 @@
 import { css, styled } from "../../../styles";
 export var StyledRelativeEmbeddedParent = styled.div.withConfig({
   displayName: "EmbeddedPlayerstyled__StyledRelativeEmbeddedParent",
-  componentId: "d95qmr-0"
+  componentId: "sc-12td4sb-0"
 })(function (_ref) {
   var aspect = _ref.aspect,
       maxHeight = _ref.maxHeight;

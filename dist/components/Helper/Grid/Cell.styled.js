@@ -137,7 +137,7 @@ var getLgXlCols = function getLgXlCols(xl) {
 
 export var StyledCell = styled.div.withConfig({
   displayName: "Cellstyled__StyledCell",
-  componentId: "sc-2jums8-0"
+  componentId: "jibo8v-0"
 })(["flex-grow:1;box-sizing:border-box;margin:calc(", "px / 2);width:calc(100% - ", "px);@supports (display:grid){margin:0;width:auto;grid-column-end:span 4;}", " ", "{display:", ";margin:calc(", "px / 2);width:calc(50% - ", "px);@supports (display:grid){margin:0;width:auto;grid-column-end:span 4;}", "}", "{display:", ";margin:calc(", "px / 2);width:calc(50% - ", "px);@supports (display:grid){margin:0;width:auto;grid-column-end:span 4;}", "}", "{display:", ";margin:calc(", "px / 2);width:calc(33.33333% - ", "px);@supports (display:grid){margin:0;width:auto;grid-column-end:span 4;}", "}", "{display:", ";margin:calc(", "px / 2);width:calc(33.33333% - ", "px);@supports (display:grid){margin:0;width:auto;grid-column-end:span 4;}", "}", "{", "}", " ", " ", " ", ""], gutterWidth.xs, gutterWidth.xs, getXsCols, media.sm, function (_ref4) {
   var alignHeight = _ref4.alignHeight;
   return alignHeight ? "flex" : "block";

@@ -4,7 +4,7 @@ import { css, styled } from "../../../styles";
 import { getBoxDimension } from "../../../styles/sc-shared-functions";
 export var StyledSection = styled(Section).withConfig({
   displayName: "AppHeaderstyled__StyledSection",
-  componentId: "sc-1kic5yy-0"
+  componentId: "sc-1lykkqz-0"
 })(["background:", ";height:", ";z-index:10;top:0;left:auto;right:0;position:fixed;"], function (_ref) {
   var theme = _ref.theme;
   return theme.header.topBar;
@@ -14,7 +14,7 @@ export var StyledSection = styled(Section).withConfig({
 });
 export var StyledHeaderWrapper = styled.div.withConfig({
   displayName: "AppHeaderstyled__StyledHeaderWrapper",
-  componentId: "sc-1kic5yy-1"
+  componentId: "sc-1lykkqz-1"
 })(function (_ref3) {
   var theme = _ref3.theme,
       color = _ref3.color,
@@ -26,15 +26,15 @@ export var StyledHeaderWrapper = styled.div.withConfig({
 });
 export var StyledLogo = styled.div.withConfig({
   displayName: "AppHeaderstyled__StyledLogo",
-  componentId: "sc-1kic5yy-2"
+  componentId: "sc-1lykkqz-2"
 })(["display:flex;flex:1;justify-content:flex-start;"]);
 export var StyledActionItems = styled.div.withConfig({
   displayName: "AppHeaderstyled__StyledActionItems",
-  componentId: "sc-1kic5yy-3"
+  componentId: "sc-1lykkqz-3"
 })(["display:flex;flex-grow:2;justify-content:flex-end;"]);
 export var StyledItemWrapper = styled(FlexItem).withConfig({
   displayName: "AppHeaderstyled__StyledItemWrapper",
-  componentId: "sc-1kic5yy-4"
+  componentId: "sc-1lykkqz-4"
 })(["align-self:center;margin-left:", ";margin-right:", ";"], function (_ref5) {
   var theme = _ref5.theme;
   return theme.spacing.gap.narrow;

@@ -1,7 +1,7 @@
 import { css, styled } from "../../../styles/styled";
 export var Wrapper = styled.div.withConfig({
   displayName: "ShowMorestyled__Wrapper",
-  componentId: "sc-188v62i-0"
+  componentId: "sc-10qfk7k-0"
 })(function (_ref) {
   var visibleHeight = _ref.visibleHeight,
       isCollapsed = _ref.isCollapsed;
@@ -14,7 +14,7 @@ export var Wrapper = styled.div.withConfig({
 });
 export var LabelWrapper = styled.div.withConfig({
   displayName: "ShowMorestyled__LabelWrapper",
-  componentId: "sc-188v62i-1"
+  componentId: "sc-10qfk7k-1"
 })(function (_ref2) {
   var theme = _ref2.theme,
       labelAlignment = _ref2.labelAlignment,
@@ -31,7 +31,7 @@ export var LabelWrapper = styled.div.withConfig({
 });
 export var FadeOutOverlay = styled.div.withConfig({
   displayName: "ShowMorestyled__FadeOutOverlay",
-  componentId: "sc-188v62i-2"
+  componentId: "sc-10qfk7k-2"
 })(function (_ref3) {
   var _ref3$fadeOutHeight = _ref3.fadeOutHeight,
       fadeOutHeight = _ref3$fadeOutHeight === void 0 ? 0 : _ref3$fadeOutHeight,
@@ -41,13 +41,13 @@ export var FadeOutOverlay = styled.div.withConfig({
 });
 export var ContentWrapper = styled.div.withConfig({
   displayName: "ShowMorestyled__ContentWrapper",
-  componentId: "sc-188v62i-3"
+  componentId: "sc-10qfk7k-3"
 })(["width:100%;font-family:", ";white-space:initial;"], function (_ref4) {
   var theme = _ref4.theme;
   return theme.font.family.default;
 });
 export var FlexItem = styled.div.withConfig({
   displayName: "ShowMorestyled__FlexItem",
-  componentId: "sc-188v62i-4"
+  componentId: "sc-10qfk7k-4"
 })(["display:flex;"]);
 //# sourceMappingURL=ShowMore.styled.js.map

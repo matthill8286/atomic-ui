@@ -8,7 +8,7 @@ import React from 'react';
 import { css, styled } from "../../../styles/styled";
 var StyledBox = styled.div.withConfig({
   displayName: "FlexBox__StyledBox",
-  componentId: "sc-1wsazee-0"
+  componentId: "sc-1115asm-0"
 })(["", " display:", ";flex-direction:", ";", ";", ";", ";", ";"], function (_ref) {
   var debug = _ref.debug;
   return debug && css(["border:1px solid green;padding:8px;"]);
@@ -58,7 +58,7 @@ export var FlexBox = function FlexBox(props) {
 FlexBox.displayName = 'FlexBox';
 var StyledFlexItem = styled.div.withConfig({
   displayName: "FlexBox__StyledFlexItem",
-  componentId: "sc-1wsazee-1"
+  componentId: "sc-1115asm-1"
 })(["", " order:", ";flex:", ";align-self:", ";padding:", ";"], function (_ref8) {
   var debug = _ref8.debug;
   return debug && css(["border:1px solid blue;padding:8px;"]);

@@ -4,7 +4,7 @@ import { styled } from "../../styles/styled";
 import { media } from "../../styles";
 var StyledStorybookWrapper = styled.div.withConfig({
   displayName: "StorybookWrapper__StyledStorybookWrapper",
-  componentId: "sc-1w1bnp9-0"
+  componentId: "ja7jmr-0"
 })(["padding:20px 40px 40px;", "{padding:20px 0;}"], media.maxSm);
 export var StorybookWrapper = StyledStorybookWrapper;
 export var StorybookRouterWrapper = function StorybookRouterWrapper(_ref) {

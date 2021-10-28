@@ -16,7 +16,7 @@ import { getColor } from "../../../../utils/helper";
 import { Typo } from "../Typo";
 var StyledFeaturedHeading = styled(Typo).withConfig({
   displayName: "HeadingFeatured__StyledFeaturedHeading",
-  componentId: "sc-1fafikl-0"
+  componentId: "nodesf-0"
 })(function (_ref) {
   var theme = _ref.theme,
       fixedSize = _ref.fixedSize,

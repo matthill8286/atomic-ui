@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from "../../../styles/styled";
 var StyledTableBody = styled.tbody.withConfig({
   displayName: "TableBody__StyledTableBody",
-  componentId: "ppecp1-0"
+  componentId: "usih2p-0"
 })(["", ""], function (_ref) {
   var fullBorder = _ref.fullBorder,
       topBorder = _ref.topBorder,

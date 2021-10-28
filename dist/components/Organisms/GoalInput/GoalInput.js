@@ -5,23 +5,23 @@ import { Heading, Typo } from "../../Atoms/Typography";
 import { useWindowDimensions } from "../../Helper/useWindowDimensions";
 var InputContainer = styled.div.withConfig({
   displayName: "GoalInput__InputContainer",
-  componentId: "b22yo3-0"
+  componentId: "sc-925314-0"
 })(["display:flex;flex-direction:column;width:95%;margin:0 auto;"]);
 var RangeContainer = styled.div.withConfig({
   displayName: "GoalInput__RangeContainer",
-  componentId: "b22yo3-1"
+  componentId: "sc-925314-1"
 })(["display:inline-flex;flex:1;"]);
 var StyledInputRange = styled(InputRange).withConfig({
   displayName: "GoalInput__StyledInputRange",
-  componentId: "b22yo3-2"
+  componentId: "sc-925314-2"
 })(["display:flex;flex-grow:1;"]);
 var StyledTypo = styled(Typo).withConfig({
   displayName: "GoalInput__StyledTypo",
-  componentId: "b22yo3-3"
+  componentId: "sc-925314-3"
 })(["align-self:center;height:100%;"]);
 var InformationContainer = styled.div.withConfig({
   displayName: "GoalInput__InformationContainer",
-  componentId: "b22yo3-4"
+  componentId: "sc-925314-4"
 })([""]);
 export var GoalInput = function GoalInput(_ref) {
   var headline = _ref.headline,
