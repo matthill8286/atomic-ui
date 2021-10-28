@@ -4,11 +4,11 @@ import { useMultiViewModalState, useMultiViewModalAction } from "./MultiViewModa
 import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library';
 var StyledBackButton = styled(Button).withConfig({
   displayName: "MultiViewModal__StyledBackButton",
-  componentId: "x203v9-0"
+  componentId: "sc-74wakc-0"
 })(["padding-left:0;"]);
 var StyledBackArrow = styled(Icon).withConfig({
   displayName: "MultiViewModal__StyledBackArrow",
-  componentId: "x203v9-1"
+  componentId: "sc-74wakc-1"
 })(["padding:0 !important;position:relative;left:-7px;"]);
 export var MultiViewModal = function MultiViewModal(_ref) {
   var targetId = _ref.targetId,

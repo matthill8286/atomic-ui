@@ -30,7 +30,7 @@ var badges = [{
 }];
 export var StyledLineMaxWidthContainer = styled.div.withConfig({
   displayName: "Badgestory__StyledLineMaxWidthContainer",
-  componentId: "sc-1aohmz1-0"
+  componentId: "sc-1qzfvr6-0"
 })(["background:lightgrey;padding-top:8px;padding-bottom:8px;"]);
 
 var knobs = function knobs() {

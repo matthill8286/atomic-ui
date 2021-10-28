@@ -21,7 +21,7 @@ import { Icon } from "../../../Atoms/Icon";
 import { StyleguideBookmarkOutlined } from "../../../../svgs";
 export var StyledIconButton = styled(IconButton).withConfig({
   displayName: "AssetTileGridItemStory__StyledIconButton",
-  componentId: "sc-1cq4cmm-0"
+  componentId: "sc-11nwnlk-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["border:none;display:flex;padding:0;min-width:auto;justify-content:center;"]);

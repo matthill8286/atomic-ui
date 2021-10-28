@@ -5,7 +5,7 @@ import { Picture } from "../../Atoms/Picture";
 import { media, styled } from "../../../styles";
 var StyledHeroImageWrapper = styled.div.withConfig({
   displayName: "HeroBanner__StyledHeroImageWrapper",
-  componentId: "sc-1pfc1bg-0"
+  componentId: "sc-1245j3y-0"
 })(["cursor:", ";width:100%;display:flex;height:", ";", "{height:", ";}", "{height:", ";}"], function (_ref) {
   var isLinking = _ref.isLinking;
   return isLinking ? 'pointer' : 'default';

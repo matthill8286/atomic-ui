@@ -27,17 +27,17 @@ var innerShadowFromTheme = function innerShadowFromTheme(x) {
 
 export var StyledButtonGroup = styled.div.withConfig({
   displayName: "ButtonGroupstyled__StyledButtonGroup",
-  componentId: "y1hgtf-0"
+  componentId: "x48qmt-0"
 })(["display:flex;width:100%;background-color:", ";button,[type='button']{border-radius:0;flex:1 1 auto;&:first-child{border-top-left-radius:4px;border-bottom-left-radius:4px;}&:last-child{border-top-right-radius:4px;border-bottom-right-radius:4px;}}"], color('white'));
 var StyledButton = styled.button.attrs({
   type: 'button'
 }).withConfig({
   displayName: "ButtonGroupstyled__StyledButton",
-  componentId: "y1hgtf-1"
+  componentId: "x48qmt-1"
 })(["cursor:pointer;box-sizing:border-box;min-width:50px;padding:", ";border-width:1px;border-style:solid;border-color:", ";border-radius:", ";background-color:", ";transition-duration:0.15s;transition-timing-function:ease-in-out;transition-property:border-color,box-shadow;outline:none;&:hover:enabled,&:active:enabled{box-shadow:", ";border-color:", ";}&:disabled{cursor:not-allowed;}"], spacing('xs'), color('grey2'), spacing('xxs'), color('white'), innerShadowFromTheme('primary'), color('primary'));
 export var BorderedButton = styled(StyledButton).withConfig({
   displayName: "ButtonGroupstyled__BorderedButton",
-  componentId: "y1hgtf-2"
+  componentId: "x48qmt-2"
 })(function (_ref4) {
   var selected = _ref4.selected,
       theme = _ref4.theme;

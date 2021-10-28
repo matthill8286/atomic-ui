@@ -3,7 +3,7 @@ import { css, styled } from "../../../styles/styled";
 var DefaultSize = '25px';
 export var Icon = styled.div.withConfig({
   displayName: "Icon",
-  componentId: "sc-1ate1r7-0"
+  componentId: "sc-19eic0g-0"
 })(function (_ref) {
   var theme = _ref.theme,
       color = _ref.color,

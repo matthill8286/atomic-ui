@@ -6,35 +6,35 @@ import { css, styled } from "../../../../styles/styled";
 import { Icon } from "../../../Atoms/Icon";
 var StyledTopRight = styled.div.withConfig({
   displayName: "AssetOptions__StyledTopRight",
-  componentId: "sc-1ags115-0"
+  componentId: "sc-1wy9c6c-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["position:absolute;z-index:10;display:flex;top:calc(", " - 0.5px);right:calc(", " + 1px);"], theme.spacing.base.sm, theme.spacing.base.sm);
 });
 export var StyledBottomRight = styled.div.withConfig({
   displayName: "AssetOptions__StyledBottomRight",
-  componentId: "sc-1ags115-1"
+  componentId: "sc-1wy9c6c-1"
 })(function (_ref2) {
   var theme = _ref2.theme;
   return css(["position:absolute;z-index:10;display:flex;bottom:calc(", " - 0.5px);right:calc(", " + 1px);"], theme.spacing.base.sm, theme.spacing.base.sm);
 });
 export var StyledBottomLeft = styled.div.withConfig({
   displayName: "AssetOptions__StyledBottomLeft",
-  componentId: "sc-1ags115-2"
+  componentId: "sc-1wy9c6c-2"
 })(function (_ref3) {
   var theme = _ref3.theme;
   return css(["position:absolute;z-index:10;display:flex;bottom:calc(", " - 0.5px);left:calc(", " + 1px);"], theme.spacing.base.sm, theme.spacing.base.sm);
 });
 export var StyledTopLeft = styled.div.withConfig({
   displayName: "AssetOptions__StyledTopLeft",
-  componentId: "sc-1ags115-3"
+  componentId: "sc-1wy9c6c-3"
 })(function (_ref4) {
   var theme = _ref4.theme;
   return css(["position:absolute;z-index:10;display:flex;top:calc(", " - 0.5px);left:calc(", " + 1px);"], theme.spacing.base.sm, theme.spacing.base.sm);
 });
 export var StyledIconButton = styled(IconButton).withConfig({
   displayName: "AssetOptions__StyledIconButton",
-  componentId: "sc-1ags115-4"
+  componentId: "sc-1wy9c6c-4"
 })(["border:none;display:flex;padding:0;min-width:auto;justify-content:center;"]);
 export var TopRight = function TopRight(_ref5) {
   var StyledPosition = _ref5.StyledPosition,

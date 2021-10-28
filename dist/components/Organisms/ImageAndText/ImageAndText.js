@@ -10,18 +10,18 @@ import { media, spacing } from "../../../styles";
 import { styled } from "../../../styles/styled";
 export var StyledText = styled.div.withConfig({
   displayName: "ImageAndText__StyledText",
-  componentId: "h8ezsj-0"
+  componentId: "ws8bpc-0"
 })(["flex-basis:100%;padding:0 ", ";margin-top:", ";h3{margin:0;}", "{flex-basis:calc(50% - 2 * ", ");padding:0 ", ";margin-top:0;}"], spacing.base.sm, spacing.base.xs, media.md, spacing.base.sm, spacing.base.sm);
 export var StyledImage = styled.div.withConfig({
   displayName: "ImageAndText__StyledImage",
-  componentId: "h8ezsj-1"
+  componentId: "ws8bpc-1"
 })(["flex-basis:100%;order:unset;padding:0 ", ";", "{flex-basis:calc(50% - 2 * ", ");order:", ";justify-content:center;display:flex;}"], spacing.base.sm, media.md, spacing.base.sm, function (_ref) {
   var order = _ref.order;
   return order;
 });
 export var StyledRow = styled.div.withConfig({
   displayName: "ImageAndText__StyledRow",
-  componentId: "h8ezsj-2"
+  componentId: "ws8bpc-2"
 })(["flex-wrap:wrap;display:flex;margin:", " -", ";align-items:center;justify-content:space-between;"], spacing.base.sm, spacing.base.sm);
 
 function getPrismicLqipParams(imageUrl, contentful) {

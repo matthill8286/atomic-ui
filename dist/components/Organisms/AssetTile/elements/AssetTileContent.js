@@ -18,35 +18,35 @@ var Provider = function Provider(props) {
 var Ellipsis = css(["min-height:44px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;word-wrap:break-word;"]);
 var StyledProviderWrapper = styled.div.withConfig({
   displayName: "AssetTileContent__StyledProviderWrapper",
-  componentId: "zpwvux-0"
+  componentId: "sc-19lkr3y-0"
 })(["flex-direction:row;width:100%;flex-wrap:wrap;display:flex;", ""], function (_ref) {
   var isCompact = _ref.isCompact;
   return "".concat(!isCompact ? "\n  justify-content: space-between;\n  " : "\n  justify-content: flex-end;");
 });
 var StyledHeadingDescription = styled(Typo).withConfig({
   displayName: "AssetTileContent__StyledHeadingDescription",
-  componentId: "zpwvux-1"
+  componentId: "sc-19lkr3y-1"
 })(["display:flex;flex-direction:column;justify-content:space-between;", ";"], function (_ref2) {
   var isDisabled = _ref2.isDisabled;
   return "\n    ".concat(isDisabled ? "\n        -ms-filter: grayscale(100%);\n        filter: grayscale(100%);\n        opacity: 0.4;\n      " : '', "\n  ");
 });
 var StyledProvider = styled(Provider).withConfig({
   displayName: "AssetTileContent__StyledProvider",
-  componentId: "zpwvux-2"
+  componentId: "sc-19lkr3y-2"
 })(["display:flex;padding-top:5px;", ";"], function (_ref3) {
   var isDisabled = _ref3.isDisabled;
   return "\n    ".concat(isDisabled ? "\n        -ms-filter: grayscale(100%);\n        filter: grayscale(100%);\n        opacity: 0.4;\n      " : '', "\n  ");
 });
 export var StyledSkills = styled.div.withConfig({
   displayName: "AssetTileContent__StyledSkills",
-  componentId: "zpwvux-3"
+  componentId: "sc-19lkr3y-3"
 })(["margin-top:0;", ";"], function (_ref4) {
   var isDisabled = _ref4.isDisabled;
   return "\n    ".concat(isDisabled ? "\n        -ms-filter: grayscale(100%);\n        filter: grayscale(100%);\n        opacity: 0.4;\n      " : '', "\n  ");
 });
 var StyledHeaderWrapper = styled.div.withConfig({
   displayName: "AssetTileContent__StyledHeaderWrapper",
-  componentId: "zpwvux-4"
+  componentId: "sc-19lkr3y-4"
 })(["", " ", ";display:flex;flex-direction:column;flex-basis:100%;"], function (_ref5) {
   var withEllipsis = _ref5.withEllipsis;
   return withEllipsis && Ellipsis;

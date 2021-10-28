@@ -3,7 +3,7 @@ import { Tag } from "../../../Atoms/Tag";
 import { css, styled } from "../../../../styles/styled";
 var StyledAssetSkill = styled.div.withConfig({
   displayName: "AssetSkills__StyledAssetSkill",
-  componentId: "fryplj-0"
+  componentId: "sc-1pl320o-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["display:inline-flex;justify-content:flex-end;"]);

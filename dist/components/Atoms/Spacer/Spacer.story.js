@@ -6,11 +6,11 @@ import { Spacer } from "./Spacer";
 import Readme from "./Spacer.readme.md";
 var StyledBlock = styled.div.withConfig({
   displayName: "Spacerstory__StyledBlock",
-  componentId: "sc-14t2uog-0"
+  componentId: "sc-1rfbcud-0"
 })(["height:20px;width:100%;background:red;float:left;"]);
 var StyledVerticalBlock = styled.div.withConfig({
   displayName: "Spacerstory__StyledVerticalBlock",
-  componentId: "sc-14t2uog-1"
+  componentId: "sc-1rfbcud-1"
 })(["height:100px;width:20px;background:red;float:left;"]);
 storiesOf('Design System/Atoms/Spacer', module).add('Default', function () {
   return React.createElement(React.Fragment, null, React.createElement(StyledBlock, null), React.createElement(Spacer, {

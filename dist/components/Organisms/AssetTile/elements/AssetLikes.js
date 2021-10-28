@@ -5,7 +5,7 @@ import { css, styled } from "../../../../styles/styled";
 import { IconLike } from '@excelwithbusiness/webmobile-svg-library';
 var StyledAssetLikes = styled.div.withConfig({
   displayName: "AssetLikes__StyledAssetLikes",
-  componentId: "qbw3km-0"
+  componentId: "sc-1d02j04-0"
 })(function (_ref) {
   var theme = _ref.theme;
   return css(["position:absolute;z-index:2;bottom:calc(", " - 4px);left:calc(", " + 1px);"], theme.spacing.base.md, theme.spacing.base.sm);

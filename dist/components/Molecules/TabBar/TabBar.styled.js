@@ -5,7 +5,7 @@ import { css, keyframes, styled, media } from "../../../styles";
 var line = keyframes(["from{left:50%;width:0%;}to{left:0%;width:100%;}"]);
 export var StyledTabBarCard = styled(Card).withConfig({
   displayName: "TabBarstyled__StyledTabBarCard",
-  componentId: "javq30-0"
+  componentId: "kb6u3l-0"
 })(["", "{", "}"], StyledCard, function (_ref) {
   var enableSemanticTheme = _ref.enableSemanticTheme,
       theme = _ref.theme,
@@ -14,21 +14,21 @@ export var StyledTabBarCard = styled(Card).withConfig({
 });
 export var StyledTabBar = styled.div.withConfig({
   displayName: "TabBarstyled__StyledTabBar",
-  componentId: "javq30-1"
+  componentId: "kb6u3l-1"
 })(["", "{display:none;}", ""], media.ie11, function (_ref2) {
   var isFixed = _ref2.isFixed;
   return isFixed ? css(["position:fixed;top:0;left:0;width:100%;float:left;z-index:3;"]) : '';
 });
 export var StyledTabsContainer = styled.div.withConfig({
   displayName: "TabBarstyled__StyledTabsContainer",
-  componentId: "javq30-2"
+  componentId: "kb6u3l-2"
 })(["display:flex;flex:1;white-space:nowrap;overflow-x:auto;flex-direction:", ";&::-webkit-scrollbar{display:none;}scrollbar-width:none;"], function (_ref3) {
   var flexDirection = _ref3.flexDirection;
   return flexDirection !== null && flexDirection !== void 0 ? flexDirection : 'row';
 });
 export var StyledTabBarItemContainer = styled.div.withConfig({
   displayName: "TabBarstyled__StyledTabBarItemContainer",
-  componentId: "javq30-3"
+  componentId: "kb6u3l-3"
 })(["display:flex;flex:1;& label{color:", ";cursor:pointer;display:inline-flex;line-height:1;place-items:center;place-content:center;font-family:", ";font-size:", ";text-transform:uppercase;font-weight:", ";width:100%;padding:0 ", ";height:100%;min-height:52px;position:relative;text-align:center;align-items:center;", "{font-size:", ";}", "{padding:0 ", ";}&::after{animation:", " 0.2s linear forwards;background-color:", ";bottom:0;content:' ';display:none;height:2px;left:0;position:absolute;right:0;width:100%;}}& input[type='radio']{display:none;}& input[type='radio']:checked ~ label{font-weight:", ";color:", ";&::after{display:block;}}& input[type='radio']:enabled:hover ~ label::after{display:block;}", ""], function (_ref4) {
   var theme = _ref4.theme;
   return theme.color.grey4;
@@ -67,7 +67,7 @@ export var StyledTabBarItemContainer = styled.div.withConfig({
 });
 export var StyledArrowButton = styled(Button).withConfig({
   displayName: "TabBarstyled__StyledArrowButton",
-  componentId: "javq30-4"
+  componentId: "kb6u3l-4"
 })(["border:0;align-self:center;", "{padding:12px ", ";}", "{padding:0;}", ""], media.maxMd, function (_ref15) {
   var theme = _ref15.theme;
   return theme.spacing.baseMobile.sm;

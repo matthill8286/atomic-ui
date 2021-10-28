@@ -10,7 +10,7 @@ import { useWindowDimensions } from "../../../Helper";
 import { breakpoints } from "../../../../styles";
 var StyledAssetHeaderWrapper = styled.div.withConfig({
   displayName: "AssetHeader__StyledAssetHeaderWrapper",
-  componentId: "l6cb77-0"
+  componentId: "sc-1q2hk1c-0"
 })(["margin-bottom:", ";margin-right:", ";"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.sm;
@@ -20,22 +20,22 @@ var StyledAssetHeaderWrapper = styled.div.withConfig({
 });
 var StyledHeading = styled(Heading).withConfig({
   displayName: "AssetHeader__StyledHeading",
-  componentId: "l6cb77-1"
+  componentId: "sc-1q2hk1c-1"
 })(["width:90%;"]);
 var StyledLink = styled(Link).withConfig({
   displayName: "AssetHeader__StyledLink",
-  componentId: "l6cb77-2"
+  componentId: "sc-1q2hk1c-2"
 })(["display:inline;"]);
 var StyledManufacturer = styled.span.withConfig({
   displayName: "AssetHeader__StyledManufacturer",
-  componentId: "l6cb77-3"
+  componentId: "sc-1q2hk1c-3"
 })(["font-weight:", ";"], function (_ref3) {
   var theme = _ref3.theme;
   return theme.font.weight.bold;
 });
 var StyledEnergyEfficiencySlot = styled.div.withConfig({
   displayName: "AssetHeader__StyledEnergyEfficiencySlot",
-  componentId: "l6cb77-4"
+  componentId: "sc-1q2hk1c-4"
 })(["margin-top:", ";"], function (_ref4) {
   var theme = _ref4.theme;
   return theme.spacing.base.xs;

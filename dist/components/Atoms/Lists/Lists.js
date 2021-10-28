@@ -4,7 +4,7 @@ import { media } from "../../../styles/media";
 import { styled } from "../../../styles/styled";
 var StyledList = styled.ul.withConfig({
   displayName: "Lists__StyledList",
-  componentId: "sc-1yzs89u-0"
+  componentId: "sc-1kuiyri-0"
 })(["margin:", ";padding:", ";font-size:", ";", " ", " ", "{font-size:", ";", "{top:0;}}& li{margin:0;padding:0;margin-bottom:", ";& p:first-child{margin-top:0;}& p:last-child{margin-bottom:0;}}", "{float:left;position:relative;top:-2px;margin-right:", ";}"], function (_ref) {
   var theme = _ref.theme,
       withMargin = _ref.withMargin;

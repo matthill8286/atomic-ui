@@ -7,11 +7,11 @@ import { styled, css } from "../../../styles/styled";
 import { smoothScrollWithSelector } from "../../../utils";
 var StyledGrid = styled(Grid).withConfig({
   displayName: "SiteMenu__StyledGrid",
-  componentId: "b7i43o-0"
+  componentId: "sc-19s72rv-0"
 })(["display:flex;>:first-child{flex-grow:1;overflow:hidden;}"]);
 var StyledSiteMenuCard = styled(Card).withConfig({
   displayName: "SiteMenu__StyledSiteMenuCard",
-  componentId: "b7i43o-1"
+  componentId: "sc-19s72rv-1"
 })(["position:sticky;top:0;z-index:2;", "{", "}"], StyledCard, function (_ref) {
   var enableSemanticTheme = _ref.enableSemanticTheme,
       theme = _ref.theme,

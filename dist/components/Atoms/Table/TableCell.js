@@ -22,7 +22,7 @@ var StyledCellBorder = css(["", ""], function (_ref2) {
 });
 var StyledDataCell = styled.td.withConfig({
   displayName: "TableCell__StyledDataCell",
-  componentId: "sc-1s8qdrx-0"
+  componentId: "sc-1uv0jt6-0"
 })(["", " ", " ", ""], function (_ref3) {
   var collapsible = _ref3.collapsible;
   return collapsible && StyledCollapsible;

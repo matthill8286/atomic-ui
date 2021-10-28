@@ -19,7 +19,7 @@ var handleRowMarginBottom = function handleRowMarginBottom(noMargin) {
 
 var StyledRow = styled.div.withConfig({
   displayName: "Row__StyledRow",
-  componentId: "sc-1hlfifr-0"
+  componentId: "uv5xh1-0"
 })(["display:flex;flex-flow:row wrap;align-items:stretch;margin:0;", " @supports (display:grid){display:grid;grid-gap:", "px;grid-template-columns:repeat(4,minmax(0,1fr));}", "{@supports (display:grid){grid-gap:", "px;grid-template-columns:repeat(8,minmax(0,1fr));}}", "{@supports (display:grid){grid-gap:", "px;}}", "{@supports (display:grid){grid-gap:", "px;grid-template-columns:repeat(12,minmax(0,1fr));}}", "{@supports (display:grid){grid-gap:", "px;}}"], function (_ref) {
   var noMargin = _ref.noMargin;
   return handleRowMarginBottom(!!noMargin);

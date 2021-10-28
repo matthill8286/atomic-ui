@@ -48,7 +48,7 @@ var BottomPositions = {
 };
 export var StepConnectorRoot = styled.div.withConfig({
   displayName: "StepConnector__StepConnectorRoot",
-  componentId: "sc-1yk6517-0"
+  componentId: "d7xc2u-0"
 })(function (_ref2) {
   var theme = _ref2.theme,
       _ref2$elementPosition = _ref2.elementPosition,
@@ -72,7 +72,7 @@ export var StepConnectorRoot = styled.div.withConfig({
 });
 export var StepConnectorLine = styled.span.withConfig({
   displayName: "StepConnector__StepConnectorLine",
-  componentId: "sc-1yk6517-1"
+  componentId: "d7xc2u-1"
 })(["border-color:", ";border-style:solid;border-top-width:", ";border-bottom-width:", ";border-radius:", ";display:block;"], function (_ref3) {
   var theme = _ref3.theme,
       _ref3$color = _ref3.color,

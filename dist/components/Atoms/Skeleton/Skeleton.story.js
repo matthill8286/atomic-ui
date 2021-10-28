@@ -10,15 +10,15 @@ var exampleHeadline = 'Lorem Ipsum';
 var exampleSubline = 'Some are shunning pleasure to work at a home';
 var StyledExampleWrapper = styled.div.withConfig({
   displayName: "Skeletonstory__StyledExampleWrapper",
-  componentId: "sc-1bryf4t-0"
+  componentId: "kb0g31-0"
 })(["display:flex;"]);
 var StyledExampleBoxWrapper = styled.div.withConfig({
   displayName: "Skeletonstory__StyledExampleBoxWrapper",
-  componentId: "sc-1bryf4t-1"
+  componentId: "kb0g31-1"
 })(["margin-right:16px;"]);
 var StyledExampleBox = styled.div.withConfig({
   displayName: "Skeletonstory__StyledExampleBox",
-  componentId: "sc-1bryf4t-2"
+  componentId: "kb0g31-2"
 })(["height:150px;width:200px;background:blue;"]);
 storiesOf('Design System/Atoms/Skeleton', module).add('Inline Item', function () {
   return React.createElement(React.Fragment, null, React.createElement(SkeletonInlineItem, {

@@ -67,11 +67,11 @@ var buttonStyles = css(["", "{padding:0 ", "px;}", "{position:absolute;top:-6px;
 });
 export var StyledAnchorButton = styled.a.withConfig({
   displayName: "Buttonstyled__StyledAnchorButton",
-  componentId: "sc-7wwl5e-0"
+  componentId: "sc-1x5vu3j-0"
 })(["", ";-webkit-appearance:none !important;:visited,:hover,:active{box-shadow:none;}"], buttonStyles);
 export var StyledButton = styled.button.withConfig({
   displayName: "Buttonstyled__StyledButton",
-  componentId: "sc-7wwl5e-1"
+  componentId: "sc-1x5vu3j-1"
 })(["", ";> span{color:inherit;display:block;text-align:center;width:100%;}", ""], buttonStyles, function (_ref15) {
   var actionType = _ref15.actionType,
       disabled = _ref15.disabled,
@@ -93,10 +93,10 @@ var RouterLinkWrapper = function RouterLinkWrapper(_ref16) {
 
 export var StyledRouterButton = styled(RouterLinkWrapper).withConfig({
   displayName: "Buttonstyled__StyledRouterButton",
-  componentId: "sc-7wwl5e-2"
+  componentId: "sc-1x5vu3j-2"
 })(["", ";"], buttonStyles);
 export var StyledLoadingIndicator = styled(LoadingIndicator).withConfig({
   displayName: "Buttonstyled__StyledLoadingIndicator",
-  componentId: "sc-7wwl5e-3"
+  componentId: "sc-1x5vu3j-3"
 })(["top:0;bottom:0;left:0;right:0;margin:auto;"]);
 //# sourceMappingURL=Button.styled.js.map

@@ -8,7 +8,7 @@ import { ActionLink } from "../ActionLink";
 import { getActionLinkType } from "../helper";
 var StyledWrapper = styled.div.withConfig({
   displayName: "GroupedActionLinks__StyledWrapper",
-  componentId: "sc-9ha291-0"
+  componentId: "h8zf61-0"
 })(function (_ref) {
   var theme = _ref.theme,
       flexed = _ref.flexed;
@@ -16,11 +16,11 @@ var StyledWrapper = styled.div.withConfig({
 });
 var StyleDropdownWrapper = styled.div.withConfig({
   displayName: "GroupedActionLinks__StyleDropdownWrapper",
-  componentId: "sc-9ha291-1"
+  componentId: "h8zf61-1"
 })(["display:flex;"]);
 var StyledReference = styled.div.withConfig({
   displayName: "GroupedActionLinks__StyledReference",
-  componentId: "sc-9ha291-2"
+  componentId: "h8zf61-2"
 })(["position:relative;display:flex;flex-grow:1;> a{flex-grow:1;}"]);
 export var GroupedActionLinks = function GroupedActionLinks(_ref2) {
   var links = _ref2.links,

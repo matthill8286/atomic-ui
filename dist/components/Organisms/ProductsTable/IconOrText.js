@@ -6,7 +6,7 @@ import { styled } from "../../../styles/styled";
 import { IconCross, IconDone } from "../../../svgs";
 var IconOrTextWrapper = styled.div.withConfig({
   displayName: "IconOrText__IconOrTextWrapper",
-  componentId: "engz07-0"
+  componentId: "n2nnjh-0"
 })(["text-align:center;svg{max-width:15px;max-height:15px;fill:", ";}", "{text-align:left;}"], function (_ref) {
   var theme = _ref.theme,
       textType = _ref.textType;

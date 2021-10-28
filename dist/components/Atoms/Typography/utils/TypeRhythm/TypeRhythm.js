@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from "../../../../../styles/styled";
 var StyledTypeRhythm = styled.div.withConfig({
   displayName: "TypeRhythm__StyledTypeRhythm",
-  componentId: "sc-1pymd5w-0"
+  componentId: "sc-1mkamal-0"
 })(["", ""], function (_ref) {
   var theme = _ref.theme,
       visible = _ref.visible;

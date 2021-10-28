@@ -23,7 +23,7 @@ import { ImageTeaser } from "../ImageTeaser/ImageTeaser";
 import { styled } from "../../../../styles";
 var StyledImageTeaser = styled.div.withConfig({
   displayName: "LinkImageTeaser__StyledImageTeaser",
-  componentId: "sc-1ii5gp3-0"
+  componentId: "sc-1vzw7bm-0"
 })(["cursor:pointer;height:100%;"]);
 
 var getLinkTargetValue = function getLinkTargetValue(isLinkBlank) {

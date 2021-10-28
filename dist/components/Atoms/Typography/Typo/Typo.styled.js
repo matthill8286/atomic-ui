@@ -42,7 +42,7 @@ var ol = function ol(_ref2) {
 
 export var StyledInfoTypo = styled.div.withConfig({
   displayName: "Typostyled__StyledInfoTypo",
-  componentId: "sc-1tlyr74-0"
+  componentId: "sc-11xgqbn-0"
 })(function (_ref3) {
   var theme = _ref3.theme,
       tag = _ref3.tag,

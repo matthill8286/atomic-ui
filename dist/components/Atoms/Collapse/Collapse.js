@@ -14,7 +14,7 @@ import * as React from 'react';
 import { css, styled } from "../../../styles/styled";
 var StyledCollapse = styled.div.withConfig({
   displayName: "Collapse__StyledCollapse",
-  componentId: "f2l0ng-0"
+  componentId: "sc-3d9emd-0"
 })(["", " position:relative;cursor:pointer;& > *{cursor:pointer;}"], function (_ref) {
   var theme = _ref.theme,
       isOpen = _ref.isOpen,

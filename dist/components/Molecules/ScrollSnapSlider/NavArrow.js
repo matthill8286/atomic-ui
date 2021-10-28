@@ -4,7 +4,7 @@ import { css, media, styled } from "../../../styles";
 import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library';
 export var StyledNavArrow = styled.div.withConfig({
   displayName: "NavArrow__StyledNavArrow",
-  componentId: "sc-145j1up-0"
+  componentId: "sc-1y7lieg-0"
 })(["position:absolute;background:", ";fill:", ";border-radius:", ";box-shadow:", ";", " ", " cursor:pointer;z-index:3;display:none;", " ", "{display:none !important;}", "{", " ", "}", "{", " ", "}", " ", ""], function (_ref) {
   var theme = _ref.theme;
   return theme.color.white;

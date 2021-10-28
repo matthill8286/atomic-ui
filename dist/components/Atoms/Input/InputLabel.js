@@ -3,14 +3,14 @@ import { css, styled } from "../../../styles/styled";
 import { CopyText } from "../Typography";
 var StyledInputLabelWrapper = styled.div.withConfig({
   displayName: "InputLabel__StyledInputLabelWrapper",
-  componentId: "sc-1lorlhu-0"
+  componentId: "jwa22m-0"
 })(["margin-right:", ";"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.lg;
 });
 var StyledLabel = styled(CopyText).withConfig({
   displayName: "InputLabel__StyledLabel",
-  componentId: "sc-1lorlhu-1"
+  componentId: "jwa22m-1"
 })(["position:absolute;margin-top:", ";transform-origin:top left;transition:color ", " cubic-bezier(0,0,0.2,1) 0ms,top ", " cubic-bezier(0,0,0.2,1) 0ms;", ""], function (_ref2) {
   var theme = _ref2.theme;
   return theme.spacing.base.xxs;

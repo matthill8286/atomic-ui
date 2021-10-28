@@ -57,7 +57,7 @@ describe('Step', function () {
   it('should render with custom connector', function () {
     var CustomConnectorLine = styled.span.withConfig({
       displayName: "Steptest__CustomConnectorLine",
-      componentId: "khb0kt-0"
+      componentId: "sc-1vfznt6-0"
     })(["border-color:", ";border-style:solid;border-top-width:", ";border-bottom-width:", ";border-radius:4px;display:block;position:'relative';z-index:'auto';"], function (_ref2) {
       var theme = _ref2.theme,
           _ref2$color = _ref2.color,

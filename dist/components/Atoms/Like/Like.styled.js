@@ -2,7 +2,7 @@ import { CopyText } from "../Typography";
 import { styled } from "../../../styles/styled";
 export var StyledLike = styled.div.withConfig({
   displayName: "Likestyled__StyledLike",
-  componentId: "us0ntb-0"
+  componentId: "sc-1mvgahr-0"
 })(["display:", ";align-items:center;width:fit-content;color:", ";opacity:", ";text-decoration:none;cursor:", ";position:relative;padding:", ";border-bottom:", ";", ""], function (_ref) {
   var isInline = _ref.isInline;
   return isInline ? "inline-flex" : 'flex';
@@ -43,7 +43,7 @@ var getIconMargin = function getIconMargin(theme) {
 
 export var StyledIconWrapper = styled.span.withConfig({
   displayName: "Likestyled__StyledIconWrapper",
-  componentId: "us0ntb-1"
+  componentId: "sc-1mvgahr-1"
 })(["margin-left:", ";margin-right:", ";& svg{height:", ";width:", ";}"], function (_ref8) {
   var hasIconRight = _ref8.hasIconRight,
       theme = _ref8.theme;
@@ -63,13 +63,13 @@ export var StyledIconWrapper = styled.span.withConfig({
 });
 export var Text = styled(CopyText).withConfig({
   displayName: "Likestyled__Text",
-  componentId: "us0ntb-2"
+  componentId: "sc-1mvgahr-2"
 })(["display:", ";"], function (props) {
   return props.isInline ? 'inline' : 'block';
 });
 export var Likes = styled(CopyText).withConfig({
   displayName: "Likestyled__Likes",
-  componentId: "us0ntb-3"
+  componentId: "sc-1mvgahr-3"
 })(["display:", ";margin-right:5px;"], function (props) {
   return props.isInline ? 'inline' : 'block';
 });

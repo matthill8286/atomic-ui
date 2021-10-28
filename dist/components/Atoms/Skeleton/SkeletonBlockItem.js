@@ -3,7 +3,7 @@ import { pulse } from "../../../styles/animation";
 import { css, styled } from "../../../styles/styled";
 export var StyledSkeletonBlockItem = styled.div.withConfig({
   displayName: "SkeletonBlockItem__StyledSkeletonBlockItem",
-  componentId: "sc-1j3fqn9-0"
+  componentId: "sc-1f38evo-0"
 })(function (_ref) {
   var width = _ref.width,
       height = _ref.height,

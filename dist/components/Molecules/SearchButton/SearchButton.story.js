@@ -34,7 +34,7 @@ var options = {
 };
 var StyledSearchWrapper = styled.div.withConfig({
   displayName: "SearchButtonstory__StyledSearchWrapper",
-  componentId: "sc-1t0f73e-0"
+  componentId: "e633gu-0"
 })(["width:90%;"]);
 
 var SearchWrapper = function SearchWrapper(_ref) {

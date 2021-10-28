@@ -84,6 +84,7 @@ export var OrderBookTable = function OrderBookTable(_ref2) {
     var colorSpriteWidth = total / maxPriceSize * 100;
     return React.createElement(OrderBookEntry, {
       color: "white",
+      key: colorSpriteWidth,
       isReversed: isReversed,
       maxPriceSize: maxPriceSize,
       colorSpriteWidth: colorSpriteWidth,

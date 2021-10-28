@@ -6,7 +6,7 @@ import { Cell, Grid, Row } from "../../Helper/Grid";
 import { styled } from "../../../styles";
 export var ListWrapper = styled.div.withConfig({
   displayName: "FeatureList__ListWrapper",
-  componentId: "he7pei-0"
+  componentId: "xre7mg-0"
 })(["padding-top:", ";padding-bottom:", ";"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.sm;

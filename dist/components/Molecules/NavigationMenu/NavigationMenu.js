@@ -8,7 +8,7 @@ import { breakpoints, styled } from "../../../styles";
 import { useWindowDimensions } from "../../Helper";
 export var StyledCopy = styled(CopyText).withConfig({
   displayName: "NavigationMenu__StyledCopy",
-  componentId: "ouyo79-0"
+  componentId: "sc-1lzowzu-0"
 })(["", ""], function (_ref) {
   var theme = _ref.theme;
   return "\n    display: flex;\n    width: 100%;\n\n    :hover {\n        cursor: pointer;\n    }\n  ";

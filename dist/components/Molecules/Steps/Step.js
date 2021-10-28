@@ -11,7 +11,7 @@ import { styled } from "../../../styles/styled";
 import { StepIcon } from "./StepIcon";
 var StepRoot = styled.div.withConfig({
   displayName: "Step__StepRoot",
-  componentId: "sc-1g8lvsh-0"
+  componentId: "sc-15ryr8l-0"
 })(["cursor:", ";flex:1;position:relative;padding:0 ", "px;"], function (_ref) {
   var pointer = _ref.pointer;
   return pointer ? 'pointer' : 'default';
@@ -21,7 +21,7 @@ var StepRoot = styled.div.withConfig({
 });
 var StepLabelRoot = styled.span.withConfig({
   displayName: "Step__StepLabelRoot",
-  componentId: "sc-1g8lvsh-1"
+  componentId: "sc-15ryr8l-1"
 })(["flex-direction:column;display:flex;align-items:center;", " ", ""], function (_ref3) {
   var elementPosition = _ref3.elementPosition;
   return elementPosition === 'first' && 'align-items: flex-start;';
@@ -31,7 +31,7 @@ var StepLabelRoot = styled.span.withConfig({
 });
 var StepDescription = styled(Typo).withConfig({
   displayName: "Step__StepDescription",
-  componentId: "sc-1g8lvsh-2"
+  componentId: "sc-15ryr8l-2"
 })(["", "{display:none;}"], media.maxMd);
 export var Step = function Step(props) {
   var _props$color = props.color,

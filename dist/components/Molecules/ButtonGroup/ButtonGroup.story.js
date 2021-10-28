@@ -10,7 +10,7 @@ var voidFn = function voidFn() {};
 
 var StyledDivWithTopBorder = styled.div.withConfig({
   displayName: "ButtonGroupstory__StyledDivWithTopBorder",
-  componentId: "d97zw2-0"
+  componentId: "uui5b0-0"
 })(["padding-top:25px;position:relative;background-color:#fff;border-top:1px solid #000;&:after,&:before{top:-1px;left:7px;border:solid transparent;content:'';height:0;width:0;position:absolute;pointer-events:none;}&:after{border-color:rgba(136,183,213,0);border-top-color:#fff;border-width:8px;margin-left:-8px;}&:before{border-color:rgba(194,225,245,0);border-top-color:#000;border-width:9px;margin-left:-9px;}"]);
 stories.add('With 2 Buttons', withState({
   value: '1'

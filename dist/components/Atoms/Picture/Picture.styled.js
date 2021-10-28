@@ -11,7 +11,7 @@ var disabledPicture = function disabledPicture(isDisabled) {
 
 export var StyledPicture = styled.div.withConfig({
   displayName: "Picturestyled__StyledPicture",
-  componentId: "et82gi-0"
+  componentId: "sc-1f9n5vm-0"
 })(["position:relative;display:flex;width:100%;max-width:100%;", ";", "{max-width:", ";}& img{", ";", ";", ";", ";", ";", "{max-width:100%;width:auto;height:auto;}}"], function (_ref) {
   var disabled = _ref.disabled;
   return disabledPicture(!!disabled);

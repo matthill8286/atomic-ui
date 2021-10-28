@@ -10,7 +10,7 @@ import { Icon } from "../../../Atoms/Icon";
 import { StyleguideBookmarkActive } from "../../../../svgs";
 var StyledIconButton = styled(IconButton).withConfig({
   displayName: "AssetTileCompactTilestory__StyledIconButton",
-  componentId: "sc-1w7uk9c-0"
+  componentId: "sc-1vrgh5r-0"
 })(["border:none;display:flex;padding:0;min-width:auto;justify-content:center;margin-right:20px;"]);
 export default {
   title: 'Design System/Organisms/AssetTile/Compact',

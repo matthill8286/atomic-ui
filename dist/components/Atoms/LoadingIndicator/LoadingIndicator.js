@@ -9,7 +9,7 @@ import { rotateForward } from "../../../styles/animation";
 import { styled } from "../../../styles/styled";
 var StyledLoadingWrapper = styled.div.withConfig({
   displayName: "LoadingIndicator__StyledLoadingWrapper",
-  componentId: "mnz2yx-0"
+  componentId: "p05v0g-0"
 })(["width:", "px;height:", "px;display:", ";position:absolute;& div{box-sizing:border-box;display:block;position:absolute;width:100%;height:100%;border:", "px solid;border-radius:50%;animation:", " 1.2s cubic-bezier(0.5,0,0.5,1) infinite;border-color:", " transparent transparent transparent;}& div:nth-child(1){animation-delay:-0.45s;}& div:nth-child(2){animation-delay:-0.3s;}& div:nth-child(3){animation-delay:-0.15s;}"], function (_ref) {
   var size = _ref.size;
   return size;
@@ -29,7 +29,7 @@ var StyledLoadingWrapper = styled.div.withConfig({
 });
 export var StyledLoadingWrapperAlternate = styled.ul.withConfig({
   displayName: "LoadingIndicator__StyledLoadingWrapperAlternate",
-  componentId: "mnz2yx-1"
+  componentId: "p05v0g-1"
 })(["position:absolute;display:", ";margin:0 auto;padding:0;justify-content:center;height:", "px;li{list-style:none;width:", "px;height:", "px;margin:0 3px;animation:animate 0.4s infinite alternate;background:", ";&:nth-child(2){animation-delay:0.1s;}&:nth-child(3){animation-delay:0.2s;}}@keyframes animate{0%{transform:scaleY(1);}25%{transform:scaleY(1);}50%{transform:scaleY(1);}75%{transform:scaleY(1);}100%{transform:scaleY(1.7);}}"], function (_ref6) {
   var isVisible = _ref6.isVisible;
   return isVisible ? 'flex' : 'none';

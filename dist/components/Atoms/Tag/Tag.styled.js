@@ -2,7 +2,7 @@ import { css, styled } from "../../../styles/styled";
 import { handlePadding } from "../Card/Card.styled";
 export var StyledTagWrapper = styled.div.withConfig({
   displayName: "Tagstyled__StyledTagWrapper",
-  componentId: "sc-2n1tgd-0"
+  componentId: "sc-1nscap0-0"
 })(function (_ref) {
   var theme = _ref.theme,
       hasLink = _ref.hasLink,
@@ -18,7 +18,7 @@ var hoverStyle = function hoverStyle(theme) {
 
 export var StyledAnchorTag = styled.a.withConfig({
   displayName: "Tagstyled__StyledAnchorTag",
-  componentId: "sc-2n1tgd-1"
+  componentId: "sc-1nscap0-1"
 })(["text-decoration:none;color:", ";"], function (_ref2) {
   var theme = _ref2.theme;
   return theme.color.grey5;

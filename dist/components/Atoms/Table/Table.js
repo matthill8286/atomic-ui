@@ -5,7 +5,7 @@ import { isSaiyanTheme } from "../../../utils/helper";
 var StyledScrollable = css(["th,td{text-align:center !important;}", "{th,td{min-width:108px;}}"], media.maxSm);
 var StyledTable = styled.table.withConfig({
   displayName: "Table__StyledTable",
-  componentId: "sc-1itii2u-0"
+  componentId: "sc-1xettuu-0"
 })(["", " ", ""], function (_ref) {
   var isScrollable = _ref.isScrollable;
   return isScrollable ? StyledScrollable : '';
@@ -18,14 +18,14 @@ var StyledTable = styled.table.withConfig({
 });
 export var StyledFixedTable = styled.div.withConfig({
   displayName: "Table__StyledFixedTable",
-  componentId: "sc-1itii2u-1"
+  componentId: "sc-1xettuu-1"
 })(["position:absolute;th,tbody tr td:first-child{position:relative;z-index:1;::before{content:'';position:absolute;display:block;z-index:1;left:0;top:0;height:100%;width:10px;background:linear-gradient(to right,rgba(0,0,0,0.01) 0,transparent 100%);}::after{content:'';position:absolute;display:block;z-index:1;right:-10px;top:0;height:100%;width:10px;background:linear-gradient(to right,rgba(0,0,0,0.07) 0,transparent 100%);}}td,thead th{visibility:hidden;}thead th:first-child{visibility:visible;}tbody tr td:first-child{visibility:visible;background-color:white;}", ";"], function (_ref3) {
   var theme = _ref3.theme;
   return "\n    ".concat(media.maxSm, " {\n      overflow-x: hidden;\n      width: calc(100vw - ").concat(theme.spacing.base.lg, ");\n    }\n  ");
 });
 export var StyledScrollTable = styled.div.withConfig({
   displayName: "Table__StyledScrollTable",
-  componentId: "sc-1itii2u-2"
+  componentId: "sc-1xettuu-2"
 })(["overflow-x:auto;thead{background:", ";}tbody td{position:relative;}tbody th{visibility:hidden;}"], function (_ref4) {
   var theme = _ref4.theme,
       isMMTheme = _ref4.isMMTheme;

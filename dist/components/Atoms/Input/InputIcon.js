@@ -8,7 +8,7 @@ import { IconClose, IconEdit } from '@excelwithbusiness/webmobile-svg-library';
 import { IconButton } from "../Button/IconButton";
 var StyledIconWrapper = styled.div.withConfig({
   displayName: "InputIcon__StyledIconWrapper",
-  componentId: "sc-6tfbk3-0"
+  componentId: "sc-1kz3lvf-0"
 })(["position:absolute;top:", ";right:", ";height:100%;> button{background:none;border:none;margin:0;padding:0;top:", "px;outline:none;&:focus{svg{fill:", ";}}}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.sm;

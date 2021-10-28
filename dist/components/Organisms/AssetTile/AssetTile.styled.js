@@ -5,7 +5,7 @@ export var isPortrait = function isPortrait(orientation) {
 };
 export var StyledTile = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledTile",
-  componentId: "mcqfhg-0"
+  componentId: "zbyj8k-0"
 })(["", " display:flex;width:100%;margin-top:", ";", " ", "{", "}"], function (_ref) {
   var orientation = _ref.orientation,
       theme = _ref.theme;
@@ -23,7 +23,7 @@ export var StyledTile = styled.div.withConfig({
 });
 export var StyledResponsiveContainer = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledResponsiveContainer",
-  componentId: "mcqfhg-1"
+  componentId: "zbyj8k-1"
 })(["display:flex;position:relative;", " width:100%;", "{", "}"], function (_ref5) {
   var orientation = _ref5.orientation;
   return css(["flex-direction:", ";height:", ";min-height:", ";"], isPortrait(orientation) ? 'column' : 'row', !isPortrait(orientation) ? 'auto' : '100%', !isPortrait(orientation) ? '300px' : '100%');
@@ -33,7 +33,7 @@ export var StyledResponsiveContainer = styled.div.withConfig({
 });
 export var StyledMediaContainer = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledMediaContainer",
-  componentId: "mcqfhg-2"
+  componentId: "zbyj8k-2"
 })(["", " padding:0;width:100%;cursor:pointer;align-self:center;height:", ";", "{max-width:100%;}", ";"], function (_ref7) {
   var orientation = _ref7.orientation,
       isCompact = _ref7.isCompact,
@@ -50,25 +50,25 @@ export var StyledMediaContainer = styled.div.withConfig({
 });
 export var StyledCardWrapper = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledCardWrapper",
-  componentId: "mcqfhg-3"
+  componentId: "zbyj8k-3"
 })(["", ""], function (_ref10) {
   var isDisabled = _ref10.isDisabled;
   return css(["justify-content:space-between;position:relative;height:100%;box-sizing:border-box;overflow:hidden;cursor:pointer;", ""], isDisabled && "       \n      -ms-filter: grayscale(100%);\n        filter: grayscale(100%);\n        opacity: 0.4;\n        ");
 });
 export var StyledLinearGradient = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledLinearGradient",
-  componentId: "mcqfhg-4"
+  componentId: "zbyj8k-4"
 })(["position:absolute;left:0;bottom:0;right:0;height:75px;z-index:1;background-color:rgba(0,0,0,0);background-image:linear-gradient(to top,rgba(0,0,0,0.4),rgba(0,0,0,0));"]);
 export var StyledContentContainer = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledContentContainer",
-  componentId: "mcqfhg-5"
+  componentId: "zbyj8k-5"
 })(function (_ref11) {
   var theme = _ref11.theme;
   return css(["flex:1;display:flex;position:relative;flex-direction:column;justify-content:space-between;padding:calc(", " - 2px);", "{padding:", ";}"], theme.spacing.base.md, media.md, theme.spacing.base.md);
 });
 export var StyledHeadingContainer = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledHeadingContainer",
-  componentId: "mcqfhg-6"
+  componentId: "zbyj8k-6"
 })(["", ""], function (_ref12) {
   var theme = _ref12.theme,
       isDisabled = _ref12.isDisabled;
@@ -79,13 +79,13 @@ export var StyledHeadingContainer = styled.div.withConfig({
 });
 export var StyledAdditionalContent = styled.div.withConfig({
   displayName: "AssetTilestyled__StyledAdditionalContent",
-  componentId: "mcqfhg-7"
+  componentId: "zbyj8k-7"
 })(["", ""], function (_ref14) {
   var theme = _ref14.theme;
   return css(["margin-bottom:", ";"], theme.spacing.base.sm);
 });
 export var StyledDivider = styled(Divider).withConfig({
   displayName: "AssetTilestyled__StyledDivider",
-  componentId: "mcqfhg-8"
+  componentId: "zbyj8k-8"
 })(["margin:0;"]);
 //# sourceMappingURL=AssetTile.styled.js.map

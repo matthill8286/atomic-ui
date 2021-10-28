@@ -9,7 +9,7 @@ import { media } from "../../../styles/media";
 import { css, styled } from "../../../styles/styled";
 var StyledSpacer = styled.div.withConfig({
   displayName: "Spacer__StyledSpacer",
-  componentId: "mf9nxv-0"
+  componentId: "me4qz1-0"
 })(["display:block;width:100%;", ""], function (_ref) {
   var direction = _ref.direction,
       size = _ref.size,

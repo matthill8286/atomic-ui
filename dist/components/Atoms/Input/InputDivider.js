@@ -3,7 +3,7 @@ import { Divider } from "../Divider";
 import { styled } from "../../../styles/styled";
 var StyledDivider = styled(Divider).withConfig({
   displayName: "InputDivider__StyledDivider",
-  componentId: "w23apj-0"
+  componentId: "sc-1054wef-0"
 })(["height:2px;width:100%;margin-bottom:0;color:", ";margin-top:", ";"], function (_ref) {
   var theme = _ref.theme,
       color = _ref.color;

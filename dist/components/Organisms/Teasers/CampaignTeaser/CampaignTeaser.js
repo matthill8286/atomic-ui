@@ -29,7 +29,7 @@ import { useTheme } from 'styled-components';
 import { LogoFiltered } from '@excelwithbusiness/webmobile-svg-library';
 var StyledFilteredLogo = styled.div.withConfig({
   displayName: "CampaignTeaser__StyledFilteredLogo",
-  componentId: "sc-8yfg30-0"
+  componentId: "sc-3ywgl3-0"
 })(["display:none;", ""], function (_ref) {
   var theme = _ref.theme;
   return theme.name === ALTERNATE && "\n  ".concat(media.md, " {\n    display: block;\n  }\n\n  > svg {\n    position: absolute;\n    left: -1px;\n    bottom: 0;\n    z-index: 1;\n    height: 92px;\n    width: auto;\n\n    ").concat(media.ie11, " {\n      width: 95px;\n      top: -7px;\n    }\n  }");

@@ -27,7 +27,7 @@ import { StyledBackgroundImage, StyledCard, StyledBadgeWrapper, StyledFlexBottom
 import { Badge } from "../../../Atoms/Badge";
 var StyledFFSaturn = styled.div.withConfig({
   displayName: "AssetTeaser__StyledFFSaturn",
-  componentId: "w637zr-0"
+  componentId: "sc-1ut41nv-0"
 })(["display:none;", ""], function (_ref) {
   var theme = _ref.theme;
   return theme.name === ALTERNATE && "\n  ".concat(media.md, " {\n    display: block;\n  }\n\n  > svg {\n    position: absolute;\n    left: -1px;\n    top: 0;\n    z-index: 1;\n    height: 100%;\n    width: auto;\n\n    ").concat(media.ie11, " {\n      width: 100px;\n      top: -7px;\n    }\n  }");

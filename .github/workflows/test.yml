@@ -1,5 +1,5 @@
 name: Test and build
-on: push 
+on: push
 jobs:
   test:
     name: Test
@@ -15,7 +15,7 @@ jobs:
           node-version: 12
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
-          scope: '@excelwithbusiness'
+          scope: '@mh.development'
       - name: Install dependencies
         run: yarn
         env:
@@ -36,7 +36,7 @@ jobs:
           node-version: 12
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
-          scope: '@excelwithbusiness'
+          scope: '@mh.development'
       - name: Build
         run: ./scripts/build.sh
         env:

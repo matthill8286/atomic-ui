@@ -3,7 +3,7 @@ import { styled } from "../../../styles/styled";
 import { LogoFiltered } from '@excelwithbusiness/webmobile-svg-library';
 var StyledWrapper = styled.div.withConfig({
   displayName: "Logo__StyledWrapper",
-  componentId: "sc-1qsil9c-0"
+  componentId: "qjk65h-0"
 })(["position:relative;max-width:200px;fill:", ";"], function (_ref) {
   var color = _ref.color,
       theme = _ref.theme;
@@ -11,7 +11,7 @@ var StyledWrapper = styled.div.withConfig({
 });
 var StyledFilteredLogo = styled(LogoFiltered).withConfig({
   displayName: "Logo__StyledFilteredLogo",
-  componentId: "sc-1qsil9c-1"
+  componentId: "qjk65h-1"
 })(["display:block;height:80px;width:100%;"]);
 export var Logo = function Logo(_ref2) {
   var white = _ref2.white,

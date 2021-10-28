@@ -12,22 +12,22 @@ var campaignTeaserAssets = function campaignTeaserAssets() {
 
 export var StyledWrapper = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledWrapper",
-  componentId: "sc-3usww8-0"
+  componentId: "sc-2wwq8b-0"
 })(function (_ref) {
   var hasAsset = _ref.hasAsset;
   return css(["display:flex;height:100%;width:100%;transform:translateY(0px);flex:1;", " ", "{", "{img{width:100%;}}}"], hasAsset ? campaignTeaserAssets : '', media.ie11, StyledFeaturedAssetsContainer);
 });
 export var StyledLink = styled(Link).withConfig({
   displayName: "CampaignTeaserstyled__StyledLink",
-  componentId: "sc-3usww8-1"
+  componentId: "sc-2wwq8b-1"
 })(["width:100%;height:100%;"]);
 export var StyledCard = styled(Card).withConfig({
   displayName: "CampaignTeaserstyled__StyledCard",
-  componentId: "sc-3usww8-2"
+  componentId: "sc-2wwq8b-2"
 })(["width:100%;height:100%;outline:none;"]);
 export var StyledMainContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledMainContainer",
-  componentId: "sc-3usww8-3"
+  componentId: "sc-2wwq8b-3"
 })(function (_ref2) {
   var isPortrait = _ref2.isPortrait,
       isClickable = _ref2.isClickable;
@@ -40,21 +40,21 @@ var styledInfoContainerPadding = function styledInfoContainerPadding(theme) {
 
 export var StyledInfoContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledInfoContainer",
-  componentId: "sc-3usww8-4"
+  componentId: "sc-2wwq8b-4"
 })(function (_ref3) {
   var theme = _ref3.theme;
   return css(["display:flex;flex-direction:column;hyphens:auto;", "{flex:1;}", " ", ""], media.md, styledInfoContainerPadding(theme), theme.name === ALTERNATE && "\n      background: ".concat(theme.color.white, ";\n      padding: ").concat(theme.spacing.base.md, " ").concat(theme.spacing.base.sm, ";\n      \n      ").concat(media.md, " {\n        padding: ").concat(theme.spacing.base.sm, ";\n      }\n    "));
 });
 export var StyledInfoContainerContent = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledInfoContainerContent",
-  componentId: "sc-3usww8-5"
+  componentId: "sc-2wwq8b-5"
 })(["text-align:left;", "{width:", ";position:relative;z-index:2;}"], media.md, function (_ref4) {
   var theme = _ref4.theme;
   return theme.name === ALTERNATE ? "calc(100% + 10px)" : "100%";
 });
 export var StyledInfoTextContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledInfoTextContainer",
-  componentId: "sc-3usww8-6"
+  componentId: "sc-2wwq8b-6"
 })(function (_ref5) {
   var theme = _ref5.theme;
   return css(["margin:", " 0 0 0;", "{margin:", " 0 0 0;", "}"], theme.spacing.base.xs, media.md, theme.spacing.base.sm, theme.name === ALTERNATE && "padding-right: ".concat(theme.spacing.base.xl));
@@ -70,7 +70,7 @@ var getAssetContainerHeight = function getAssetContainerHeight(size, isPortrait,
 
 export var StyledAssetContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledAssetContainer",
-  componentId: "sc-3usww8-7"
+  componentId: "sc-2wwq8b-7"
 })(function (_ref6) {
   var theme = _ref6.theme,
       size = _ref6.size,
@@ -82,7 +82,7 @@ export var StyledAssetContainer = styled.div.withConfig({
 });
 export var StyledPictureContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledPictureContainer",
-  componentId: "sc-3usww8-8"
+  componentId: "sc-2wwq8b-8"
 })(function (_ref7) {
   var theme = _ref7.theme,
       isStageTeaser = _ref7.isStageTeaser;
@@ -95,7 +95,7 @@ var getPricePosition = function getPricePosition(theme, isPortrait) {
 
 export var StyledPriceContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledPriceContainer",
-  componentId: "sc-3usww8-9"
+  componentId: "sc-2wwq8b-9"
 })(function (_ref8) {
   var theme = _ref8.theme,
       isPortrait = _ref8.isPortrait;
@@ -109,7 +109,7 @@ var getTongueHeightAndPosition = function getTongueHeightAndPosition(theme, hasA
 var StyledBackgroundCommonStyles = css(["position:absolute;width:100%;height:100%;background-repeat:no-repeat;background-position:center;background-size:cover;"]);
 export var StyledBackgroundImage = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledBackgroundImage",
-  componentId: "sc-3usww8-10"
+  componentId: "sc-2wwq8b-10"
 })(function (_ref9) {
   var image = _ref9.image,
       theme = _ref9.theme,
@@ -122,7 +122,7 @@ export var StyledBackgroundImage = styled.div.withConfig({
 });
 export var StyledTongue = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledTongue",
-  componentId: "sc-3usww8-11"
+  componentId: "sc-2wwq8b-11"
 })(function (_ref10) {
   var height = _ref10.height,
       theme = _ref10.theme,
@@ -131,7 +131,7 @@ export var StyledTongue = styled.div.withConfig({
 });
 export var StyledUpsetRect = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledUpsetRect",
-  componentId: "sc-3usww8-12"
+  componentId: "sc-2wwq8b-12"
 })(function (_ref11) {
   var image = _ref11.image,
       theme = _ref11.theme;
@@ -139,7 +139,7 @@ export var StyledUpsetRect = styled.div.withConfig({
 });
 export var StyledRect = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledRect",
-  componentId: "sc-3usww8-13"
+  componentId: "sc-2wwq8b-13"
 })(function (_ref12) {
   var image = _ref12.image,
       theme = _ref12.theme,
@@ -150,7 +150,7 @@ export var StyledRect = styled.div.withConfig({
 });
 export var StyledFlexBottomContainer = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledFlexBottomContainer",
-  componentId: "sc-3usww8-14"
+  componentId: "sc-2wwq8b-14"
 })(["display:flex;flex:1;margin-top:auto;flex-direction:column-reverse;"]);
 
 var tagWrapperStyles = function tagWrapperStyles(theme, isPortrait) {
@@ -159,7 +159,7 @@ var tagWrapperStyles = function tagWrapperStyles(theme, isPortrait) {
 
 export var StyledCampaignTeaserTagWrapper = styled.div.withConfig({
   displayName: "CampaignTeaserstyled__StyledCampaignTeaserTagWrapper",
-  componentId: "sc-3usww8-15"
+  componentId: "sc-2wwq8b-15"
 })(function (_ref13) {
   var theme = _ref13.theme,
       isPortrait = _ref13.isPortrait,

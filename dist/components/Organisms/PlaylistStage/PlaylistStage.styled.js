@@ -5,14 +5,14 @@ import { css, media, styled } from "../../../styles";
 var articleStageBackgroundCommonStyles = css(["content:' ';display:none;position:absolute;width:100%;top:0;z-index:-1;", "{display:block;}"], media.sm);
 export var StyledProgressWrapper = styled.div.withConfig({
   displayName: "PlaylistStagestyled__StyledProgressWrapper",
-  componentId: "sc-1nzdmqt-0"
+  componentId: "sc-1r894en-0"
 })(["position:absolute;bottom:", ";left:0;right:0;"], function (_ref) {
   var isSmall = _ref.isSmall;
   return isSmall ? '-4px' : '-8px';
 });
 export var StyledPlaylistStageTitle = styled.div.withConfig({
   displayName: "PlaylistStagestyled__StyledPlaylistStageTitle",
-  componentId: "sc-1nzdmqt-1"
+  componentId: "sc-1r894en-1"
 })(["", ""], function (_ref2) {
   var theme = _ref2.theme,
       withImage = _ref2.withImage,
@@ -29,18 +29,18 @@ export var StyledPlaylistStageTitle = styled.div.withConfig({
 });
 export var StyledPlaylistStageGrid = styled(Grid).withConfig({
   displayName: "PlaylistStagestyled__StyledPlaylistStageGrid",
-  componentId: "sc-1nzdmqt-2"
+  componentId: "sc-1r894en-2"
 })(["position:absolute;left:0;right:0;bottom:-46px;"]);
 export var StyledPlaylistStage = styled.div.withConfig({
   displayName: "PlaylistStagestyled__StyledPlaylistStage",
-  componentId: "sc-1nzdmqt-3"
+  componentId: "sc-1r894en-3"
 })(["", ""], function (_ref3) {
   var theme = _ref3.theme;
   return css(["margin-bottom:", ";position:relative;"], theme.spacing.base.xxxl);
 });
 export var StyledHeadingArticle = styled(Heading).withConfig({
   displayName: "PlaylistStagestyled__StyledHeadingArticle",
-  componentId: "sc-1nzdmqt-4"
+  componentId: "sc-1r894en-4"
 })(["", ""], function (_ref4) {
   var theme = _ref4.theme,
       breadcrumbPath = _ref4.breadcrumbPath;
@@ -48,19 +48,19 @@ export var StyledHeadingArticle = styled(Heading).withConfig({
 });
 export var StyledBreadcrumbWrapper = styled.div.withConfig({
   displayName: "PlaylistStagestyled__StyledBreadcrumbWrapper",
-  componentId: "sc-1nzdmqt-5"
+  componentId: "sc-1r894en-5"
 })(["display:none;", "{display:block;}"], media.md);
 export var StyledBacklinkWrapper = styled(FlexBox).withConfig({
   displayName: "PlaylistStagestyled__StyledBacklinkWrapper",
-  componentId: "sc-1nzdmqt-6"
+  componentId: "sc-1r894en-6"
 })(["display:flex;margin:0 0 8px;& > *:not(:first-child){margin:0 4px;}"]);
 export var StyledAssetTileMetaWrapper = styled(FlexBox).withConfig({
   displayName: "PlaylistStagestyled__StyledAssetTileMetaWrapper",
-  componentId: "sc-1nzdmqt-7"
+  componentId: "sc-1r894en-7"
 })(["margin:0 auto;", "{margin:0 auto;}"], media.maxSm);
 export var StyledContentWrapper = styled(FlexBox).withConfig({
   displayName: "PlaylistStagestyled__StyledContentWrapper",
-  componentId: "sc-1nzdmqt-8"
+  componentId: "sc-1r894en-8"
 })(["max-width:80%;margin:0 auto;padding-left:", ";padding-right:", ";", "{margin:", " auto;padding:0;width:100%;}"], function (_ref5) {
   var theme = _ref5.theme;
   return theme.spacing.base.lg;

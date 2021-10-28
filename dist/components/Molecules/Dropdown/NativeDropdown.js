@@ -6,7 +6,7 @@ import { css, styled } from "../../../styles/styled";
 import { IconArticle } from '@excelwithbusiness/webmobile-svg-library';
 var StyledLabel = styled(CopyText).withConfig({
   displayName: "NativeDropdown__StyledLabel",
-  componentId: "p5x16e-0"
+  componentId: "sc-1opskuf-0"
 })(["position:relative;display:block;width:calc(100% - ", ");height:", ";padding:0 12px;", " border-radius:", ";box-shadow:", ";", "{width:", ";height:", ";padding:0;}"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.md;
@@ -32,7 +32,7 @@ var StyledLabel = styled(CopyText).withConfig({
 });
 var StyledSelect = styled.select.withConfig({
   displayName: "NativeDropdown__StyledSelect",
-  componentId: "p5x16e-1"
+  componentId: "sc-1opskuf-1"
 })(["appearance:none;border:none;display:block;overflow:hidden;outline:none;white-space:nowrap;text-overflow:ellipsis;background-color:transparent;box-shadow:none;cursor:pointer;width:100%;height:", ";padding:", " 0;z-index:1;color:", ";", "{width:", ";height:", ";padding:0;color:transparent;}"], function (_ref8) {
   var theme = _ref8.theme;
   return theme.spacing.base.xxl;
@@ -52,7 +52,7 @@ var StyledSelect = styled.select.withConfig({
 var IconCss = css(["position:absolute;z-index:-1;"]);
 var StyledIcon = styled(Icon).withConfig({
   displayName: "NativeDropdown__StyledIcon",
-  componentId: "p5x16e-2"
+  componentId: "sc-1opskuf-2"
 })(["", " background-color:", ";right:14px;top:14px;", "{right:6px;top:6px;", "}"], IconCss, function (_ref13) {
   var theme = _ref13.theme,
       withBgColor = _ref13.withBgColor;
@@ -63,7 +63,7 @@ var StyledIcon = styled(Icon).withConfig({
 });
 var StyledMobileIcon = styled(Icon).withConfig({
   displayName: "NativeDropdown__StyledMobileIcon",
-  componentId: "p5x16e-3"
+  componentId: "sc-1opskuf-3"
 })(["", " background-color:", ";top:0;display:none;", "{display:block;}"], IconCss, function (_ref15) {
   var theme = _ref15.theme,
       withBgColor = _ref15.withBgColor;

@@ -2,21 +2,21 @@ import { CopyText, Heading } from "../../Atoms/Typography";
 import { styled } from "../../../styles/styled";
 export var BoxHeading = styled(Heading).withConfig({
   displayName: "ErrorBoxstyled__BoxHeading",
-  componentId: "sc-1dros68-0"
+  componentId: "thghfy-0"
 })(["margin:", " 0;"], function (_ref) {
   var theme = _ref.theme;
   return theme.spacing.base.xxs;
 });
 export var InfoHost = styled.div.withConfig({
   displayName: "ErrorBoxstyled__InfoHost",
-  componentId: "sc-1dros68-1"
+  componentId: "thghfy-1"
 })(["margin-left:", ";"], function (_ref2) {
   var theme = _ref2.theme;
   return theme.spacing.base.md;
 });
 export var BoxSubtitle = styled(CopyText).withConfig({
   displayName: "ErrorBoxstyled__BoxSubtitle",
-  componentId: "sc-1dros68-2"
+  componentId: "thghfy-2"
 })(["margin-top:", ";margin-bottom:", ";color:", ";"], function (_ref3) {
   var theme = _ref3.theme;
   return theme.spacing.base.xs;

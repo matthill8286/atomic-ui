@@ -8,7 +8,7 @@ import { css, styled } from "../../../styles/styled";
 import { Typo } from "../Typography";
 export var StyledSkeletonInlineItem = styled(Typo).withConfig({
   displayName: "SkeletonInlineItem__StyledSkeletonInlineItem",
-  componentId: "sc-1fwttpi-0"
+  componentId: "pz15z5-0"
 })(["", " ", " color:rgba(0,0,0,0);background-color:rgba(0,0,0,0.1);width:unset;&::before{content:'';display:block;}"], function (_ref) {
   var _ref$animated = _ref.animated,
       animated = _ref$animated === void 0 ? false : _ref$animated;

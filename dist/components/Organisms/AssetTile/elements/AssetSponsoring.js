@@ -87,7 +87,7 @@ export var AssetSponsoring = function AssetSponsoring(_ref) {
 };
 export var StyledSponsoringWrapper = styled(FlexItem).withConfig({
   displayName: "AssetSponsoring__StyledSponsoringWrapper",
-  componentId: "sc-1cngd0r-0"
+  componentId: "g7ww8b-0"
 })(function (_ref2) {
   var layout = _ref2.layout,
       theme = _ref2.theme;
@@ -95,13 +95,13 @@ export var StyledSponsoringWrapper = styled(FlexItem).withConfig({
 });
 var StyledSponsoringInnerWrapper = styled.div.withConfig({
   displayName: "AssetSponsoring__StyledSponsoringInnerWrapper",
-  componentId: "sc-1cngd0r-1"
+  componentId: "g7ww8b-1"
 })(["", ";"], function (_ref3) {
   var theme = _ref3.theme;
   return "\n    display: flex;\n    margin-bottom: -".concat(theme.spacing.base.xs, ";\n    padding-bottom: ").concat(theme.spacing.base.xs, ";\n  ");
 });
 export var StyledSponsoringIconWrapper = styled.div.withConfig({
   displayName: "AssetSponsoring__StyledSponsoringIconWrapper",
-  componentId: "sc-1cngd0r-2"
+  componentId: "g7ww8b-2"
 })(["width:100%;display:flex;"]);
 //# sourceMappingURL=AssetSponsoring.js.map

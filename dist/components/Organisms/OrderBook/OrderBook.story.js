@@ -6,7 +6,7 @@ import { FlexBox, FlexItem, useWindowDimensions } from "../../Helper";
 import { breakpoints, media, styled } from "../../../styles";
 var StyledTableWrapper = styled(FlexBox).withConfig({
   displayName: "OrderBookstory__StyledTableWrapper",
-  componentId: "kt57ef-0"
+  componentId: "sc-16znn66-0"
 })(["", "{flex-direction:row;}"], media.md);
 storiesOf('Design System/Organisms/OrderBookTable', module).add('default', function () {
   var _useWindowDimensions = useWindowDimensions(),
@@ -19,7 +19,7 @@ storiesOf('Design System/Organisms/OrderBookTable', module).add('default', funct
     flex: "1"
   }, React.createElement(OrderBookTable, {
     rows: cryptoCurrenciesMock.asks,
-    rowsKey: "asks",
+    rowsKey: "ask",
     maxPriceSize: cryptoCurrenciesMock.maxPriceSize,
     textColor: "error",
     headerTextColor: "white",
@@ -30,7 +30,7 @@ storiesOf('Design System/Organisms/OrderBookTable', module).add('default', funct
     flex: "1"
   }, React.createElement(OrderBookTable, {
     rows: cryptoCurrenciesMock.bids,
-    rowsKey: "bids",
+    rowsKey: "bid",
     backgroundColor: "secondary",
     headerTextColor: "white",
     textColor: "info",

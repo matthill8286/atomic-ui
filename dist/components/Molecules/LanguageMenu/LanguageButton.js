@@ -3,7 +3,7 @@ import { DropdownButton } from "../DropdownButton";
 import { media, styled } from "../../../styles";
 var StyledLanguageButton = styled(DropdownButton).withConfig({
   displayName: "LanguageButton__StyledLanguageButton",
-  componentId: "slxlab-0"
+  componentId: "sc-1ck6n9f-0"
 })(["display:none;", "{display:block;}"], media.md);
 export var LanguageButton = React.memo(function (_ref) {
   var label = _ref.label,

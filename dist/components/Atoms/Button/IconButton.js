@@ -9,7 +9,7 @@ import { styled } from "../../../styles/styled";
 import { Button } from "./Button";
 export var StyledIconButton = styled(Button).withConfig({
   displayName: "IconButton__StyledIconButton",
-  componentId: "sc-1f9hzdu-0"
+  componentId: "sc-17a9kda-0"
 })(["min-width:", ";height:", ";padding:0 ", ";"], function (_ref) {
   var width = _ref.width,
       theme = _ref.theme;

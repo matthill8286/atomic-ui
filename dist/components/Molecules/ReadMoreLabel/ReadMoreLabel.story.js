@@ -31,7 +31,7 @@ import { props } from "../FilterList/FilterList.mocks";
 import { Filters } from "../FilterList";
 var StyledCopyText = styled(CopyText).withConfig({
   displayName: "ReadMoreLabelstory__StyledCopyText",
-  componentId: "ltalqk-0"
+  componentId: "sc-16a9daz-0"
 })(["margin:0;"]);
 
 var knobs = function knobs() {

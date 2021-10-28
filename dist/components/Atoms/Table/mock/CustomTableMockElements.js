@@ -14,11 +14,11 @@ var headingProps = {
 };
 export var StyledTableDescription = styled(CopyText).withConfig({
   displayName: "CustomTableMockElements__StyledTableDescription",
-  componentId: "sc-11r7db2-0"
+  componentId: "sc-1bbo1hk-0"
 })(["margin-left:12px;"]);
 export var StyledTableDataWrapper = styled(FlexItem).withConfig({
   displayName: "CustomTableMockElements__StyledTableDataWrapper",
-  componentId: "sc-11r7db2-1"
+  componentId: "sc-1bbo1hk-1"
 })(["margin-left:12px;"]);
 export var TableTitle = function TableTitle(_ref) {
   var assetName = _ref.assetName,
