@@ -2,9 +2,9 @@
 
 # create a release for yarn
 
-# fetch latest master
+# fetch latest main
 git fetch origin
-git merge origin/master
+git merge origin/main
 
 # fetch tags, bump version, update changelog and create tag
 git fetch --tags -f

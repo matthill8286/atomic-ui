@@ -6,9 +6,9 @@ export BUILD="BUILD"
 # execute the config setup only in ci env
 if [ ! -z "$NPM_TOKEN" ];
 then
-    npm config set @excelwithbusiness:registry https://npm.pkg.github.com
-    git remote set-url origin https://github.com/excelWithBusiness/TS-Filtered-SC-Components.git
-    git config --global url."https://x-access-token:${NPM_TOKEN}@github.com/excelWithBusiness".insteadOf "https://github.com/excelWithBusiness"
+    npm config set @matthill8286:registry https://npm.pkg.github.com
+    git remote set-url origin https://github.com/matthill8286/saiyan-component-library.git
+    git config --global url."https://x-access-token:${NPM_TOKEN}@github.com/matthill8286".insteadOf "https://github.com/matthill8286"
     git fetch origin
     echo "config setup done."
 else
