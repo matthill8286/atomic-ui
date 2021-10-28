@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1-0](https://github.com/matthill8286/saiyan-component-library/compare/v1.1.0...v1.1.1-0) (2021-10-28)
+
+
+### Refactoring
+
+* **ordertable:** allowing custom child components ([3f34b0b](https://github.com/matthill8286/saiyan-component-library/commit/3f34b0b8df14e80a9c5e5068d3e694061f5746b3))
+
 ## [1.1.0](https://github.com/matthill8286/saiyan-component-library/compare/v1.0.7...v1.1.0) (2021-10-27)
 
 
