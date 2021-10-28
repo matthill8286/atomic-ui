@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/matthill8286/saiyan-component-library/compare/v1.1.1-0...v1.1.1) (2021-10-28)
+
+
+### Build & CI
+
+* npmrc ([eb3ef82](https://github.com/matthill8286/saiyan-component-library/commit/eb3ef82d22cf9c7a64b7089290f452c9838856b8))
+* npmrc ([121640f](https://github.com/matthill8286/saiyan-component-library/commit/121640f4e618e50bd1b3aef41aba1845e312d207))
+
 ### [1.1.1-0](https://github.com/matthill8286/saiyan-component-library/compare/v1.1.0...v1.1.1-0) (2021-10-28)
 
 
