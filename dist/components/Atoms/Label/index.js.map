@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/components/Atoms/Label/index.ts"],"names":[],"mappings":"AAAA","sourcesContent":["export * from './Label'\n"],"file":"index.js"}

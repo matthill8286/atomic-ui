@@ -8,6 +8,7 @@ import {
 import { TableCell } from '@/components/Atoms/Table'
 import { CopyText } from '@/components/Atoms/Typography'
 import { ThemeColors } from '@/types'
+import { OrderMeta } from '@/components/Organisms/OrderBook/OrderBook.interface'
 
 interface OrderBookEntriesProps {
   rows: any
@@ -17,6 +18,44 @@ interface OrderBookEntriesProps {
   maxPriceSize: number
 }
 
+interface OrderBookEntryProps extends OrderMeta {
+  color: ThemeColors
+  isReversed?: boolean
+  maxPriceSize: number
+  colorSpriteWidth: number
+}
+
+export const OrderBookEntry: React.NamedExoticComponent<OrderBookEntryProps> = memo(
+  ({ price, size, total, colorSpriteWidth, color, isReversed }): ReactElement => {
+    return (
+      <>
+        <StyledGhostRow>
+          <StyledGhostSprite isReversed={isReversed}>
+            <StyledColoredData color={color} showPercentage={colorSpriteWidth} />
+          </StyledGhostSprite>
+        </StyledGhostRow>
+        <TableRow key={price} isReversed={isReversed} disableHover backgroundColor="white">
+          <TableCell mobileHeadline cellColor="white">
+            <CopyText bold padding="0" margin="0" color={color}>
+              {price}
+            </CopyText>
+          </TableCell>
+          <TableCell cellColor="white">
+            <CopyText bold padding="0" margin="0" color="white">
+              {size}
+            </CopyText>
+          </TableCell>
+          <TableCell cellColor="white">
+            <CopyText bold padding="0" margin="0" color="white">
+              {total}
+            </CopyText>
+          </TableCell>
+        </TableRow>
+      </>
+    )
+  }
+)
+
 export const OrderBookEntries: React.NamedExoticComponent<OrderBookEntriesProps> = memo(
   ({ rows, rowsKey, color, isReversed, maxPriceSize }): ReactElement | null => {
     if (!rows) {
@@ -25,7 +64,7 @@ export const OrderBookEntries: React.NamedExoticComponent<OrderBookEntriesProps>
 
     return (
       <>
-        {rows.map(row => {
+        {rows.map((row: OrderMeta) => {
           const { price, size, total } = row
 
           const colorSpriteWidth = (total / maxPriceSize) * 100

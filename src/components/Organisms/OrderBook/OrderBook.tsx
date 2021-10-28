@@ -1,22 +1,19 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { Table, TableBody, TableCell, TableHead, TableRow } from '@/components/Atoms/Table'
 import { CopyText } from '@/components/Atoms/Typography'
-import { cryptoCurrenciesMock } from '@/components/Atoms/Table/Table.mock'
-import {
-  StyledColoredData,
-  StyledGhostRow,
-  StyledGhostSprite,
-} from '@/components/Atoms/Table/TableRow'
 import { ThemeColors } from '@/types'
-import { OrderBookEntries } from '@/components/Organisms/OrderBook/OrderBookEntries'
+import { OrderBookEntries, OrderBookEntry } from '@/components/Organisms/OrderBook/OrderBookEntries'
 import { useWindowDimensions } from '@/components/Helper'
 import { breakpoints } from '@/styles'
+import { OrderMeta, OrderRowHash, Type } from '@/components/Organisms/OrderBook/OrderBook.interface'
 
 interface OrderBookTableProps {
-  rows: any
-  rowsKey: string
+  rows: OrderRowHash
+  rowsKey: Type
   maxPriceSize: number
   isReversed?: boolean
+  title?: string
+  ticker?: string
   headerTextColor?: ThemeColors
   textColor?: ThemeColors
   borderColor?: ThemeColors
@@ -26,14 +23,29 @@ interface OrderBookTableProps {
   isOutlineRequired?: boolean
 }
 
+export type Option = {
+  key: string
+  color: string
+}
+
+export type TypeOptions = {
+  ask: Option
+  bid: Option
+}
+
+const typeOptions: TypeOptions = {
+  ask: { key: 'ask', color: '#f00' },
+  bid: { key: 'bid', color: '#00d964' },
+}
+
 interface OrderBookHeaderProps {
   textColor?: ThemeColors
   cellText: string
 }
 
-const OrderBookHeadings = ['Price', 'Size', 'Total']
+const orderBookHeadings: string[] = ['Price', 'Size', 'Total']
 
-const OrderBookHeader: React.FC<OrderBookHeaderProps> = ({ textColor, cellText }) => {
+const OrderBookHeader: React.FC<OrderBookHeaderProps> = ({ textColor, cellText }): ReactElement => {
   return (
     <TableCell cellType="th" collapsible={false}>
       <CopyText padding="0" margin="0" color={textColor || 'grey4'} toUpperCase>
@@ -54,7 +66,7 @@ export const OrderBookTable: React.FC<OrderBookTableProps> = ({
   maxPriceSize,
   hideOnMobile,
   isOutlineRequired,
-}) => {
+}): ReactElement => {
   const { breakpoint: currentBreakpoint } = useWindowDimensions()
   const isMobile = currentBreakpoint < breakpoints.md
 
@@ -62,7 +74,7 @@ export const OrderBookTable: React.FC<OrderBookTableProps> = ({
     .map(key => rows[(key as unknown) as number])
     .filter(k => k)
 
-  if (isMobile && rowsKey === 'asks') {
+  if (isMobile && rowsKey === typeOptions.ask.key) {
     displayRows.reverse()
   }
 
@@ -78,20 +90,30 @@ export const OrderBookTable: React.FC<OrderBookTableProps> = ({
             disableHover
             textColor={textColor}
             backgroundColor={backgroundColor || 'secondary'}>
-            {OrderBookHeadings.map(entry => (
+            {orderBookHeadings.map(entry => (
               <OrderBookHeader key={entry} cellText={entry} textColor={headerTextColor} />
             ))}
           </TableRow>
         )}
       </TableHead>
       <TableBody backgroundColor={backgroundColor} fullBorder={false}>
-        <OrderBookEntries
-          color={textColor || 'grey4'}
-          isReversed={isReversed || false}
-          rows={displayRows}
-          maxPriceSize={maxPriceSize}
-          rowsKey={rowsKey}
-        />
+        {displayRows.map((row: OrderMeta) => {
+          const { price, size, total } = row
+          const colorSpriteWidth = (total / maxPriceSize) * 100
+
+          return (
+            <OrderBookEntry
+              color="white"
+              key={colorSpriteWidth}
+              isReversed={isReversed}
+              maxPriceSize={maxPriceSize}
+              colorSpriteWidth={colorSpriteWidth}
+              price={price}
+              size={size}
+              total={total}
+            />
+          )
+        })}
       </TableBody>
     </Table>
   )

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/components/Organisms/AppFooter/index.ts"],"names":[],"mappings":"AAAA;AACA","sourcesContent":["export * from './AppFooter'\nexport * from './AppFooter.interface'\n"],"file":"index.js"}

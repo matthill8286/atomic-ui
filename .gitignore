@@ -4,7 +4,6 @@ npm-debug.log*
 **/.DS_Store
 coverage
 node_modules
-dist
 storybook-static
 .env
 .env.development.local

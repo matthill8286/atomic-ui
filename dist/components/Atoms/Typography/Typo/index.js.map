@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Atoms/Typography/Typo/index.ts"],"names":["StyledInfoTypo"],"mappings":"AAAA;AACA,SAASA,cAAT","sourcesContent":["export * from './Typo'\nexport { StyledInfoTypo } from './Typo.styled'\n"],"file":"index.js"}

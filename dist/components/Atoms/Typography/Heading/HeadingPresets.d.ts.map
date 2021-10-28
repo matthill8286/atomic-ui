@@ -1,0 +1,1 @@
+{"version":3,"file":"HeadingPresets.d.ts","sourceRoot":"","sources":["../../../../../src/components/Atoms/Typography/Heading/HeadingPresets.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,wBAAwB,CAAA;AAClD,OAAO,EAAE,uBAAuB,EAAE,MAAM,qBAAqB,CAAA;AAE7D,eAAO,MAAM,cAAc,EAAE;KAAG,GAAG,IAAI,uBAAuB,GAAG,SAAS;CAkCzE,CAAA"}

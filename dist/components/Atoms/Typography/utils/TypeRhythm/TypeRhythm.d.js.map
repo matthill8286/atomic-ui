@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../src/components/Atoms/Typography/utils/TypeRhythm/TypeRhythm.d.ts"],"names":[],"mappings":"AACA","sourcesContent":["import React from 'react'\nimport './TypeRhythm.css'\ninterface TypeRhythmProps {\n  visible?: boolean\n}\ndeclare const TypeRhythm: React.FC<TypeRhythmProps>\nexport default TypeRhythm\n"],"file":"TypeRhythm.d.js"}

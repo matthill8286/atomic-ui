@@ -1,0 +1,30 @@
+export declare const MATCH_YOUTUBE: RegExp;
+export declare const MATCH_SOUNDCLOUD: RegExp;
+export declare const MATCH_VIMEO: RegExp;
+export declare const MATCH_VIMEO_LIVESTREAM: RegExp;
+export declare const MATCH_TED: RegExp;
+export declare const MATCH_FACEBOOK: RegExp;
+export declare const MATCH_FACEBOOK_WATCH: RegExp;
+export declare const MATCH_STREAMABLE: RegExp;
+export declare const MATCH_MIX_CLOUD: RegExp;
+export declare const AUDIO_EXTENSIONS: RegExp;
+export declare const VIDEO_EXTENSIONS: RegExp;
+export declare const HLS_EXTENSIONS: RegExp;
+export declare const DASH_EXTENSIONS: RegExp;
+export declare const FLV_EXTENSIONS: RegExp;
+export declare const canPlay: {
+    youtube: (url: any) => boolean;
+    soundcloud: (url: any) => boolean;
+    vimeo: (url: any) => boolean;
+    livestream: (url: any) => boolean;
+    ted: (url: any) => boolean;
+    facebook: (url: any) => boolean;
+    streamable: (url: any) => boolean;
+    mixcloud: (url: any) => boolean;
+    file: (url: any) => boolean;
+};
+export declare const format: (seconds: any) => string;
+export declare const duration: (duration: any) => string;
+export declare const elapsed: (duration: any, played: any) => string;
+export declare const remaining: (duration: any, played: any) => string;
+//# sourceMappingURL=index.d.ts.map

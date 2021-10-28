@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/components/Atoms/Typography/Heading/index.ts"],"names":[],"mappings":"AAAA;AACA;AACA","sourcesContent":["export * from './Heading'\nexport * from './HeadingFeatured'\nexport * from './Heading.interface'\n"],"file":"index.js"}

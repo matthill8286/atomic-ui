@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/components/Atoms/Like/index.ts"],"names":[],"mappings":"AAAA;AACA","sourcesContent":["export * from './Like'\nexport * from './Like.interface'\n"],"file":"index.js"}

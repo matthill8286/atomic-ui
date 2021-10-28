@@ -22,7 +22,7 @@ storiesOf('Design System/Organisms/OrderBookTable', module).add(
         <FlexItem flex="1">
           <OrderBookTable
             rows={cryptoCurrenciesMock.asks}
-            rowsKey="asks"
+            rowsKey="ask"
             maxPriceSize={cryptoCurrenciesMock.maxPriceSize}
             textColor="error"
             headerTextColor="white"
@@ -34,7 +34,7 @@ storiesOf('Design System/Organisms/OrderBookTable', module).add(
         <FlexItem flex="1">
           <OrderBookTable
             rows={cryptoCurrenciesMock.bids}
-            rowsKey="bids"
+            rowsKey="bid"
             backgroundColor="secondary"
             headerTextColor="white"
             textColor="info"
