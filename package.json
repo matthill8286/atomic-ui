@@ -1,6 +1,6 @@
 {
-  "name": "@mhdevelopment/saiyan-component-library",
-  "version": "1.1.7",
+  "name": "@mh.development/saiyan-component-library",
+  "version": "1.1.8",
   "description": "Shared React components for e-commerce products, which are for external purposes",
   "repository": {
     "type": "git",
@@ -198,7 +198,7 @@
     "typescript": "^3.9.7"
   },
   "publishConfig": {
-    "@mhdevelopment:registry": "https://npm.pkg.github.com/"
+    "@mh.development:registry": "https://npm.pkg.github.com/"
   },
   "husky": {
     "hooks": {
