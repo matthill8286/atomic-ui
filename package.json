@@ -8,10 +8,10 @@
   },
   "license": "UNLICENSED",
   "author": "Matthew Hill",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
   "sideEffects": false,
-  "module": "dist/index",
-  "types": "dist/index",
   "files": [
     "/dist/**/*"
   ],
@@ -169,6 +169,7 @@
     "rollup-plugin-postcss-modules": "^2.0.2",
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-url": "^3.0.1",
     "rollup-plugin-visualizer": "^5.5.2",
     "standard-version": "^9.1.0",

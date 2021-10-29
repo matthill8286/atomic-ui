@@ -5,11 +5,13 @@ import cleaner from 'rollup-plugin-cleaner'
 import commonjs from 'rollup-plugin-commonjs'
 import filesize from 'rollup-plugin-filesize'
 import resolve from 'rollup-plugin-node-resolve'
+import typescript from 'rollup-plugin-typescript2'
 import progress from 'rollup-plugin-progress'
 import { terser } from 'rollup-plugin-terser'
 import url from 'rollup-plugin-url'
 import styles from 'rollup-plugin-styles'
 import visualizer from 'rollup-plugin-visualizer'
+import pkg from './package.json'
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx']
 const isProduction = process.env.NODE_ENV === 'production'
@@ -25,19 +27,15 @@ export default [
         dir: './dist',
         format: 'esm',
         sourcemap: true,
+        banner: '/* eslint-disable */',
       },
+      { file: pkg.main, format: 'cjs' },
+      { file: pkg.module, format: 'esm' },
     ],
     // create separate chunks for all modules using the original module names as file names
     preserveModules: true,
     // these packages should be handled as peer dependencies
-    external: [
-      'react',
-      'react-dom',
-      'react-router-dom',
-      'react-slick',
-      'styled-components',
-      'enzyme',
-    ],
+    external: Object.keys(pkg.peerDependencies || {}),
     plugins: [
       // remove bundle files on build
       cleaner({
@@ -84,6 +82,7 @@ export default [
         filename: './bundleStats.html',
         title: 'Bundle Stats',
       }),
+      typescript(),
       // minify code on prod build
       isProduction && terser(),
     ],
