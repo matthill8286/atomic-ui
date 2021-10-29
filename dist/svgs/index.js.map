@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/svgs/index.ts"],"names":[],"mappings":"AAAA;AACA;AACA;AACA","sourcesContent":["export * from './social'\nexport * from './illustrations'\nexport * from './icons'\nexport * from './styleguide'\n"],"file":"index.js"}

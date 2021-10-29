@@ -1,0 +1,2 @@
+import e from"../node_modules/scheduler/cjs/scheduler-unstable_mock.development.js";export{default}from"../node_modules/scheduler/cjs/scheduler-unstable_mock.development.js";
+//# sourceMappingURL=scheduler-unstable_mock.development.js_commonjs-proxy.map

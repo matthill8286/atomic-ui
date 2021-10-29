@@ -1,0 +1,2 @@
+import t from"react";import{media as e}from"../../../styles/media.js";import{styled as i}from"../../../styles/styled.js";var n=i.div.withConfig({displayName:"ImageAndTextCell__StyledImageAndTextCell",componentId:"sc-22ug1s-0"})(["display:flex;justify-content:center;min-width:100px;text-align:center;align-items:center;img{margin-right:8px;max-width:25px;}","{text-align:left;justify-content:left;}"],e.sm),l=function(e){var i=e.children;return t.createElement(n,null,i)};export{l as ImageAndTextCell};
+//# sourceMappingURL=ImageAndTextCell.js.map

@@ -9,5 +9,5 @@
     "outDir": "./dist"
   },
   "include": ["src"],
-  "exclude": ["**/*.story.*", "**/*.test.*", "dist", "node_modules" ,"public/images"]
+  "exclude": ["**/*.story.*", "**/*.test.*", "node_modules" ,"public/images"]
 }

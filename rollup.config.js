@@ -8,6 +8,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import progress from 'rollup-plugin-progress'
 import { terser } from 'rollup-plugin-terser'
 import url from 'rollup-plugin-url'
+import styles from 'rollup-plugin-styles'
 import visualizer from 'rollup-plugin-visualizer'
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx']
@@ -43,6 +44,7 @@ export default [
         targets: ['./dist/'],
         silent: true,
       }),
+      styles(),
       // Allows node_modules resolution
       resolve({ extensions, preferBuiltins: true }),
       // components can be imported with @/components/
@@ -68,7 +70,7 @@ export default [
       // babel plugin to convert all src files into our target specified in .browserslistrc
       babel({ extensions, include: ['src/**/*'], exclude: /node_modules/, runtimeHelpers: true }),
       url({
-        include: ['**/*.woff', '**/*.woff2'],
+        include: ['public/**/*.woff', 'public/**/*.woff2', 'public/**/*.ttf'],
         limit: Infinity,
       }),
       // import svg's
@@ -83,7 +85,7 @@ export default [
         title: 'Bundle Stats',
       }),
       // minify code on prod build
-      isProduction && terser(),
+      terser(),
     ],
   },
 ]

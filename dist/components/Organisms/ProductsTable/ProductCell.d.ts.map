@@ -1,1 +1,0 @@
-{"version":3,"file":"ProductCell.d.ts","sourceRoot":"","sources":["../../../../src/components/Organisms/ProductsTable/ProductCell.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAA;AAKzB,UAAU,gBAAgB;IACxB,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAA;IACzB,OAAO,EAAE,MAAM,CAAA;CAChB;AAiBD,eAAO,MAAM,WAAW,EAAE,KAAK,CAAC,EAAE,CAAC,gBAAgB,CAMlD,CAAA"}

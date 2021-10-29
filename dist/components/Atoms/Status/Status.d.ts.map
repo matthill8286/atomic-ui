@@ -1,1 +1,0 @@
-{"version":3,"file":"Status.d.ts","sourceRoot":"","sources":["../../../../src/components/Atoms/Status/Status.tsx"],"names":[],"mappings":"AAEA,oBAAY,UAAU,GAAG,OAAO,GAAG,OAAO,GAAG,SAAS,CAAA;AAEtD,MAAM,WAAW,WAAW;IAC1B,IAAI,CAAC,EAAE,UAAU,CAAA;IACjB,UAAU,CAAC,EAAE,OAAO,CAAA;CACrB;AAED,eAAO,MAAM,MAAM,kGAqBlB,CAAA"}

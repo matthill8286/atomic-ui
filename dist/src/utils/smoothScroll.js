@@ -1,0 +1,2 @@
+var t=function(t){var o=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0;t&&window.scroll({top:t.offsetTop-o,behavior:"smooth"})},o=function(o,e){var r=document.querySelector(o);r&&t(r,e)},e=function(t,e){var r;t.preventDefault(),o((null==t||null===(r=t.currentTarget)||void 0===r?void 0:r.getAttribute("href"))||"#",e)};export{t as smoothScrollWithElement,e as smoothScrollWithEvent,o as smoothScrollWithSelector};
+//# sourceMappingURL=smoothScroll.js.map

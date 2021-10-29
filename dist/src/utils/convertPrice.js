@@ -1,0 +1,2 @@
+import*as e from"react";var n=function(n){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"EUR",t=arguments.length>2?arguments[2]:void 0,l=!(arguments.length>3&&void 0!==arguments[3])||arguments[3],a=arguments.length>4&&void 0!==arguments[4]?arguments[4]:"de-DE";return null==n?null:0===n||"0"===n||isNaN(n)?e.createElement("span",null,t):e.createElement("span",null,l?"+ ":"",new Intl.NumberFormat(a,{style:"currency",currency:r}).format(n))};export{n as convertPrice};
+//# sourceMappingURL=convertPrice.js.map

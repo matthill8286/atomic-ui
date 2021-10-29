@@ -1,0 +1,2 @@
+import e from"../node_modules/scheduler/cjs/scheduler.development.js";export{default}from"../node_modules/scheduler/cjs/scheduler.development.js";
+//# sourceMappingURL=scheduler.development.js_commonjs-proxy.map

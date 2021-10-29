@@ -1,1 +1,0 @@
-{"version":3,"file":"NavigationButton.d.ts","sourceRoot":"","sources":["../../../../src/components/Molecules/NavigationMenu/NavigationButton.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,EAAE,EAAE,EAAE,MAAM,OAAO,CAAA;AACjC,OAAO,EAAkB,mBAAmB,EAAE,MAAM,uCAAuC,CAAA;AAI3F,eAAO,MAAM,oBAAoB,gIAKhC,CAAA;AAED,eAAO,MAAM,gBAAgB,EAAE,EAAE,CAAC,mBAAmB,CAepD,CAAA"}

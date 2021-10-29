@@ -1,0 +1,2 @@
+import t from"react";import{media as i}from"../../../styles/media.js";import{styled as e}from"../../../styles/styled.js";import{Link as l}from"../../Atoms/Link/Link.js";var r=e.div.withConfig({displayName:"ProductCell__StyledProductCell",componentId:"sc-3lqy3i-0"})(["display:flex;flex-direction:column;min-width:100px;text-align:left;width:100%;","{min-width:150px;}img{width:120px;margin-bottom:16px;}"],i.md),m=function(i){var e=i.children,m=i.linkUrl;return t.createElement(l,{to:m},t.createElement(r,null,e))};export{m as ProductCell};
+//# sourceMappingURL=ProductCell.js.map

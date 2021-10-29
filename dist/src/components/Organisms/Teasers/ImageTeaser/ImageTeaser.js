@@ -1,0 +1,2 @@
+import e from"react";import{Card as r}from"../../../Atoms/Card/CardV2.js";import{Picture as t}from"../../../Atoms/Picture/Picture.js";var o=function(o){var a=o.badges,i=o.badgeActionType,c=o.elevation,s=void 0===c?0:c,d=o.elevationHover,l=void 0===d?4:d,m=o.finalImages;return e.createElement(r,{elevation:s,elevationHover:l,shape:"rounded-small",display:"flex",fullHeight:!0,badges:a,badgeActionType:i},e.createElement(t,{src:m[0],srcLg:m[1],srcMd:m[2],srcSm:m[3],objectFit:"cover",height:"100%",width:"100%"}))};export{o as ImageTeaser};
+//# sourceMappingURL=ImageTeaser.js.map

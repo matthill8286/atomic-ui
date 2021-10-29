@@ -1,0 +1,2 @@
+import{styled as e,css as o}from"../../../../styles/styled.js";var a=e.div.withConfig({displayName:"BookmarkPlaceholder__StyledBookmarkPlaceholder",componentId:"tdwd0f-0"})((function(e){var a=e.theme;return o(["position:absolute;z-index:5;display:flex;bottom:calc("," - 0.5px);right:calc("," + 1px);"],a.spacing.base.sm,a.spacing.base.sm)}));export{a as StyledBookmarkPlaceholder};
+//# sourceMappingURL=BookmarkPlaceholder.js.map

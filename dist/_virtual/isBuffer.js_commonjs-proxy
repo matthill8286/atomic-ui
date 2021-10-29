@@ -1,0 +1,2 @@
+import o from"../node_modules/lodash/isBuffer.js";export{default}from"../node_modules/lodash/isBuffer.js";
+//# sourceMappingURL=isBuffer.js_commonjs-proxy.map
