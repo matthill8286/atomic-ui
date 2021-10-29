@@ -33,7 +33,7 @@ export default [
       { file: pkg.module, format: 'esm' },
     ],
     // create separate chunks for all modules using the original module names as file names
-    preserveModules: true,
+    preserveModules: false,
     // these packages should be handled as peer dependencies
     external: Object.keys(pkg.peerDependencies || {}),
     plugins: [
@@ -82,7 +82,9 @@ export default [
         filename: './bundleStats.html',
         title: 'Bundle Stats',
       }),
-      typescript(),
+      typescript({
+        tsconfig: './tsconfig.build.json',
+      }),
       // minify code on prod build
       isProduction && terser(),
     ],
