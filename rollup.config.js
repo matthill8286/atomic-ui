@@ -85,7 +85,7 @@ export default [
         title: 'Bundle Stats',
       }),
       // minify code on prod build
-      terser(),
+      isProduction && terser(),
     ],
   },
 ]

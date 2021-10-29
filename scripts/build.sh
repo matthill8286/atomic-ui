@@ -30,7 +30,7 @@ else
 fi
 
 # build the app
-yarn build:noPreBuild
+yarn production
 if [ $? -eq 0 ]
 then
     echo "**********************************************************"
