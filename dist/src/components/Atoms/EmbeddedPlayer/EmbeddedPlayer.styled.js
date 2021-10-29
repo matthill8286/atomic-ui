@@ -1,2 +1,0 @@
-import{styled as t,css as e}from"../../../styles/styled.js";var i=t.div.withConfig({displayName:"EmbeddedPlayerstyled__StyledRelativeEmbeddedParent",componentId:"sc-12td4sb-0"})((function(t){var i=t.aspect,d=t.maxHeight;return e(["position:relative;width:100%;max-height:",";:before{content:'';display:block;padding-bottom:calc(100% / calc(","));}>:first-child{position:absolute;top:0;left:0;width:100%;height:100%;}> img{height:auto;}"],null!=d?d:"500px",i)}));export{i as StyledRelativeEmbeddedParent};
-//# sourceMappingURL=EmbeddedPlayer.styled.js.map

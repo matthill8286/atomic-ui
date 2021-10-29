@@ -1,2 +1,0 @@
-import e from"react";import{ProductsTableDesktop as t}from"./ProductsTableDesktop.js";import{ProductsTableMobile as r}from"./ProductsTableMobile.js";import{useWindowDimensions as o}from"../../Helper/useWindowDimensions/useWindowDimensions.js";import{breakpoints as s}from"../../../styles/sc-vars-global.js";var m=function(m){var a=o().breakpoint;return m.tableHeading&&m.tableContent?e.createElement("div",{className:"mms-products-table"},a<=s.sm?e.createElement(r,m):e.createElement(t,m)):null};export{m as ProductsTable};
-//# sourceMappingURL=index.js.map

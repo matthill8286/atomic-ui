@@ -5,6 +5,7 @@ npm-debug.log*
 coverage
 node_modules
 storybook-static
+dist/
 .env
 .env.development.local
 .env.test.local

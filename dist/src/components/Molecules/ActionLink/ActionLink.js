@@ -1,2 +1,0 @@
-import{objectWithoutProperties as e,objectSpread2 as r}from"../../../../_virtual/_rollupPluginBabelHelpers.js";import o from"react";import{Link as t}from"../../Atoms/Link/Link.js";var i=function(i){var l=i.children,n=i.bold,a=void 0!==n&&n,c=i.iconLeft,d=e(i,["children","bold","iconLeft"]),p=r(r({},d),{},{iconLeft:c,underline:!1,scale:"large",bold:a,isGrouped:!0});return o.createElement(t,p,l)};export{i as ActionLink};
-//# sourceMappingURL=ActionLink.js.map

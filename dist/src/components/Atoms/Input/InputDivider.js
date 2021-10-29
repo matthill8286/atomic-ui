@@ -1,2 +1,0 @@
-import r from"react";import{styled as t}from"../../../styles/styled.js";import{Divider as e}from"../Divider/Divider.js";var i=t(e).withConfig({displayName:"InputDivider__StyledDivider",componentId:"sc-1y1v4xv-0"})(["height:2px;width:100%;margin-bottom:0;color:",";margin-top:",";"],(function(r){var t=r.theme,e=r.color;return t.color[e]}),(function(r){return r.theme.spacing.base.xxs})),o=function(t){return r.createElement(i,t)};export{o as InputDivider};
-//# sourceMappingURL=InputDivider.js.map
