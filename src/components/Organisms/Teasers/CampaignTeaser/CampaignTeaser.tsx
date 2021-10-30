@@ -32,7 +32,7 @@ import {
   StyledWrapper,
 } from './CampaignTeaser.styled'
 import { useTheme } from 'styled-components'
-import { LogoFiltered } from '@excelwithbusiness/webmobile-svg-library'
+import { LogoFiltered } from '@matthill8286/jsx-icon-library'
 
 const StyledFilteredLogo = styled.div`
   display: none;

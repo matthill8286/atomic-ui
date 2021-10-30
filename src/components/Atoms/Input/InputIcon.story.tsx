@@ -2,7 +2,7 @@ import { action } from '@storybook/addon-actions'
 import { select } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
-import { IconArticle, IconBookmark, IconClose } from '@excelwithbusiness/webmobile-svg-library'
+import { IconArticle, IconBookmark, IconClose } from '@matthill8286/jsx-icon-library'
 import { InputIcon, InputIconProps } from './InputIcon'
 
 const CustomIcon = {

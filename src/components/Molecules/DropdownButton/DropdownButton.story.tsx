@@ -1,7 +1,7 @@
 import { action } from '@storybook/addon-actions'
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
-import { StyleguideGlobe, IconUser } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideGlobe, IconUser } from '@matthill8286/jsx-icon-library'
 import { DropdownButton } from './DropdownButton'
 
 storiesOf('Design System/Molecules/Dropdown Button', module)

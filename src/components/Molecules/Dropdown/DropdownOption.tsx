@@ -1,6 +1,6 @@
 import React from 'react'
 import { CopyText } from '@/components/Atoms/Typography'
-import { IconDone } from '@excelwithbusiness/webmobile-svg-library'
+import { IconDone } from '@matthill8286/jsx-icon-library'
 import { DropdownOptionProps, StyledDropdownOptionProps } from './Dropdown.interface'
 import { StyledDone, StyledDropdownOption } from './Dropdown.styled'
 

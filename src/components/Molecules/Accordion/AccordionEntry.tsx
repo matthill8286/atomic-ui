@@ -1,7 +1,7 @@
 import React from 'react'
 import { Foldable } from '@/components/Atoms/Foldable'
 import { FontSizeMap } from '@/components/Atoms/Typography/Typo/Typo.interface'
-import { IconMinusThin, IconPlusThin } from '@excelwithbusiness/webmobile-svg-library'
+import { IconMinusThin, IconPlusThin } from '@matthill8286/jsx-icon-library'
 import { ThemeColors, ThemeFontSizes } from '@/types'
 import { AccordionEntryProps } from './Accordion.interface'
 import {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
-import { IconUser } from '@excelwithbusiness/webmobile-svg-library'
+import { IconUser } from '@matthill8286/jsx-icon-library'
 import { Picture } from '@/components/Atoms/Picture'
 import { DropdownButton } from './DropdownButton'
 import { Dropdown } from '../Dropdown'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Input } from '@/components/Atoms/Input'
-import { IconShare } from '@excelwithbusiness/webmobile-svg-library'
+import { IconShare } from '@matthill8286/jsx-icon-library'
 import { SearchableDropdownProps } from './Dropdown.interface'
 import { StyledList, StyledSearchableDropdownWrapper } from './Dropdown.styled'
 import { DropdownOption } from './DropdownOption'

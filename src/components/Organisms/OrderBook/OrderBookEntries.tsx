@@ -14,24 +14,26 @@ interface OrderBookEntriesProps {
   rows: any
   rowsKey: string
   color: ThemeColors
+  textColor: ThemeColors
   isReversed: boolean
   maxPriceSize: number
 }
 
 interface OrderBookEntryProps extends OrderMeta {
   color: ThemeColors
+  textColor?: ThemeColors
   isReversed?: boolean
   maxPriceSize: number
   colorSpriteWidth: number
 }
 
 export const OrderBookEntry: React.NamedExoticComponent<OrderBookEntryProps> = memo(
-  ({ price, size, total, colorSpriteWidth, color, isReversed }): ReactElement => {
+  ({ price, size, total, colorSpriteWidth, color, isReversed, textColor }): ReactElement => {
     return (
       <>
         <StyledGhostRow>
           <StyledGhostSprite isReversed={isReversed}>
-            <StyledColoredData color={color} showPercentage={colorSpriteWidth} />
+            <StyledColoredData color={textColor} showPercentage={colorSpriteWidth} />
           </StyledGhostSprite>
         </StyledGhostRow>
         <TableRow key={price} isReversed={isReversed} disableHover backgroundColor="white">
@@ -57,7 +59,7 @@ export const OrderBookEntry: React.NamedExoticComponent<OrderBookEntryProps> = m
 )
 
 export const OrderBookEntries: React.NamedExoticComponent<OrderBookEntriesProps> = memo(
-  ({ rows, rowsKey, color, isReversed, maxPriceSize }): ReactElement | null => {
+  ({ rows, rowsKey, color, isReversed, maxPriceSize, textColor }): ReactElement | null => {
     if (!rows) {
       return null
     }
@@ -73,7 +75,7 @@ export const OrderBookEntries: React.NamedExoticComponent<OrderBookEntriesProps>
             <>
               <StyledGhostRow>
                 <StyledGhostSprite isReversed={isReversed}>
-                  <StyledColoredData color={color} showPercentage={colorSpriteWidth} />
+                  <StyledColoredData color={textColor} showPercentage={colorSpriteWidth} />
                 </StyledGhostSprite>
               </StyledGhostRow>
               <TableRow key={price} isReversed={isReversed} disableHover backgroundColor="white">

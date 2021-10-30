@@ -215,7 +215,7 @@ exports[`GoalInput should render 1`] = `
   className="c0"
 >
   <div
-    className="GoalInput__InformationContainer-sc-1wj4jhb-4"
+    className="GoalInput__InformationContainer-sc-1m8lpte-4"
   >
     <h4
       className="c1"
@@ -275,7 +275,7 @@ exports[`GoalInput should render 1`] = `
     />
   </div>
   <div
-    className="GoalInput__InformationContainer-sc-1wj4jhb-4"
+    className="GoalInput__InformationContainer-sc-1m8lpte-4"
   >
     <div
       className="c2"

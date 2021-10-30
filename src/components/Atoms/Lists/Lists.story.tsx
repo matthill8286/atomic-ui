@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
-import { IconCheckmarkCircle } from '@excelwithbusiness/webmobile-svg-library'
+import { IconCheckmarkCircle } from '@matthill8286/jsx-icon-library'
 import { Lists } from './Lists'
 
 storiesOf('Design System/Atoms/Lists', module).add('Lists', () => {

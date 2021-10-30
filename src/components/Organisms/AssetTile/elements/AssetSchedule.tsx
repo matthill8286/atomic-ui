@@ -2,7 +2,7 @@ import React from 'react'
 import { Tag } from '@/components/Atoms/Tag'
 import { css, styled } from '@/styles/styled'
 import { ThemeColors } from '@/types'
-import { StyleguideCalendar, IconLiveLabel } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideCalendar, IconLiveLabel } from '@matthill8286/jsx-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 
 type TimeBoxValues = string | null

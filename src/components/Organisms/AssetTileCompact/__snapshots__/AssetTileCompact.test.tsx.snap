@@ -559,7 +559,7 @@ exports[`AssetTileCompact renders correct snapshot with button children 1`] = `
   padding: 0 0px;
 }
 
-.c13 .Status-ekucpk-0 {
+.c13 .Status-sc-1moqiqm-0 {
   position: absolute;
   top: -6px;
   right: -6px;

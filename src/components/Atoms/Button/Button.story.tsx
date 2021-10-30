@@ -7,7 +7,7 @@ import {
   StyleguideArticle,
   StyleguideBookmarkActive,
   StyleguideBookmarkOutlined,
-} from '@excelwithbusiness/webmobile-svg-library'
+} from '@matthill8286/jsx-icon-library'
 import { Icon } from '../Icon'
 import { Status } from '../Status'
 import { Typo } from '../Typography'

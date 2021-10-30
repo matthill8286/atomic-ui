@@ -4,7 +4,7 @@ We can add a custom icon for the the steps.
 
 ```jsx
 import { Icon } from '@/components/Atoms/Icon'
-import { IconArticle } from '@excelwithbusiness/webmobile-svg-library'
+import { IconArticle } from '@matthill8286/jsx-icon-library'
 import { CustomIconProps } from './Steps.interface'
 
 

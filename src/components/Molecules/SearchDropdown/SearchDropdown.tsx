@@ -1,5 +1,5 @@
 import React, { RefObject } from 'react'
-import { IconSearch } from '@excelwithbusiness/webmobile-svg-library'
+import { IconSearch } from '@matthill8286/jsx-icon-library'
 import { SearchButton } from '../SearchButton'
 import { SearchDropdownProps } from './SearchDropdown.interface'
 import { StyledSearchDropdownWrapper, StyledSearchList } from './SearchDropdown.styled'

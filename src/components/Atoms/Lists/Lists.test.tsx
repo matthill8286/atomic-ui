@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
-import { IconCheckmarkCircle } from '@excelwithbusiness/webmobile-svg-library'
+import { IconCheckmarkCircle } from '@matthill8286/jsx-icon-library'
 import { renderWithTheme } from '@/testRenderer'
 import { Lists } from './Lists'
 

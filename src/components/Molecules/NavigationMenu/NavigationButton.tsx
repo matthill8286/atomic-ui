@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { DropdownButton, DropdownButtonProps } from '@/components/Molecules/DropdownButton'
 import { media, styled } from '@/styles'
-import { IconUser as UserIcon } from '@excelwithbusiness/webmobile-svg-library'
+import { IconUser as UserIcon } from '@matthill8286/jsx-icon-library'
 
 export const StyledDropdownButton = styled(DropdownButton)`
   display: none;

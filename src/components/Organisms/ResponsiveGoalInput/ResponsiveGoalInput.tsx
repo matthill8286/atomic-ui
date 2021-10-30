@@ -3,7 +3,7 @@ import { Accordion } from '@/components/Molecules/Accordion'
 import { MediaStyleSwitch } from '@/components/Helper/MediaStyleSwitch'
 import { GoalInput } from '@/components/Organisms/GoalInput/GoalInput'
 import { GoalInputProps } from '@/components/Organisms/GoalInput/GoalInput.interface'
-import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
 
 export const ResponsiveGoalInput: React.FC<GoalInputProps> = ({
   headline,

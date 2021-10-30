@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconClose } from '@excelwithbusiness/webmobile-svg-library'
+import { IconClose } from '@matthill8286/jsx-icon-library'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { CopyText } from '../Typography'
 import { Input } from './Input'
