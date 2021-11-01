@@ -8,8 +8,8 @@
   },
   "license": "UNLICENSED",
   "author": "Matthew Hill",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/index",
+  "module": "dist/index.d.ts",
   "typings": "dist/types/index.d.ts",
   "sideEffects": false,
   "files": [
