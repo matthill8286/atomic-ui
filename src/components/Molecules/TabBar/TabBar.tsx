@@ -1,7 +1,7 @@
 import React, { FC, Ref, useEffect, useRef, useState } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
-import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
 import { TabBarProps, TabData, TabId } from './TabBar.interface'
 import {
   StyledArrowButton,

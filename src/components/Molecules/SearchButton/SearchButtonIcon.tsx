@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
-import { IconCross, IconSearch } from '@excelwithbusiness/webmobile-svg-library'
+import { IconCross, IconSearch } from '@matthill8286/jsx-icon-library'
 import { ThemeColors } from '@/types'
 import { TranslatedText } from '@/types/global'
 import { IconButton } from '@/components/Atoms/Button'

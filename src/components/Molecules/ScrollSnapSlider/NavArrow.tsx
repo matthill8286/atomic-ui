@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { css, media, styled } from '@/styles'
-import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
 
 interface StyledNavArrowProps {
   direction: 'prev' | 'next'

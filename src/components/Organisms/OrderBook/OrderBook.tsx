@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 import { Table, TableBody, TableCell, TableHead, TableRow } from '@/components/Atoms/Table'
 import { CopyText } from '@/components/Atoms/Typography'
 import { ThemeColors } from '@/types'
-import { OrderBookEntries, OrderBookEntry } from '@/components/Organisms/OrderBook/OrderBookEntries'
+import { OrderBookEntry } from '@/components/Organisms/OrderBook/OrderBookEntries'
 import { useWindowDimensions } from '@/components/Helper'
 import { breakpoints } from '@/styles'
 import { OrderMeta, OrderRowHash, Type } from '@/components/Organisms/OrderBook/OrderBook.interface'
@@ -105,6 +105,7 @@ export const OrderBookTable: React.FC<OrderBookTableProps> = ({
             <OrderBookEntry
               color="white"
               key={colorSpriteWidth}
+              textColor={textColor}
               isReversed={isReversed}
               maxPriceSize={maxPriceSize}
               colorSpriteWidth={colorSpriteWidth}

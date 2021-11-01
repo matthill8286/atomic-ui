@@ -15,7 +15,7 @@ module.exports = {
   transformIgnorePatterns: [
     '[/\\\\]node_modules[/\\\\]$',
     '<rootDir>/dist/',
-    'node_modules/(?!@excelwithbusiness)',
+    'node_modules/(?!@matthill8286)',
   ],
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
   testPathIgnorePatterns: ['<rootDir>/(build|docs|node_modules|node_modules/@excelwithbusiness)/'],

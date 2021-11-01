@@ -34,7 +34,7 @@ exports[`Lists renders correctly 1`] = `
   margin-bottom: 0;
 }
 
-.c0 .Icon-sc-1ate1r7-0 {
+.c0 .Icon-y4lcwx-0 {
   float: left;
   position: relative;
   top: -2px;
@@ -46,7 +46,7 @@ exports[`Lists renders correctly 1`] = `
     font-size: 16px;
   }
 
-  .c0 .Icon-sc-1ate1r7-0 {
+  .c0 .Icon-y4lcwx-0 {
     top: 0;
   }
 }

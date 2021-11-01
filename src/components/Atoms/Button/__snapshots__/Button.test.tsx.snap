@@ -39,11 +39,11 @@ exports[`Button Should render a button 1`] = `
   color: #FFFFFF;
 }
 
-.c0 .Icon-sc-1ate1r7-0 {
+.c0 .Icon-y4lcwx-0 {
   padding: 0 8px;
 }
 
-.c0 .Status-ekucpk-0 {
+.c0 .Status-sc-1moqiqm-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -140,7 +140,7 @@ exports[`Button Should render a completed checkmark 1`] = `
   padding: 0 8px;
 }
 
-.c0 .Status-ekucpk-0 {
+.c0 .Status-sc-1moqiqm-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -261,11 +261,11 @@ exports[`Button Should render a loading state 1`] = `
   color: transparent;
 }
 
-.c0 .Icon-sc-1ate1r7-0 {
+.c0 .Icon-y4lcwx-0 {
   padding: 0 8px;
 }
 
-.c0 .Status-ekucpk-0 {
+.c0 .Status-sc-1moqiqm-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -355,11 +355,11 @@ exports[`Button Should render a router Link 1`] = `
   color: #FFFFFF;
 }
 
-.c0 .Icon-sc-1ate1r7-0 {
+.c0 .Icon-y4lcwx-0 {
   padding: 0 8px;
 }
 
-.c0 .Status-ekucpk-0 {
+.c0 .Status-sc-1moqiqm-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -423,11 +423,11 @@ exports[`Button Should render an anchor 1`] = `
   -webkit-appearance: none !important;
 }
 
-.c0 .Icon-sc-1ate1r7-0 {
+.c0 .Icon-y4lcwx-0 {
   padding: 0 8px;
 }
 
-.c0 .Status-ekucpk-0 {
+.c0 .Status-sc-1moqiqm-0 {
   position: absolute;
   top: -6px;
   right: -6px;

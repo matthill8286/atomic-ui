@@ -2,7 +2,7 @@ import React, { FC, useEffect, useRef, useState } from 'react'
 import { Icon, SkeletonBlockItem } from '@/index'
 import { ShowMoreProps } from './ShowMore.interface'
 import { ContentWrapper, FadeOutOverlay, FlexItem, LabelWrapper, Wrapper } from './ShowMore.styled'
-import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
 
 export const ShowMore: FC<ShowMoreProps> = ({
   lineHeight,

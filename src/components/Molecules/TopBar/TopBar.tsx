@@ -6,7 +6,7 @@ import { CopyText } from '@/components/Atoms/Typography'
 import { Cell, Grid, Row } from '@/components/Helper/Grid'
 import { media } from '@/styles/media'
 import { styled } from '@/styles/styled'
-import { IconCheckmarkCircle } from '@excelwithbusiness/webmobile-svg-library'
+import { IconCheckmarkCircle } from '@matthill8286/jsx-icon-library'
 
 interface TopBarProps {
   entries: React.ReactChild[]

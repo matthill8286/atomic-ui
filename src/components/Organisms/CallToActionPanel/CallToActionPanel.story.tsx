@@ -1,11 +1,7 @@
 import { boolean, color, number, radios, select, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import {
-  Illustration01,
-  Illustration02,
-  Illustration03,
-} from '@excelwithbusiness/webmobile-svg-library'
+import { Illustration01, Illustration02, Illustration03 } from '@matthill8286/jsx-icon-library'
 import { CallToActionPanel, CallToActionPanelProps } from './CallToActionPanel'
 import { newAssetMocks } from '@/components/Organisms/AssetTile/elements/mockAsset'
 

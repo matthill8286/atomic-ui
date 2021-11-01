@@ -5,7 +5,7 @@ import React from 'react'
 import { Dropdown } from './Dropdown'
 import { DropdownProps } from './Dropdown.interface'
 import readme from './Dropdown.readme.md'
-import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
 
 const options = [
   { id: '0', label: 'BMW' },

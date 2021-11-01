@@ -1,6 +1,6 @@
 {
   "name": "@matthill8286/saiyan-component-library",
-  "version": "1.3.9",
+  "version": "1.3.10",
   "description": "Shared React components for e-commerce products, which are for external purposes",
   "repository": {
     "type": "git",
@@ -8,9 +8,9 @@
   },
   "license": "UNLICENSED",
   "author": "Matthew Hill",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
   "sideEffects": false,
   "files": [
     "/dist/**/*"
@@ -46,7 +46,7 @@
     "chromatic": "npx chromatic --project-token 67bbfd482d34"
   },
   "dependencies": {
-    "@excelwithbusiness/webmobile-svg-library": "*",
+    "@matthill8286/jsx-icon-library": "^1.0.2",
     "@lifarl/react-scroll-snap-slider": "^2.0.3",
     "@storybook/addon-viewport": "^6.3.12",
     "@types/react-slick": "^0.23.4",

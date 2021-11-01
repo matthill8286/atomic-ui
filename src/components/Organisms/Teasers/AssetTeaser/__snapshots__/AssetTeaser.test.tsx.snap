@@ -148,7 +148,7 @@ exports[`TopTeaser renders correctly: AssetTeaser 1`] = `
   height: 100%;
 }
 
-.c4 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
+.c4 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -164,7 +164,7 @@ exports[`TopTeaser renders correctly: AssetTeaser 1`] = `
   width: 100%;
 }
 
-.c26 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
+.c26 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -485,7 +485,7 @@ exports[`TopTeaser renders correctly: AssetTeaser 1`] = `
 }
 
 @media (min-width:512px) {
-  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
+  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
   .c4:hover .c23 {
     -webkit-transform: none;
     -ms-transform: none;
@@ -494,7 +494,7 @@ exports[`TopTeaser renders correctly: AssetTeaser 1`] = `
 }
 
 @media (min-width:512px) {
-  .c26:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
+  .c26:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
   .c26:hover .c23 {
     -webkit-transform: none;
     -ms-transform: none;
@@ -929,7 +929,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with maximum configura
   height: 100%;
 }
 
-.c4 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
+.c4 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -945,7 +945,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with maximum configura
   width: 100%;
 }
 
-.c29 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
+.c29 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -1297,7 +1297,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with maximum configura
 }
 
 @media (min-width:512px) {
-  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
+  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
   .c4:hover .c26 {
     -webkit-transform: none;
     -ms-transform: none;
@@ -1306,7 +1306,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with maximum configura
 }
 
 @media (min-width:512px) {
-  .c29:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
+  .c29:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
   .c29:hover .c26 {
     -webkit-transform: none;
     -ms-transform: none;
@@ -1697,7 +1697,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
   height: 100%;
 }
 
-.c4 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
+.c4 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -1760,7 +1760,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
   height: 100%;
 }
 
-.c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-1gx6c15-3 {
+.c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1780,7 +1780,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
   justify-content: flex-end;
 }
 
-.c2 .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gx6c15-3 {
+.c2 .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1915,8 +1915,8 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
 }
 
 @media (min-width:512px) {
-  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
-  .c4:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gx6c15-3 {
+  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
+  .c4:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1924,7 +1924,7 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
 }
 
 @media (min-width:512px) {
-  .c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-1gx6c15-3 {
+  .c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

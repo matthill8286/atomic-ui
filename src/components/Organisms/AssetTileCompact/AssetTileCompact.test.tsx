@@ -5,7 +5,7 @@ import { FlexBox, Icon, Spacer } from '@/index'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { AssetTileCompact } from './AssetTileCompact'
 import { AssetTileCompactElement } from './AssetTileCompactElement'
-import { StyleguideAddToTrash } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideAddToTrash } from '@matthill8286/jsx-icon-library'
 import { newAssetMocks } from '@/components/Organisms/AssetTile/elements/mockAsset'
 
 const assetLineItemElementProps = {

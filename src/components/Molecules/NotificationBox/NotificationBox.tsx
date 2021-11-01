@@ -9,7 +9,7 @@ import {
   IconClear,
   IconClearCircleOutlined,
   IconInfoOutlined,
-} from '@excelwithbusiness/webmobile-svg-library'
+} from '@matthill8286/jsx-icon-library'
 import { Padding } from '@/types/theme'
 import {
   NotificationBoxProps,

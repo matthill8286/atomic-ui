@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react'
-import { IconPercentage, IconTrash } from '@excelwithbusiness/webmobile-svg-library'
+import { IconPercentage, IconTrash } from '@matthill8286/jsx-icon-library'
 import { Input } from './Input'
 import { InputProps } from './Input.interface'
 

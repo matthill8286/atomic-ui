@@ -1,7 +1,7 @@
 import React, { FC, Children, PropsWithChildren, useMemo } from 'react'
 import { Portal, Modal, Button, styled, Icon } from '../../../index'
 import { useMultiViewModalState, useMultiViewModalAction } from './MultiViewModal.store'
-import { StyleguideArrow } from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
 
 export type MultiViewModalProps = {
   targetId: string

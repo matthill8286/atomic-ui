@@ -14,7 +14,7 @@ import {
   StyleguideExpand,
   IconSaveToPlaylist,
   IconShare,
-} from '@excelwithbusiness/webmobile-svg-library'
+} from '@matthill8286/jsx-icon-library'
 import { CompetencyText, CompleteButton, IconsWrapper, LaunchButton } from './AssetMeta.styled'
 import { isNonEmptyString } from '@/components/Helper/String'
 import { EmbeddedWrapper } from '@/components/Atoms/EmbeddedPlayer'

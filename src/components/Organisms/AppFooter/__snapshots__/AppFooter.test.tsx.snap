@@ -319,7 +319,7 @@ Array [
   width: 100%;
 }
 
-.c17 .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0 {
+.c17 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -766,8 +766,8 @@ Array [
 }
 
 @media (min-width:512px) {
-  .c17:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gx6c15-0,
-  .c17:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gx6c15-3 {
+  .c17:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
+  .c17:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

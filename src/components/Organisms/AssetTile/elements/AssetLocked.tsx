@@ -1,10 +1,7 @@
 import React from 'react'
 import { IconButton } from '@/components/Atoms/Button'
 import { css, styled } from '@/styles/styled'
-import {
-  StyleguideLock,
-  StyleguideLockOpenOutlined,
-} from '@excelwithbusiness/webmobile-svg-library'
+import { StyleguideLock, StyleguideLockOpenOutlined } from '@matthill8286/jsx-icon-library'
 import { ThemeColors } from '@/types'
 import { Icon } from '@/components/Atoms/Icon'
 
