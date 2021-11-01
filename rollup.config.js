@@ -27,10 +27,7 @@ export default [
         dir: './dist',
         format: 'esm',
         sourcemap: true,
-        banner: '/* eslint-disable */',
       },
-      { file: pkg.main, format: 'cjs' },
-      { file: pkg.module, format: 'esm' },
     ],
     // create separate chunks for all modules using the original module names as file names
     preserveModules: true,

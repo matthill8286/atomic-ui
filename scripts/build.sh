@@ -30,7 +30,7 @@ else
 fi
 
 # build the app
-yarn production
+NODE_ENV=production yarn production
 if [ $? -eq 0 ]
 then
     echo "**********************************************************"
