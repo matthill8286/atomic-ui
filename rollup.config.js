@@ -33,7 +33,7 @@ export default [
       { file: pkg.module, format: 'esm' },
     ],
     // create separate chunks for all modules using the original module names as file names
-    preserveModules: false,
+    preserveModules: true,
     // these packages should be handled as peer dependencies
     external: Object.keys(pkg.peerDependencies || {}),
     plugins: [
