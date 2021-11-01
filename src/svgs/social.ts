@@ -1,5 +1,0 @@
-export { SocialFacebook } from '@matthill8286/jsx-icon-library'
-export { SocialInstagram } from '@matthill8286/jsx-icon-library'
-export { SocialTwitter } from '@matthill8286/jsx-icon-library'
-export { SocialYouTube } from '@matthill8286/jsx-icon-library'
-export { SocialLinkedin } from '@matthill8286/jsx-icon-library'

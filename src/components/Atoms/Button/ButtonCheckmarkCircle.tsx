@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconCheckmarkCircle } from '@/svgs'
+import { IconCheckmarkCircle } from '@matthill8286/jsx-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 
 export const ButtonCheckmarkCircle: React.FC = () => (

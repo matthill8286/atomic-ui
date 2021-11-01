@@ -9,7 +9,7 @@ import {
 } from '@/components/Organisms/AssetTileCompact'
 import { IconButton } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkActive, StyleguideCheckmarkCircle } from '@/svgs'
+import { StyleguideBookmarkActive, StyleguideCheckmarkCircle } from '@matthill8286/jsx-icon-library'
 
 export const AssetTileCompactTile: React.FC<AssetTileVariantProps> = ({
   competencyLabel,

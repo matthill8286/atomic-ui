@@ -12,7 +12,7 @@ import {
   newAssetStructuredMocks,
 } from '@/components/Organisms/AssetTile'
 import { CopyText, Heading } from '@/components/Atoms/Typography'
-import { StyleguideBookmarkOutlined } from '@/svgs'
+import { StyleguideBookmarkOutlined } from '@matthill8286/jsx-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 
 const mockAssets = {

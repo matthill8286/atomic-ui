@@ -79,9 +79,6 @@ export default [
         filename: './bundleStats.html',
         title: 'Bundle Stats',
       }),
-      typescript({
-        tsconfig: './tsconfig.build.json',
-      }),
       // minify code on prod build
       isProduction && terser(),
     ],

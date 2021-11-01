@@ -11,7 +11,7 @@ import { CopyText, HeadingFeatured } from '@/components/Atoms/Typography'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
 import { DANONE } from '@/styles'
 import { breakpoints } from '@/styles/sc-vars-global'
-import { IconArrow } from '@/svgs'
+import { IconArrow } from '@matthill8286/jsx-icon-library'
 import { isAlternateTheme, useTheme } from '@/utils/helper'
 
 import { useGraphCmsImages } from '@/utils/useGraphCmsImages'

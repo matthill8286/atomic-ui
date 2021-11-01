@@ -9,7 +9,7 @@ import { StyleguideShare, StyleguideVideo } from '@matthill8286/jsx-icon-library
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { Link } from './Link'
 import { LinkProps, LinkSize } from './Link.interface'
-import { StyleguideEdit } from '@/svgs'
+import { StyleguideEdit } from '@matthill8286/jsx-icon-library'
 import { action } from '@storybook/addon-actions'
 
 const scales = ['large', 'small']

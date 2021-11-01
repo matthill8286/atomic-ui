@@ -8,7 +8,7 @@ import {
   IconPercentage,
   StyleguideVideoThin,
   StyleguidePodcast,
-} from '@/svgs'
+} from '@matthill8286/jsx-icon-library'
 import {
   AssetTypeName,
   AssetTypeVariants,

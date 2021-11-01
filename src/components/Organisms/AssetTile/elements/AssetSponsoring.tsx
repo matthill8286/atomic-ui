@@ -4,7 +4,7 @@ import { CopyText } from '@/components/Atoms/Typography'
 import { FlexItem } from '@/components/Helper/FlexBox'
 import { NotificationBox } from '@/components/Molecules/NotificationBox'
 import { css, styled } from '@/styles/styled'
-import { StyleguideInfoOutlined } from '@/svgs'
+import { StyleguideInfoOutlined } from '@matthill8286/jsx-icon-library'
 import { SponsoringDetails } from '@/components/Organisms/AssetTile'
 
 interface AssetSponsoringProps {

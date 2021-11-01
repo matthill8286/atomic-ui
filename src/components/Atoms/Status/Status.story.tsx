@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { Status, StatusProps, StatusType } from './Status'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkOutlined } from '@/svgs'
+import { StyleguideBookmarkOutlined } from '@matthill8286/jsx-icon-library'
 
 const statusTypes: { [key: number]: StatusType } = { 0: 'white', 1: 'black', 2: 'primary' }
 

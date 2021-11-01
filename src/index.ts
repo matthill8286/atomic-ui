@@ -4,7 +4,6 @@ export * from './styles'
 export * from './types'
 export * from './testRenderer'
 export * from './utils'
-export * from './svgs'
 
 export * from './components/Atoms/Typography'
 export * from './components/Atoms/Badge'

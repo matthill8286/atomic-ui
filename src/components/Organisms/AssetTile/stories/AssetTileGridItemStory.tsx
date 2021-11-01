@@ -20,7 +20,7 @@ import { action } from '@storybook/addon-actions'
 import { css, styled } from '@/styles'
 import { IconButton } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkOutlined } from '@/svgs'
+import { StyleguideBookmarkOutlined } from '@matthill8286/jsx-icon-library'
 import { AssetTileVariantProps } from '../helpers/layout'
 
 export const StyledIconButton = styled(IconButton)(
