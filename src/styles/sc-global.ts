@@ -1,19 +1,19 @@
 import { createGlobalStyle } from 'styled-components'
 
-import EurostileWoff from '../../public/fonts/EurostileNextLTPro-Bold.woff'
-import EurostileWoff2 from '../../public/fonts/EurostileNextLTPro-Bold.woff2'
+import EurostileWoff from '../fonts/EurostileNextLTPro-Bold.woff'
+import EurostileWoff2 from '../fonts/EurostileNextLTPro-Bold.woff2'
 
-import SSPBoldWoff from '../../public/fonts/SourceSansPro-Bold.woff'
-import SSPBoldWoff2 from '../../public/fonts/SourceSansPro-Bold.woff2'
-import SSPRegularWoff from '../../public/fonts/SourceSansPro-Regular.woff'
-import SSPRegularWoff2 from '../../public/fonts/SourceSansPro-Regular.woff2'
-import SSPSemiboldWoff from '../../public/fonts/SourceSansPro-Semibold.woff'
-import SSPSemiboldWoff2 from '../../public/fonts/SourceSansPro-Semibold.woff2'
+import SSPBoldWoff from '../fonts/SourceSansPro-Bold.woff'
+import SSPBoldWoff2 from '../fonts/SourceSansPro-Bold.woff2'
+import SSPRegularWoff from '../fonts/SourceSansPro-Regular.woff'
+import SSPRegularWoff2 from '../fonts/SourceSansPro-Regular.woff2'
+import SSPSemiboldWoff from '../fonts/SourceSansPro-Semibold.woff'
+import SSPSemiboldWoff2 from '../fonts/SourceSansPro-Semibold.woff2'
 
 // Featured
-import OswaldBold from '../../public/fonts/Oswald-Bold.ttf'
-import OswaldRegular from '../../public/fonts/Oswald-Regular.ttf'
-import OswaldLight from '../../public/fonts/Oswald-Light.ttf'
+import OswaldBold from '../fonts/Oswald-Bold.ttf'
+import OswaldRegular from '../fonts/Oswald-Regular.ttf'
+import OswaldLight from '../fonts/Oswald-Light.ttf'
 
 import { normalize } from './normalize'
 
@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: SourceSansPro;
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${SSPRegularWoff2}) format('woff2'),
       url(${SSPRegularWoff}) format('woff');
@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: SourceSansPro;
     font-weight: 600;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${SSPSemiboldWoff2}) format('woff2'),
       url(${SSPSemiboldWoff}) format('woff');
@@ -46,7 +46,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: SourceSansPro;
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${SSPBoldWoff2}) format('woff2'),
       url(${SSPBoldWoff}) format('woff');
@@ -56,7 +56,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: FeaturedHeadline;
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${EurostileWoff2}) format('woff2'),
       url(${EurostileWoff}) format('woff');
@@ -66,7 +66,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Oswald;
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${OswaldLight}) format('truetype');
   }
@@ -75,7 +75,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Oswald;
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${OswaldRegular}) format('truetype');
   }
@@ -93,7 +93,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: OswaldBold;
     font-weight: 700;
     font-style: normal;
-    font-display: swap;
+    
     src:
       url(${OswaldBold}) format('truetype');
   }

@@ -7,7 +7,7 @@ export BUILD="BUILD"
 if [ ! -z "$NPM_TOKEN" ];
 then
     npm config set @matthill8286:registry https://npm.pkg.github.com
-    git remote set-url origin https://github.com/matthill8286/saiyan-component-library.git
+    git remote set-url origin https://github.com/matthill8286/atomic-ui.git
     git config --global url."https://x-access-token:${NPM_TOKEN}@github.com/matthill8286".insteadOf "https://github.com/matthill8286"
     git fetch origin
     echo "config setup done."
@@ -30,7 +30,7 @@ else
 fi
 
 # build the app
-NODE_ENV=production yarn production
+yarn production
 if [ $? -eq 0 ]
 then
     echo "**********************************************************"
