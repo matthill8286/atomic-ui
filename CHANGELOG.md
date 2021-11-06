@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.22](https://github.com/matthill8286/atomic-ui/compare/v1.3.21...v1.3.22) (2021-11-06)
+
+
+### Build & CI
+
+* updating depds ([184a1d2](https://github.com/matthill8286/atomic-ui/commit/184a1d2b5de4dcbbc3036a26eee4598ab266843c))
+
 ### [1.3.21](https://github.com/matthill8286/atomic-ui/compare/v1.3.20...v1.3.21) (2021-11-06)
 
 ### [1.3.20](https://github.com/matthill8286/saiyan-component-library/compare/v1.3.19...v1.3.20) (2021-11-06)
