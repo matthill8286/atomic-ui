@@ -35,7 +35,7 @@
     "release": "./scripts/release.sh",
     "standard:release": "standard-version",
     "pre:release": "yarn standard:release -- --prerelease",
-    "production": "yarn clean && NODE_ENV=production yarn build:babel",
+    "production": "yarn clean && NODE_ENV=production yarn build:noPreBuild",
     "storybook": "cross-env BABEL_ENV=build NODE_ENV=development start-storybook --quiet -p 9001 -c config/storybook -s ./",
     "test": "jest --env=jsdom",
     "test:coverage": "yarn test --coverage",
