@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.25](https://github.com/matthill8286/atomic-ui/compare/v1.3.24...v1.3.25) (2021-11-06)
+
+
+### Refactoring
+
+* **newsitem:** directory structure ([1db8b80](https://github.com/matthill8286/atomic-ui/commit/1db8b802b642f67c8307c6b2a9b67cd4a83376f3))
+* **newsitem:** removing fonts ([34488db](https://github.com/matthill8286/atomic-ui/commit/34488dba55b19ef4b7321c8a9f24e425de424c58))
+
 ### [1.3.24](https://github.com/matthill8286/atomic-ui/compare/v1.3.23...v1.3.24) (2021-11-06)
 
 ### [1.3.23](https://github.com/matthill8286/atomic-ui/compare/v1.3.22...v1.3.23) (2021-11-06)
