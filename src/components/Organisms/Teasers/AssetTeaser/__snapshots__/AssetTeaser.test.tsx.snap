@@ -14,7 +14,6 @@ exports[`TopTeaser renders correctly: AssetTeaser 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -274,7 +273,6 @@ exports[`TopTeaser renders correctly: AssetTeaser 1`] = `
 
 .c5 .c6 {
   overflow: visible;
-  overflow-x: hidden;
 }
 
 .c1 {
@@ -780,7 +778,6 @@ exports[`TopTeaser renders correctly: default AssetTeaser with maximum configura
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1055,7 +1052,6 @@ exports[`TopTeaser renders correctly: default AssetTeaser with maximum configura
 
 .c5 .c6 {
   overflow: visible;
-  overflow-x: hidden;
 }
 
 .c1 {
@@ -1625,7 +1621,6 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1794,7 +1789,6 @@ exports[`TopTeaser renders correctly: default AssetTeaser with minimal configura
 
 .c5 .c6 {
   overflow: visible;
-  overflow-x: hidden;
 }
 
 .c1 {

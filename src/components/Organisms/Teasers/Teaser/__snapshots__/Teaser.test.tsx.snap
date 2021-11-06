@@ -26,7 +26,6 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -615,7 +614,6 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1115,7 +1113,6 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1591,7 +1588,6 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -2063,7 +2059,6 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -2315,7 +2310,6 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -2665,7 +2659,6 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;

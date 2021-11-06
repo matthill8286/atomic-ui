@@ -26,7 +26,6 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -966,7 +965,6 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
-  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;

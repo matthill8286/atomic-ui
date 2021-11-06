@@ -32,7 +32,7 @@ import {
   StyledWrapper,
 } from './CampaignTeaser.styled'
 import { useTheme } from 'styled-components'
-import { Logosaiyan } from '@matthill8286/jsx-icon-library'
+import { LogoFiltered } from '@matthill8286/jsx-icon-library'
 
 const StyledsaiyanLogo = styled.div`
   display: none;
@@ -252,7 +252,7 @@ export const CampaignTeaser: React.FC<CampaignTeaserProps> = ({
               fixedImageHeight={fixedImageHeight}
               hasAsset={!!assetImage}>
               <StyledsaiyanLogo>
-                <Logosaiyan />
+                <LogoFiltered />
               </StyledsaiyanLogo>
               <Background
                 size={size}

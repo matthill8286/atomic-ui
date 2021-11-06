@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 import { styled } from '@/styles/styled'
-import { Logosaiyan } from '@matthill8286/jsx-icon-library'
+import { LogoFiltered } from '@matthill8286/jsx-icon-library'
 import { ThemeColors } from '@/types/theme'
 
 interface LogoProps {
