@@ -1793,7 +1793,7 @@
   resolved "https://registry.yarnpkg.com/@lifarl/react-scroll-snap-slider/-/react-scroll-snap-slider-2.0.3.tgz#c05c3240ae47ed87e2e83dca2ee1b526ad992a1f"
   integrity sha512-WYLeqmhOaAddcD5jK5Zwxj5bJFIFVyjNj7a1J5R7dJoBde5J0463JcYjeqn/bR3s2kec3jWdlHv5pKlab8NvuQ==
 
-"@matthill8286/atomic-icon-library@^1.0.2":
+"@matthill8286/atomic-icon-library@^1.0.3":
   version "1.0.3"
   resolved "https://npm.pkg.github.com/download/@matthill8286/atomic-icon-library/1.0.3/b27c411b7fe776f1af4e4f8c40e798d027bc7050b7047afbe49b1ca9c1f7f81d#abb4e32946cc9075e77e4c15216f355b92ea0e8f"
   integrity sha512-G2QI8F10R7AsK/Is8mGKimhIlD6yUkG6YSZ6NT+BWKwxFUPO7QO7/TwI4nIOKlIYub4MD06jox2rl5pl3JSTcQ==
