@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.23](https://github.com/matthill8286/atomic-ui/compare/v1.3.22...v1.3.23) (2021-11-06)
+
+
+### Refactoring
+
+* **newsitem:** stripping css ([333847d](https://github.com/matthill8286/atomic-ui/commit/333847d616603a9bc0b8dc7ff82453c9906dfa5e))
+
 ### [1.3.22](https://github.com/matthill8286/atomic-ui/compare/v1.3.21...v1.3.22) (2021-11-06)
 
 
