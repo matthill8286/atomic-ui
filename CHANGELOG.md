@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.27](https://github.com/matthill8286/atomic-ui/compare/v1.3.26...v1.3.27) (2021-11-06)
+
+
+### Build & CI
+
+* generating dts ([f815312](https://github.com/matthill8286/atomic-ui/commit/f81531237957fdcd91f5fe5b87a35e1c1e67b189))
+
 ### [1.3.26](https://github.com/matthill8286/atomic-ui/compare/v1.3.25...v1.3.26) (2021-11-06)
 
 
