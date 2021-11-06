@@ -1,5 +1,4 @@
 import React, { memo } from 'react'
-import './style.css'
 import { CopyText, Typo } from '@/components/Atoms/Typography'
 
 export interface INewsItem {
