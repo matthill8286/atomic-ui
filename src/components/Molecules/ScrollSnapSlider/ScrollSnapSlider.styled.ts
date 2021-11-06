@@ -1,5 +1,4 @@
-import { DANONE, saiyan, media } from '@/styles'
-import { css, styled } from '../../../styles/styled'
+import { media, css, styled } from '@/styles'
 import { handleGridPadding } from '../../Helper/Grid'
 import { StyledNavArrow } from './NavArrow'
 import { Scrollbar } from '@/components/Molecules/ScrollSnapSlider/Scrollbar'
