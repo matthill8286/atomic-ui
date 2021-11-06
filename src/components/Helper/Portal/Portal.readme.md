@@ -13,7 +13,7 @@ From the offical Reactjs doco:
 Choose (or create) an HTML element where you would like your component to be rendered. eg.
 
 ```js
-<div id="filtered-dashboard-modal-portal" />
+<div id="saiyan-dashboard-modal-portal" />
 ```
 
 In your PWA code, import the portal component from the shared components.
@@ -23,10 +23,10 @@ When using the Portal component you must provide the `targetRootId` prop to spec
 ```javascript
 import { Portal } from 'webmobile-pwa-components'
   ...
-  <div id="filtered-dashboard-modal-portal"/>
+  <div id="saiyan-dashboard-modal-portal"/>
   ...
   {additionalContentModal.shouldShowModal && (
-    <Portal targetRootId="filtered-dashboard-modal-portal">
+    <Portal targetRootId="saiyan-dashboard-modal-portal">
         <AdditionalContentModal
           content={additionalContentModal.modalContent}
           handleClose={hideAdditionalContentModal}
@@ -34,7 +34,7 @@ import { Portal } from 'webmobile-pwa-components'
     </Portal>
     )}
   {isModalOpen && (
-    <Portal targetRoot="filtered-dashboard-modal-portal">
+    <Portal targetRoot="saiyan-dashboard-modal-portal">
       <SharePlaylistSelectorModal
         ...
       />

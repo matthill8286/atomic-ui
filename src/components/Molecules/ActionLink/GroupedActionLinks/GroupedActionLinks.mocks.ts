@@ -3,7 +3,7 @@ import { QuickAction } from '../ActionLink.interface'
 export const actionLinks: QuickAction[] = [
   {
     actionLabel: 'Action Link 1',
-    href: 'http://filtered.content-learning.com',
+    href: 'http://saiyan.content-learning.com',
     to: '',
     branded: true,
     target: '_blank',
@@ -11,7 +11,7 @@ export const actionLinks: QuickAction[] = [
   },
   {
     actionLabel: 'Action Link 2',
-    href: 'http://filtered.content-learning.com',
+    href: 'http://saiyan.content-learning.com',
     to: '',
     branded: false,
     target: '_blank',
@@ -37,7 +37,7 @@ export const actionToLinks: QuickAction[] = [
     links: [
       {
         actionLabel: 'Action Link 1',
-        href: 'http://filtered.content-learning.com',
+        href: 'http://saiyan.content-learning.com',
         to: '',
         branded: true,
         target: '_blank',
@@ -45,7 +45,7 @@ export const actionToLinks: QuickAction[] = [
       },
       {
         actionLabel: 'Action Link 2',
-        href: 'http://filtered.content-learning.com',
+        href: 'http://saiyan.content-learning.com',
         to: '',
         branded: false,
         target: '_blank',

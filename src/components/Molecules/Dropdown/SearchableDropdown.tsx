@@ -21,7 +21,7 @@ export const SearchableDropdown: React.FC<SearchableDropdownProps> = props => {
   const ref = React.useRef<HTMLDivElement>(null)
 
   const [isOpen, setOpen] = React.useState(initializeOpen)
-  const [filteredOptions, setFilteredOptions] = React.useState(options)
+  const [saiyanOptions, setsaiyanOptions] = React.useState(options)
 
   const handleClickOutside = (event: Event): void => {
     if (!ref.current?.contains(event.target as Node)) {
@@ -48,7 +48,7 @@ export const SearchableDropdown: React.FC<SearchableDropdownProps> = props => {
 
   const onInputChangeHandler = event => {
     const { value } = event.target
-    setFilteredOptions(
+    setsaiyanOptions(
       value
         ? options.filter(option => option.label.toLowerCase().includes(value.toLowerCase()))
         : options
@@ -70,7 +70,7 @@ export const SearchableDropdown: React.FC<SearchableDropdownProps> = props => {
         inputType="text"
       />
       <StyledList active={isOpen} isSearchable={true}>
-        {filteredOptions.map((item, i) => (
+        {saiyanOptions.map((item, i) => (
           <DropdownOption
             key={i}
             active={i === index}

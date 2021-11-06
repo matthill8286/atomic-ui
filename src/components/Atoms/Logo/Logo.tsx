@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 import { styled } from '@/styles/styled'
-import { LogoFiltered } from '@matthill8286/jsx-icon-library'
+import { Logosaiyan } from '@matthill8286/jsx-icon-library'
 import { ThemeColors } from '@/types/theme'
 
 interface LogoProps {
@@ -19,7 +19,7 @@ const StyledWrapper = styled.div<StyledWrapperProps>`
   fill: ${({ color, theme }) => (color && theme.color[color]) || theme.color.primary};
 `
 
-const StyledFilteredLogo = styled(LogoFiltered)`
+const StyledsaiyanLogo = styled(Logosaiyan)`
   display: block;
   height: 80px;
   width: 100%;
@@ -28,7 +28,7 @@ const StyledFilteredLogo = styled(LogoFiltered)`
 export const Logo: FunctionComponent<LogoProps> = ({ white, className, uni }) => {
   return (
     <StyledWrapper color={white ? 'white' : undefined} className={className}>
-      <StyledFilteredLogo />
+      <StyledsaiyanLogo />
     </StyledWrapper>
   )
 }

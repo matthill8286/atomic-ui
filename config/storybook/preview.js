@@ -7,7 +7,7 @@ import StoryRouter from 'storybook-react-router'
 import { withThemesProvider } from 'themeprovider-storybook'
 
 import { GlobalStyle } from '../../src'
-import { saiyanTheme as filteredStyles } from '../../src/styles/sc-vars-saiyan'
+import { saiyanTheme as saiyanStyles } from '../../src/styles/sc-vars-saiyan'
 import { alternateTheme as alternateStyles } from '../../src/styles/sc-vars-alternate'
 
 const newViewports = {
@@ -57,7 +57,7 @@ const newViewports = {
 
 const saiyanTheme = {
   name: 'Saiyan',
-  ...filteredStyles,
+  ...saiyanStyles,
 }
 
 const alternateTheme = {

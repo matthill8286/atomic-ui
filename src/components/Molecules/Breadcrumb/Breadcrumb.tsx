@@ -60,7 +60,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({
         margin={margin}
         padding={padding}
         isLoading={loading}
-        data-test="filtered-breadcrumb-ul"
+        data-test="saiyan-breadcrumb-ul"
         data-paths-count={paths.length}
         {...otherProps}>
         <StyledUl>

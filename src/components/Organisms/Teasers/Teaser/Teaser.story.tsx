@@ -24,7 +24,7 @@ const mockTeaserData: TeaserProps = {
 }
 
 const mockTeaserData2: TeaserProps = {
-  headline: 'Filtered Text!',
+  headline: 'saiyan Text!',
   contentText:
     'Well, the answer is obvious: “He hasn’t died yet.” Fortunately, for us, Munger has kept on ticking.',
   image: getTransformedImageVersion('SdO6Eo51RZucKUK83Um7'),

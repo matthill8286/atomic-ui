@@ -41,7 +41,7 @@ const knobs = () => {
     color: select('Colors', colorTypes, colorTypes[0]),
     content: {
       primary: text('Headline', 'Welcome to'),
-      secondary: text('Copy text', 'Digital Agility at Filtered'),
+      secondary: text('Copy text', 'Digital Agility at saiyan'),
       name: text('Name', 'Matthew'),
     },
     heroImages: {

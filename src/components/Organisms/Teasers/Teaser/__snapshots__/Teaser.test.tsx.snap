@@ -1520,7 +1520,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
               fontSize="xxxxl"
               spacing="base"
             >
-              Filtered Text!
+              saiyan Text!
             </p>
           </div>
           <div

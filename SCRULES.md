@@ -1,4 +1,4 @@
-# Filtered styled-components rules
+# saiyan styled-components rules
 
 ## `styled-components` related files structure
 
@@ -8,7 +8,7 @@ All `styled-components` related files can be found in `src/styles` directory:
 src/styles/
 └── sc-global.ts
 └── sc-vars-global.ts
-└── sc-vars-filtered.ts
+└── sc-vars-saiyan.ts
 └── sc-vars-another.ts
 └── media.ts
 └── animation.ts

@@ -81,7 +81,7 @@ export const Modal: React.FC<ModalProps> = ({
   )
 
   return (
-    <ModalWrapper id="filtered-styled-modal-wrapper" className={className} ref={modalWrapper}>
+    <ModalWrapper id="saiyan-styled-modal-wrapper" className={className} ref={modalWrapper}>
       <StyledModalBackground
         isWhite={isWhite}
         onClick={canClose ? handleClick(onClose) : undefined}
@@ -97,7 +97,7 @@ export const Modal: React.FC<ModalProps> = ({
         ref={modalInnerWrapper}>
         <StyledModalHeader hasTitle={hasTitle}>{renderHeaderContent()}</StyledModalHeader>
         <StyledModalDesktopWrapper
-          id="filtered-styled-modal-desktop-wrapper"
+          id="saiyan-styled-modal-desktop-wrapper"
           ref={modalDesktopWrapper}>
           <StyledModalContent>{children}</StyledModalContent>
           <ModalButtonGroup

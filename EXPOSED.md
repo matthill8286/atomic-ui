@@ -1,6 +1,6 @@
-# Filtered styled-components exposed parts
+# saiyan styled-components exposed parts
 
-## `@filtered/webmobile-sc-components` related props and helpers
+## `@matthill8286/saiyan-component-library` related props and helpers
 
 ## Atoms
 
@@ -43,10 +43,10 @@ Note: The interface should be moved into the interface file, if there's more tha
 
 ## Media Queries
 
-How to use media queries with `@filtered/webmobile-sc-components`:
+How to use media queries with `@saiyan/webmobile-sc-components`:
 
 ```js
-import { styled, media } from '@filtered/webmobile-sc-components'
+import { styled, media } from '@saiyan/webmobile-sc-components'
 import media from 'path-to-media-file'
 const StyledComponent = styled.div`
   display: none;
@@ -58,4 +58,4 @@ const StyledComponent = styled.div`
 
 ## Themes
 
-How to use themes with `@filtered/webmobile-sc-components`:
+How to use themes with `@saiyan/webmobile-sc-components`:

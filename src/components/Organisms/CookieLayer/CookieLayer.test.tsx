@@ -3,7 +3,7 @@ import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { CookieButtonGroupProps, CookieLayer } from './CookieLayer'
 
 describe('Cookie Layer', () => {
-  const mainContent = `Welcome to Filtered!!. This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.`
+  const mainContent = `Welcome to saiyan!!. This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.`
   const onClick = jest.fn()
   const position = 'relative'
 

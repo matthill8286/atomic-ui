@@ -168,12 +168,12 @@ export const CookieButtonGroup: React.FC<CookieButtonGroupProps> = ({
     <StyledCookieFooter
       showButtonSeparator={showButtonSeparator}
       buttonAlignment={buttonAlignment}
-      data-test="filtered-modal-footer-buttons">
+      data-test="saiyan-modal-footer-buttons">
       {secondaryButtonProps && (
         <StyledCookieFooterSecondary buttonAlignment={buttonAlignment}>
           <StyledCookieFooterButton
             actionType="secondary"
-            data-test={'filtered-secondary-modal-footer-buttons'}
+            data-test={'saiyan-secondary-modal-footer-buttons'}
             onClick={
               secondaryButtonProps.onClick ? handleClick(secondaryButtonProps.onClick) : undefined
             }
@@ -187,7 +187,7 @@ export const CookieButtonGroup: React.FC<CookieButtonGroupProps> = ({
           <StyledCookieFooterButton
             actionType="primary"
             fullWidth={!!buttonWidth}
-            data-test="filtered-primary-modal-footer-buttons"
+            data-test="saiyan-primary-modal-footer-buttons"
             onClick={
               primaryButtonProps.onClick ? handleClick(primaryButtonProps.onClick) : undefined
             }

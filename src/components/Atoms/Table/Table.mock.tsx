@@ -31,8 +31,8 @@ export const customTableElements = [
     asset: (
       <TableWithDescription
         assetWithTitle={{
-          assetName: '+ Filtered',
-          provider: '+ Filtered',
+          assetName: '+ saiyan',
+          provider: '+ saiyan',
         }}
         description={'Fill in the blanks.........'}
       />
@@ -71,8 +71,8 @@ export const customTableElementsMobileData = [
       <TableData
         asset={{
           assetWithTitle: {
-            assetName: '+ Filtered',
-            provider: '+ Filtered',
+            assetName: '+ saiyan',
+            provider: '+ saiyan',
           },
           description: 'loads and loads of ice-cream',
         }}

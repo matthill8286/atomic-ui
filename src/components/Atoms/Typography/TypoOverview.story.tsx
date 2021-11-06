@@ -26,9 +26,9 @@ storiesOf('Design System/Atoms/Typography', module).add('Overview', () => {
 
     let fontSizeString = separator + fontName
 
-    // fontSize for Filtered
+    // fontSize for saiyan
     if (saiyanTheme.font.size[fontName]) {
-      fontSizeString = fontSizeString + separator + 'filtered' + saiyanTheme.font.size[fontName]
+      fontSizeString = fontSizeString + separator + 'saiyan' + saiyanTheme.font.size[fontName]
     }
 
     // fontSize for Alternate

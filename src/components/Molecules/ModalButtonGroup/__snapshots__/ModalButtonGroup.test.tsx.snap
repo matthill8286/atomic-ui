@@ -171,14 +171,14 @@ exports[`ModalButtonGroup Should render a ModalButtonGroup 1`] = `
 
 <div
   className="c0"
-  data-test="filtered-modal-footer-buttons"
+  data-test="saiyan-modal-footer-buttons"
 >
   <div
     className="c1"
   >
     <button
       className="c2 c3"
-      data-test="filtered-secondary-modal-footer-buttons"
+      data-test="saiyan-secondary-modal-footer-buttons"
       disabled={false}
       onClick={[Function]}
       size="md"
@@ -192,7 +192,7 @@ exports[`ModalButtonGroup Should render a ModalButtonGroup 1`] = `
   >
     <button
       className="c5 c3"
-      data-test="filtered-primary-modal-footer-buttons"
+      data-test="saiyan-primary-modal-footer-buttons"
       disabled={false}
       onClick={[Function]}
       size="md"
@@ -377,14 +377,14 @@ exports[`ModalButtonGroup Should render with alignment. 1`] = `
 
 <div
   className="c0"
-  data-test="filtered-modal-footer-buttons"
+  data-test="saiyan-modal-footer-buttons"
 >
   <div
     className="c1"
   >
     <button
       className="c2 c3"
-      data-test="filtered-secondary-modal-footer-buttons"
+      data-test="saiyan-secondary-modal-footer-buttons"
       disabled={false}
       onClick={[Function]}
       size="md"
@@ -398,7 +398,7 @@ exports[`ModalButtonGroup Should render with alignment. 1`] = `
   >
     <button
       className="c5 c3"
-      data-test="filtered-primary-modal-footer-buttons"
+      data-test="saiyan-primary-modal-footer-buttons"
       disabled={false}
       onClick={[Function]}
       size="md"

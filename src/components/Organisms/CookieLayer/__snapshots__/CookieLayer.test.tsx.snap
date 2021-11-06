@@ -333,17 +333,17 @@ exports[`Cookie Layer Should render cookie layer wrapper 1`] = `
       <div
         className="c3"
       >
-        Welcome to Filtered!!. This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
+        Welcome to saiyan!!. This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
         <div
           className="c4"
-          data-test="filtered-modal-footer-buttons"
+          data-test="saiyan-modal-footer-buttons"
         >
           <div
             className="c5"
           >
             <button
               className="c6 c7"
-              data-test="filtered-secondary-modal-footer-buttons"
+              data-test="saiyan-secondary-modal-footer-buttons"
               disabled={false}
               onClick={[Function]}
               size="md"
@@ -357,7 +357,7 @@ exports[`Cookie Layer Should render cookie layer wrapper 1`] = `
           >
             <button
               className="c9 c7"
-              data-test="filtered-primary-modal-footer-buttons"
+              data-test="saiyan-primary-modal-footer-buttons"
               disabled={false}
               onClick={[Function]}
               size="md"

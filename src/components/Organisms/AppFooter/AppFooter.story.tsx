@@ -11,7 +11,7 @@ storiesOf('Design System/Organisms/AppFooter', module).add('Default', () => {
       twitterLink={'twitter.co.uk'}
       facebookLink={'facebook.com'}
       youtubeLink={'youtube.co.uk'}
-      text="Digital Agility powered by Filtered"
+      text="Digital Agility powered by saiyan"
       links={[...(navigationListMockItems || [])]}
     />
   )

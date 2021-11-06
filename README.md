@@ -1,15 +1,13 @@
 # Saiyan Shared Components
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd7bfc2a12a14b4cab5db3a75e7471d7)](https://app.codacy.com/gh/excelWithBusiness/TS-Filtered-SC-Components?utm_source=github.com&utm_medium=referral&utm_content=excelWithBusiness/TS-Filtered-SC-Components&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd7bfc2a12a14b4cab5db3a75e7471d7)](https://app.codacy.com/gh/excelWithBusiness/TS-saiyan-SC-Components?utm_source=github.com&utm_medium=referral&utm_content=excelWithBusiness/TS-saiyan-SC-Components&utm_campaign=Badge_Grade)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![conventionl-commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://www.conventionalcommits.org/en/v1.0.0-beta.3/)
-![Release](https://github.com/excelWithBusiness/TS-Filtered-SC-Components/workflows/Release/badge.svg?branch=master)
+![Release](https://github.com/excelWithBusiness/TS-saiyan-SC-Components/workflows/Release/badge.svg?branch=master)
 
 Shared component library built with React and Storybook.
 
-**Table of Contents**
+## **Table of Contents**
 
-- [👩🏻‍💻 Setup](#setup)
-- [👩🏻‍💻 Community](#community)
 - [🤝 Introduction](#introduction)
 - [🆒 Adding New Components](#adding-new-components)
   - [Stateless or Presentational Components](#stateless-components)
@@ -25,29 +23,15 @@ Shared component library built with React and Storybook.
 
 ---
 
-## Setup
-
-Create a `.npmrc` file for publishing the package manually.
-Create a personal access token by following the steps here: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-Replace `${NPM_TOKEN}` with your own token, this file is ignored and will never be committed
-```
-@matthill8286:registry=https://npm.pkg.github.com
-always-auth=true
-//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
-
-```
-
 ## Community
 
 ## Introduction
-
-The shared component library is build with [React Storybook](https://storybook.js.org/) to get instant visual feedback on your components without actually deploying/importing them in the main application. You can work on components in an isolated environment, which helps to keep them as pure _presentational components_.
 
 ## Adding New Components
 
 New components should be added in `src/components` and have the following structure in their own directory:
 
-```
+```zsh
 src/components/
 └── Atom/Molecule/Organism
     └── YourAwesomeComponent/
@@ -73,16 +57,16 @@ To test with state in Storybook we use [`@dump247/storybook-state`](https://gith
 
 ### Skeleton for loading state
 
-Components which could be used "above-the-fold" should have a `loading` state with a skeleton view. Skeletons are displaying the outline of the structure a component would have, after the data are loaded and handled and are important to prevent the user from a bad UI experience. Just add the `filtered-skeleton` class to the DOM Elements which you want to give the shimmer effect.
+Components which could be used "above-the-fold" should have a `loading` state with a skeleton view. Skeletons are displaying the outline of the structure a component would have, after the data are loaded and handled and are important to prevent the user from a bad UI experience. Just add the `saiyan-skeleton` class to the DOM Elements which you want to give the shimmer effect.
 
 In best case the solutions should look like this:
 
-```
+```jsx
 const _renderSkeleton = () => {
   return (
-    <div className='filtered-componentXyZ--loading'>
-      <div className='filtered-componentXyZ__a filtered-skeleton' />
-      <div className='filtered-componentXyZ__b filtered-skeleton' />
+    <div className='saiyan-componentXyZ--loading'>
+      <div className='saiyan-componentXyZ__a saiyan-skeleton' />
+      <div className='saiyan-componentXyZ__b saiyan-skeleton' />
     </div>
   )
 }
@@ -130,10 +114,11 @@ We're using [Prettier](https://prettier.io/) _([`prettier-standard`](https://git
 
 ### Prerequisites
 
-We're using [Yarn](https://yarnpkg.com/) as our package manager, please make sure to use it. It's also recommended to have a [linter](#linting) active in your editor, to ensure common coding styleguides and speed up your own development.
+Using [Yarn](https://yarnpkg.com/) as the package manager, please make sure to use it. It's also recommended to have a [linter](#linting) active in your editor, to ensure common coding styleguides and speed up your own development.
 
 ### Build Commands
 
+```html
 <table>
   <thead>
     <tr>
@@ -148,7 +133,7 @@ We're using [Yarn](https://yarnpkg.com/) as our package manager, please make sur
     </tr>
     <tr>
       <td><code>yarn build</code></td>
-      <td>Builds all components. Has to be used to use the latest development state during `filtered-app-shell` development.</td>
+      <td>Builds all components. Has to be used to use the latest development state during `saiyan-app-shell` development.</td>
     </tr>
     <tr>
       <td colspan="2">Linting</td>
@@ -178,18 +163,19 @@ We're using [Yarn](https://yarnpkg.com/) as our package manager, please make sur
     </tr>
   </tbody>
 </table>
+```
 
 ## Linting
 
 The codebase gets automatically linted and formatted on each `git commit` hook _(done via [husky](https://github.com/typicode/husky) and [`lint-staged`](https://github.com/okonet/lint-staged))_. No code can be pushed that doesn't meet the styleguide requirements.
 
-#### JavaScript
+### JavaScript
 
 For JavaScript, we're using [TSlint](https://palantir.github.io/tslint/) for linting including Standard.js community styleguides.
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
-#### CSS
+### CSS
 
 [Stylelint](https://stylelint.io/) (with the [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) ruleset) helps us to maintain a common CSS formating foundation.
 
@@ -211,7 +197,7 @@ For committing, we are following the [Conventional Commits specification](https:
 
 The commit message should be structured as follows:
 
-```
+```docs
 <type>[optional scope]: <description>
 
 [optional body]

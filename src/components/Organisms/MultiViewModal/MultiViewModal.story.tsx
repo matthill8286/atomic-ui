@@ -33,7 +33,7 @@ export default {
 } as Meta
 
 const mockCookieLayerLabels = {
-  headline: 'Welcome to Filtered!!',
+  headline: 'Welcome to saiyan!!',
   infoText: `This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.`,
   button: 'Accept',
   preferences: 'Manage Preferences',

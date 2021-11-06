@@ -13,7 +13,7 @@ const content = {
   intro: 'Hi',
   seperator: ',',
   headline: 'Welcome to',
-  copy: 'Digital Agility at Filtered',
+  copy: 'Digital Agility at saiyan',
   name: 'Matthew',
 }
 

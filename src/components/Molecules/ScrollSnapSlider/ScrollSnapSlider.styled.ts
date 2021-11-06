@@ -1,4 +1,4 @@
-import { DANONE, FILTERED, media } from '@/styles'
+import { DANONE, saiyan, media } from '@/styles'
 import { css, styled } from '../../../styles/styled'
 import { handleGridPadding } from '../../Helper/Grid'
 import { StyledNavArrow } from './NavArrow'

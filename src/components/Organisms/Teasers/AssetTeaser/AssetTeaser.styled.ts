@@ -7,7 +7,7 @@ import {
 import { Link } from '@/components/Atoms/Link'
 import { StyledPicture } from '@/components/Atoms/Picture/Picture.styled'
 import { StyledTagWrapper } from '@/components/Atoms/Tag/Tag.styled'
-import { css, media, ALTERNATE, FILTERED, styled } from '@/styles'
+import { css, media, ALTERNATE, saiyan, styled } from '@/styles'
 import {
   StyledTopTeaserInfoContainerProps,
   StyledTopTeaserMainContainerProps,
@@ -53,7 +53,7 @@ export const StyledCard = styled(Card)(
     outline: none;
     ${ExternalStyledCard} {
       overflow: visible;
-      ${theme.name === FILTERED && `overflow-x: hidden;`}
+      ${theme.name === saiyan && `overflow-x: hidden;`}
     }
   `
 )
@@ -65,7 +65,7 @@ export const StyledBadgeWrapper = styled.div(
     margin: 0 0 0 -1em;
     transform: translateY(-50%);
   `}
-    ${theme.name === FILTERED &&
+    ${theme.name === saiyan &&
       `
     margin: 0 0 1em 0;
   `}

@@ -8,7 +8,7 @@ describe('Asset page footer', () => {
     const wrapper = renderWithThemeAndRouter(
       <AppFooter
         logoUrl="https://wac-cdn.atlassian.com/dam/jcr:e9ef90f9-c84a-4cba-af2f-9aa7d683ede3/Jira%20Integration.svg?cdnVersion=1324"
-        text="Digital Agility powered by Filtered"
+        text="Digital Agility powered by saiyan"
         links={[...(navigationListMockItems || [])]}
       />
     )

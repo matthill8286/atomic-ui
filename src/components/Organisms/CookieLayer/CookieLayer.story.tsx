@@ -4,7 +4,7 @@ import * as React from 'react'
 import { CookieLayer } from './CookieLayer'
 
 const mockCookieLayerLabels = {
-  mainContent: `Welcome to Filtered!!. This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.`,
+  mainContent: `Welcome to saiyan!!. This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.`,
 }
 
 storiesOf('Design System/Organisms/Cookie Layer', module).add('Default', () => (
