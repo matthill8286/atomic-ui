@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
-import { IconArticle } from '@matthill8286/jsx-icon-library'
+import { IconArticle } from '@matthill8286/atomic-icon-library'
 import { renderWithTheme } from '@/testRenderer'
 import { Like } from './Like'
 

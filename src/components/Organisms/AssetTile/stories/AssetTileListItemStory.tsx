@@ -19,7 +19,7 @@ import { AssetTileExpanderRow } from '@/components/Organisms/AssetTile/stories/A
 import { action } from '@storybook/addon-actions'
 import { AssetTileVariantProps } from '@/components/Organisms/AssetTile/helpers/layout'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkOutlined } from '@matthill8286/jsx-icon-library'
+import { StyleguideBookmarkOutlined } from '@matthill8286/atomic-icon-library'
 import { StyledIconButton } from '@/components/Organisms/AssetTile/stories/AssetTileGridItemStory'
 
 export const AssetTileListItemStory = () => {

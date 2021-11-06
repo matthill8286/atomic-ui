@@ -9,7 +9,7 @@ import {
   IconClear,
   IconClearCircleOutlined,
   IconInfoOutlined,
-} from '@matthill8286/jsx-icon-library'
+} from '@matthill8286/atomic-icon-library'
 import { Padding } from '@/types/theme'
 import {
   NotificationBoxProps,

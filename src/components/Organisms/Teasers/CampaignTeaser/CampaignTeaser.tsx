@@ -32,7 +32,7 @@ import {
   StyledWrapper,
 } from './CampaignTeaser.styled'
 import { useTheme } from 'styled-components'
-import { LogoFiltered } from '@matthill8286/jsx-icon-library'
+import { LogoFiltered } from '@matthill8286/atomic-icon-library'
 
 const StyledsaiyanLogo = styled.div`
   display: none;

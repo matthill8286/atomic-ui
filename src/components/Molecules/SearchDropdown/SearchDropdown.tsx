@@ -1,5 +1,5 @@
 import React, { RefObject } from 'react'
-import { IconSearch } from '@matthill8286/jsx-icon-library'
+import { IconSearch } from '@matthill8286/atomic-icon-library'
 import { SearchButton } from '../SearchButton'
 import { SearchDropdownProps } from './SearchDropdown.interface'
 import { StyledSearchDropdownWrapper, StyledSearchList } from './SearchDropdown.styled'

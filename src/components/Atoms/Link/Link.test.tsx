@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
+import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
 import {
   mountWithTheme,
   mountWithThemeAndRouter,

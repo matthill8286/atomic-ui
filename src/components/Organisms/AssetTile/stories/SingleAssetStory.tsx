@@ -17,7 +17,7 @@ import { action } from '@storybook/addon-actions'
 import { AssetTile } from '@/components/Organisms/AssetTile'
 import { StyledIconButton } from '@/components/Organisms/AssetTile/stories/AssetTileGridItemStory'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkOutlined } from '@matthill8286/jsx-icon-library'
+import { StyleguideBookmarkOutlined } from '@matthill8286/atomic-icon-library'
 
 export const SingleAssetStory = () => {
   const itemCount = select('Items per Row', gridSelection, 3) as TwelveColumn

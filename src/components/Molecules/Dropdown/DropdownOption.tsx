@@ -1,6 +1,6 @@
 import React from 'react'
 import { CopyText } from '@/components/Atoms/Typography'
-import { IconDone } from '@matthill8286/jsx-icon-library'
+import { IconDone } from '@matthill8286/atomic-icon-library'
 import { DropdownOptionProps, StyledDropdownOptionProps } from './Dropdown.interface'
 import { StyledDone, StyledDropdownOption } from './Dropdown.styled'
 

@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import { Icon, RotationValues } from '@/components/Atoms/Icon'
 import { CarouselProps } from './SimpleCarousel.interface'
 import { StyledCarousel, StyledCarouselHandler, StyledNavArrow } from './SimpleCarousel.styled'
-import { StyleguideArrow } from '@matthill8286/jsx-icon-library'
+import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
 
 export const SimpleCarousel: React.FC<CarouselProps> = ({
   arrowsSurfaceColor,

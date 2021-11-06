@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react'
 import { InputDivider as Divider } from '@/components/Atoms/Input/InputDivider'
 import { CopyText } from '@/components/Atoms/Typography'
 import { withDropdownState } from '@/components/Helper/withDropdownState'
-import { IconArrow, StyleguideArrow } from '@matthill8286/jsx-icon-library'
+import { IconArrow, StyleguideArrow } from '@matthill8286/atomic-icon-library'
 import { DropdownPropsEnhanced } from './Dropdown.interface'
 import {
   StyledContainer,

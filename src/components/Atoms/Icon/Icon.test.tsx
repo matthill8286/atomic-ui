@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconArticle } from '@matthill8286/jsx-icon-library'
+import { IconArticle } from '@matthill8286/atomic-icon-library'
 import { renderWithTheme } from '@/testRenderer'
 import { Icon } from './Icon'
 

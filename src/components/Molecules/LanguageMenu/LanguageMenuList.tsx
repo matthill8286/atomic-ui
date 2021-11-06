@@ -2,7 +2,7 @@ import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { styled } from '@/styles'
-import { IconDone } from '@matthill8286/jsx-icon-library'
+import { IconDone } from '@matthill8286/atomic-icon-library'
 
 const StyledTickIcon = styled(Icon)`
   pointer-events: none;

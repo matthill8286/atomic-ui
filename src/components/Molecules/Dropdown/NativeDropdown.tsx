@@ -3,7 +3,7 @@ import { Icon, RotationValues } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { media } from '@/styles'
 import { css, styled } from '@/styles/styled'
-import { IconArticle } from '@matthill8286/jsx-icon-library'
+import { IconArticle } from '@matthill8286/atomic-icon-library'
 
 export interface NativeDropdownProps {
   className?: string

@@ -14,7 +14,7 @@ import {
   SocialFacebook,
   StyleguideArrowRightCircle,
   StyleguideDone,
-} from '@matthill8286/jsx-icon-library'
+} from '@matthill8286/atomic-icon-library'
 import { Icon } from './Icon'
 import { Spacer } from '@/components/Atoms/Spacer'
 

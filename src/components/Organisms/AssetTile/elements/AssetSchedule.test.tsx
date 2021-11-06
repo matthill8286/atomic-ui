@@ -1,7 +1,7 @@
 import React from 'react'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { newAssetStructuredMocks } from '@/components/Organisms/AssetTile/elements/mockAsset'
-import { StyleguideCalendar, IconLiveLabel } from '@matthill8286/jsx-icon-library'
+import { StyleguideCalendar, IconLiveLabel } from '@matthill8286/atomic-icon-library'
 import { Tag } from '@/components/Atoms/Tag'
 import { AssetSchedule } from './AssetSchedule'
 

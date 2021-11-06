@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import { Badge } from '@/components/Atoms/Badge'
 import { Icon, RotationValues } from '@/components/Atoms/Icon'
-import { IconArrow } from '@matthill8286/jsx-icon-library'
+import { IconArrow } from '@matthill8286/atomic-icon-library'
 import { CarouselProps } from './Carousel.interface'
 import { StyledCarousel, StyledCarouselHandler } from './Carousel.styled'
 

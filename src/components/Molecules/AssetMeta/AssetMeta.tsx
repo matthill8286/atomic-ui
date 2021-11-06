@@ -14,7 +14,7 @@ import {
   StyleguideExpand,
   IconSaveToPlaylist,
   IconShare,
-} from '@matthill8286/jsx-icon-library'
+} from '@matthill8286/atomic-icon-library'
 import { CompetencyText, CompleteButton, IconsWrapper, LaunchButton } from './AssetMeta.styled'
 import { isNonEmptyString } from '@/components/Helper/String'
 import { EmbeddedWrapper } from '@/components/Atoms/EmbeddedPlayer'

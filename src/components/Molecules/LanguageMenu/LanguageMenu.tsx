@@ -6,7 +6,7 @@ import {
 } from '@/components/Molecules/DropdownButton/DropdownButton'
 import { LanguageButton } from './LanguageButton'
 import { LanguageMenuList } from './LanguageMenuList'
-import { StyleguideGlobeThin } from '@matthill8286/jsx-icon-library'
+import { StyleguideGlobeThin } from '@matthill8286/atomic-icon-library'
 
 export type LanguageMenuOption = {
   label: string

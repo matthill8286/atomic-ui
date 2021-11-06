@@ -1,9 +1,9 @@
 ## How to use?
-Import the `Icon` component and also import the SVG you want to use directly from the `@matthill8286/jsx-icon-library` module and nest it. The `Icon` component itself has the Prop `rotate` to allow a rotation of a SVG.
+Import the `Icon` component and also import the SVG you want to use directly from the `@matthill8286/atomic-icon-library` module and nest it. The `Icon` component itself has the Prop `rotate` to allow a rotation of a SVG.
 
 ```javascript
 import { Icon } from '@/components/Atoms/Icon'
-import { IconArrow } from '@matthill8286/jsx-icon-library'
+import { IconArrow } from '@matthill8286/atomic-icon-library'
 
 <Icon>
   <IconArrow />

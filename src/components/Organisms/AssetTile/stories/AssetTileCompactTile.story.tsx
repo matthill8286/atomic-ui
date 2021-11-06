@@ -6,7 +6,7 @@ import { AssetTileCompactTile } from '@/components/Organisms/AssetTile/AssetTile
 import { styled } from '@/styles'
 import { IconButton } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkActive } from '@matthill8286/jsx-icon-library'
+import { StyleguideBookmarkActive } from '@matthill8286/atomic-icon-library'
 
 const StyledIconButton = styled(IconButton)`
   border: none;

@@ -8,7 +8,7 @@ import {
   IconPercentage,
   StyleguideVideoThin,
   StyleguidePodcast,
-} from '@matthill8286/jsx-icon-library'
+} from '@matthill8286/atomic-icon-library'
 import {
   AssetTypeName,
   AssetTypeVariants,

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { StyleguideCheckmarkSquare } from '@matthill8286/jsx-icon-library'
+import { StyleguideCheckmarkSquare } from '@matthill8286/atomic-icon-library'
 import { Icon } from '../Icon'
 import { CopyText } from '../Typography'
 import { SelectableProps } from './Selectable.interface'

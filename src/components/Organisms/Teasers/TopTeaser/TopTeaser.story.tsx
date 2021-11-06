@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react'
 
 import { number, text, select } from '@storybook/addon-knobs'
 import { BadgeActionType } from '@/components/Atoms/Badge'
-import { Illustration09 } from '@matthill8286/jsx-icon-library'
+import { Illustration09 } from '@matthill8286/atomic-icon-library'
 import { TopTeaser } from '@/components/Organisms/Teasers'
 
 const badges = [
