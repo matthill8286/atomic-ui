@@ -19,7 +19,7 @@ const StyledWrapper = styled.div<StyledWrapperProps>`
   fill: ${({ color, theme }) => (color && theme.color[color]) || theme.color.primary};
 `
 
-const StyledsaiyanLogo = styled(Logosaiyan)`
+const StyledsaiyanLogo = styled(LogoFiltered)`
   display: block;
   height: 80px;
   width: 100%;
