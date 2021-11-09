@@ -1793,9 +1793,10 @@
   resolved "https://registry.yarnpkg.com/@lifarl/react-scroll-snap-slider/-/react-scroll-snap-slider-2.0.3.tgz#c05c3240ae47ed87e2e83dca2ee1b526ad992a1f"
   integrity sha512-WYLeqmhOaAddcD5jK5Zwxj5bJFIFVyjNj7a1J5R7dJoBde5J0463JcYjeqn/bR3s2kec3jWdlHv5pKlab8NvuQ==
 
-"@matthill8286/atomic-icon-library@https://github.com/matthill8286/atomic-icon-library.git":
-  version "1.0.3"
-  resolved "https://github.com/matthill8286/atomic-icon-library.git#a5f6c05413147458a158256675f0b4c40ee343d6"
+"@matthill8286/atomic-icon-library@*":
+  version "1.0.4"
+  resolved "https://npm.pkg.github.com/download/@matthill8286/atomic-icon-library/1.0.4/6d521b58856d6f357c738b039f7c735d5d1330e1928b37debb547f94c3f91547#bd6a077580f8bf097b59f4c79894cf978b8baf04"
+  integrity sha512-2isdmSWp+w7Vn4dAN0QwzYJ57fqMwegXwIovjPDMfmPBt5+Dl1rOqziVZ1JnfL8jGvNWTgLJdZRg3jsYgq2IZA==
   dependencies:
     react "^16.13.1"
     styled-components "*"

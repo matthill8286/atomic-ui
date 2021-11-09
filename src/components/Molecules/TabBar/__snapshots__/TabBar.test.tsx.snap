@@ -35,7 +35,7 @@ exports[`TabBar render with a selected tab 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -136,8 +136,8 @@ exports[`TabBar render with a selected tab 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -306,7 +306,7 @@ exports[`TabBar renders correctly 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -407,8 +407,8 @@ exports[`TabBar renders correctly 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

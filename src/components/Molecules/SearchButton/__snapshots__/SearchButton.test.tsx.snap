@@ -17,14 +17,14 @@ exports[`SearchButton should render 1`] = `
   border: 1px solid #E5E5E5;
 }
 
-.c0 .Icon-y4lcwx-0 {
+.c0 .Icon-sc-1cofey5-0 {
   position: absolute;
   right: 0;
   top: 0;
   outline: none;
 }
 
-.c0 .Icon-y4lcwx-0:focus svg {
+.c0 .Icon-sc-1cofey5-0:focus svg {
   fill: #E5E5E5;
 }
 
@@ -98,14 +98,14 @@ exports[`SearchButton should render with dense searchStyle 1`] = `
   border: 1px solid #E5E5E5;
 }
 
-.c0 .Icon-y4lcwx-0 {
+.c0 .Icon-sc-1cofey5-0 {
   position: absolute;
   right: 0;
   top: 0;
   outline: none;
 }
 
-.c0 .Icon-y4lcwx-0:focus svg {
+.c0 .Icon-sc-1cofey5-0:focus svg {
   fill: #E5E5E5;
 }
 
@@ -179,14 +179,14 @@ exports[`SearchButton should render with dense searchStyle 2`] = `
   border: 1px solid #E5E5E5;
 }
 
-.c0 .Icon-y4lcwx-0 {
+.c0 .Icon-sc-1cofey5-0 {
   position: absolute;
   right: 0;
   top: 0;
   outline: none;
 }
 
-.c0 .Icon-y4lcwx-0:focus svg {
+.c0 .Icon-sc-1cofey5-0:focus svg {
   fill: #E5E5E5;
 }
 
@@ -260,14 +260,14 @@ exports[`SearchButton should render with dense searchStyle 3`] = `
   border: 1px solid #E5E5E5;
 }
 
-.c0 .Icon-y4lcwx-0 {
+.c0 .Icon-sc-1cofey5-0 {
   position: absolute;
   right: 0;
   top: 0;
   outline: none;
 }
 
-.c0 .Icon-y4lcwx-0:focus svg {
+.c0 .Icon-sc-1cofey5-0:focus svg {
   fill: #E5E5E5;
 }
 
@@ -341,14 +341,14 @@ exports[`SearchButton should render with different states 1`] = `
   border: 1px solid #E5E5E5;
 }
 
-.c0 .Icon-y4lcwx-0 {
+.c0 .Icon-sc-1cofey5-0 {
   position: absolute;
   right: 0;
   top: 0;
   outline: none;
 }
 
-.c0 .Icon-y4lcwx-0:focus svg {
+.c0 .Icon-sc-1cofey5-0:focus svg {
   fill: #E5E5E5;
 }
 
@@ -866,14 +866,14 @@ exports[`SearchButton should render with helper component 1`] = `
   border: 1px solid #E5E5E5;
 }
 
-.c0 .Icon-y4lcwx-0 {
+.c0 .Icon-sc-1cofey5-0 {
   position: absolute;
   right: 0;
   top: 0;
   outline: none;
 }
 
-.c0 .Icon-y4lcwx-0:focus svg {
+.c0 .Icon-sc-1cofey5-0:focus svg {
   fill: #E5E5E5;
 }
 

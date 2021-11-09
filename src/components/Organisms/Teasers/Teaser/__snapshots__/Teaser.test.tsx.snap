@@ -26,6 +26,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -408,7 +409,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .c2,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -614,6 +615,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -696,7 +698,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -926,8 +928,8 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -1113,6 +1115,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1210,7 +1213,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -1417,8 +1420,8 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -1588,6 +1591,7 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1643,7 +1647,7 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -1868,8 +1872,8 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -2059,6 +2063,7 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -2219,7 +2224,7 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .c8,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -2310,6 +2315,7 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -2380,7 +2386,7 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -2523,8 +2529,8 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -2659,6 +2665,7 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -2710,7 +2717,7 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -2806,8 +2813,8 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);

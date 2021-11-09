@@ -26,6 +26,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -603,7 +604,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
-  .iXIQTe .c31 img {
+  .logTeE .c31 img {
     width: 100%;
   }
 }
@@ -965,6 +966,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
   letter-spacing: 0.4px;
   white-space: normal;
   overflow: hidden;
+  padding-left: 2px;
   max-height: calc(44px * 2);
   -webkit-line-clamp: 2;
   display: -webkit-box;
@@ -1009,7 +1011,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
   height: 100%;
 }
 
-.c3 .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0 {
+.c3 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
   -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
   -webkit-transition-timing-function: ease-in-out;
@@ -1176,8 +1178,8 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
 }
 
 @media (min-width:512px) {
-  .c3:hover .Cardstyled__StyledBadgeLineWrapper-sc-9bh7mr-0,
-  .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 {
+  .c3:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
+  .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1185,7 +1187,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
-  .c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-9bh7mr-3 img {
+  .c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 img {
     width: 100%;
   }
 }
