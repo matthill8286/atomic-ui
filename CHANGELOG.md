@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.31](https://github.com/matthill8286/atomic-ui/compare/v1.3.30...v1.3.31) (2021-11-09)
+
+
+### Styling
+
+* adding size to a new theme ([acd7063](https://github.com/matthill8286/atomic-ui/commit/acd7063ca0ff9e8e4cd04ca1a006988265e4719b))
+* adding size to a new theme ([5435356](https://github.com/matthill8286/atomic-ui/commit/5435356885a565421cdc2dcf8e2611f975765919))
+* updates ([0dc041f](https://github.com/matthill8286/atomic-ui/commit/0dc041f685cce002ff25c70848fd9e9f39ba3163))
+
+
+### Other
+
+* node version ([57f12f5](https://github.com/matthill8286/atomic-ui/commit/57f12f55dc1ff73b08634a95e476ad6d143eb227))
+
 ### [1.3.30](https://github.com/matthill8286/atomic-ui/compare/v1.3.29...v1.3.30) (2021-11-09)
 
 ### [1.3.28](https://github.com/matthill8286/atomic-ui/compare/v1.3.27...v1.3.28) (2021-11-09)
