@@ -9,12 +9,13 @@
   "license": "UNLICENSED",
   "author": "Matthew Hill",
   "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/types/index.js",
-  "sideEffects": false,
+  "module": "dist/index",
+  "types": "dist/index",
   "files": [
-    "/dist/**/*"
+    "/dist",
+    "/public"
   ],
+  "sideEffects": false,
   "scripts": {
     "prebuild": "yarn clean && cross-env BABEL_ENV=build NODE_ENV=production yarn jest  --env=jsdom  && yarn typecheck",
     "build": "yarn clean && cross-env BABEL_ENV=build NODE_ENV=production yarn generate:dts && yarn build:babel",
