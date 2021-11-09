@@ -9,8 +9,8 @@
   "license": "UNLICENSED",
   "author": "Matthew Hill",
   "main": "dist/index.js",
-  "module": "dist/index",
-  "types": "dist/index",
+  "module": "dist/index.js",
+  "types": "dist/types/index.js",
   "sideEffects": false,
   "files": [
     "/dist/**/*"
