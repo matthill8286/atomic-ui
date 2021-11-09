@@ -23,11 +23,6 @@ import {
 
 const name = 'Alternate'
 
-// red: #b43135 - button: #b91d1d
-// green: #30885f
-// purple: #5741d9
-// table: #121723
-
 const color: Color = {
   primary: '#EF7C00',
   secondary: '#121723',
@@ -92,9 +87,9 @@ const heading: HeadingTheme = {
 
 const font: Font = {
   family: {
-    default: 'Oswald, Arial, sans-serif',
-    featured: 'Oswald, Arial, sans-serif',
-    meta: 'Oswald, Arial, sans-serif',
+    default: 'Arial, sans-serif',
+    featured: 'Arial, sans-serif',
+    meta: 'Arial, sans-serif',
   },
   spacing: {
     base: '0.4px',
@@ -106,12 +101,12 @@ const font: Font = {
     xs: '14px',
     sm: '16px',
     md: '18px',
-    lg: '20px',
-    xl: '24px',
-    xxl: '28px',
-    xxxl: '32px',
-    xxxxl: '40px',
-    xxxxxl: '48px',
+    lg: '22px',
+    xl: '26px',
+    xxl: '32px',
+    xxxl: '50px',
+    xxxxl: '60px',
+    xxxxxl: '70px',
   },
   lineHeight: {
     xxxs: '16px',
@@ -121,10 +116,10 @@ const font: Font = {
     md: '28px', // from 24 to 28
     lg: '32px', // from 28 to 32
     xl: '40px',
-    xxl: '48px',
-    xxxl: '48px',
-    xxxxl: '48px',
-    xxxxxl: '48px',
+    xxl: '52px',
+    xxxl: '70px',
+    xxxxl: '80px',
+    xxxxxl: '90px',
   },
   weight: {
     regular: 400,
@@ -171,7 +166,7 @@ const hero: HeroTheme = {
   color: 'white',
   intro: {
     font: {
-      size: font.size.sm,
+      size: font.size.md,
       height: '21px',
       weight: 'regular',
     },
