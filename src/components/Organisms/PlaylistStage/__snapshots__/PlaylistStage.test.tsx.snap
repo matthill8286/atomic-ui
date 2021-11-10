@@ -1,69 +1,247 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PlaylistStage /> Renders without error 1`] = `
+.c7 {
+  margin: 0;
+  color: #333333;
+  font-size: 26px;
+  line-height: 44px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.c10 {
+  margin: 16px 0;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-align: center;
+  white-space: normal;
+  overflow: hidden;
+  max-height: calc(24px * 2);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.c1 {
+  width: 100%;
+  height: 200px;
+  left: 0;
+  right: 0;
+  background: #00C8DC no-repeat center center;
+  background-image: url(getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL));
+  background-size: cover;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: space-between;
+  -webkit-box-align: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1472px;
+  padding: 0 16px;
+}
+
+.c4 {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  color: #4bcade;
+  padding: 24px;
+  position: relative;
+  max-width: 780px;
+  margin: 0 auto;
+  z-index: 1;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 8px 0 8px 8px rgba(0,0,0,0.07);
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -46px;
+}
+
+.c0 {
+  margin-bottom: 56px;
+  position: relative;
+}
+
+.c8 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.c9 {
+  display: none;
+}
+
+.c6 {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (min-width:752px) {
+  .c1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c1 {
+    padding-top: 8px;
+  }
+}
+
+@media (min-width:752px) {
+  .c1 {
+    background-image: url(getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL));
+    height: 260px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c1 {
+    background-image: url(getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL));
+    height: 300px;
+  }
+}
+
+@media (min-width:512px) {
+  .c2 {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width:752px) {
+  .c2 {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c2 {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width:1232px) {
+  .c2 {
+    padding: 0 64px;
+  }
+}
+
+@media (min-width:512px) {
+  .c4 {
+    width: calc(100% - 71px);
+    border-top-right-radius: 6.4px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 8px 0 8px 8px rgba(0,0,0,0.07);
+  }
+}
+
+@media (min-width:752px) {
+  .c4 {
+    border-radius: 4px;
+    box-shadow: 8px 0 8px 8px rgba(0,0,0,0.07);
+  }
+
+  .c4 h1 {
+    height: inherit;
+  }
+}
+
+@media (min-width:752px) {
+  .c8 {
+    margin: 0 0 0 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width:512px) {
+  .c8 {
+    margin: 0 0 0 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width:752px) {
+  .c9 {
+    display: block;
+  }
+}
+
+@media (max-width:752px) {
+  .c6 {
+    margin: 8px auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+
 <div
-  className=""
+  className="c0"
 >
   <section
-    className=""
+    className="c1"
     color="primary"
     height={
       Object {
-        "desktop": 280,
+        "desktop": 300,
         "mobile": 200,
-        "tablet": 240,
+        "tablet": 260,
       }
     }
-    shape="rounded-small"
+    shape="rounded-big"
   >
     <div
-      className=""
+      className="c2 c3"
     >
       <div
-        className=""
+        className="c4"
       >
         <div
-          className=""
+          className="c5 c6"
           display="flex"
         >
-          <div
-            className=""
-            display="flex"
-          >
-            <div
-              className=""
-              color="black"
-              rotate={90}
-              width="sm"
-            >
-              <svg
-                height={80}
-                width={80}
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
-                />
-              </svg>
-            </div>
-            <a
-              className=""
-              color="black"
-              href="/home"
-              target="_self"
-            >
-              <span
-                className=""
-                color="black"
-                fontSize="sm"
-              >
-                Let's Go home
-              </span>
-            </a>
-          </div>
           <h2
-            className=""
-            color="black"
+            className="c7 c8"
+            color="grey6"
             fontFamily="default"
             fontSize="xl"
             spacing="base"
@@ -71,159 +249,14 @@ exports[`<PlaylistStage /> Renders without error 1`] = `
             Conflict Management
           </h2>
           <div
-            className=""
+            className="c9"
           />
           <div
-            className=""
-            color="grey4"
+            className="c10"
+            color="grey5"
             fontSize="sm"
           >
             This is the Conflict Management playlist
-          </div>
-          <div
-            className=""
-            display="flex"
-          >
-            <div
-              className=""
-              display="flex"
-            >
-              <div
-                className=""
-                order={0}
-              >
-                <div
-                  className=""
-                  display="flex"
-                >
-                  <div
-                    className=""
-                    order={0}
-                  >
-                    <div
-                      className=""
-                      color="grey5"
-                      height={16}
-                      width={16}
-                    >
-                      <svg
-                        height={16}
-                        width={16}
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.223.209l5.334 2.667a2 2 0 011.11 1.79v6.354a2 2 0 01-1.109 1.789l-5.333 2.666a2 2 0 01-1.79 0L2.1 12.809A1.998 1.998 0 011 11.013V4.666a2 2 0 011.109-1.79L7.443.21a2 2 0 011.78 0zm-6.89 4.709v6.1a.666.666 0 00.365.598L7.666 14.1V7.584L2.333 4.918zm12-.001L9 7.584v6.513l4.963-2.481a.667.667 0 00.37-.597V4.917zM8.038 1.402L3.16 3.84l5.173 2.587 5.173-2.587-4.877-2.437a.666.666 0 00-.59 0z"
-                          fill="#999"
-                          fillRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    className=""
-                    order={0}
-                  >
-                    <span
-                      className=""
-                      color="grey5"
-                      fontSize="sm"
-                    >
-                      12 assets
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                className=""
-                order={0}
-              >
-                <div
-                  className=""
-                  display="flex"
-                >
-                  <div
-                    className=""
-                    order={0}
-                  >
-                    <div
-                      className=""
-                      color="grey5"
-                      height={16}
-                      width={16}
-                    >
-                      <svg
-                        height={16}
-                        width={16}
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M7.822 0a7.822 7.822 0 110 15.644A7.822 7.822 0 017.822 0zm0 1.422a6.4 6.4 0 100 12.8 6.4 6.4 0 000-12.8zm0 1.422c.393 0 .711.319.711.712v3.972l1.925 1.925a.711.711 0 11-1.005 1.005L7.319 8.325a.711.711 0 01-.208-.503V3.556c0-.393.318-.712.711-.712z"
-                          fill="#999"
-                          fillRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    className=""
-                    order={0}
-                  >
-                    <span
-                      className=""
-                      color="grey5"
-                      fontSize="sm"
-                    >
-                      1 day 15 hours 31 minutes
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                className=""
-                order={0}
-              >
-                <div
-                  className=""
-                  display="flex"
-                >
-                  <div
-                    className=""
-                    order={0}
-                  >
-                    <div
-                      className=""
-                      color="grey5"
-                      height={16}
-                      width={16}
-                    >
-                      <svg
-                        height={16}
-                        width={16}
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M15.99 8.156v-.16a7.97 7.97 0 00-.365-2.418.53.53 0 00-.072-.219 7.974 7.974 0 00-.83-1.694.538.538 0 00-.152-.418.531.531 0 00-.233-.131 8.07 8.07 0 00-1.131-1.193.455.455 0 00-.324-.262 8.002 8.002 0 00-9.91.116 7.999 7.999 0 006.69 14.048A8 8 0 0016 8.207s-.01-.033-.01-.051zm-4.954 2.294l3.742-3.742c.079.41.12.827.124 1.244l-3.179 3.178-.687-.68zM9.58 8.996l4.411-4.415c.17.298.317.608.44.928l-4.167 4.167-.684-.68zm-1.226-4.6h.022l2.546-2.545a.513.513 0 00.044-.07c.307.146.604.313.887.502L8.352 5.785l.003-1.39zm0-1.535V1.105c.511.026 1.017.11 1.51.247l-1.51 1.51zm0 4.91v-.466h.022l4.332-4.33c.236.219.458.454.662.705L8.81 8.24l-.455-.47zm-7.273.225a6.91 6.91 0 016.182-6.87v6.87c0 .144.058.283.16.385l.76.76a.513.513 0 00.48.48l.975.975a.513.513 0 00.48.48l.975.974a.513.513 0 00.48.48l.804.804A6.911 6.911 0 011.082 7.996zm12.078 4.578l-.67-.67 2.183-2.181a6.88 6.88 0 01-1.513 2.85z"
-                          fill="#999"
-                          fillRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    className=""
-                    order={0}
-                  >
-                    <span
-                      className=""
-                      color="grey5"
-                      fontSize="sm"
-                    >
-                      75% completed
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

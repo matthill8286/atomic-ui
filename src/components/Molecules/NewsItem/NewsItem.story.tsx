@@ -23,7 +23,7 @@ export const NewsItemStory = Template.bind({})
 NewsItemStory.args = {
   title: 'Carbon',
   description: 'Vorsteiner Spoiler',
-  image: 'public/images/featured_assets/featured_asset_lxp.jpg',
+  image: 'public/images/featured_products/featured_product_lxp.jpg',
   buttonLink: '#',
   buttonLabel: 'Read More',
   newsText:

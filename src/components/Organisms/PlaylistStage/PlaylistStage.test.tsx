@@ -6,7 +6,7 @@ import { backlink, props } from './PlaylistStage.mocks'
 import { StyledBacklinkWrapper } from './PlaylistStage.styled'
 
 describe('<PlaylistStage />', () => {
-  test.skip('Renders without error', () => {
+  test('Renders without error', () => {
     const tree = renderWithTheme(<PlaylistStage {...props} />)
     expect(tree).toMatchSnapshot()
   })

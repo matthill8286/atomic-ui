@@ -11,13 +11,13 @@ const paths: BreadcrumbPath[] = [
     isRouterLink: true,
   },
   {
-    name: 'Learning Asset',
-    link: '/learning-asset/3215',
+    name: 'Learning Product',
+    link: '/learning-product/3215',
     isRouterLink: true,
   },
   {
-    name: 'Learning Asset: Watch about Genomes',
-    link: '/learning-asset/3215-watch-about-genomes',
+    name: 'Learning Product: Watch about Genomes',
+    link: '/learning-product/3215-watch-about-genomes',
     isRouterLink: true,
   },
 ]

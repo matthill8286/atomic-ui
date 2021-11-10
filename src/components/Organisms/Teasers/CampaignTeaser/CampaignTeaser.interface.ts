@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { BadgeActionType, BadgeType } from '@/components/Atoms/Badge/Badge.interface'
-import { CardNoBorder, FeaturedAssetProps } from '@/components/Atoms/Card'
+import { CardNoBorder, FeaturedProductProps } from '@/components/Atoms/Card'
 import { Elevation, ThemeColors } from '@/types'
 import { TeaserLink, TeaserOrientation, TeaserSize } from '../Teasers.interface'
 
@@ -11,13 +11,13 @@ export interface CampaignTeaserProps {
   smallHeadline?: string
   headline: string
   contentText?: string
-  assetImage?: string
+  productImage?: string
   backgroundImage?: string
   borderColor?: ThemeColors
   lazyload?: boolean
   lazyloadBackgroundImage?: boolean
   lazyloadLowQuality?: boolean
-  featuredAssetImages?: FeaturedAssetProps[]
+  featuredProductImages?: FeaturedProductProps[]
   badges?: BadgeType[]
   badgeActionType?: BadgeActionType
   size?: CampaignTeaserSize
@@ -52,7 +52,7 @@ export interface InfoProps {
 export interface StyledTongueProps {
   height: number
   isPortrait: boolean
-  hasAsset: boolean
+  hasProduct: boolean
 }
 
 export interface StyledUpsetRectProps {
@@ -73,16 +73,16 @@ export interface BackgroundProps {
   isPortrait: boolean
   backgroundVariant: TeaserBackgroundVariant
   size: CampaignTeaserSize
-  hasAsset: boolean
+  hasProduct: boolean
   theme?: string
 }
 
-export interface StyledAssetContainerProps {
+export interface StyledProductContainerProps {
   size: CampaignTeaserSize
   isPortrait: boolean
   isStageTeaser: boolean
   fixedImageHeight: boolean
-  hasAsset: boolean
+  hasProduct: boolean
 }
 
 export interface StyledPriceContainerProps {

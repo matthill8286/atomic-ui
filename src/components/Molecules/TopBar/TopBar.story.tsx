@@ -8,7 +8,7 @@ const stories = storiesOf('Design System/Molecules/TopBar', module)
 const entries = [
   'Virtual Gathering',
   'Conference Zone',
-  'Recommended Assets',
+  'Recommended Products',
   <Link
     href="www.google.com"
     inline

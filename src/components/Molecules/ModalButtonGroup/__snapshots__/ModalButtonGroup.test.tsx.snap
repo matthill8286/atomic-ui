@@ -41,10 +41,6 @@ exports[`ModalButtonGroup Should render a ModalButtonGroup 1`] = `
   color: #00C8DC;
 }
 
-.c2 .Icon-sc-1cofey5-0 {
-  padding: 0 0px;
-}
-
 .c2 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
@@ -99,10 +95,6 @@ exports[`ModalButtonGroup Should render a ModalButtonGroup 1`] = `
   border: 2px solid #00C8DC;
   color: #FFFFFF;
   color: #FFFFFF;
-}
-
-.c5 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
 }
 
 .c5 .Status-y46az8-0 {
@@ -243,10 +235,6 @@ exports[`ModalButtonGroup Should render with alignment. 1`] = `
   color: #00C8DC;
 }
 
-.c2 .Icon-sc-1cofey5-0 {
-  padding: 0 0px;
-}
-
 .c2 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
@@ -301,10 +289,6 @@ exports[`ModalButtonGroup Should render with alignment. 1`] = `
   border: 2px solid #00C8DC;
   color: #FFFFFF;
   color: #FFFFFF;
-}
-
-.c5 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
 }
 
 .c5 .Status-y46az8-0 {

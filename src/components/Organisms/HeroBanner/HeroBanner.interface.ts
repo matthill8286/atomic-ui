@@ -2,7 +2,7 @@ import React from 'react'
 import { BadgeActionType, BadgeType } from '@/components/Atoms/Badge/Badge.interface'
 import { Elevation, HeightMap } from '@/types'
 
-export type AssetTileLink = {
+export type ProductTileLink = {
   href?: string
   to?: string
 }
@@ -10,7 +10,7 @@ export type AssetTileLink = {
 export type HeroImageBannerType = 'sm' | 'md' | 'lg'
 
 export interface HeroBannerProps {
-  link: AssetTileLink
+  link: ProductTileLink
   height?: HeightMap
   badges?: BadgeType[]
   color?: 'primary' | 'black' | 'white' | 'selected' | 'grey' | undefined

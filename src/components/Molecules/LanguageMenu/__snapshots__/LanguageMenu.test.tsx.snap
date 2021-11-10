@@ -46,16 +46,6 @@ exports[`LanguageMenu should render testIdSuffix 1`] = `
   width: 100%;
 }
 
-.c11 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c8 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -295,12 +285,7 @@ exports[`LanguageMenu should render testIdSuffix 1`] = `
 }
 
 @media (min-width:512px) {
-  .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
@@ -475,16 +460,6 @@ exports[`LanguageMenu should render with className 1`] = `
   width: 100%;
 }
 
-.c11 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c8 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -724,12 +699,7 @@ exports[`LanguageMenu should render with className 1`] = `
 }
 
 @media (min-width:512px) {
-  .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
@@ -904,16 +874,6 @@ exports[`LanguageMenu should render with languages 1`] = `
   width: 100%;
 }
 
-.c11 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c8 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1153,12 +1113,7 @@ exports[`LanguageMenu should render with languages 1`] = `
 }
 
 @media (min-width:512px) {
-  .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {

@@ -127,16 +127,6 @@ exports[`Loading Error renders correctly 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -175,12 +165,7 @@ exports[`Loading Error renders correctly 1`] = `
 }
 
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div

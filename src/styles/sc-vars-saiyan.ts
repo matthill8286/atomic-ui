@@ -23,8 +23,8 @@ const color: Color = {
   grey2: '#E5E5E5', // Dropdown active / hover, // Borders
   grey3: '#CCCCCC',
   grey4: '#999999', // Body text
-  grey5: '#666666', // Asset card provider, onboardinng button text, links, navigation text +  buttons
-  grey6: '#333333', // Heading text, Asset card [ description, meta ]
+  grey5: '#666666', // Product card provider, onboardinng button text, links, navigation text +  buttons
+  grey6: '#333333', // Heading text, Product card [ description, meta ]
   black: '#000000',
   white: '#FFFFFF',
   success: '#55e1a7',
@@ -85,11 +85,11 @@ const font: Font = {
   },
   size: {
     xxxs: '10px',
-    xxs: '12px', // Asset Card Tag (competency), Asset Card Badge (Playlist)
-    xs: '14px', //  Small body text, Asset card [  provider | meta ]
+    xxs: '12px', // Product Card Tag (competency), Product Card Badge (Playlist)
+    xs: '14px', //  Small body text, Product card [  provider | meta ]
     sm: '16px', // Body text, header links
     md: '18px', // H5
-    lg: '22px', // H4, Asset card description
+    lg: '22px', // H4, Product card description
     xl: '26px', // H3, Playlist Card description
     xxl: '30px', // H2,
     xxxl: '34px', // H1

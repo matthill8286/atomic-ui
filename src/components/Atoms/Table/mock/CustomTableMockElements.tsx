@@ -7,17 +7,17 @@ import { ThemeFontSizes, ThemeFontWeights } from '@/types/theme'
 import { InfoText as InfoLine } from '../../Typography/InfoText'
 
 interface TableTitleProps {
-  assetName: string
+  productName: string
   provider: string
 }
 
 interface TableWithDescriptionProps {
-  assetWithTitle: TableTitleProps
+  productWithTitle: TableTitleProps
   description?: string
 }
 
 interface TableDataProps {
-  asset: TableWithDescriptionProps
+  product: TableWithDescriptionProps
   subTexts: string[]
 }
 
@@ -37,29 +37,29 @@ export const StyledTableDataWrapper = styled(FlexItem)`
   margin-left: 12px;
 `
 
-export const TableTitle: React.FC<TableTitleProps> = ({ assetName, provider }) => {
+export const TableTitle: React.FC<TableTitleProps> = ({ productName, provider }) => {
   return (
     <>
-      <Heading {...headingProps} margin="0" limitLines={2} data-test="asset-title">
-        <CopyText fontSize="sm" tag="span" bold data-test="asset-provider">
+      <Heading {...headingProps} margin="0" limitLines={2} data-test="product-title">
+        <CopyText fontSize="sm" tag="span" bold data-test="product-provider">
           {provider}
         </CopyText>
-        {assetName.replace(provider || '', '')}
+        {productName.replace(provider || '', '')}
       </Heading>
     </>
   )
 }
 
 export const TableWithDescription: React.FC<TableWithDescriptionProps> = ({
-  assetWithTitle,
+  productWithTitle,
   description,
 }) => {
   return (
     <>
-      <TableTitle {...assetWithTitle} />
+      <TableTitle {...productWithTitle} />
       {description && (
         <FlexBox flexDirection="row">
-          <StyledTableDescription fontSize="sm" tag="span" data-test="asset-description">
+          <StyledTableDescription fontSize="sm" tag="span" data-test="product-description">
             {description}
           </StyledTableDescription>
         </FlexBox>
@@ -68,12 +68,12 @@ export const TableWithDescription: React.FC<TableWithDescriptionProps> = ({
   )
 }
 
-export const TableData: React.FC<TableDataProps> = ({ asset, subTexts }) => {
+export const TableData: React.FC<TableDataProps> = ({ product, subTexts }) => {
   return (
     <>
-      <TableWithDescription {...asset} />
+      <TableWithDescription {...product} />
       <Spacer size="xs" />
-      {asset.description ? (
+      {product.description ? (
         <FlexBox flexDirection="row">
           <StyledTableDataWrapper>
             {subTexts.map((subText, index) => (

@@ -1,19 +1,19 @@
 import * as React from 'react'
 import { Badge } from '../Badge'
-import { CardProps, FeaturedAssetProps, FeaturedAssetRowProps } from './Card.interface'
+import { CardProps, FeaturedProductProps, FeaturedProductRowProps } from './Card.interface'
 import {
   StyledBadgeLineWrapper,
   StyledCard,
   StyledCardWrapper,
   StyledDivider,
-  StyledFeaturedAssetsContainer,
-  StyledFeaturedAssetSpacing,
-  StyledFeaturedAssetsPicture,
+  StyledFeaturedProductsContainer,
+  StyledFeaturedProductSpacing,
+  StyledFeaturedProductsPicture,
 } from './Card.styled'
 
-const FeaturedAsset: React.FC<FeaturedAssetProps> = ({ image }) => {
+const FeaturedProduct: React.FC<FeaturedProductProps> = ({ image }) => {
   return (
-    <StyledFeaturedAssetSpacing>
+    <StyledFeaturedProductSpacing>
       <Card
         center
         elevation={1}
@@ -21,21 +21,21 @@ const FeaturedAsset: React.FC<FeaturedAssetProps> = ({ image }) => {
         shape="rounded-small"
         padding="xs"
         noBorder={['bottom', 'top', 'right', 'left']}>
-        <StyledFeaturedAssetsPicture src={image} height="32px" objectFit="contain" width="auto" />
+        <StyledFeaturedProductsPicture src={image} height="32px" objectFit="contain" width="auto" />
       </Card>
-    </StyledFeaturedAssetSpacing>
+    </StyledFeaturedProductSpacing>
   )
 }
 
-const FeaturedAssetRow: React.FC<FeaturedAssetRowProps> = ({
-  floatingAssetRow,
-  featuredAssetImages,
+const FeaturedProductRow: React.FC<FeaturedProductRowProps> = ({
+  floatingProductRow,
+  featuredProductImages,
 }) => {
-  if (featuredAssetImages && featuredAssetImages.length > 0) {
-    const featuredAssets = featuredAssetImages.map((fa, index) => (
-      <FeaturedAsset key={'FeaturedAsset_' + fa.image + index} {...fa} />
+  if (featuredProductImages && featuredProductImages.length > 0) {
+    const featuredProducts = featuredProductImages.map((fa, index) => (
+      <FeaturedProduct key={'FeaturedProduct_' + fa.image + index} {...fa} />
     ))
-    return <StyledFeaturedAssetsContainer>{featuredAssets}</StyledFeaturedAssetsContainer>
+    return <StyledFeaturedProductsContainer>{featuredProducts}</StyledFeaturedProductsContainer>
   } else {
     return null
   }
@@ -54,7 +54,7 @@ export const Card: React.FC<CardProps> = ({
   borderColor,
   borderWidth = 1,
   showDivider = false,
-  floatingAssetRow = false,
+  floatingProductRow = false,
   dividerWidth,
   padding,
   margin,
@@ -68,7 +68,7 @@ export const Card: React.FC<CardProps> = ({
   badgeActionType = 'prominent',
   onClick,
   className,
-  featuredAssetImages,
+  featuredProductImages,
   ...otherProps
 }) => {
   const a11yProps = {
@@ -119,9 +119,9 @@ export const Card: React.FC<CardProps> = ({
         card
       )}
       {showDivider && <StyledDivider dividerWidth={dividerWidth} />}
-      <FeaturedAssetRow
-        floatingAssetRow={floatingAssetRow}
-        featuredAssetImages={featuredAssetImages}
+      <FeaturedProductRow
+        floatingProductRow={floatingProductRow}
+        featuredProductImages={featuredProductImages}
       />
     </StyledCardWrapper>
   )

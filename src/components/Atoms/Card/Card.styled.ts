@@ -328,15 +328,15 @@ export const StyledCard = styled.div<StyledCardProps>(
   `
 )
 
-export const StyledFeaturedAssetsPicture = styled(Picture)`
+export const StyledFeaturedProductsPicture = styled(Picture)`
   & img {
     display: block;
-    /* Need to set max width on assets here because it's overwritten in multiple places by carousel styles :-() */
+    /* Need to set max width on products here because it's overwritten in multiple places by carousel styles :-() */
     max-width: 128px !important;
   }
 `
 
-export const StyledFeaturedAssetsContainer = styled.div`
+export const StyledFeaturedProductsContainer = styled.div`
   display: none;
   ${media.tablet} {
     position: absolute;
@@ -348,7 +348,7 @@ export const StyledFeaturedAssetsContainer = styled.div`
   }
 `
 
-export const StyledFeaturedAssetSpacing = styled.div(
+export const StyledFeaturedProductSpacing = styled.div(
   ({ theme }) => css`
     margin-left: ${theme.spacing.base.xs};
   `
@@ -386,7 +386,7 @@ export const StyledCardWrapper = styled.div<{
 
   ${media.tablet} {
     &:hover {
-      ${StyledBadgeLineWrapper}, ${StyledFeaturedAssetsContainer} {
+      ${StyledBadgeLineWrapper}, ${StyledFeaturedProductsContainer} {
         transform: ${({ elevationHover }) =>
           elevationHover && elevationHover > 0 ? 'translateY(-1px)' : 'none'};
       }

@@ -7,14 +7,18 @@ import {
   ActionElement,
   CallToActionElement,
 } from '@/components/Organisms/CallToActionPanel/CallToActionElement'
-import { AssetTile, AssetTileAsset, AssetTileLayout } from '@/components/Organisms/AssetTile'
+import {
+  ProductTile,
+  ProductTileProduct,
+  ProductTileLayout,
+} from '@/components/Organisms/ProductTile'
 import { ShowMoreProps } from '@/components/Atoms/ShowMore'
 
 interface ItemProps {
   order: number
 }
 
-const StyledAssetTile = styled.div`
+const StyledProductTile = styled.div`
   width: 100%;
   ${media.maxSm} {
     width: 90%;
@@ -99,13 +103,13 @@ export interface CallToActionPanelProps {
   svg?: JSX.Element
   alignment: CtaImageAlignment
   withLQIP?: boolean
-  asset?: AssetTileAsset
+  product?: ProductTileProduct
   element: ActionElement
   showMore?: ShowMoreProps
-  isOpenAsset?: boolean
+  isOpenProduct?: boolean
   showFeatured?: boolean
   showReadMore?: boolean
-  onAssetClick?: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void
+  onProductClick?: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void
   richTextCopy?: string | React.ReactNode
 }
 
@@ -121,18 +125,18 @@ export const CallToActionPanel: React.FC<CallToActionPanelProps> = ({
   withLQIP = false,
   showReadMore = false,
   showFeatured = false,
-  isOpenAsset = false,
+  isOpenProduct = false,
   element,
   showMore,
-  asset,
-  onAssetClick,
+  product,
+  onProductClick,
   richTextCopy,
   ...props
 }) => {
   return (
     <StyledCtaRow>
       <StyledCtaImageColumn alignment={alignment} order={alignment === 'right' ? 1 : -1}>
-        {image || (image && asset) ? (
+        {image || (image && product) ? (
           <LazyLoadImage
             {...props}
             withLQIP={withLQIP}
@@ -145,19 +149,19 @@ export const CallToActionPanel: React.FC<CallToActionPanelProps> = ({
             alt={image.alt}
             rounded
           />
-        ) : asset ? (
-          <StyledAssetTile>
-            <AssetTile
-              assetView="list"
+        ) : product ? (
+          <StyledProductTile>
+            <ProductTile
+              productView="list"
               orientation="portrait"
-              asset={asset}
-              isOpenAsset={isOpenAsset}
+              product={product}
+              isOpenProduct={isOpenProduct}
               showFeatured={showFeatured}
-              competencyLabel={asset?.competency}
-              layout={AssetTileLayout.gridItem}
-              onClick={onAssetClick}
+              competencyLabel={product?.competency}
+              layout={ProductTileLayout.gridItem}
+              onClick={onProductClick}
             />
-          </StyledAssetTile>
+          </StyledProductTile>
         ) : (
           svg
         )}

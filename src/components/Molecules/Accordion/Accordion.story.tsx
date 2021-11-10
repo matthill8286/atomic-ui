@@ -20,7 +20,7 @@ const ENTRIES_1 = [
               sadipscing elitr, sed diam`,
   },
   {
-    title: 'Long Asset Content',
+    title: 'Long Product Content',
     id: 'technicals',
     details: `Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
@@ -30,7 +30,7 @@ const ENTRIES_1 = [
               sadipscing elitr, sed diam`.repeat(10),
   },
   {
-    title: 'Asset Description',
+    title: 'Product Description',
     id: 'description',
     details: `At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
               kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit

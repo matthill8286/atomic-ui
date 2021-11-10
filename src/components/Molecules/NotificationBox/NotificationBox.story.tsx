@@ -33,11 +33,11 @@ const knobs = (): NotificationBoxProps => {
   return {
     body: text(
       'Body',
-      'Please complete the assets in the collection before this one to unlock this asset'
+      'Please complete the products in the collection before this one to unlock this product'
     ),
     hasTitleIcon: boolean('Icon', true),
     isClosable: boolean('Closable', true),
-    title: text('Title', 'Asset not available yet!'),
+    title: text('Title', 'Product not available yet!'),
     type: select('Type', types, types[1]),
     animation: select('Animation', animation, undefined),
     buttonLayout: select('Button Layout', buttonLayout, buttonLayout[0]),

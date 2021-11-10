@@ -1,5 +1,5 @@
 import { Card } from '@/components/Atoms/Card'
-import { StyledFeaturedAssetsContainer } from '@/components/Atoms/Card/Card.styled'
+import { StyledFeaturedProductsContainer } from '@/components/Atoms/Card/Card.styled'
 import { Link } from '@/components/Atoms/Link'
 import { StyledTagWrapper } from '@/components/Atoms/Tag/Tag.styled'
 import { css, media, ALTERNATE, styled } from '@/styles'
@@ -8,7 +8,7 @@ import {
   StyledCampaignTeaserTagWrapperProps,
   StyledMainContainerProps,
   StyledPriceContainerProps,
-  StyledAssetContainerProps,
+  StyledProductContainerProps,
   StyledRectProps,
   StyledTongueProps,
   StyledUpsetRectProps,
@@ -17,8 +17,8 @@ import {
 export const TOP_CAROUSEL_HEIGHT_DESKTOP = 320
 export const TOP_CAROUSEL_HEIGHT_MOBILE = 160
 
-const campaignTeaserAssets = () => css`
-  ${StyledFeaturedAssetsContainer} {
+const campaignTeaserProducts = () => css`
+  ${StyledFeaturedProductsContainer} {
     display: flex;
     position: absolute;
     z-index: 1;
@@ -40,17 +40,17 @@ const campaignTeaserAssets = () => css`
   }
 `
 
-export const StyledWrapper = styled.div<{ hasAsset: boolean }>(
-  ({ hasAsset }) => css`
+export const StyledWrapper = styled.div<{ hasProduct: boolean }>(
+  ({ hasProduct }) => css`
     display: flex;
     height: 100%;
     width: 100%;
     transform: translateY(0px);
     flex: 1;
-    ${hasAsset ? campaignTeaserAssets : ''}
+    ${hasProduct ? campaignTeaserProducts : ''}
 
     ${media.ie11} {
-      ${StyledFeaturedAssetsContainer} {
+      ${StyledFeaturedProductsContainer} {
         img {
           width: 100%;
         }
@@ -136,15 +136,15 @@ export const StyledInfoTextContainer = styled.div(
   `
 )
 
-const getAssetContainerHeight = (
+const getProductContainerHeight = (
   size: string,
   isPortrait: boolean,
   fixedImageHeight: boolean,
-  hasAsset: boolean
+  hasProduct: boolean
 ) => {
   if (fixedImageHeight) {
     return css`
-      ${hasAsset ? '' : 'min-height: 230px;'}
+      ${hasProduct ? '' : 'min-height: 230px;'}
       ${media.md} {
         ${!fixedImageHeight &&
           css`
@@ -170,8 +170,8 @@ const getAssetContainerHeight = (
   `
 }
 
-export const StyledAssetContainer = styled.div<StyledAssetContainerProps>(
-  ({ theme, size, isPortrait, isStageTeaser, fixedImageHeight, hasAsset }) => css`
+export const StyledProductContainer = styled.div<StyledProductContainerProps>(
+  ({ theme, size, isPortrait, isStageTeaser, fixedImageHeight, hasProduct }) => css`
     display: flex;
     justify-content: center;
     ${isStageTeaser
@@ -185,7 +185,7 @@ export const StyledAssetContainer = styled.div<StyledAssetContainerProps>(
         `}
     position: relative;
     width: 100%;
-    ${getAssetContainerHeight(size, isPortrait, fixedImageHeight, hasAsset)}
+    ${getProductContainerHeight(size, isPortrait, fixedImageHeight, hasProduct)}
   `
 )
 
@@ -257,7 +257,7 @@ export const StyledPriceContainer = styled.div<StyledPriceContainerProps>(
   `
 )
 
-const getTongueHeightAndPosition = (theme: Theme, hasAsset: boolean, height: number) => {
+const getTongueHeightAndPosition = (theme: Theme, hasProduct: boolean, height: number) => {
   return css`
     border-bottom-left-radius: ${height / 5}px;
     border-top-left-radius: ${height / 25}px;
@@ -280,9 +280,9 @@ export const StyledBackgroundImage = styled.div<{
   inView: boolean
   lazyLoading?: boolean
   lazyLoadImage?: string
-  hasAsset: boolean
+  hasProduct: boolean
 }>(
-  ({ image, theme, inView, lazyLoadImage, hasAsset, lazyLoading = false }) => css`
+  ({ image, theme, inView, lazyLoadImage, hasProduct, lazyLoading = false }) => css`
     position: absolute;
 
     width: calc(100% + 16px);
@@ -298,7 +298,7 @@ export const StyledBackgroundImage = styled.div<{
     ::before {
       content: '';
       ${StyledBackgroundCommonStyles}
-      ${!hasAsset && lazyLoadImage !== undefined && `filter: blur(8px);`}
+      ${!hasProduct && lazyLoadImage !== undefined && `filter: blur(8px);`}
       ${lazyLoadImage !== undefined && `background-image: url('${lazyLoadImage}');`}
       background-color: ${theme.color.primary};
     }
@@ -306,12 +306,12 @@ export const StyledBackgroundImage = styled.div<{
 )
 
 export const StyledTongue = styled.div<StyledTongueProps>(
-  ({ height, theme, hasAsset }) => css`
+  ({ height, theme, hasProduct }) => css`
     overflow: hidden;
     position: absolute;
     right: -16px;
     width: 100%;
-    ${getTongueHeightAndPosition(theme, hasAsset, height)}
+    ${getTongueHeightAndPosition(theme, hasProduct, height)}
     transform: skew(10.3deg);
   `
 )

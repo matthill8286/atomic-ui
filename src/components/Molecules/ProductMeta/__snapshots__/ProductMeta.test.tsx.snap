@@ -1,0 +1,802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product page meta renders product meta 1`] = `
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #FFFFFF;
+}
+
+.c9 svg g,
+.c9 svg p {
+  fill: #FFFFFF;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c12 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #00C8DC;
+}
+
+.c12 svg g,
+.c12 svg p {
+  fill: #00C8DC;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 40px;
+  background: #00C8DC;
+  border: 2px solid #00C8DC;
+  color: #FFFFFF;
+}
+
+.c5 .c8 {
+  padding: 0 8px;
+}
+
+.c5 .Status-y46az8-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c5:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c5:hover {
+  background: #00b5c8;
+  border: 2px solid #00b5c8;
+}
+
+.c5 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 40px;
+  border: 2px solid #00C8DC;
+  background: #FFFFFF;
+  color: #00C8DC;
+}
+
+.c10 .c8 {
+  padding: 0 0px;
+}
+
+.c10 .Status-y46az8-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c10:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c10 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c18 {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 600;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c19 {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c21 {
+  padding: 16px 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c26 {
+  color: #00C8DC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c4 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  padding: 32px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c25 {
+  color: #666666;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-color: #00C8DC;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c24 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  padding: 0;
+}
+
+.c20 {
+  height: 1px;
+  width: 100%;
+  background: #E5E5E5;
+  border-width: 0;
+  margin: 0;
+}
+
+.c17 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  box-sizing: border-box;
+  margin: calc(16px / 2);
+  width: calc(100% - 16px);
+  width: calc(50% - 16px);
+}
+
+.c15 {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1472px;
+  padding: 0;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.c14 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.c6 {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c6 .c8 {
+  padding: 8px;
+}
+
+.c7 {
+  margin-bottom: 16px;
+}
+
+.c11 {
+  margin-bottom: 16px;
+  color: #00C8DC;
+}
+
+.c2 {
+  margin-bottom: 24px;
+}
+
+.c22 {
+  margin-top: 24px;
+}
+
+@media (min-width:512px) {
+
+}
+
+@supports (display:grid) {
+  .c17 {
+    margin: 0;
+    width: auto;
+    grid-column-end: span 4;
+  }
+}
+
+@supports (display:grid) {
+  .c17 {
+    width: auto;
+    grid-column-end: span 2;
+  }
+}
+
+@media (min-width:512px) {
+  .c17 {
+    display: block;
+    margin: calc(16px / 2);
+    width: calc(50% - 16px);
+    width: calc(50% - 16px);
+  }
+}
+
+@media (min-width:752px) {
+  .c17 {
+    display: block;
+    margin: calc(24px / 2);
+    width: calc(50% - 24px);
+    width: calc(50% - 24px);
+  }
+}
+
+@media (min-width:1008px) {
+  .c17 {
+    display: block;
+    margin: calc(24px / 2);
+    width: calc(33.33333% - 24px);
+    width: calc(50% - 24px);
+  }
+}
+
+@media (min-width:1232px) {
+  .c17 {
+    display: block;
+    margin: calc(24px / 2);
+    width: calc(33.33333% - 24px);
+    width: calc(50% - 24px);
+  }
+}
+
+@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
+
+}
+
+@supports (display:grid) {
+  .c16 {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  }
+}
+
+@media (min-width:512px) {
+
+}
+
+@media (min-width:752px) {
+
+}
+
+@media (min-width:1008px) {
+
+}
+
+@media (min-width:1232px) {
+
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1 c2"
+    display="flex"
+  />
+  <div
+    className="c3"
+  >
+    <div
+      className="c4"
+      display="block"
+      elevation={1}
+      shape="rounded-small"
+    >
+      <button
+        className="c5 c6 c7"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <div
+          className="c8 c9"
+          color="white"
+          height={20}
+          width={20}
+        >
+          <svg
+            height={32}
+            viewBox="0 0 24 24"
+            width={32}
+          />
+        </div>
+        Launch
+      </button>
+      <button
+        className="c10 c6 c11"
+        color="primary"
+        disabled={false}
+        onClick={[Function]}
+        size="md"
+        type="button"
+      >
+        <div
+          className="c8 c12"
+          color="primary"
+          height={25}
+          width={25}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8zm3.82-11.51a.5.5 0 00-.7 0l-4.74 4.74-1.5-1.49a.48.48 0 00-.7 0l-.53.53a.5.5 0 000 .71L10 15.35a.48.48 0 00.7 0l5.62-5.62a.5.5 0 000-.71z"
+            />
+          </svg>
+        </div>
+        Mark complete
+      </button>
+      <div
+        className="c13"
+        display="flex"
+      >
+        <div
+          className="c14"
+        >
+          <div
+            className="c15"
+          >
+            <div
+              className="c16"
+            >
+              <div
+                className="c17"
+              >
+                <p
+                  className="c18"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Provider
+                </p>
+              </div>
+              <div
+                className="c17"
+              >
+                <p
+                  className="c19"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Youtube
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr
+          className="c20"
+          color="grey2"
+          height={1}
+        />
+        <div
+          className="c14"
+        >
+          <div
+            className="c15"
+          >
+            <div
+              className="c16"
+            >
+              <div
+                className="c17"
+              >
+                <p
+                  className="c18"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Primary competency
+                </p>
+              </div>
+              <div
+                className="c17"
+              >
+                <p
+                  className="c19"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Digital Marketing
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr
+          className="c20"
+          color="grey2"
+          height={1}
+        />
+        <div
+          className="c14"
+        >
+          <div
+            className="c15"
+          >
+            <div
+              className="c16"
+            >
+              <div
+                className="c17"
+              >
+                <p
+                  className="c18"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Type
+                </p>
+              </div>
+              <div
+                className="c17"
+              >
+                <p
+                  className="c19"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Article
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr
+          className="c20"
+          color="grey2"
+          height={1}
+        />
+        <div
+          className="c14"
+        >
+          <div
+            className="c15"
+          >
+            <div
+              className="c16"
+            >
+              <div
+                className="c17"
+              >
+                <p
+                  className="c18"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  Length
+                </p>
+              </div>
+              <div
+                className="c17"
+              >
+                <p
+                  className="c19"
+                  color="grey5"
+                  fontSize="xs"
+                >
+                  16 minutes
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr
+          className="c20"
+          color="grey2"
+          height={1}
+        />
+      </div>
+      <p
+        className="c21 c22"
+        color="grey5"
+        fontSize="xs"
+      >
+        5 competencies featured in this learning product:
+      </p>
+      <div
+        className="c23"
+        display="flex"
+      >
+        <div
+          className="c24"
+          order={0}
+        >
+          <div
+            className="c25"
+            color="primary"
+          >
+            <span
+              className="c26"
+              color="primary"
+              fontSize="xs"
+            >
+              CREATIVITY
+            </span>
+          </div>
+        </div>
+        <div
+          className="c24"
+          order={0}
+        >
+          <div
+            className="c25"
+            color="primary"
+          >
+            <span
+              className="c26"
+              color="primary"
+              fontSize="xs"
+            >
+              STORYTELLIGN
+            </span>
+          </div>
+        </div>
+        <div
+          className="c24"
+          order={0}
+        >
+          <div
+            className="c25"
+            color="primary"
+          >
+            <span
+              className="c26"
+              color="primary"
+              fontSize="xs"
+            >
+              DESIGN
+            </span>
+          </div>
+        </div>
+        <div
+          className="c24"
+          order={0}
+        >
+          <div
+            className="c25"
+            color="primary"
+          >
+            <span
+              className="c26"
+              color="primary"
+              fontSize="xs"
+            >
+              WRITING
+            </span>
+          </div>
+        </div>
+        <div
+          className="c24"
+          order={0}
+        >
+          <div
+            className="c25"
+            color="primary"
+          >
+            <span
+              className="c26"
+              color="primary"
+              fontSize="xs"
+            >
+              BRAINSTORMING
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

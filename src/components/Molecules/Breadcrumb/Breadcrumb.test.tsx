@@ -8,11 +8,11 @@ const paths = [
     link: '',
   },
   {
-    name: 'Learning Asset',
+    name: 'Learning Product',
     link: '',
   },
   {
-    name: 'Learning Asset: Watch about Genomes',
+    name: 'Learning Product: Watch about Genomes',
     link: '',
   },
 ]
