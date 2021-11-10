@@ -66,7 +66,7 @@ export interface CardA11yProps {
 export interface CardProps extends CardA11yProps {
   badgeActionType?: BadgeActionType
   badges?: (BadgeType | null)[]
-  floatingAssetRow?: boolean
+  floatingProductRow?: boolean
   borderColor?: ThemeColors
   borderWidth?: number
   center?: boolean
@@ -78,7 +78,7 @@ export interface CardProps extends CardA11yProps {
   dividerWidth?: string | number
   elevation: Elevation
   elevationHover?: Elevation
-  featuredAssetImages?: FeaturedAssetProps[]
+  featuredProductImages?: FeaturedProductProps[]
   flexDirection?: 'row' | 'row-reverse' | 'column' | 'column-reverse'
   fullHeight?: boolean
   id?: string
@@ -103,13 +103,13 @@ export interface StyledDividerProps {
   dividerWidth?: string | number
 }
 
-export interface FeaturedAssetProps {
+export interface FeaturedProductProps {
   image: string
 }
 
-export interface FeaturedAssetRowProps {
-  floatingAssetRow?: boolean
-  featuredAssetImages?: FeaturedAssetProps[]
+export interface FeaturedProductRowProps {
+  floatingProductRow?: boolean
+  featuredProductImages?: FeaturedProductProps[]
 }
 
 export interface StyledBadgeWrapperProps {

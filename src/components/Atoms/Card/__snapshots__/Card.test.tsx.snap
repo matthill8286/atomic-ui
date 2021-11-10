@@ -19,23 +19,8 @@ exports[`Card Should render a Card 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -156,12 +141,7 @@ exports[`Card Should render a Card with badges 1`] = `
 }
 
 @media (min-width:512px) {
-  .c0:hover .c1,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -340,12 +320,7 @@ exports[`Card Should render a Card with badges and hover effect 1`] = `
 }
 
 @media (min-width:512px) {
-  .c0:hover .c1,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 <div
@@ -421,23 +396,8 @@ exports[`Card Should render a Card with custom padding 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -476,23 +436,8 @@ exports[`Card Should render a Card with custom shape 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -535,23 +480,8 @@ exports[`Card Should render a Card with elevation 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -594,16 +524,6 @@ exports[`Card Should render a Card with hover 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
   .c1:hover {
     -webkit-transform: translateY(-1px);
@@ -615,12 +535,7 @@ exports[`Card Should render a Card with hover 1`] = `
 }
 
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 <div
@@ -656,23 +571,8 @@ exports[`Card Should render a Card with no border on right 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -708,23 +608,8 @@ exports[`Card Should render a Card with padding 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -767,23 +652,8 @@ exports[`Card Should render a Card with padding, noBorder, shape, surface 1`] = 
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -827,23 +697,8 @@ exports[`Card Should render a Card with shape 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -879,23 +734,8 @@ exports[`Card Should render a Card with surface 1`] = `
   width: 100%;
 }
 
-.c0 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 @media (min-width:512px) {
-  .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div

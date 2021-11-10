@@ -39,10 +39,6 @@ exports[`Button Should render a button 1`] = `
   color: #FFFFFF;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
-}
-
 .c0 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
@@ -261,10 +257,6 @@ exports[`Button Should render a loading state 1`] = `
   color: transparent;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
-}
-
 .c0 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
@@ -355,10 +347,6 @@ exports[`Button Should render a router Link 1`] = `
   color: #FFFFFF;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
-}
-
 .c0 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
@@ -421,10 +409,6 @@ exports[`Button Should render an anchor 1`] = `
   border: 2px solid #00C8DC;
   color: #FFFFFF;
   -webkit-appearance: none !important;
-}
-
-.c0 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
 }
 
 .c0 .Status-y46az8-0 {

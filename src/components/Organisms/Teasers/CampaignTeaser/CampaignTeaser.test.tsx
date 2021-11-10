@@ -26,15 +26,15 @@ describe('CampaignTeaser', () => {
           { id: 2, name: 'Sponsored' },
         ]}
         contentText="Well, the answer is obvious: “He hasn’t died yet.” Fortunately, for us, Munger has kept on ticking."
-        featuredAssetImages={[
-          { image: 'public/images/featured_assets/featured_asset_01.png' },
-          { image: 'public/images/featured_assets/featured_asset_03.png' },
+        featuredProductImages={[
+          { image: 'public/images/featured_products/featured_product_01.png' },
+          { image: 'public/images/featured_products/featured_product_03.png' },
         ]}
         headline="High standards require sensible processes"
         orientation="auto"
-        assetImage="public/images/teasers/product02.png"
+        productImage="public/images/teasers/product02.png"
         size="auto"
-        tags={['73 assets', '23hours 18minutes', '3% completed']}
+        tags={['73 products', '23hours 18minutes', '3% completed']}
         lazyload={false}
       />
     )

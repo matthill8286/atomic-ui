@@ -157,12 +157,7 @@ exports[`ImageTeaser renders correctly: default teaser with badges 1`] = `
 }
 
 @media (min-width:512px) {
-  .c0:hover .c1,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 <div

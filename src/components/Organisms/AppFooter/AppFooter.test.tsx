@@ -3,7 +3,7 @@ import { renderWithThemeAndRouter } from '@/testRenderer'
 import { AppFooter } from './AppFooter'
 import { navigationListMockItems } from '@/components/Organisms/AppHeader/AppHeader.story'
 
-describe('Asset page footer', () => {
+describe('Product page footer', () => {
   it('renders with props', () => {
     const wrapper = renderWithThemeAndRouter(
       <AppFooter

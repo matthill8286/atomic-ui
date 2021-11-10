@@ -1,7 +1,7 @@
-import { Asset } from '@/types'
+import { Product } from '@/types'
 
-export const withTernary = ({ conditionA }, asset) =>
-  conditionA ? asset?.embedVideoURL : asset?.image
+export const withTernary = ({ conditionA }, product) =>
+  conditionA ? product?.embedVideoURL : product?.image
 
 const addHttps = (url: string): string | null => {
   if (/http:\/\//i.test(url)) {
@@ -13,12 +13,12 @@ const addHttps = (url: string): string | null => {
   return null
 }
 
-const addEmbeddedMedia = (asset: Asset | Partial<Asset>, canBeEmbedded: boolean): string => {
+const addEmbeddedMedia = (product: Product | Partial<Product>, canBeEmbedded: boolean): string => {
   const url: string = withTernary(
     {
       conditionA: canBeEmbedded,
     },
-    asset as Asset
+    product as Product
   )
 
   const sanitisedUrl = addHttps(url) ?? url
@@ -55,5 +55,5 @@ const addEmbeddedMedia = (asset: Asset | Partial<Asset>, canBeEmbedded: boolean)
   return sanitisedUrl
 }
 
-export const useEmbeddedMedia = (asset: Asset | Partial<Asset>): string | null =>
-  addEmbeddedMedia(asset, asset?.embedVideoURL !== '')
+export const useEmbeddedMedia = (product: Product | Partial<Product>): string | null =>
+  addEmbeddedMedia(product, product?.embedVideoURL !== '')

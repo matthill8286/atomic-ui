@@ -604,7 +604,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
-  .logTeE .c31 img {
+  .bIJQEU .c31 img {
     width: 100%;
   }
 }
@@ -785,7 +785,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
                       color="grey3"
                       fontSize="xs"
                     >
-                      73 assets
+                      73 products
                     </span>
                   </div>
                   <div
@@ -901,7 +901,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
                     alt="image"
                     height="32px"
                     loading="eager"
-                    src="public/images/featured_assets/featured_asset_01.png"
+                    src="public/images/featured_products/featured_product_01.png"
                     width="auto"
                   />
                 </picture>
@@ -938,7 +938,7 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
                     alt="image"
                     height="32px"
                     loading="eager"
-                    src="public/images/featured_assets/featured_asset_03.png"
+                    src="public/images/featured_products/featured_product_03.png"
                     width="auto"
                   />
                 </picture>
@@ -1009,16 +1009,6 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
   outline: none;
   width: 100%;
   height: 100%;
-}
-
-.c3 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
 }
 
 .c0 {
@@ -1178,18 +1168,11 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
 }
 
 @media (min-width:512px) {
-  .c3:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c3:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
-  .c2 .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 img {
-    width: 100%;
-  }
+
 }
 
 @media (min-width:752px) {

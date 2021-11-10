@@ -8,7 +8,7 @@ export const SiteMenuItems = [
     itemId: 'technical_features',
   },
   {
-    title: 'Assets',
-    itemId: 'asset',
+    title: 'Products',
+    itemId: 'product',
   },
 ]

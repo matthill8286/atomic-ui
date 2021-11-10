@@ -3,7 +3,7 @@ import { FlexBox } from '@/components/Helper/FlexBox'
 import { Grid } from '@/components/Helper/Grid'
 import { css, media, styled } from '@/styles'
 import { StyledHeadingArticleProps, StyledPlaylistStageTitleProps } from './PlaylistStage.interface'
-import { AssetTileMeta } from '@/components/Organisms/AssetTile/elements'
+import { ProductTileMeta } from '@/components/Organisms/ProductTile/elements'
 
 const articleStageBackgroundCommonStyles = css`
   content: ' ';
@@ -155,7 +155,7 @@ export const StyledBacklinkWrapper = styled(FlexBox)`
   }
 `
 
-export const StyledAssetTileMetaWrapper = styled(FlexBox)`
+export const StyledProductTileMetaWrapper = styled(FlexBox)`
   margin: 0 auto;
   ${media.maxSm} {
     margin: 0 auto;

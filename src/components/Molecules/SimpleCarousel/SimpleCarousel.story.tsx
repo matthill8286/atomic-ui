@@ -39,14 +39,14 @@ const blackExampleTheme = {
 
 export const renderWithPictureComponent = (item, index) => {
   return (
-    <div key={item.assetID + index}>
-      <Picture src={item.url} alt={item.assetID} />
+    <div key={item.productID + index}>
+      <Picture src={item.url} alt={item.productID} />
     </div>
   )
 }
 
 const renderWithPictureOrVideoComponent = (item, index) => {
-  if (item.usageType === 'Asset Video') {
+  if (item.usageType === 'Product Video') {
     return <VideoPlayerCore key={item.videoID} videoId={item.videoID} url={item.url} />
   } else {
     return renderWithPictureComponent(item, index)

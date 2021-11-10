@@ -65,7 +65,7 @@ const knobs = () => {
   }
 }
 
-storiesOf('Design System/Organisms/Teasers/AssetTeaser', module)
+storiesOf('Design System/Organisms/Teasers/ProductTeaser', module)
   .add('Slim version With Feature Image & Heading', () => {
     return (
       <StorybookRouterWrapper>

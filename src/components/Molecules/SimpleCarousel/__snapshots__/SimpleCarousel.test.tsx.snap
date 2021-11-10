@@ -390,7 +390,7 @@ exports[`SimpleCarousel renders correctly 1`] = `
                     }
                   >
                     <img
-                      alt="featured-asset-69001598"
+                      alt="featured-product-69001598"
                       loading="eager"
                       src="public/images/teasers/1.jpg"
                       width="100%"
@@ -440,7 +440,7 @@ exports[`SimpleCarousel renders correctly 1`] = `
                     }
                   >
                     <img
-                      alt="featured-asset-69001599"
+                      alt="featured-product-69001599"
                       loading="eager"
                       src="public/images/teasers/02.jpg"
                       width="100%"
@@ -490,7 +490,7 @@ exports[`SimpleCarousel renders correctly 1`] = `
                     }
                   >
                     <img
-                      alt="featured-asset-69001597"
+                      alt="featured-product-69001597"
                       loading="eager"
                       src="public/images/teasers/1.jpg"
                       width="100%"
@@ -540,7 +540,7 @@ exports[`SimpleCarousel renders correctly 1`] = `
                     }
                   >
                     <img
-                      alt="featured-asset-76257815"
+                      alt="featured-product-76257815"
                       loading="eager"
                       src="public/images/teasers/04.jpg"
                       width="100%"
@@ -590,7 +590,7 @@ exports[`SimpleCarousel renders correctly 1`] = `
                     }
                   >
                     <img
-                      alt="featured-asset-76257815"
+                      alt="featured-product-76257815"
                       loading="eager"
                       src="public/images/teasers/05.jpg"
                       width="100%"

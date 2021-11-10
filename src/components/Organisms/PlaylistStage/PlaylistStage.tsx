@@ -9,7 +9,7 @@ import { ImageMap } from '@/types'
 import { isSaiyanTheme } from '@/utils/helper'
 import { PlaylistStageProps } from './PlaylistStage.interface'
 import {
-  StyledAssetTileMetaWrapper,
+  StyledProductTileMetaWrapper,
   StyledBacklinkWrapper,
   StyledBreadcrumbWrapper,
   StyledContentWrapper,
@@ -19,8 +19,8 @@ import {
   StyledPlaylistStageTitle,
   StyledProgressWrapper,
 } from './PlaylistStage.styled'
-import { AssetTileMeta } from '@/components/Organisms/AssetTile/elements'
-import { getMetaItemList } from '@/components/Organisms/AssetTile/helpers/icons'
+import { ProductTileMeta } from '@/components/Organisms/ProductTile/elements'
+import { getMetaItemList } from '@/components/Organisms/ProductTile/helpers/icons'
 import { ProgressBar } from '@/components/Atoms/ProgressBar'
 
 export const PlaylistStage: React.FC<PlaylistStageProps> = ({
@@ -42,17 +42,17 @@ export const PlaylistStage: React.FC<PlaylistStageProps> = ({
     name,
     image,
     strategy,
-    totalAssetDuration,
+    totalProductDuration,
     completionPercentage,
-    numberOfAssets,
+    numberOfProducts,
     description,
   } = playlist
 
   const metaItems = getMetaItemList({
-    duration: totalAssetDuration,
+    duration: totalProductDuration,
     type: undefined,
     completedStatus: completionPercentage,
-    numberOfAssets,
+    numberOfProducts,
   })
 
   const imageMap: ImageMap = {
@@ -105,9 +105,14 @@ export const PlaylistStage: React.FC<PlaylistStageProps> = ({
           </StyledContentWrapper>
           {withMetaItems && (
             <>
-              <StyledAssetTileMetaWrapper justifyContent="center" flexDirection="row">
-                <AssetTileMeta inPlaylist justify="center" loading={false} metaItems={metaItems} />
-              </StyledAssetTileMetaWrapper>
+              <StyledProductTileMetaWrapper justifyContent="center" flexDirection="row">
+                <ProductTileMeta
+                  inPlaylist
+                  justify="center"
+                  loading={false}
+                  metaItems={metaItems}
+                />
+              </StyledProductTileMetaWrapper>
               <StyledProgressWrapper isSmall>
                 <ProgressBar value={parseInt(completionPercentage, 0)} small />
               </StyledProgressWrapper>

@@ -1,6 +1,6 @@
 import Slider, { Settings } from 'react-slick'
 
-import { Asset, ThemeColors } from '@/types'
+import { Product, ThemeColors } from '@/types'
 import { BadgeType } from '@/components/Atoms/Badge'
 
 export interface SliderItemProps {
@@ -8,14 +8,14 @@ export interface SliderItemProps {
   usageType?: string
   link?: string | null
   metadata?: string | null
-  assetID?: string
+  productID?: string
   sortOrder?: number
   title?: string
   url?: string
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type Item = SliderItemProps | Asset | any
+type Item = SliderItemProps | Product | any
 export interface CarouselSettings extends Settings {
   key?: string
 }

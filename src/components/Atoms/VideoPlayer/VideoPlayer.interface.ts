@@ -7,7 +7,7 @@ interface SourceProps {
 
 export interface VideoPlayerViewer {
   onStart: (callback: () => void) => void
-  loadUrl: (assetId: string) => void
+  loadUrl: (productId: string) => void
   play: () => void
   stop: () => void
 }
