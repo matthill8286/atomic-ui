@@ -35,16 +35,6 @@ exports[`TabBar render with a selected tab 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -136,12 +126,7 @@ exports[`TabBar render with a selected tab 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
@@ -306,16 +291,6 @@ exports[`TabBar renders correctly 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -407,12 +382,7 @@ exports[`TabBar renders correctly 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {

@@ -45,16 +45,6 @@ exports[`NavigationMenu should render with items 1`] = `
   width: 100%;
 }
 
-.c10 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c8 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -370,12 +360,7 @@ exports[`NavigationMenu should render with items 1`] = `
 }
 
 @media (min-width:512px) {
-  .c10:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c10:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
@@ -595,16 +580,6 @@ exports[`NavigationMenu should render with text for the main actiuon 1`] = `
   width: 100%;
 }
 
-.c3 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c0 {
   -webkit-order: 3;
   -ms-flex-order: 3;
@@ -792,12 +767,7 @@ exports[`NavigationMenu should render with text for the main actiuon 1`] = `
 }
 
 @media (min-width:512px) {
-  .c3:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c3:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {

@@ -408,12 +408,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .c2,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 @media (min-width:752px) {
@@ -698,16 +693,6 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c11 {
   overflow: hidden;
 }
@@ -928,12 +913,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 @media (min-width:752px) {
@@ -1213,16 +1193,6 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c15 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1420,12 +1390,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 @media (min-width:752px) {
@@ -1647,16 +1612,6 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c16 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1872,12 +1827,7 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media (min-width:512px) {
@@ -2115,16 +2065,6 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
   width: 100%;
 }
 
-.c1 .c8 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c0 {
   height: calc(100% - 16px);
   display: -webkit-box;
@@ -2223,12 +2163,7 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .c8,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 @media (min-width:752px) {
@@ -2386,16 +2321,6 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c9 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2529,12 +2454,7 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 @media (min-width:752px) {
@@ -2717,16 +2637,6 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
   width: 100%;
 }
 
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
 .c0 {
   height: calc(100% - 16px);
   display: -webkit-box;
@@ -2813,12 +2723,7 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-  }
+
 }
 
 @media (min-width:752px) {

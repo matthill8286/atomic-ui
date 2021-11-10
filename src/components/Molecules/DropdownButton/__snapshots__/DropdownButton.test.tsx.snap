@@ -51,10 +51,6 @@ exports[`DropdownButton renders 1`] = `
   color: #666666;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  padding: 0 8px;
-}
-
 .c0 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
@@ -95,10 +91,6 @@ exports[`DropdownButton renders 1`] = `
 
 .c1:hover {
   box-shadow: none;
-}
-
-.c1 .Icon-sc-1cofey5-0 {
-  padding: 0;
 }
 
 .c1::-moz-focus-inner {

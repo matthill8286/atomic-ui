@@ -26,17 +26,6 @@ exports[`Input should render 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
-}
-
 .c4 {
   border: 0;
   box-sizing: content-box;
@@ -163,17 +152,6 @@ exports[`Input should render with dense inputStyle 1`] = `
   position: relative;
   vertical-align: top;
   width: 100%;
-}
-
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
 }
 
 .c4 {
@@ -304,17 +282,6 @@ exports[`Input should render with dense inputStyle 2`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
-}
-
 .c4 {
   border: 0;
   box-sizing: content-box;
@@ -443,17 +410,6 @@ exports[`Input should render with dense inputStyle 3`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
-}
-
 .c4 {
   border: 0;
   box-sizing: content-box;
@@ -580,17 +536,6 @@ exports[`Input should render with different states 1`] = `
   position: relative;
   vertical-align: top;
   width: 100%;
-}
-
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
 }
 
 .c4 {
@@ -1125,17 +1070,6 @@ exports[`Input should render with different states 4`] = `
   width: 100%;
 }
 
-.c0 .c5 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .c5:focus svg {
-  fill: #000000;
-}
-
 .c4 {
   border: 0;
   box-sizing: content-box;
@@ -1525,17 +1459,6 @@ exports[`Input should render with helper component 1`] = `
   width: 100%;
 }
 
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
-}
-
 .c4 {
   border: 0;
   box-sizing: content-box;
@@ -1677,17 +1600,6 @@ exports[`Input should render with masked input 1`] = `
   position: relative;
   vertical-align: top;
   width: 100%;
-}
-
-.c0 .Icon-sc-1cofey5-0 {
-  position: absolute;
-  right: 0;
-  top: 28px;
-  outline: none;
-}
-
-.c0 .Icon-sc-1cofey5-0:focus svg {
-  fill: #000000;
 }
 
 .c4 {
