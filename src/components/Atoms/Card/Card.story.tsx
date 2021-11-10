@@ -95,7 +95,7 @@ const overflow: { [key: string]: CardOverflow | undefined } = {
   undefined: undefined,
 }
 
-const featuredAssetImages = [
+const featuredProductImages = [
   { image: 'public/images/logos/flower-logoa.jpg' },
   { image: 'public/images/logos/tree-logoa.jpg' },
 ]
@@ -275,13 +275,13 @@ storiesOf('Design System/Atoms/Card', module)
     }
   )
   .add(
-    'With badges and asset images',
+    'With badges and product images',
     () => {
       const badges = [
         { id: 1, name: 'Live' },
         { id: 1, name: 'Sponsored', badgeActionType: 'primary' },
       ]
-      const withFeaturedAssets = boolean('With Featured Assets', true)
+      const withFeaturedProducts = boolean('With Featured Products', true)
 
       const knobs = (): StyledCardProps => {
         return {
@@ -319,7 +319,7 @@ storiesOf('Design System/Atoms/Card', module)
             {...knobs()}
             badges={badges}
             padding={paddingForContent}
-            featuredAssetImages={withFeaturedAssets ? featuredAssetImages : undefined}
+            featuredProductImages={withFeaturedProducts ? featuredProductImages : undefined}
           />
         </StorybookWrapper>
       )

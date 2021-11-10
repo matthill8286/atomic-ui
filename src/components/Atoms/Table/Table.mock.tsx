@@ -8,7 +8,7 @@ import {
 
 export const tableData = [
   {
-    type: 'Asset',
+    type: 'Product',
     value: 'Danone',
   },
   {
@@ -23,15 +23,15 @@ export const tableData = [
 
 export const customTableElements = [
   {
-    asset: <TableTitle assetName={'Something about Mary!!!'} provider={'ENCOM'} />,
-    assetNumber: '2598172',
+    product: <TableTitle productName={'Something about Mary!!!'} provider={'ENCOM'} />,
+    productNumber: '2598172',
     noBorder: true,
   },
   {
-    asset: (
+    product: (
       <TableWithDescription
-        assetWithTitle={{
-          assetName: '+ saiyan',
+        productWithTitle={{
+          productName: '+ saiyan',
           provider: '+ saiyan',
         }}
         description={'Fill in the blanks.........'}
@@ -40,24 +40,24 @@ export const customTableElements = [
     noBorder: true,
   },
   {
-    asset: <TableTitle assetName={'+ Lorem ipsum......'} provider={'+ EHA'} />,
-    assetNumber: '2539111',
+    product: <TableTitle productName={'+ Lorem ipsum......'} provider={'+ EHA'} />,
+    productNumber: '2539111',
     noBorder: false,
   },
   {
-    asset: <TableTitle assetName={"Dixon's Learning Center"} provider={"Dixon's"} />,
-    assetNumber: '2999999',
+    product: <TableTitle productName={"Dixon's Learning Center"} provider={"Dixon's"} />,
+    productNumber: '2999999',
     noBorder: false,
   },
 ]
 
 export const customTableElementsMobileData = [
   {
-    asset: (
+    product: (
       <TableData
-        asset={{
-          assetWithTitle: {
-            assetName: 'Duality',
+        product={{
+          productWithTitle: {
+            productName: 'Duality',
             provider: 'Slipknot',
           },
         }}
@@ -67,11 +67,11 @@ export const customTableElementsMobileData = [
     noBorder: true,
   },
   {
-    asset: (
+    product: (
       <TableData
-        asset={{
-          assetWithTitle: {
-            assetName: '+ saiyan',
+        product={{
+          productWithTitle: {
+            productName: '+ saiyan',
             provider: '+ saiyan',
           },
           description: 'loads and loads of ice-cream',
@@ -82,11 +82,11 @@ export const customTableElementsMobileData = [
     noBorder: true,
   },
   {
-    asset: (
+    product: (
       <TableData
-        asset={{
-          assetWithTitle: {
-            assetName: 'Duality',
+        product={{
+          productWithTitle: {
+            productName: 'Duality',
             provider: 'Slipknot',
           },
         }}
@@ -97,11 +97,11 @@ export const customTableElementsMobileData = [
     noBorder: true,
   },
   {
-    asset: (
+    product: (
       <TableData
-        asset={{
-          assetWithTitle: {
-            assetName: 'Duality',
+        product={{
+          productWithTitle: {
+            productName: 'Duality',
             provider: 'SOAD',
           },
         }}

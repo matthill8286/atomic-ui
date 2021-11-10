@@ -176,7 +176,7 @@ exports[`Loading Error renders correctly 1`] = `
 
 @media (min-width:512px) {
   .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c0:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

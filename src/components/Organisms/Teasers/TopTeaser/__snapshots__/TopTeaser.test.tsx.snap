@@ -190,7 +190,7 @@ exports[`TopTeaser renders correctly: default teaser with badges 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .c2,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);

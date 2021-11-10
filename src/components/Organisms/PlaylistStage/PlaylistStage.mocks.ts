@@ -43,11 +43,11 @@ export const paddingTop: VerticalPaddingMap = {
 export const PlaylistMock: PlaylistProps = {
   pid: '628ce219-0158-4eb0-b864-61c59eff0f70',
   name: 'Conflict Management',
-  image: getTransformedImageVersion('FtMfGctDTKGIYVzDm5dL'),
-  strategy: '?',
-  totalAssetDuration: '1 day 15 hours 31 minutes',
+  image: 'getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL)',
+  strategy: 'none',
+  totalProductDuration: '1 day 15 hours 31 minutes',
   completionPercentage: '75% completed',
-  numberOfAssets: '12 assets',
+  numberOfProducts: '12 products',
   description: 'This is the Conflict Management playlist',
 }
 
@@ -56,9 +56,10 @@ export const props: PlaylistStageProps = {
   breadcrumbPath: undefined,
   colors: 'primary',
   headingColor: 'grey6',
-  height,
+  height: height,
   paddingBottom,
   paddingTop,
   withImage: true,
-  shape: 'rounded-small',
+  withMetaItems: false,
+  shape: 'rounded-big',
 }

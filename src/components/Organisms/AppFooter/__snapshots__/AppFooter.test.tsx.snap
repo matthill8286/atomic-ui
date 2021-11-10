@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Asset page footer renders with props 1`] = `
+exports[`Product page footer renders with props 1`] = `
 Array [
   .c0 {
   height: 8px;
@@ -767,7 +767,7 @@ Array [
 
 @media (min-width:512px) {
   .c17:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c17:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c17:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

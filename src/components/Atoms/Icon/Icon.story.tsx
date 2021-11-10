@@ -5,7 +5,7 @@ import {
   IconArrowRightCircle,
   IconArrowThin,
   IconArticle,
-  IconAsset,
+  IconProduct,
   IconBookmark,
   IconClose,
   IconCompleteChecked,

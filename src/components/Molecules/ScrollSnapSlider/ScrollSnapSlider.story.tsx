@@ -19,14 +19,14 @@ const badges = [
 
 const renderWithPictureComponent = (item, index) => {
   return (
-    <article key={item.assetID + index}>
-      <Picture height="100%" width="100%" src={item.url} alt={item.assetID} />
+    <article key={item.productID + index}>
+      <Picture height="100%" width="100%" src={item.url} alt={item.productID} />
     </article>
   )
 }
 
 const renderWithPictureOrVideoComponent = (item, index) => {
-  if (item.usageType === 'Asset Video') {
+  if (item.usageType === 'Product Video') {
     return `Investigate Video Player`
   } else {
     return renderWithPictureComponent(item, index)

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { Illustration01, Illustration02, Illustration03 } from '@matthill8286/atomic-icon-library'
 import { CallToActionPanel, CallToActionPanelProps } from './CallToActionPanel'
-import { newAssetMocks } from '@/components/Organisms/AssetTile/elements/mockAsset'
+import { newProductMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
 
 const imageUrls = {
   normal: 'https://media.graphcms.com/resize=fit:crop,height:280,width:450/tbT0Znk2RJmb3d6RtCLm',
@@ -47,7 +47,7 @@ const defaultKnobs = (): CallToActionPanelProps & { svgName: string } => {
       'Copy text',
       'The European Society for Paediatric Gastroenterology Hepatology and Nutrition (ESPGHAN) is a multi-professional organisation whose aim is to promote the health of children with special attention to the gastrointestinal tract, liver and nutritional status, through knowledge creation, the dissemination of science based information, the promotion of best practice in the delivery of care and the provision of high quality education for paediatric gastroenterology, hepatology and nutrition professionals in Europe and beyond.'
     ),
-    asset: newAssetMocks[0],
+    product: newProductMocks[0],
     alignment: select('Alignment', ['right', 'left'], 'left'),
   }
 }
@@ -70,7 +70,7 @@ storiesOf('Design System/Organisms/CallToActionPanel', module)
   .add('Default Icon', () => {
     return <CallToActionPanel {...defaultKnobs()} />
   })
-  .add('With Asset', () => {
+  .add('With Product', () => {
     return <CallToActionPanel showFeatured svg={undefined} image={undefined} {...defaultKnobs()} />
   })
   .add('2 alternate rows', () => {

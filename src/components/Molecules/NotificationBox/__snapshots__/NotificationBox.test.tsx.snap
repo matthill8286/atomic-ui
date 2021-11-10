@@ -255,7 +255,7 @@ exports[`NotificationBox renders corretly 1`] = `
 
 @media (min-width:512px) {
   .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c4:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c4:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

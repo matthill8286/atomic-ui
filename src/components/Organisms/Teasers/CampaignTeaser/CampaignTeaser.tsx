@@ -25,7 +25,7 @@ import {
   StyledLink,
   StyledMainContainer,
   StyledPictureContainer,
-  StyledAssetContainer,
+  StyledProductContainer,
   StyledRect,
   StyledTongue,
   StyledUpsetRect,
@@ -105,7 +105,7 @@ const Background: React.FC<BackgroundProps> = ({
   image,
   lazyloadBackgroundImage,
   size,
-  hasAsset,
+  hasProduct,
   theme,
 }) => {
   const [ref, inView] = useInView({
@@ -134,13 +134,13 @@ const Background: React.FC<BackgroundProps> = ({
             ref={ref}
             height={getValueBySize<number>(isPortrait, size, 104, 144, 160)}
             isPortrait={isPortrait}
-            hasAsset={hasAsset}>
+            hasProduct={hasProduct}>
             <StyledBackgroundImage
               image={image}
               inView={inView}
               lazyLoadImage={lowQualityImagePlaceholder}
               lazyLoading={lazyloadBackgroundImage}
-              hasAsset={hasAsset}
+              hasProduct={hasProduct}
             />
           </StyledTongue>
         )
@@ -166,7 +166,7 @@ export const CampaignTeaser: React.FC<CampaignTeaserProps> = ({
   smallHeadline,
   headline,
   contentText,
-  assetImage,
+  productImage,
   backgroundImage,
   borderColor,
   lazyload,
@@ -206,7 +206,7 @@ export const CampaignTeaser: React.FC<CampaignTeaserProps> = ({
       onClick={onClick}
       underline={false}
       target={linkTarget}>
-      <StyledWrapper hasAsset={!!assetImage}>
+      <StyledWrapper hasProduct={!!productImage}>
         <StyledCard
           elevation={elevation}
           elevationHover={elevationHover}
@@ -245,12 +245,12 @@ export const CampaignTeaser: React.FC<CampaignTeaserProps> = ({
                 <Tags isPortrait={isPortrait} tagsOnMobile={tagsOnMobile} tags={tags} />
               </StyledInfoContainerContent>
             </StyledInfoContainer>
-            <StyledAssetContainer
+            <StyledProductContainer
               size={size}
               isPortrait={isPortrait}
               isStageTeaser={isStageTeaser}
               fixedImageHeight={fixedImageHeight}
-              hasAsset={!!assetImage}>
+              hasProduct={!!productImage}>
               <StyledsaiyanLogo>
                 <LogoFiltered />
               </StyledsaiyanLogo>
@@ -261,19 +261,19 @@ export const CampaignTeaser: React.FC<CampaignTeaserProps> = ({
                 lazyloadBackgroundImage={lazyloadBackgroundImage}
                 lazyloadLowQuality={lazyloadLowQuality}
                 backgroundVariant={backgroundVariant}
-                hasAsset={!!assetImage}
+                hasProduct={!!productImage}
                 theme={theme?.name}
               />
-              {assetImage && (
+              {productImage && (
                 <StyledPictureContainer isStageTeaser={isStageTeaser}>
                   <LazyLoadImage
-                    src={assetImage}
+                    src={productImage}
                     height={isMobile ? undefined : '100%'}
                     lazyLoad={lazyload}
                   />
                 </StyledPictureContainer>
               )}
-            </StyledAssetContainer>
+            </StyledProductContainer>
           </StyledMainContainer>
         </StyledCard>
       </StyledWrapper>

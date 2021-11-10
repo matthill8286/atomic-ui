@@ -39,7 +39,7 @@ const backgroundVariants: { [key: string]: TeaserBackgroundVariant } = {
   rect: 'rect',
 }
 
-const assetImages: { [key: string]: string | undefined } = {
+const productImages: { [key: string]: string | undefined } = {
   none: '',
   Example1: getTransformedImageVersion('EDBzqhE5TZqIt0CEliLe'),
   Example2: getTransformedImageVersion('XhMIsyGQCa35lOttXGbA'),
@@ -53,14 +53,14 @@ const backgroundImages: { [key: string]: string | undefined } = {
   Example2: getTransformedImageVersion('NPgqQFqR0uJ1XhB00sGg'),
 }
 
-const featuredAssetImages = [
-  { image: 'public/images/featured_assets/featured_asset_danone.png' },
-  { image: 'public/images/featured_assets/featured_asset_lxp.jpg' },
+const featuredProductImages = [
+  { image: 'public/images/featured_products/featured_product_danone.png' },
+  { image: 'public/images/featured_products/featured_product_lxp.jpg' },
 ]
 
 storiesOf('Design System/Organisms/Teasers/CampaignTeaser', module)
   .add('Default', () => {
-    const withFeaturedAssets = boolean('With Featured Assets', true)
+    const withFeaturedProducts = boolean('With Featured Products', true)
 
     const knobs = (): CampaignTeaserProps => {
       return {
@@ -74,7 +74,7 @@ storiesOf('Design System/Organisms/Teasers/CampaignTeaser', module)
           'ContentText',
           'Well, the answer is obvious: “He hasn’t died yet.” Fortunately, for us, Munger has kept on ticking.'
         ),
-        assetImage: radios('Asset Image', assetImages, assetImages['none']),
+        productImage: radios('Product Image', productImages, productImages['none']),
         backgroundImage: radios('Background Image', backgroundImages, backgroundImages['Example1']),
         lazyloadBackgroundImage: boolean('Lazyload Image', true),
         backgroundVariant: radios(
@@ -82,7 +82,7 @@ storiesOf('Design System/Organisms/Teasers/CampaignTeaser', module)
           backgroundVariants,
           backgroundVariants['tongue']
         ),
-        featuredAssetImages: withFeaturedAssets ? featuredAssetImages : undefined,
+        featuredProductImages: withFeaturedProducts ? featuredProductImages : undefined,
         badges: [
           { id: 1, name: 'Featured' },
           { id: 2, name: 'Sponsored', actionType: 'disabled' },
@@ -92,7 +92,7 @@ storiesOf('Design System/Organisms/Teasers/CampaignTeaser', module)
         badgeActionType: radios('Badge type', actionTypes, actionTypes['secondary']),
         size: radios('Size', sizes, sizes['auto']),
         orientation: radios('Orientation', orientations, orientations['auto']),
-        tags: array('Tags', ['73 assets', '23hours 18minutes', '3% completed'], ','),
+        tags: array('Tags', ['73 products', '23hours 18minutes', '3% completed'], ','),
       }
     }
 
@@ -111,7 +111,7 @@ storiesOf('Design System/Organisms/Teasers/CampaignTeaser', module)
           'Well, the answer is obvious: “He hasn’t died yet.” Fortunately, for us, Munger has kept on ticking.'
         ),
         elevation: 0,
-        assetImage: radios('Asset Image', assetImages, assetImages['none']),
+        productImage: radios('Product Image', productImages, productImages['none']),
         backgroundImage: getTransformedImageVersion('9mSN32ckQzORsQnMC7Zc'),
         badgeActionType: 'secondary',
         size: radios('Size', sizes, sizes['auto']),

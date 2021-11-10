@@ -14,9 +14,9 @@ export interface PlaylistProps {
   image?: string | undefined
   description?: string
   strategy: string
-  totalAssetDuration: string
+  totalProductDuration: string
   completionPercentage: string
-  numberOfAssets: string
+  numberOfProducts: string
 }
 
 export interface PlaylistStageProps extends StyledHeadingArticleProps {

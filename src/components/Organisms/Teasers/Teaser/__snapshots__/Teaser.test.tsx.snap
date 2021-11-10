@@ -409,7 +409,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .c2,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -929,7 +929,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
 
 @media (min-width:512px) {
   .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -1421,7 +1421,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -1873,7 +1873,7 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -2224,7 +2224,7 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .c8,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -2530,7 +2530,7 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);
@@ -2814,7 +2814,7 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
 
 @media (min-width:512px) {
   .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c1:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
     transform: translateY(-1px);

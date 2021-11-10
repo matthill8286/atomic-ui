@@ -18,8 +18,8 @@ interface TableRowType {
 }
 
 interface RichTextRow {
-  asset: string | React.ReactNode
-  assetNumber?: string
+  product: string | React.ReactNode
+  productNumber?: string
   noBorder: boolean
 }
 
@@ -141,14 +141,14 @@ storiesOf('Design System/Atoms/Table', module)
                   cellWidth={10}
                   collapsible={false}
                   noBorder={row.noBorder}>
-                  {row.asset}
+                  {row.product}
                 </TableCell>
                 <TableCell
                   {...tableCellKnobs}
                   cellWidth={10}
                   collapsible={false}
                   noBorder={row.noBorder}>
-                  {row.assetNumber}
+                  {row.productNumber}
                 </TableCell>
               </TableRow>
             ))}

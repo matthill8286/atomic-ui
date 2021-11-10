@@ -1,6 +1,6 @@
 import { Settings } from 'react-slick'
 import { BadgeType } from '@/components/Atoms/Badge/Badge.interface'
-import { Asset } from '@/types/asset'
+import { Product } from '@/types/product'
 
 interface SliderItem {
   headline?: string
@@ -8,12 +8,12 @@ interface SliderItem {
   videoID?: string
   link?: string | null
   metadata?: string | null
-  assetID?: string
+  productID?: string
   sortOrder?: number
   url?: string
 }
 
-type Item = SliderItem | Asset
+type Item = SliderItem | Product
 
 export interface CarouselProps {
   className?: string

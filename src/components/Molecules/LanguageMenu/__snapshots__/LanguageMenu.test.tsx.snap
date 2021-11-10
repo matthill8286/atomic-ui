@@ -296,7 +296,7 @@ exports[`LanguageMenu should render testIdSuffix 1`] = `
 
 @media (min-width:512px) {
   .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c11:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -725,7 +725,7 @@ exports[`LanguageMenu should render with className 1`] = `
 
 @media (min-width:512px) {
   .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c11:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1154,7 +1154,7 @@ exports[`LanguageMenu should render with languages 1`] = `
 
 @media (min-width:512px) {
   .c11:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c11:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c11:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;

@@ -29,11 +29,11 @@ const badges = [
 
 export const renderWithPictureComponent = (item, index, hasThumbnails) => {
   return (
-    <div key={item.assetID + index}>
-      <Picture src={hasThumbnails ? item.thUrl : item.url} alt={item.assetID} />
-      {hasThumbnails && item.usageType === 'Asset Video' && (
+    <div key={item.productID + index}>
+      <Picture src={hasThumbnails ? item.thUrl : item.url} alt={item.productID} />
+      {hasThumbnails && item.usageType === 'Product Video' && (
         <img
-          src="https://mycliplister.com/static/viewer/assets/skins/default/playButton.png"
+          src="https://mycliplister.com/static/viewer/products/skins/default/playButton.png"
           alt="Play Video"
         />
       )}
@@ -42,7 +42,7 @@ export const renderWithPictureComponent = (item, index, hasThumbnails) => {
 }
 
 const renderWithPictureOrVideoComponent = (item, index, hasThumbnails) => {
-  if (!hasThumbnails && item.usageType === 'Asset Video') {
+  if (!hasThumbnails && item.usageType === 'Product Video') {
     return <VideoPlayerCore key={item.videoID} url={item.url} />
   } else {
     return renderWithPictureComponent(item, index, hasThumbnails)

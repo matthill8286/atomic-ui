@@ -183,7 +183,7 @@ exports[`SiteMenu matches snapshot 1`] = `
 
 @media (min-width:512px) {
   .c0:hover .Cardstyled__StyledBadgeLineWrapper-sc-1gxmhl7-0,
-  .c0:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1gxmhl7-3 {
+  .c0:hover .Cardstyled__StyledFeaturedProductsContainer-sc-1gxmhl7-3 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -310,7 +310,7 @@ exports[`SiteMenu matches snapshot 1`] = `
                 <input
                   checked={false}
                   disabled={false}
-                  id="tab-asset"
+                  id="tab-product"
                   name=""
                   readOnly={true}
                   type="radio"
@@ -320,9 +320,9 @@ exports[`SiteMenu matches snapshot 1`] = `
                   color="grey5"
                   disabled={false}
                   fontSize="xs"
-                  htmlFor="tab-asset"
+                  htmlFor="tab-product"
                 >
-                  Assets
+                  Products
                 </label>
               </div>
             </div>
