@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.33](https://github.com/matthill8286/atomic-ui/compare/v1.3.32...v1.3.33) (2021-11-10)
+
+
+### Tests
+
+* updating the lovely tests ([#5](https://github.com/matthill8286/atomic-ui/issues/5)) ([3f656bd](https://github.com/matthill8286/atomic-ui/commit/3f656bd07b920d37ac9287c1b6817a9430e6e472))
+
 ### [1.3.32](https://github.com/matthill8286/atomic-ui/compare/v1.3.31...v1.3.32) (2021-11-09)
 
 ### [1.3.31](https://github.com/matthill8286/atomic-ui/compare/v1.3.30...v1.3.31) (2021-11-09)
