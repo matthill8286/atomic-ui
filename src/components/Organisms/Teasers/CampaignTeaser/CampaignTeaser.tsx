@@ -4,7 +4,7 @@ import { Tag } from '@/components/Atoms/Tag'
 import { CopyText, Heading, HeadingFeatured } from '@/components/Atoms/Typography'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
 import { LazyLoadImage } from '@/components/Molecules/LazyLoadImage'
-import { media, ALTERNATE, styled, ThemeConsumer } from '@/styles'
+import { media, ALTERNATE, styled } from '@/styles'
 import { breakpoints } from '@/styles/sc-vars-global'
 import { Theme, ThemeFontLineHeight, ThemeFontSizes } from '@/types/theme'
 import {
@@ -32,9 +32,8 @@ import {
   StyledWrapper,
 } from './CampaignTeaser.styled'
 import { useTheme } from 'styled-components'
-import { LogoFiltered } from '@matthill8286/atomic-icon-library'
 
-const StyledsaiyanLogo = styled.div`
+const StyledSaiyanLogo = styled.div`
   display: none;
   ${({ theme }) =>
     theme.name === ALTERNATE &&
@@ -251,9 +250,6 @@ export const CampaignTeaser: React.FC<CampaignTeaserProps> = ({
               isStageTeaser={isStageTeaser}
               fixedImageHeight={fixedImageHeight}
               hasProduct={!!productImage}>
-              <StyledsaiyanLogo>
-                <LogoFiltered />
-              </StyledsaiyanLogo>
               <Background
                 size={size}
                 isPortrait={isPortrait}

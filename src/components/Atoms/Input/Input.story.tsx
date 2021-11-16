@@ -2,7 +2,7 @@ import { withState } from '@dump247/storybook-state'
 import { radios, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { IconBookmark, IconClose } from '@matthill8286/atomic-icon-library'
+import { OtherMore, OtherSearch } from '@matthill8286/atomic-icon-library'
 import { CopyText } from '../Typography'
 import { Input } from './Input'
 import { InputProps, InputState, InputStyle, InputType } from './Input.interface'
@@ -139,7 +139,7 @@ stories.add(
   withState({ value: '' }, store => {
     return (
       <Input
-        inputIcon={<IconBookmark />}
+        inputIcon={<OtherSearch />}
         inputIconSize={{ height: 16, width: 16 }}
         label="Insert something"
         value={store.state.value}
@@ -253,7 +253,7 @@ stories.add(
       <Input
         {...inputTextKnobs()}
         iconLabel="Enable self-destruct!"
-        inputIcon={<IconClose />}
+        inputIcon={<OtherMore />}
         inputIconSize={{ height: 20, width: 20 }}
         inputProps={{ id: 'test-field', required: true }}
         inputType="text"

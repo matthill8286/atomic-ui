@@ -2,7 +2,7 @@ import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { styled } from '@/styles'
-import { IconComplete } from '@matthill8286/atomic-icon-library'
+import { OtherCompleteChecked } from '@matthill8286/atomic-icon-library'
 
 export interface SelectionViewProps {
   modalDescription: string
@@ -31,7 +31,7 @@ export const SelectionView: React.FC<SelectionViewProps> = ({ modalDescription, 
   return (
     <StyledContainer>
       <StyledPickupIcon width={108} height={108}>
-        <IconComplete />
+        <OtherCompleteChecked />
       </StyledPickupIcon>
       <StyledCopyText fontSize="md" weight="semibold" tag="p" textAlign="center">
         {modalDescription}

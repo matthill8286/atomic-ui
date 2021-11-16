@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react'
-import { IconPercentage, IconTrash } from '@matthill8286/atomic-icon-library'
+import { OtherPercentage, OtherTrash } from '@matthill8286/atomic-icon-library'
 import { Input } from './Input'
 import { InputProps } from './Input.interface'
 
@@ -14,7 +14,7 @@ export const InputPassword: FC<InputProps> = props => {
     <Input
       {...props}
       inputType={showPassword ? 'text' : 'password'}
-      inputIcon={showPassword ? <IconPercentage /> : <IconTrash />}
+      inputIcon={showPassword ? <OtherPercentage /> : <OtherTrash />}
       onClickIcon={handleClickIcon}
     />
   )

@@ -2,15 +2,14 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { FlexBox } from '@/components/Helper/FlexBox'
 import {
-  IconArrowRightCircle,
-  IconArticle,
-  IconBookmark,
-  IconClose,
-  IconCompleteChecked,
-  IconDone,
-  IconUseful,
-  SocialFacebook,
-  StyleguideArrowRightCircle,
+  OtherArrowRightCircle,
+  OtherBookmark,
+  OtherClose,
+  OtherCompleteChecked,
+  OtherDone,
+  OtherUseful,
+  OtherArticle,
+  OtherFacebook,
 } from '@matthill8286/atomic-icon-library'
 import { Icon } from './Icon'
 import { Spacer } from '@/components/Atoms/Spacer'
@@ -25,27 +24,27 @@ storiesOf('Design System/Atoms/Icon', module)
       return (
         <>
           <Icon color={'primary'}>
-            <IconArticle />
+            <OtherArticle />
           </Icon>
           <Spacer size={'xl'} />
           <Icon rotate={90}>
-            <IconCompleteChecked />
+            <OtherCompleteChecked />
           </Icon>
           <Spacer size={'xl'} />
           <Icon height="md" width="md">
-            <IconBookmark />
+            <OtherBookmark />
           </Icon>
           <Spacer size={'xl'} />
           <Icon height="sm" width="sm">
-            <IconClose />
+            <OtherClose />
           </Icon>
           <Spacer size={'xl'} />
           <Icon height="lg" width="lg" color={'secondary'}>
-            <IconUseful height="lg" width="lg" />
+            <OtherUseful height="lg" width="lg" />
           </Icon>
           <Spacer size={'xl'} />
           <Icon height={'md'} width={'md'} color={'primary'}>
-            <StyleguideArrowRightCircle />
+            <OtherArrowRightCircle />
           </Icon>
         </>
       )
@@ -59,7 +58,7 @@ storiesOf('Design System/Atoms/Icon', module)
     () => {
       return (
         <Icon height={'md'} width={'md'} rotate={90}>
-          <IconArrowRightCircle fill={'primary'} />
+          <OtherArrowRightCircle fill={'primary'} />
         </Icon>
       )
     },
@@ -71,7 +70,7 @@ storiesOf('Design System/Atoms/Icon', module)
     return (
       <FlexBox>
         <Icon withBorder width={25} height={25} color="primary">
-          <SocialFacebook />
+          <OtherFacebook />
         </Icon>
       </FlexBox>
     )
@@ -80,7 +79,7 @@ storiesOf('Design System/Atoms/Icon', module)
     return (
       <FlexBox>
         <IconButton round width={65} height={65} actionType="primary">
-          <IconDone fill={'white'} />
+          <OtherDone fill={'white'} />
         </IconButton>
       </FlexBox>
     )

@@ -1,13 +1,7 @@
 import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { Link } from '@/components/Atoms/Link'
-import {
-  IconRightArrow,
-  StyleguideArrow,
-  StyleguideArrowRightCircle,
-  StyleguideHomeVs,
-  StyleguideHomeVs2Outlined,
-} from '@matthill8286/atomic-icon-library'
+import { OtherRightArrow, OtherHomeVs2Outlined } from '@matthill8286/atomic-icon-library'
 import { BreadcrumbPath, BreadcrumbProps } from './Breadcrumb.interface'
 import { StyledBreadcrumb, StyledHomeLink, StyledLi, StyledUl } from './Breadcrumb.styled'
 
@@ -70,7 +64,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({
               href={homeLink}
               iconLeft={
                 <Icon height="sm" width="sm" color={iconColor}>
-                  {!loading && <StyleguideHomeVs2Outlined />}
+                  {!loading && <OtherHomeVs2Outlined />}
                 </Icon>
               }
             />
@@ -86,7 +80,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({
                     disabled={isLast}
                     color={linkColor}
                     decorationColor={decorationColor}
-                    iconLeft={<Icon color={iconColor}>{!loading && <IconRightArrow />}</Icon>}
+                    iconLeft={<Icon color={iconColor}>{!loading && <OtherRightArrow />}</Icon>}
                     {...(item.isRouterLink ? { to: item.link } : { href: item.link })}>
                     {item.name}
                   </Link>

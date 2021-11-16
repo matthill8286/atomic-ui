@@ -4,7 +4,7 @@ import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { saiyanTheme } from '@/styles/sc-vars-saiyan'
-import { IconUseful } from '@matthill8286/atomic-icon-library'
+import { OtherUseful } from '@matthill8286/atomic-icon-library'
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { Like } from './Like'
 import { LikeProps, LikeSize } from './Like.interface'
@@ -51,14 +51,14 @@ storiesOf('Design System/Atoms/Like', module)
         {...((iconPosition === 'left' || iconPosition === 'both') && {
           iconLeft: (
             <Icon color={iconColor}>
-              <IconUseful />
+              <OtherUseful />
             </Icon>
           ),
         })}
         {...((iconPosition === 'right' || iconPosition === 'both') && {
           iconRight: (
             <Icon color={iconColor}>
-              <IconUseful />
+              <OtherUseful />
             </Icon>
           ),
         })}>

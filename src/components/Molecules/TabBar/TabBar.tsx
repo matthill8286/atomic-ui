@@ -1,7 +1,7 @@
 import React, { FC, Ref, useEffect, useRef, useState } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import { TabBarProps, TabData, TabId } from './TabBar.interface'
 import {
   StyledArrowButton,
@@ -97,7 +97,7 @@ export const TabBar: FC<TabBarProps> = props => {
             surfaceColor={surfaceColor}
             enableSemanticTheme={enableSemanticTheme}>
             <Icon height={16} width={16} rotate={180}>
-              <StyleguideArrow />
+              <OtherArrow />
             </Icon>
           </StyledArrowButton>
         )}
@@ -124,7 +124,7 @@ export const TabBar: FC<TabBarProps> = props => {
             enableSemanticTheme={enableSemanticTheme}
             surfaceColor={surfaceColor}>
             <Icon height={16} width={16}>
-              <StyleguideArrow />
+              <OtherArrow />
             </Icon>
           </StyledArrowButton>
         )}

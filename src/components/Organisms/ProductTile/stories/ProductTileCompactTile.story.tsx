@@ -10,7 +10,7 @@ import { ProductTileCompactTile } from '@/components/Organisms/ProductTile/Produ
 import { styled } from '@/styles'
 import { IconButton } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkActive } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkActive } from '@matthill8286/atomic-icon-library'
 
 const StyledIconButton = styled(IconButton)`
   border: none;
@@ -43,7 +43,7 @@ Default.args = {
   renderAddToBookmarkButton: () => (
     <StyledIconButton>
       <Icon color="grey5" height="md">
-        <StyleguideBookmarkActive />
+        <OtherBookmarkActive />
       </Icon>
     </StyledIconButton>
   ),

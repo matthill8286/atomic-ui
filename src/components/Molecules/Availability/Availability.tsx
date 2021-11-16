@@ -13,7 +13,7 @@ import {
   StyledAvailabilityWrapper,
   StyledCustomIcon,
 } from './Availability.styled'
-import { IconInfoOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherInfo } from '@matthill8286/atomic-icon-library'
 import { ProductAvailabilityState } from '@/types'
 
 const textOrNode = (content: ReactNode | string): ReactNode =>
@@ -81,7 +81,7 @@ export const Availability: React.FC<AvailabilityProps> = ({
                 height={20}
                 onClick={infoIconOnClick}
                 width={20}>
-                <IconInfoOutlined />
+                <OtherInfo />
               </StyledAvailabilityIcon>
             )}
           </StyledAvailabilityTypo>

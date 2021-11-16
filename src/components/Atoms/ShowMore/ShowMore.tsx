@@ -2,7 +2,7 @@ import React, { FC, useEffect, useRef, useState } from 'react'
 import { Icon, SkeletonBlockItem } from '@/index'
 import { ShowMoreProps } from './ShowMore.interface'
 import { ContentWrapper, FadeOutOverlay, FlexItem, LabelWrapper, Wrapper } from './ShowMore.styled'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 
 export const ShowMore: FC<ShowMoreProps> = ({
   lineHeight,
@@ -64,7 +64,7 @@ export const ShowMore: FC<ShowMoreProps> = ({
               height={fontSize}
               width={fontSize}
               alignSelf="center">
-              <StyleguideArrow />
+              <OtherArrow />
             </Icon>
           </FlexItem>
         </LabelWrapper>

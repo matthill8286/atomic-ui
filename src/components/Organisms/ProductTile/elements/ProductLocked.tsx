@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconButton } from '@/components/Atoms/Button'
 import { css, styled } from '@/styles/styled'
-import { StyleguideLock, StyleguideLockOpenOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherLock, OtherLockOpenOutlined } from '@matthill8286/atomic-icon-library'
 import { ThemeColors } from '@/types'
 import { Icon } from '@/components/Atoms/Icon'
 
@@ -42,7 +42,7 @@ export const ProductLocked: React.FC<ProductLockedProps> = ({
     <StyledProductLocked>
       <StyledIconButton isFlat round onClick={onLockClick}>
         <Icon color={color} height="md">
-          <StyleguideLock />
+          <OtherLock />
         </Icon>
       </StyledIconButton>
     </StyledProductLocked>

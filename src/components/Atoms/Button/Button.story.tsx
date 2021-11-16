@@ -4,9 +4,9 @@ import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { styled } from '@/styles'
 import {
-  StyleguideArticle,
-  StyleguideBookmarkActive,
-  StyleguideBookmarkOutlined,
+  OtherArticle,
+  OtherBookmarkActive,
+  OtherBookmarkOutlined,
 } from '@matthill8286/atomic-icon-library'
 import { Icon } from '../Icon'
 import { Status } from '../Status'
@@ -147,7 +147,7 @@ storiesOf('Design System/Atoms/Button', module)
       <>
         <Button {...knobs()}>
           <Icon width={16} height={16}>
-            <StyleguideBookmarkActive />
+            <OtherBookmarkActive />
           </Icon>
           Icon on left side
         </Button>
@@ -155,19 +155,19 @@ storiesOf('Design System/Atoms/Button', module)
         <Button {...knobs()}>
           Icon on right side
           <Icon color="white" width={24} height={24}>
-            <StyleguideArticle fill="white" />
+            <OtherArticle fill="white" />
           </Icon>
         </Button>
         &nbsp;
         <Button {...knobs()} squared>
           <Icon width={16} height={16}>
-            <StyleguideBookmarkActive />
+            <OtherBookmarkActive />
           </Icon>
         </Button>
         &nbsp;
         <Button {...knobs()} round>
           <Icon width={16} height={16}>
-            <StyleguideBookmarkOutlined />
+            <OtherBookmarkOutlined />
           </Icon>
         </Button>
       </>
@@ -179,7 +179,7 @@ storiesOf('Design System/Atoms/Button', module)
       return store.state.isAddedToBookmark ? (
         <Button to="#" actionType={'primary'}>
           <Icon width={16} height={16}>
-            <StyleguideBookmarkActive />
+            <OtherBookmarkActive />
           </Icon>
           Added to Bookmark
         </Button>
@@ -188,7 +188,7 @@ storiesOf('Design System/Atoms/Button', module)
           actionType={'secondary'}
           onClick={() => store.set({ isAddedToBookmark: !store.state.isAddedToBookmark })}>
           <Icon width={16} height={16}>
-            <StyleguideBookmarkActive />
+            <OtherBookmarkActive />
           </Icon>
           Add to Bookmark
         </Button>
@@ -199,7 +199,7 @@ storiesOf('Design System/Atoms/Button', module)
     return (
       <Button actionType={'primary'} size="lg" fullWidth>
         <Icon width={16} height={16}>
-          <StyleguideBookmarkActive />
+          <OtherBookmarkActive />
         </Icon>
         Bookmark
       </Button>
@@ -210,7 +210,7 @@ storiesOf('Design System/Atoms/Button', module)
       <>
         <Button round>
           <Icon width={16} height={16}>
-            <StyleguideBookmarkOutlined />
+            <OtherBookmarkOutlined />
           </Icon>
           <Status type="black">1</Status>
         </Button>
@@ -218,7 +218,7 @@ storiesOf('Design System/Atoms/Button', module)
         <Button>
           Checkmark Status
           <Icon width={16} height={16}>
-            <StyleguideArticle />
+            <OtherArticle />
           </Icon>
           <Status type="white">1</Status>
         </Button>

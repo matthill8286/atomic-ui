@@ -3,7 +3,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { media } from '@/styles/media'
 import { styled } from '@/styles/styled'
-import { IconCross, IconDone } from '@matthill8286/atomic-icon-library'
+import { OtherCross, OtherDone } from '@matthill8286/atomic-icon-library'
 
 interface IconOrTextProps {
   textType: string
@@ -26,11 +26,11 @@ export const IconOrText: React.FC<IconOrTextProps> = ({ textType }) => {
   const getIconOrText = () => {
     return textType === 'check true' ? (
       <Icon className="mms-pds-table__check-icon">
-        <IconDone />
+        <OtherDone />
       </Icon>
     ) : textType === 'check false' ? (
       <Icon className={'mms-pds-table__cross-icon'}>
-        <IconCross viewBox="0 0 100 100" />
+        <OtherCross viewBox="0 0 100 100" />
       </Icon>
     ) : (
       <CopyText tag={'span'} fontSize={'sm'}>

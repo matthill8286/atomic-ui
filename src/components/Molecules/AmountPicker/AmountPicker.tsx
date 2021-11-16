@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
-import { IconPlusThin, IconMinusThin } from '@matthill8286/atomic-icon-library'
+import { OtherAdd, OtherRemove } from '@matthill8286/atomic-icon-library'
 import { AmountPickerProps, ButtonTypes, OnQuantityChangeEvent } from './AmountPicker.interface'
 import { getNewQuantity } from './helpers/getNewQuantity'
 
@@ -115,7 +115,7 @@ export const AmountPicker: React.FC<AmountPickerProps> = ({
             onClick={handleOnClick('minus')}
             tabIndex={-1}>
             <Icon color={'primary'} height={20} width={20}>
-              <IconMinusThin />
+              <OtherRemove />
             </Icon>
           </StyledButtonForAmountPicker>
         </div>
@@ -129,7 +129,7 @@ export const AmountPicker: React.FC<AmountPickerProps> = ({
             onClick={handleOnClick('plus')}
             tabIndex={-1}>
             <Icon color={'primary'} height={20} width={20}>
-              <IconPlusThin />
+              <OtherAdd />
             </Icon>
           </StyledButtonForAmountPicker>
         </div>

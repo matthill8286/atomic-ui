@@ -10,7 +10,7 @@ import {
   StyledStepContent,
 } from './StepElement.styled'
 import { StepByStepFieldProps } from './StepElement.types'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 
 export const StepElement: React.FC<StepByStepFieldProps> = ({
   index,
@@ -38,7 +38,7 @@ export const StepElement: React.FC<StepByStepFieldProps> = ({
               color={textColor}
               iconLeft={
                 <Icon color={textColor}>
-                  <IconArrow />
+                  <OtherArrow />
                 </Icon>
               }
               underline

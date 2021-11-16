@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import { Badge } from '@/components/Atoms/Badge'
 import { Icon, RotationValues } from '@/components/Atoms/Icon'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import { CarouselProps } from './Carousel.interface'
 import { StyledCarousel, StyledCarouselHandler } from './Carousel.styled'
 
@@ -60,13 +60,13 @@ export const Carousel: React.FC<CarouselProps> = ({
     if (hasThumbnails) {
       return (
         <Icon rotate={rotation} color={'black'} width={24} height={24}>
-          <IconArrow />
+          <OtherArrow />
         </Icon>
       )
     } else {
       return (
         <Icon rotate={rotation} color={'white'} width={24} height={24}>
-          <IconArrow />
+          <OtherArrow />
         </Icon>
       )
     }

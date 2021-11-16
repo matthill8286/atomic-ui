@@ -5,7 +5,7 @@ import { FlexBox, Icon, Spacer } from '@/index'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { ProductTileCompact } from './ProductTileCompact'
 import { ProductTileCompactElement } from './ProductTileCompactElement'
-import { StyleguideAddToTrash } from '@matthill8286/atomic-icon-library'
+import { OtherAddToTrash } from '@matthill8286/atomic-icon-library'
 import { newProductMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
 
 const productLineItemElementProps = {
@@ -43,7 +43,7 @@ describe('ProductTileCompact', () => {
         <FlexBox flexDirection="row">
           <IconButton>
             <Icon width={20} height={20}>
-              <StyleguideAddToTrash />
+              <OtherAddToTrash />
             </Icon>
           </IconButton>
           <Spacer direction="vertical" size="md" />

@@ -6,7 +6,7 @@ import { CopyText } from '@/components/Atoms/Typography'
 import { Cell, Grid, Row } from '@/components/Helper/Grid'
 import { media } from '@/styles/media'
 import { styled } from '@/styles/styled'
-import { IconCheckmarkCircle } from '@matthill8286/atomic-icon-library'
+import { OtherCheckmark } from '@matthill8286/atomic-icon-library'
 
 interface TopBarProps {
   entries: React.ReactChild[]
@@ -79,7 +79,7 @@ export const TopBar: React.FC<TopBarProps> = ({ entries }) => {
               {entries.map((entry, index) => (
                 <li key={index}>
                   <StyledIcon height={14} width={14} color="grey5">
-                    <IconCheckmarkCircle />
+                    <OtherCheckmark />
                   </StyledIcon>
                   <CopyText color="grey5" bold fontSize="sm" tag="span">
                     {entry}

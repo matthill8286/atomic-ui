@@ -3,7 +3,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { renderWithTheme } from '@/testRenderer'
 import { Lists } from './Lists'
-import { StyleguideCheckmarkCircle } from '@matthill8286/atomic-icon-library'
+import { OtherCheckmarkCircle } from '@matthill8286/atomic-icon-library'
 
 describe('Lists', () => {
   it('renders correctly', () => {
@@ -22,7 +22,7 @@ describe('Lists', () => {
         <li>
           <CopyText>
             <Icon color="success" height={24} width={24}>
-              <StyleguideCheckmarkCircle />
+              <OtherCheckmarkCircle />
               Lorem ipsum
             </Icon>
           </CopyText>

@@ -3,7 +3,7 @@ import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { css, styled } from '@/styles/styled'
-import { IconClear } from '@matthill8286/atomic-icon-library'
+import { OtherClear } from '@matthill8286/atomic-icon-library'
 import { FilterBorderColor, FilterProps, FilterType } from './Filter.interface'
 
 const filterBorderByType: FilterBorderColor = {
@@ -77,7 +77,7 @@ export const Filter: React.FC<FilterProps> = ({ type, label, onClick, onClear, .
         </CopyText>
         {type === 'active' && (
           <StyledIcon width={24} height={24} onClick={handleOnClear}>
-            <IconClear />
+            <OtherClear />
           </StyledIcon>
         )}
       </StyledFilterButton>

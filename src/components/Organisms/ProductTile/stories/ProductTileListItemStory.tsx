@@ -19,7 +19,7 @@ import { ProductTileExpanderRow } from '@/components/Organisms/ProductTile/stori
 import { action } from '@storybook/addon-actions'
 import { ProductTileVariantProps } from '@/components/Organisms/ProductTile/helpers/layout'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideBookmarkOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkOutlined } from '@matthill8286/atomic-icon-library'
 import { StyledIconButton } from '@/components/Organisms/ProductTile/stories/ProductTileGridItemStory'
 
 export const ProductTileListItemStory = () => {
@@ -36,7 +36,7 @@ export const ProductTileListItemStory = () => {
     renderAddToBookmarkButton: () => (
       <StyledIconButton round isFlat>
         <Icon color="grey5" height="md">
-          <StyleguideBookmarkOutlined />
+          <OtherBookmarkOutlined />
         </Icon>
       </StyledIconButton>
     ),

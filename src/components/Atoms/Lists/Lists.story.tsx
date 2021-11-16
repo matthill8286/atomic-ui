@@ -4,7 +4,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { Lists, ListsProps } from './Lists'
 import { colorsList } from '@/utils/helper'
-import { StyleguideCheckmarkCircle } from '@matthill8286/atomic-icon-library'
+import { OtherCheckmarkCircle } from '@matthill8286/atomic-icon-library'
 
 const ListItems = [
   'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ',
@@ -32,7 +32,7 @@ const Template: Story<ListsProps> = (args: ListsProps) => (
       <li key={index}>
         {args.icon && (
           <Icon color="success" width={24} height={24}>
-            <StyleguideCheckmarkCircle />
+            <OtherCheckmarkCircle />
           </Icon>
         )}
         {<CopyText>{item}</CopyText>}

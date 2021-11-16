@@ -1,7 +1,7 @@
 import React, { FC, Children, PropsWithChildren, useMemo } from 'react'
 import { Portal, Modal, Button, styled, Icon } from '../../../index'
 import { useMultiViewModalState, useMultiViewModalAction } from './MultiViewModal.store'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 
 export type MultiViewModalProps = {
   targetId: string
@@ -44,7 +44,7 @@ export const MultiViewModal: FC<PropsWithChildren<MultiViewModalProps>> = ({
           {hasBackButton && (
             <StyledBackButton actionType="ghost" onClick={goHome}>
               <StyledBackArrow rotate={180} width="sm" height="sm">
-                <IconArrow />
+                <OtherArrow />
               </StyledBackArrow>
               {'multiViewModal.backButtonText'}
             </StyledBackButton>

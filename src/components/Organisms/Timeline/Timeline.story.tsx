@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { Story, Meta } from '@storybook/react/types-6-0'
 import {
-  IconCalendar,
-  IconCheckmarkCircleOutlined,
-  IconClearCircleOutlined,
-  IconPercentage,
-  IconSaveToPlaylist,
+  OtherCalendar,
+  OtherCheckmarkCircleOutlined,
+  OtherClearCircleOutlined,
+  OtherPercentage,
+  OtherSaveToPlaylist,
 } from '@matthill8286/atomic-icon-library'
 import { CopyText } from '@/components/Atoms/Typography'
 import { Timeline, TimelineProps } from '../Timeline'
@@ -34,21 +34,21 @@ Index.args = {
       title: 'Paket vorbereiten',
       description:
         'Bitte verpacken Sie die ausgedruckten Rücksendeunterlagen und die Artikel sorgfältig, am besten in der Originalverpackung. Kleben Sie das Retourenetikett auf das Paket.',
-      icon: <IconCalendar />,
+      icon: <OtherCalendar />,
       id: 'item1',
     },
     {
       title: 'Paket abgeben',
       description:
         'Bringen Sie das Paket zur Ihrer Postfiliale. Bitte bewahren Sie den Einlieferungsbeleg bis zum Abschluss der Retoure auf. Die Rücksendung ist für Sie kostenlos.',
-      icon: <IconPercentage />,
+      icon: <OtherPercentage />,
       id: 'item2',
     },
     {
       title: 'Geld zurückerhalten',
       description:
         'Die Rückerstattung erfolgt innerhalb von 14 Tagen nach Eingang und Prüfung der Rücksendung auf das ursprünglich eingesetzte Zahlungsmittel.',
-      icon: <IconSaveToPlaylist />,
+      icon: <OtherSaveToPlaylist />,
       id: 'item3',
     },
   ],
@@ -65,7 +65,7 @@ WithoutTitles.args = {
           Ihr MediaMarkt Online Konto wurde erfolgreich erstellt.
         </CopyText>
       ),
-      icon: <IconCheckmarkCircleOutlined />,
+      icon: <OtherCheckmarkCircleOutlined />,
       id: 'item1',
     },
     {
@@ -74,7 +74,7 @@ WithoutTitles.args = {
           Leider konnten wir die Anmeldung für den MediaMarkt Club nicht erfolgreich abschließen.
         </CopyText>
       ),
-      icon: <IconClearCircleOutlined />,
+      icon: <OtherClearCircleOutlined />,
       id: 'item2',
     },
     {
@@ -84,7 +84,7 @@ WithoutTitles.args = {
           „Mein Konto“ und melden Sie sich dort für den MediaMarkt Club an.
         </CopyText>
       ),
-      icon: <IconSaveToPlaylist />,
+      icon: <OtherSaveToPlaylist />,
       id: 'item3',
     },
   ],

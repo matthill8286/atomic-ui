@@ -21,12 +21,12 @@ import {
   StyledNotificationHeadline,
 } from './NotificationBoxStyled'
 import {
-  IconArrow,
-  IconCheckmarkCircleOutlined,
-  IconClear,
-  IconClearCircleOutlined,
-  IconInfoOutlined,
-  IconSwapHorizontal,
+  OtherArrow,
+  OtherCheckmarkCircleOutlined,
+  OtherClear,
+  OtherClearCircleOutlined,
+  OtherInfoOutlined,
+  OtherSwapHorizontal,
 } from '@matthill8286/atomic-icon-library'
 
 export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxProps>(
@@ -58,17 +58,17 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
     const renderIcon = (type): React.ReactElement => {
       switch (type) {
         case 'info':
-          return <IconInfoOutlined />
+          return <OtherInfoOutlined />
         case 'success':
-          return <IconCheckmarkCircleOutlined />
+          return <OtherCheckmarkCircleOutlined />
         case 'alert':
-          return <IconInfoOutlined />
+          return <OtherInfoOutlined />
         case 'error':
-          return <IconClearCircleOutlined />
+          return <OtherClearCircleOutlined />
         case 'hot':
-          return <IconSwapHorizontal />
+          return <OtherSwapHorizontal />
         default:
-          return <IconInfoOutlined />
+          return <OtherInfoOutlined />
       }
     }
 
@@ -80,7 +80,7 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
       if (iconLeft === undefined)
         return (
           <Icon color="primary">
-            <IconArrow />
+            <OtherArrow />
           </Icon>
         )
       return iconLeft
@@ -118,7 +118,7 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
         {...otherProps}>
         <StyledNotificationClose onClick={onClose}>
           <Icon width={16} height={16} color={'white'}>
-            {isClosable && <IconClear />}
+            {isClosable && <OtherClear />}
           </Icon>
         </StyledNotificationClose>
         {arrowPos && <StyledArrow arrowLeft={tooltip?.arrowleft} arrowPosition={arrowPos} />}

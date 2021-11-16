@@ -1,7 +1,7 @@
 /* global JSX */
 import React from 'react'
 import { InfoText } from '@/components/Atoms/Typography'
-import { IconSearch } from '@matthill8286/atomic-icon-library'
+import { OtherSearch } from '@matthill8286/atomic-icon-library'
 import { SSearchWrapper, SInput } from './StoreSelector.styled'
 // eslint-disable-next-line prettier/prettier
 import type { SearchFieldProps } from './StoreSelector.types'
@@ -23,7 +23,7 @@ export function SearchField({
     <SSearchWrapper data-test="mms-market-search-field" hasConsent={Boolean(consent)}>
       <SInput
         autofocus
-        inputIcon={!errorMessage ? <IconSearch /> : undefined}
+        inputIcon={!errorMessage ? <OtherSearch /> : undefined}
         onChange={handleInputChange}
         onClickIcon={onSearch}
         onKeyDown={(e) => value !== '' && e.key === 'Enter' && onSearch()}

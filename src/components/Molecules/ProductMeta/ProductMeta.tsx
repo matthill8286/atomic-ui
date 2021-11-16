@@ -7,13 +7,13 @@ import { TagProps } from '@/components/Atoms/Tag/Tag.interface'
 import { FlexBox, FlexItem } from '@/components/Helper/FlexBox'
 import { Feature, FeatureList } from '@/components/Molecules/FeatureList'
 import {
-  IconBookmark,
-  IconBookmarkActive,
-  IconCheckmarkCircle,
-  IconCheckmarkCircleOutlined,
-  StyleguideExpand,
-  IconSaveToPlaylist,
-  IconShare,
+  OtherBookmark,
+  OtherBookmarkActive,
+  OtherCheckmarkCircle,
+  OtherCheckmarkCircleOutlined,
+  OtherExpand,
+  OtherSaveToPlaylist,
+  OtherShare,
 } from '@matthill8286/atomic-icon-library'
 import { CompetencyText, CompleteButton, IconsWrapper, LaunchButton } from './ProductMeta.styled'
 import { isNonEmptyString } from '@/components/Helper/String'
@@ -78,7 +78,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
               actionType="darkBorder"
               height={45}
               width={45}>
-              {bookmarked ? <IconBookmarkActive /> : <IconBookmark />}
+              {bookmarked ? <OtherBookmarkActive /> : <OtherBookmark />}
             </IconButton>
           </FlexItem>
         )}
@@ -92,7 +92,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
               actionType="darkBorder"
               height={45}
               width={45}>
-              <IconShare />
+              <OtherShare />
             </IconButton>
           </FlexItem>
         )}
@@ -106,7 +106,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
               actionType="darkBorder"
               height={45}
               width={45}>
-              <IconSaveToPlaylist />
+              <OtherSaveToPlaylist />
             </IconButton>
           </FlexItem>
         )}
@@ -118,7 +118,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
           {!hideLaunched && (
             <LaunchButton weight="bold" curved fullWidth onClick={launchHandler}>
               <Icon width={20} height={20} color="white">
-                <StyleguideExpand fill={'white'} />
+                <OtherExpand fill={'white'} />
               </Icon>
               {buttonTextLaunch}
             </LaunchButton>
@@ -132,7 +132,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
               fullWidth
               onClick={completedHandler}>
               <Icon width={25} height={25} color="primary">
-                {completed ? <IconCheckmarkCircle /> : <IconCheckmarkCircleOutlined />}
+                {completed ? <OtherCheckmarkCircle /> : <OtherCheckmarkCircleOutlined />}
               </Icon>
               {buttonTextComplete}
             </CompleteButton>

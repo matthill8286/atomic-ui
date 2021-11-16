@@ -1,7 +1,7 @@
 import { clearAllBodyScrollLocks, disableBodyScroll } from 'body-scroll-lock'
 import * as React from 'react'
 import { Heading } from '@/components/Atoms/Typography'
-import { StyleguideClose } from '@matthill8286/atomic-icon-library'
+import { OtherClose } from '@matthill8286/atomic-icon-library'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
 import { ModalButtonGroup } from '@/components/Molecules/ModalButtonGroup'
 import { ModalHeadingProps, ModalProps } from './Modal.interface'
@@ -74,7 +74,7 @@ export const Modal: React.FC<ModalProps> = ({
       )}
       {!hideCloseButton && (
         <StyledIcon width={30} height={30} color="grey5" onClick={handleClick(onClose)}>
-          <StyleguideClose data-test="modal-close-button" />
+          <OtherClose data-test="modal-close-button" />
         </StyledIcon>
       )}
     </>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { css, media, styled } from '@/styles'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 
 interface StyledNavArrowProps {
   direction: 'prev' | 'next'
@@ -77,7 +77,7 @@ export const NavArrow = React.forwardRef(
         fixedArrowPosition={fixedArrowPosition}
         zeroArrowPosition={zeroArrowPosition}>
         <Icon rotate={rotation} color="black" padding="sm">
-          <StyleguideArrow width={30} height={30} />
+          <OtherArrow width={30} height={30} />
         </Icon>
       </StyledNavArrow>
     )

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { ProgressBar } from '@/components/Atoms/ProgressBar'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import {
   BulletProps,
   DotsOptions,
@@ -171,7 +171,7 @@ export const Pagination: React.FC<PaginationProps> = ({
           round
           onClick={ev => handleClick(ev, active - 1)}>
           <Icon width={16} height={16} rotate={180}>
-            <IconArrow />
+            <OtherArrow />
           </Icon>
         </Button>
         <StyledPagesWrapper>{renderPages(max, active, handleClick)}</StyledPagesWrapper>
@@ -181,7 +181,7 @@ export const Pagination: React.FC<PaginationProps> = ({
           round
           onClick={ev => handleClick(ev, active + 1)}>
           <Icon width={16} height={16}>
-            <IconArrow />
+            <OtherArrow />
           </Icon>
         </Button>
       </StyledPaginationWrapper>
