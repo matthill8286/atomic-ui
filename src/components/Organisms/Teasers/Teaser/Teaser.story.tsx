@@ -6,7 +6,7 @@ import * as React from 'react'
 import { BadgeActionType, BadgeType } from '@/components/Atoms/Badge/Badge.interface'
 import { Icon } from '@/components/Atoms/Icon'
 import { Cell, Grid, Row } from '@/components/Helper/Grid'
-import { IconBookmarkOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkOutlined } from '@matthill8286/atomic-icon-library'
 import { ThemeColors } from '@/types/theme'
 import { StorybookRouterWrapper } from '@/utils/StorybookWrapper'
 import { TeaserOrientation, TeaserSize } from '../Teasers.interface'
@@ -128,7 +128,7 @@ storiesOf('Design System/Organisms/Teasers/Teaser', module)
           icon={
             withIcon ? (
               <Icon>
-                <IconBookmarkOutlined />
+                <OtherBookmarkOutlined />
               </Icon>
             ) : (
               undefined
@@ -228,7 +228,7 @@ storiesOf('Design System/Organisms/Teasers/Teaser', module)
                 decorationColor={decorationColor}
                 icon={
                   <Icon>
-                    <IconBookmarkOutlined />
+                    <OtherBookmarkOutlined />
                   </Icon>
                 }
               />

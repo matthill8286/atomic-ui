@@ -5,7 +5,7 @@ exports[`Badge should render 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -145,7 +145,7 @@ exports[`Badge should render a badge line 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -285,7 +285,7 @@ exports[`Badge should render a badge line disabled 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -423,7 +423,7 @@ exports[`Badge should render a badge line secondary 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -561,7 +561,7 @@ exports[`Badge should render with primary color 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -699,7 +699,7 @@ exports[`Badge should render with secondary color 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;

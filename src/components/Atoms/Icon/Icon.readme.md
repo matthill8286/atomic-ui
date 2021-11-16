@@ -3,14 +3,14 @@ Import the `Icon` component and also import the SVG you want to use directly fro
 
 ```javascript
 import { Icon } from '@/components/Atoms/Icon'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 
 <Icon>
-  <IconArrow />
+  <OtherArrow />
 </Icon>
 
 <Icon rotate={90}> 
-  <IconArrow />
+  <OtherArrow />
 </Icon>
 ```
 
@@ -22,35 +22,35 @@ import { IconArrow } from '@matthill8286/atomic-icon-library'
 
 IconAdd
 
-IconArticle
+OtherArticle
 
 IconBackUi
 
-IconBookmark
+OtherBookmark
 
-IconBookmarkActive
+OtherBookmarkActive
 
-IconCheckmarkCircle
+OtherCheckmark
 
-IconCheckmarkCircleOutlined
+OtherCheckmarkOutlined
 
 IconCheckmarkSquare
 
 IconCheckmarkSquareOutlined
 
-IconClear
+OtherClear
 
 IconClearCircle
 
-IconClearCircleOutlined
+OtherClearCircleOutlined
 
 IconClearSquare
 
 IconClearSquareOutlined
 
-IconCross
+OtherCross
 
-IconDone
+OtherDone
 
 IconFastForward
 
@@ -82,7 +82,7 @@ IconPlay
 
 IconPlayOutlined
 
-IconSearch
+OtherSearch
 
 IconSettings
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { newProductStructuredMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
-import { StyleguideCalendar, IconLiveLabel } from '@matthill8286/atomic-icon-library'
+import { OtherCalendar, OtherLiveLabel } from '@matthill8286/atomic-icon-library'
 import { Tag } from '@/components/Atoms/Tag'
 import { ProductSchedule } from './ProductSchedule'
 
@@ -27,7 +27,7 @@ describe('ProductSchedule', () => {
       color: 'white',
     }
     const wrapper = mountWithTheme(<ProductSchedule {...props} />)
-    expect(wrapper.find(StyleguideCalendar)).toHaveLength(1)
+    expect(wrapper.find(OtherCalendar)).toHaveLength(1)
   })
 
   it('Displays the Calendar icon when product has no end time', () => {
@@ -39,7 +39,7 @@ describe('ProductSchedule', () => {
       color: 'white',
     }
     const wrapper = mountWithTheme(<ProductSchedule {...props} />)
-    expect(wrapper.find(StyleguideCalendar)).toHaveLength(1)
+    expect(wrapper.find(OtherCalendar)).toHaveLength(1)
   })
 
   it('Displays the Tag component', () => {
@@ -63,7 +63,7 @@ describe('ProductSchedule', () => {
       color: 'white',
     }
     const wrapper = mountWithTheme(<ProductSchedule {...props} />)
-    expect(wrapper.find(IconLiveLabel)).toHaveLength(1)
+    expect(wrapper.find(OtherLiveLabel)).toHaveLength(1)
   })
 
   it('Displays the Live icon when product has no end time', () => {
@@ -75,6 +75,6 @@ describe('ProductSchedule', () => {
       color: 'white',
     }
     const wrapper = mountWithTheme(<ProductSchedule {...props} />)
-    expect(wrapper.find(IconLiveLabel)).toHaveLength(1)
+    expect(wrapper.find(OtherLiveLabel)).toHaveLength(1)
   })
 })

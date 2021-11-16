@@ -30,7 +30,7 @@ exports[`Skeleton SkeletonBlockItem should render with height 1`] = `
 
 exports[`Skeleton SkeletonInlineItem should render 1`] = `
 .c0 {
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -61,7 +61,7 @@ exports[`Skeleton SkeletonInlineItem should render with font-size 1`] = `
 .c0 {
   font-size: 30px;
   line-height: 44px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;

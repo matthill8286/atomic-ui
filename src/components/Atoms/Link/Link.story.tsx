@@ -5,11 +5,11 @@ import { BrowserRouter } from 'react-router-dom'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { saiyanTheme } from '@/styles/sc-vars-saiyan'
-import { StyleguideShare, StyleguideVideo } from '@matthill8286/atomic-icon-library'
+import { OtherShare, OtherVideo } from '@matthill8286/atomic-icon-library'
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { Link } from './Link'
 import { LinkProps, LinkSize } from './Link.interface'
-import { StyleguideEdit } from '@matthill8286/atomic-icon-library'
+import { OtherEdit } from '@matthill8286/atomic-icon-library'
 import { action } from '@storybook/addon-actions'
 
 const scales = ['large', 'small']
@@ -55,14 +55,14 @@ storiesOf('Design System/Atoms/Link', module)
           {...((iconPosition === 'left' || iconPosition === 'both') && {
             iconLeft: (
               <Icon color={iconColor}>
-                <StyleguideShare height="sm" width="sm" fill={iconColor} />
+                <OtherShare height="sm" width="sm" fill={iconColor} />
               </Icon>
             ),
           })}
           {...((iconPosition === 'right' || iconPosition === 'both') && {
             iconRight: (
               <Icon color={iconColor}>
-                <StyleguideEdit height="sm" width="sm" fill={iconColor} />
+                <OtherEdit height="sm" width="sm" fill={iconColor} />
               </Icon>
             ),
           })}>
@@ -166,14 +166,14 @@ storiesOf('Design System/Atoms/Link/Button', module)
         {...((iconPosition === 'left' || iconPosition === 'both') && {
           iconLeft: (
             <Icon color={iconColor}>
-              <StyleguideShare height="sm" width="sm" fill={iconColor} />
+              <OtherShare height="sm" width="sm" fill={iconColor} />
             </Icon>
           ),
         })}
         {...((iconPosition === 'right' || iconPosition === 'both') && {
           iconRight: (
             <Icon color={iconColor}>
-              <StyleguideEdit height="sm" width="sm" fill={iconColor} />
+              <OtherEdit height="sm" width="sm" fill={iconColor} />
             </Icon>
           ),
         })}>

@@ -3,7 +3,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { Input } from '@/components/Atoms/Input'
 import { InfoText } from '@/components/Atoms/Typography'
 import { styled } from '@/styles'
-import { IconSearch } from '@matthill8286/atomic-icon-library'
+import { OtherSearch } from '@matthill8286/atomic-icon-library'
 
 export interface SearchFieldProps {
   placeholder: string
@@ -48,7 +48,7 @@ export const SearchField: React.FC<SearchFieldProps> = ({
       <StyledInput
         placeholder={placeholder}
         autofocus
-        inputIcon={!errorMessage ? <IconSearch /> : undefined}
+        inputIcon={!errorMessage ? <OtherSearch /> : undefined}
         state={errorMessage ? 'error' : undefined}
         value={value}
         onChange={handleInputChange}

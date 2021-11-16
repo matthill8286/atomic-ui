@@ -12,7 +12,7 @@ import {
   newProductStructuredMocks,
 } from '@/components/Organisms/ProductTile'
 import { CopyText, Heading } from '@/components/Atoms/Typography'
-import { StyleguideBookmarkOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkOutlined } from '@matthill8286/atomic-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 
 const mockProducts = {
@@ -84,7 +84,7 @@ const knobs = () => ({
   onSlideChange: action('slide changed'),
   renderAddToBookmarkButton: () => (
     <Icon onClick={action('preBookmarkProps')}>
-      <StyleguideBookmarkOutlined />
+      <OtherBookmarkOutlined />
     </Icon>
   ),
   showNoProducts: boolean('With No Products', false),

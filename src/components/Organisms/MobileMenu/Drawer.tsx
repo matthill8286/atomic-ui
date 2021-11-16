@@ -9,7 +9,7 @@ import {
 } from './Drawer.styled'
 import { useDrawerHook } from './useDrawerHook'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideClose } from '@matthill8286/atomic-icon-library'
+import { OtherClose } from '@matthill8286/atomic-icon-library'
 
 export interface DrawerProps {
   isOpen: boolean
@@ -71,7 +71,7 @@ export const Drawer: FunctionComponent<DrawerProps> = ({
               {filter}
               <StyledCloseButton onClick={handleClose} aria-label="close-menu">
                 <Icon width={24} height={24}>
-                  <StyleguideClose />
+                  <OtherClose />
                 </Icon>
               </StyledCloseButton>
             </StyledNavWrapper>

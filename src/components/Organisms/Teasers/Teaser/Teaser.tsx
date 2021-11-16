@@ -11,7 +11,7 @@ import { CopyText, HeadingFeatured } from '@/components/Atoms/Typography'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
 import { DANONE } from '@/styles'
 import { breakpoints } from '@/styles/sc-vars-global'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import { isAlternateTheme, useTheme } from '@/utils/helper'
 
 import { useGraphCmsImages } from '@/utils/useGraphCmsImages'
@@ -107,7 +107,7 @@ const MainLink: React.FC<MainLinkProps> = ({
           fontSize="sm"
           iconLeft={
             <Icon color={decorationColor || 'primary'}>
-              <IconArrow />
+              <OtherArrow />
             </Icon>
           }
           scale="small"
@@ -146,7 +146,7 @@ const Chevron: React.FC<ChevronProps> = ({
           rotate={isOpen ? 0 : 180}
           isSmall={isSmall}
           hasMarginLeft>
-          <IconArrow />
+          <OtherArrow />
         </StyledIcon>
       </StyledLinkContainer>
     )
@@ -154,7 +154,7 @@ const Chevron: React.FC<ChevronProps> = ({
     return (
       <StyledLinkContainer isSmall={isSmall}>
         <StyledIcon height="sm" width="sm" color="primary" isSmall={isSmall} hasMarginLeft>
-          <IconArrow />
+          <OtherArrow />
         </StyledIcon>
       </StyledLinkContainer>
     )

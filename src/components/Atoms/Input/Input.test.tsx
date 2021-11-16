@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconClose } from '@matthill8286/atomic-icon-library'
+import { OtherClose } from '@matthill8286/atomic-icon-library'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { CopyText } from '../Typography'
 import { Input } from './Input'
@@ -121,7 +121,7 @@ describe('Input', () => {
           state="idle"
           iconLabel="Click me!"
           onClickIcon={() => null}
-          inputIcon={<IconClose />}
+          inputIcon={<OtherClose />}
         />
       )
       const btn = wrapper.find('button')

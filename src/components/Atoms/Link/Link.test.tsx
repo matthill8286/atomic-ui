@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import {
   mountWithTheme,
   mountWithThemeAndRouter,
@@ -66,7 +66,7 @@ describe('<Link /> component', () => {
         scale="large"
         iconLeft={
           <Icon>
-            <StyleguideArrow />
+            <OtherArrow />
           </Icon>
         }>
         {linkContent}
@@ -81,7 +81,7 @@ describe('<Link /> component', () => {
         scale="small"
         iconRight={
           <Icon>
-            <StyleguideArrow />
+            <OtherArrow />
           </Icon>
         }>
         {linkContent}

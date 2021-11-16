@@ -4,7 +4,7 @@ import { DropdownOptionProps, SearchableDropdownProps } from './Dropdown.interfa
 import { StyledList, StyledSearchableDropdownWrapper } from './Dropdown.styled'
 import { DropdownOption } from './DropdownOption'
 import { findNextOption } from './helpers/findNextOption'
-import { IconSearch } from '@matthill8286/atomic-icon-library'
+import { OtherSearch } from '@matthill8286/atomic-icon-library'
 
 export const SearchableDropdown: React.FC<SearchableDropdownProps> = props => {
   const {
@@ -168,7 +168,7 @@ export const SearchableDropdown: React.FC<SearchableDropdownProps> = props => {
           aria-labelledby={`${dropdownId}-label`}
           errorMessage={errorMessage}
           helpText={helpText}
-          inputIcon={<IconSearch />}
+          inputIcon={<OtherSearch />}
           inputProps={{
             id: dropdownId,
             name: name ? `${name}__input` : undefined,

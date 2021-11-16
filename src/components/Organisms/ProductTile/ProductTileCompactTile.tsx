@@ -9,10 +9,7 @@ import {
 } from '@/components/Organisms/ProductTileCompact'
 import { IconButton } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
-import {
-  StyleguideBookmarkActive,
-  StyleguideCheckmarkCircle,
-} from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkActive, OtherCheckmarkCircle } from '@matthill8286/atomic-icon-library'
 
 export const ProductTileCompactTile: React.FC<ProductTileVariantProps> = ({
   competencyLabel,
@@ -90,14 +87,14 @@ export const ProductTileCompactTile: React.FC<ProductTileVariantProps> = ({
             {interaction?.bookmarked && (
               <IconButton isFlat actionType="ghost">
                 <Icon width={20} height={20} color="grey5">
-                  <StyleguideBookmarkActive height="sm" width="sm" fill="grey2" />
+                  <OtherBookmarkActive height="sm" width="sm" fill="grey2" />
                 </Icon>
               </IconButton>
             )}
             {interaction?.completed.status && (
               <IconButton isFlat actionType="ghost">
                 <Icon width={20} height={20} color="grey5">
-                  <StyleguideCheckmarkCircle />
+                  <OtherCheckmarkCircle />
                 </Icon>
               </IconButton>
             )}

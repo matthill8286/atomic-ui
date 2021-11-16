@@ -2,7 +2,7 @@ import React from 'react'
 import { Tag } from '@/components/Atoms/Tag'
 import { css, styled } from '@/styles/styled'
 import { ThemeColors } from '@/types'
-import { StyleguideCalendar, IconLiveLabel } from '@matthill8286/atomic-icon-library'
+import { OtherCalendar, OtherLiveLabel } from '@matthill8286/atomic-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 
 type TimeBoxValues = string | null
@@ -97,7 +97,7 @@ export const ProductSchedule: React.FC<ProductSchedule> = ({ timebox, color }) =
       {showTimeSchedule && !showTimeLive && (
         <>
           <StyledIcon color="white" width="sm" height="sm">
-            <StyleguideCalendar />
+            <OtherCalendar />
           </StyledIcon>
           <StyledTag
             weight="bold"
@@ -109,7 +109,7 @@ export const ProductSchedule: React.FC<ProductSchedule> = ({ timebox, color }) =
       )}
       {showTimeLive && (
         <StyledLiveLabel color="transparent" width={62} height={23}>
-          <IconLiveLabel />
+          <OtherLiveLabel />
         </StyledLiveLabel>
       )}
     </StyledProductSchedule>

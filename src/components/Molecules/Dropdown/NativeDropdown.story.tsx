@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { NativeDropdown, NativeDropdownProps } from './NativeDropdown'
 import readme from './NativeDropdown.readme.md'
-import { StyleguideImportExport } from '@matthill8286/atomic-icon-library'
+import { OtherImportExport } from '@matthill8286/atomic-icon-library'
 
 const options = [
   { label: 'BMW' },
@@ -81,7 +81,7 @@ story.add(
       },
       margin: text('margin', ''),
       padding: text('padding', ''),
-      icon: <StyleguideImportExport />,
+      icon: <OtherImportExport />,
       iconRotate: select('iconRotate', [0, 90, 180, 270], 0),
     })
 
@@ -109,7 +109,7 @@ story.add(
       },
       margin: text('margin', ''),
       padding: text('padding', ''),
-      iconMobile: <StyleguideImportExport />,
+      iconMobile: <OtherImportExport />,
       iconRotate: select('iconRotate', [0, 90, 180, 270], 90),
       iconMobileRotate: select('iconMobileRotate', [0, 90, 180, 270], 0),
     })

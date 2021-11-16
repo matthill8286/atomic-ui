@@ -6,7 +6,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -42,7 +42,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -78,7 +78,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -114,7 +114,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -150,7 +150,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -186,7 +186,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -222,7 +222,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -258,7 +258,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -294,7 +294,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -330,7 +330,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -366,7 +366,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -402,7 +402,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -438,7 +438,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -474,7 +474,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -510,7 +510,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -546,7 +546,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -582,7 +582,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -618,7 +618,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -654,7 +654,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -690,7 +690,7 @@ Array [
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -730,7 +730,7 @@ exports[`Tag Should render a tag 1`] = `
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -767,7 +767,7 @@ exports[`Tag Should render a tag with link 1`] = `
   color: #CCCCCC;
   font-size: 14px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;

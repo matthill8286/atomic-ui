@@ -6,7 +6,7 @@ import { StorybookWrapper } from '@/utils/StorybookWrapper'
 import { ToolTip } from './ToolTip'
 import { ToolTipProps } from './ToolTip.interface'
 import { Icon } from '@/components/Atoms/Icon'
-import { StyleguideInfoOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherInfoOutlined } from '@matthill8286/atomic-icon-library'
 
 const knobs = (primary?: boolean): ToolTipProps => {
   return {
@@ -34,7 +34,7 @@ storiesOf('Design System/Atoms/ToolTip', module)
     <StorybookWrapper>
       <ToolTip {...knobs()}>
         <Icon>
-          <StyleguideInfoOutlined height="xs" width="xs" />
+          <OtherInfoOutlined height="xs" width="xs" />
         </Icon>
       </ToolTip>
     </StorybookWrapper>

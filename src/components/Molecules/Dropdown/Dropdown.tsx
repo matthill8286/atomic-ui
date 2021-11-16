@@ -13,7 +13,7 @@ import {
   StyledTypo,
 } from './Dropdown.styled'
 import { DropdownOption } from './DropdownOption'
-import { IconArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 
 const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
   const {
@@ -69,7 +69,7 @@ const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
             </StyledTypo>
           )}
           <StyledIcon width={16} height={16} rotate={showDropdown ? 270 : 90}>
-            <IconArrow />
+            <OtherArrow />
           </StyledIcon>
 
           <StyledList active={!!showDropdown} isSearchable={false}>
@@ -99,7 +99,7 @@ const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
             })}
           </StyledDropdownSelect>
           <StyledIcon width={16} height={16} rotate={90}>
-            <IconArrow />
+            <OtherArrow />
           </StyledIcon>
         </StyledFieldWrapper>
       )}

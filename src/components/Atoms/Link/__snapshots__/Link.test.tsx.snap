@@ -5,7 +5,7 @@ exports[`<Link /> component should render a button tag against the "onClick" att
   color: #999999;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -103,7 +103,7 @@ exports[`<Link /> component should render an anchor tag against the "href" attri
   color: #999999;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -187,7 +187,7 @@ exports[`<Link /> component should render an anchor tag from a router link again
   color: #999999;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -291,7 +291,7 @@ exports[`<Link /> component should render an anchor tag with a left icon 1`] = `
   color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -377,10 +377,13 @@ exports[`<Link /> component should render an anchor tag with a left icon 1`] = `
       className="c2"
     >
       <svg
-        height={32}
         viewBox="0 0 24 24"
-        width={32}
-      />
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+        />
+      </svg>
     </div>
   </span>
   <span
@@ -419,7 +422,7 @@ exports[`<Link /> component should render an anchor tag with a right icon 1`] = 
   color: #999999;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -511,10 +514,13 @@ exports[`<Link /> component should render an anchor tag with a right icon 1`] = 
       className="c4"
     >
       <svg
-        height={32}
         viewBox="0 0 24 24"
-        width={32}
-      />
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+        />
+      </svg>
     </div>
   </span>
 </a>

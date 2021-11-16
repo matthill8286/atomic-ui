@@ -26,7 +26,7 @@ exports[`Button Should render a button 1`] = `
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: normal;
   font-size: 16px;
   height: 48px;
@@ -119,7 +119,7 @@ exports[`Button Should render a completed checkmark 1`] = `
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: normal;
   font-size: 16px;
   height: 48px;
@@ -244,7 +244,7 @@ exports[`Button Should render a loading state 1`] = `
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: normal;
   font-size: 16px;
   height: 48px;
@@ -334,7 +334,7 @@ exports[`Button Should render a router Link 1`] = `
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: normal;
   font-size: 16px;
   height: 48px;
@@ -397,7 +397,7 @@ exports[`Button Should render an anchor 1`] = `
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: normal;
   font-size: 16px;
   height: 48px;

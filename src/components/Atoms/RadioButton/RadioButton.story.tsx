@@ -4,10 +4,10 @@ import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { Button } from '@/components/Atoms/Button'
 import { Cell, Grid, Row } from '@/components/Helper/Grid'
-import { IconSaveToPlaylist } from '@matthill8286/atomic-icon-library'
-import { SelectableState } from '../Selectable/Selectable.interface'
+import { SelectableState } from '@/components/Atoms/Selectable'
 import { RadioButton } from './RadioButton'
 import { RadioGroup } from './RadioGroup'
+import { OtherAdd } from '@matthill8286/atomic-icon-library'
 
 const selectableStates: { [key in SelectableState]: SelectableState } = {
   idle: 'idle',
@@ -30,7 +30,7 @@ storiesOf('Design System/Atoms/RadioButton', module)
       }
     }
 
-    const withIcon = knobs().withIcon ? { icon: <IconSaveToPlaylist /> } : undefined
+    const withIcon = knobs().withIcon ? { icon: <OtherAdd /> } : undefined
     return (
       <RadioButton
         name="radio"
@@ -51,7 +51,7 @@ storiesOf('Design System/Atoms/RadioButton', module)
         label: text('Label', 'Label name'),
       }
     }
-    const withIcon = knobs().withIcon ? { icon: <IconSaveToPlaylist /> } : undefined
+    const withIcon = knobs().withIcon ? { icon: <OtherAdd /> } : undefined
 
     return (
       <>

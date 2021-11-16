@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react'
 import React, { FC } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
-import { IconArticle, IconCheckmarkCircleOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherShoppingCartAdd } from '@matthill8286/atomic-icon-library'
 import { ThemeColors } from '@/types/theme'
 import { Step } from './Step'
 import { StepConnectorRoot } from './StepConnector'
@@ -112,7 +112,7 @@ stories.add(
       ...props
     }) => (
       <Icon color={active ? 'white' : completed ? color : 'grey2'} {...props}>
-        <IconCheckmarkCircleOutlined />
+        <OtherShoppingCartAdd />
       </Icon>
     )
 

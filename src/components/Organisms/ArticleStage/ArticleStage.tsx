@@ -5,7 +5,7 @@ import { Section } from '@/components/Atoms/Section'
 import { Grid, Row, Cell, Offset } from '@/components/Helper/Grid'
 import { CopyText } from '@/components/Atoms/Typography'
 import { Breadcrumb } from '@/components/Molecules/Breadcrumb'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import { isSaiyanTheme } from '@/utils/helper'
 import { ArticleStageProps } from './ArticleStage.interface'
 import {
@@ -40,7 +40,7 @@ export const ArticleStage: React.FC<ArticleStageProps> = ({
         {backlink && (
           <StyledBacklinkWrapper>
             <Icon color={textColor} rotate={180} width="sm">
-              <StyleguideArrow />
+              <OtherArrow />
             </Icon>
             <Link href={backlink.link} color={textColor} fontSize="sm">
               {backlink.name}

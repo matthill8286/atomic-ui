@@ -3,7 +3,7 @@ import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
 import { ThemeContext } from '@/styles/styled'
-import { IconArrowThin } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from '@matthill8286/atomic-icon-library'
 import { Theme } from '@/types/theme'
 
 interface BackToTopProps {
@@ -70,8 +70,8 @@ export const BackToTop: React.FC<BackToTopProps> = ({ visible, onClick, ...other
       onClick={smoothScroll}
       visible={visible}
       {...otherProps}>
-      <StyledIcon rotate={270} width={24} height={24} color={'white'}>
-        <IconArrowThin />
+      <StyledIcon rotate={270}>
+        <OtherArrow width={24} height={24} fill="white" />
       </StyledIcon>
     </StyledBackToTop>
   )

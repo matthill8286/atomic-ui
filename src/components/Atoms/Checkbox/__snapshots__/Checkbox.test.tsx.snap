@@ -27,7 +27,7 @@ exports[`Checkbox renders correctly 1`] = `
   color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -46,6 +46,7 @@ exports[`Checkbox renders correctly 1`] = `
 
 .c4 svg {
   fill: #00C8DC;
+  width: 22px;
   height: 100%;
 }
 
@@ -145,10 +146,13 @@ exports[`Checkbox renders correctly 1`] = `
     className="c2 c3 c4"
   >
     <svg
-      height={32}
       viewBox="0 0 24 24"
-      width={32}
-    />
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19.85 7.25l-10.6 10.6a.5.5 0 01-.71 0l-5.39-5.39a.5.5 0 010-.71l.7-.7a.5.5 0 01.71 0l4.33 4.33 9.55-9.55a.51.51 0 01.71 0l.7.71a.5.5 0 010 .71z"
+      />
+    </svg>
   </div>
   <div
     className="c5"

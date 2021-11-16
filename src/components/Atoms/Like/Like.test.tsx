@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
-import { IconArticle } from '@matthill8286/atomic-icon-library'
+import { OtherArticle } from '@matthill8286/atomic-icon-library'
 import { renderWithTheme } from '@/testRenderer'
 import { Like } from './Like'
 
@@ -15,7 +15,7 @@ describe('Like', () => {
         scale="large"
         iconLeft={
           <Icon>
-            <IconArticle />
+            <OtherArticle />
           </Icon>
         }>
         Test Like with Icon
@@ -29,7 +29,7 @@ describe('Like', () => {
         scale="small"
         iconRight={
           <Icon>
-            <IconArticle />
+            <OtherArticle />
           </Icon>
         }>
         Test Like with Icon

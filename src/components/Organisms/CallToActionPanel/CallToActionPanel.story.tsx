@@ -1,7 +1,6 @@
-import { boolean, color, number, radios, select, text } from '@storybook/addon-knobs'
+import { boolean, select, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { Illustration01, Illustration02, Illustration03 } from '@matthill8286/atomic-icon-library'
 import { CallToActionPanel, CallToActionPanelProps } from './CallToActionPanel'
 import { newProductMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
 import { SimpleCallToAction } from '@/components/Organisms/CallToActionPanel/SimpleCallToAction'
@@ -13,26 +12,10 @@ const imageUrls = {
   big: 'https://media.graphcms.com/resize=fit:crop,height:300,width:600/tbT0Znk2RJmb3d6RtCLm',
 }
 
-const CustomIcon = {
-  Achievement: 'achievement',
-  Analytics: 'analytics',
-  Analyzing: 'analyzing',
-}
-
-const svgs = {
-  achievement: <Illustration03 style={{ display: 'flex' }} />,
-  analytics: <Illustration01 style={{ display: 'flex' }} />,
-  analyzing: <Illustration02 style={{ display: 'flex' }} />,
-}
-
-const defaultKnobs = (): CallToActionPanelProps & { svgName: string } => {
-  const svgName = select('icon', CustomIcon, CustomIcon.Achievement)
+const defaultKnobs = (): CallToActionPanelProps => {
   const showReadMore = boolean('Show Read More', true)
-  const svg = svgs[svgName]
 
   return {
-    svgName,
-    svg,
     showReadMore,
     showMore: {
       lineHeight: 18,

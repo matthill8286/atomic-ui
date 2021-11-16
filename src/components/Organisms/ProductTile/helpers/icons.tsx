@@ -1,13 +1,14 @@
 import React from 'react'
 import {
-  IconArticle,
-  IconOnlineCourse,
-  IconSaveToPlaylist,
-  IconAsset,
-  IconAssetTime,
-  IconPercentage,
-  StyleguideVideoThin,
-  StyleguidePodcast,
+  OtherArticle,
+  OtherVideoThin,
+  OtherPodcast,
+  OtherVideo,
+  OtherSignIn,
+  OtherUserAdd,
+  OtherAsset,
+  OtherAssetTime,
+  OtherPercentage,
 } from '@matthill8286/atomic-icon-library'
 import {
   ProductTypeName,
@@ -29,18 +30,18 @@ export enum ProductTileIcons {
 }
 
 const icons: Record<ProductTileIcons, ProductTileVariant> = {
-  [ProductTileIcons.Video]: <StyleguideVideoThin />,
-  [ProductTileIcons.Article]: <IconArticle />,
-  [ProductTileIcons.Podcast]: <StyleguidePodcast />,
-  [ProductTileIcons.Online]: <IconOnlineCourse />,
-  [ProductTileIcons.Playlist]: <IconSaveToPlaylist />,
-  [ProductTileIcons.Webinar]: <StyleguideVideoThin />,
+  [ProductTileIcons.Video]: <OtherVideo />,
+  [ProductTileIcons.Article]: <OtherArticle />,
+  [ProductTileIcons.Podcast]: <OtherPodcast />,
+  [ProductTileIcons.Online]: <OtherSignIn />,
+  [ProductTileIcons.Playlist]: <OtherUserAdd />,
+  [ProductTileIcons.Webinar]: <OtherVideoThin />,
 }
 
 const getIconByTypeName = (typeName: ProductTypeName): JSX.Element => {
   const iconsComponent = icons[typeName]
   if (!iconsComponent) {
-    return <IconArticle />
+    return <OtherArticle />
   }
 
   return icons[typeName]
@@ -64,21 +65,21 @@ export const getMetaItemList = ({
   if (numberOfProducts) {
     payload.push({
       text: numberOfProducts,
-      icon: <IconAsset />,
+      icon: <OtherAsset />,
     })
   }
 
   if (duration) {
     payload.push({
       text: `${duration}`,
-      icon: <IconAssetTime />,
+      icon: <OtherAssetTime />,
     })
   }
 
   if (completedStatus) {
     payload.push({
       text: completedStatus,
-      icon: <IconPercentage />,
+      icon: <OtherPercentage />,
     })
   }
 

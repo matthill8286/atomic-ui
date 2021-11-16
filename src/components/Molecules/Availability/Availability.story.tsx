@@ -5,7 +5,7 @@ import { ProductAvailabilityState } from '@/types/availabilityState'
 import { Availability } from './Availability'
 import { AvailabilityProps, AvailabilitySize } from './Availability.interface'
 import Readme from './Availability.readme.md'
-import { IconOnlineCourse } from '@matthill8286/atomic-icon-library'
+import { OtherShop } from '@matthill8286/atomic-icon-library'
 
 const states: ProductAvailabilityState[] = [
   ProductAvailabilityState.TIME_CLUSTER,
@@ -91,7 +91,7 @@ storiesOf('Design System/Molecules/Availability', module)
           subtext: <a href="http://mediamarkt.de">MediaMarkt München-Euroindustriepark</a>,
         }
       }
-      return <Availability {...knobs()} CustomIcon={IconOnlineCourse} />
+      return <Availability {...knobs()} CustomIcon={OtherShop} />
     },
     { info: Readme }
   )

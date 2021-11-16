@@ -1,7 +1,6 @@
 import React from 'react'
 import { Foldable } from '@/components/Atoms/Foldable'
 import { FontSizeMap } from '@/components/Atoms/Typography/Typo/Typo.interface'
-import { IconMinusThin, IconPlusThin } from '@matthill8286/atomic-icon-library'
 import { ThemeColors, ThemeFontSizes } from '@/types'
 import { AccordionEntryProps } from './Accordion.interface'
 import {
@@ -11,6 +10,7 @@ import {
   StyledLabel,
   StyledLabelHeading,
 } from './Accordion.styled'
+import { OtherRemove, OtherAdd } from '@matthill8286/atomic-icon-library'
 
 const toggleEntry = (id: string, onChange: (id: string) => void): void => {
   onChange(id)
@@ -53,7 +53,7 @@ export const AccordionEntry: React.FC<AccordionEntryProps> = ({
           width={isLarge ? 28 : 24}
           height={isLarge ? 28 : 24}
           rotate={withCustomIcon && isOpen ? -90 : 90}>
-          {!withCustomIcon ? isOpen ? <IconMinusThin /> : <IconPlusThin /> : customIcon}
+          {!withCustomIcon ? isOpen ? <OtherRemove /> : <OtherAdd /> : customIcon}
         </StyledIcon>
         {title && (
           <StyledLabelHeading
