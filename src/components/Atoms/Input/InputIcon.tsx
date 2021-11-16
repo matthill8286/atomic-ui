@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { defaultSpacing } from '@/styles'
 import { styled } from '@/styles/styled'
-import { OtherClose, OtherEdit } from '@matthill8286/atomic-icon-library'
+import { OtherClose, OtherCross, OtherEdit, OtherTick } from '@matthill8286/atomic-icon-library'
 import { ThemeColors } from '@/types'
 import { TranslatedText } from '@/types/global'
 import { IconButton } from '../Button/IconButton'
@@ -40,8 +40,8 @@ type MapStateToIcon = {
 
 const mapStateToIcon: MapStateToIcon = {
   default: <div />,
-  valid: <OtherClose />,
-  error: <OtherEdit />,
+  valid: <OtherTick />,
+  error: <OtherCross />,
 }
 
 type MapStateToIconColor = {

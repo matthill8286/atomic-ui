@@ -233,7 +233,7 @@
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx}": [
       "eslint --fix",
-      "yarn test -u"
+      "yarn test -u --passWithNoTests"
     ]
   },
   "config": {

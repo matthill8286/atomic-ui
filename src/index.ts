@@ -26,6 +26,8 @@ export * from './components/Atoms/Collapse'
 export * from './components/Atoms/Foldable'
 export * from './components/Atoms/Divider'
 export * from './components/Atoms/Input'
+export * from './components/Atoms/Like'
+export * from './components/Atoms/Lists'
 export * from './components/Atoms/Link'
 export * from './components/Atoms/Table'
 export * from './components/Atoms/ShowMore'
@@ -83,7 +85,6 @@ export * from './components/Molecules/TabBar'
 
 // New Components
 export * from './components/Molecules/ServicesItem'
-export * from './components/Molecules/NewsItem'
 export * from './components/Molecules/WorkItem'
 
 export * from './components/Organisms/LazyProductCarousel'
