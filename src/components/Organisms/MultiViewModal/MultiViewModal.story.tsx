@@ -4,13 +4,9 @@ import { MultiViewModal, MultiViewModalProps } from './MultiViewModal'
 import { MultiViewModalProvider, useMultiViewModalAction } from './MultiViewModal.store'
 import { MultiViewModalView } from './MultiViewModalView'
 import { Button } from '@/components/Atoms/Button'
+import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { Spacer } from '@/components/Atoms/Spacer'
-import { Cell, FlexBox, Grid, Row } from '@/components/Helper'
-import { CookieLayer } from '@/components/Organisms/CookieLayer'
-import { HeadingFeatured, Typo } from '@/components/Atoms/Typography'
-import { Link } from '@/components/Atoms/Link'
-import { Card } from '@/components/Atoms/Card'
-import { Accordion } from '@/components/Molecules/Accordion'
+import { FlexBox } from '@/components/Helper'
 
 // eslint-disable-next-line import/no-default-export
 export default {
@@ -20,7 +16,7 @@ export default {
     targetId: 'modal-portal',
   },
   decorators: [
-    Story => {
+    (Story) => {
       return (
         <MultiViewModalProvider homeViewId="view-1">
           <StoryContainer>
@@ -31,13 +27,6 @@ export default {
     },
   ],
 } as Meta
-
-const mockCookieLayerLabels = {
-  headline: 'Welcome to saiyan!!',
-  infoText: `This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.`,
-  button: 'Accept',
-  preferences: 'Manage Preferences',
-}
 
 const StoryContainer = ({ children }): JSX.Element => {
   const { setActive, setView } = useMultiViewModalAction()
@@ -72,73 +61,46 @@ const StoryContainer = ({ children }): JSX.Element => {
   )
 }
 
-const Template: Story<PropsWithChildren<MultiViewModalProps>> = args => {
-  const { setView, close } = useMultiViewModalAction()
+const Template: Story<PropsWithChildren<MultiViewModalProps>> = (args) => (
+  <MultiViewModal {...args}>
+    <MultiViewModalView id="view-1">
+      <CopyText fontSize="md">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+        Lorem ipsum dolor sit amet.Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Stet clita kasd
+        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet.
+      </CopyText>
+    </MultiViewModalView>
 
-  return (
-    <MultiViewModal {...args} hideCloseButton canClose={false} showBackButton={false}>
-      <MultiViewModalView id="view-1">
-        <CookieLayer
-          position="relative"
-          mainContent={mockCookieLayerLabels.headline}
-          buttonAlignment="center"
-          primaryButtonProps={{
-            buttonLabel: 'Manage Preferences',
-            actionType: 'primary',
-            onClick: () => setView('view-2'),
-          }}
-          secondaryButtonProps={{
-            buttonLabel: 'Accept',
-            actionType: 'outlined',
-            onClick: close,
-          }}
-        />
-      </MultiViewModalView>
-
-      <MultiViewModalView id="view-2">
-        <Grid>
-          <Row noMargin>
-            <Cell columns={12}>
-              <HeadingFeatured>Your Preferences would be here/........</HeadingFeatured>
-            </Cell>
-          </Row>
-          <Row>
-            <Cell columns={12}>
-              <HeadingFeatured>Functional</HeadingFeatured>
-              <Card
-                elevation={0}
-                padding="md"
-                shape="rounded-small"
-                margin={{ top: 'xs', bottom: 'xs' }}>
-                <Typo
-                  tag="span"
-                  fontSize={{
-                    desktop: 'sm',
-                    mobile: 'xs',
-                  }}>
-                  We use cookies (and other similar technologies) to collect data to improve your
-                  experience on our site. By using our website, you’re agreeing to the collection of
-                  data as described in our{' '}
-                  <Link inline underline={false} href="#" target="_blank" rel="noopener noreferrer">
-                    cookie statement
-                  </Link>
-                  .
-                </Typo>
-                <Accordion
-                  entries={[
-                    {
-                      details: 'expanded from sm',
-                      title: 'expanded from sm',
-                    },
-                  ]}
-                />
-              </Card>
-            </Cell>
-          </Row>
-        </Grid>
-      </MultiViewModalView>
-    </MultiViewModal>
-  )
-}
+    <MultiViewModalView id="view-2">
+      <CopyText fontSize="md">
+        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+        kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </CopyText>
+    </MultiViewModalView>
+  </MultiViewModal>
+)
 
 export const Default = Template.bind({})

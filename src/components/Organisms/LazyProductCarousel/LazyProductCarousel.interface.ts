@@ -19,7 +19,7 @@ export type ClickHandlerAvailable = {
 }
 
 export interface ProductWrapperProps {
-  product: ProductTileProduct
+  product: Product
   playlistView: ProductView
   showBadges?: boolean
 }

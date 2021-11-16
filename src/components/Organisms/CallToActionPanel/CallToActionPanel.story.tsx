@@ -4,6 +4,8 @@ import React from 'react'
 import { Illustration01, Illustration02, Illustration03 } from '@matthill8286/atomic-icon-library'
 import { CallToActionPanel, CallToActionPanelProps } from './CallToActionPanel'
 import { newProductMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
+import { SimpleCallToAction } from '@/components/Organisms/CallToActionPanel/SimpleCallToAction'
+import { CopyText } from '@/components/Atoms/Typography'
 
 const imageUrls = {
   normal: 'https://media.graphcms.com/resize=fit:crop,height:280,width:450/tbT0Znk2RJmb3d6RtCLm',
@@ -67,8 +69,19 @@ storiesOf('Design System/Organisms/CallToActionPanel', module)
   .add('Default Image', () => {
     return <CallToActionPanel {...defaultKnobs()} image={image} />
   })
-  .add('Default Icon', () => {
-    return <CallToActionPanel {...defaultKnobs()} />
+  .add('Simple CTA', () => {
+    return (
+      <SimpleCallToAction {...defaultKnobs()} image={image}>
+        <CopyText>
+          The European Society for Paediatric Gastroenterology Hepatology and Nutrition (ESPGHAN) is
+          a multi-professional organisation whose aim is to promote the health of children with
+          special attention to the gastrointestinal tract, liver and nutritional status, through
+          knowledge creation, the dissemination of science based information, the promotion of best
+          practice in the delivery of care and the provision of high quality education for
+          paediatric gastroenterology, hepatology and nutrition professionals in Europe and beyond.
+        </CopyText>
+      </SimpleCallToAction>
+    )
   })
   .add('With Product', () => {
     return <CallToActionPanel showFeatured svg={undefined} image={undefined} {...defaultKnobs()} />
@@ -76,8 +89,28 @@ storiesOf('Design System/Organisms/CallToActionPanel', module)
   .add('2 alternate rows', () => {
     return (
       <>
-        <CallToActionPanel {...defaultKnobs()} alignment="right" image={image} />
-        <CallToActionPanel {...defaultKnobs()} alignment="left" image={image} />
+        <SimpleCallToAction {...defaultKnobs()} image={image} alignment="left">
+          <CopyText>
+            The European Society for Paediatric Gastroenterology Hepatology and Nutrition (ESPGHAN)
+            is a multi-professional organisation whose aim is to promote the health of children with
+            special attention to the gastrointestinal tract, liver and nutritional status, through
+            knowledge creation, the dissemination of science based information, the promotion of
+            best practice in the delivery of care and the provision of high quality education for
+            paediatric gastroenterology, hepatology and nutrition professionals in Europe and
+            beyond.
+          </CopyText>
+        </SimpleCallToAction>
+        <SimpleCallToAction {...defaultKnobs()} image={image} alignment="right">
+          <CopyText>
+            The European Society for Paediatric Gastroenterology Hepatology and Nutrition (ESPGHAN)
+            is a multi-professional organisation whose aim is to promote the health of children with
+            special attention to the gastrointestinal tract, liver and nutritional status, through
+            knowledge creation, the dissemination of science based information, the promotion of
+            best practice in the delivery of care and the provision of high quality education for
+            paediatric gastroenterology, hepatology and nutrition professionals in Europe and
+            beyond.
+          </CopyText>
+        </SimpleCallToAction>
       </>
     )
   })

@@ -3,9 +3,9 @@ import { action } from '@storybook/addon-actions'
 import { boolean, select, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { IconShare } from '@matthill8286/atomic-icon-library'
 import { NativeDropdown, NativeDropdownProps } from './NativeDropdown'
 import readme from './NativeDropdown.readme.md'
+import { StyleguideImportExport } from '@matthill8286/atomic-icon-library'
 
 const options = [
   { label: 'BMW' },
@@ -15,7 +15,7 @@ const options = [
   { label: 'Very long text item that is long rly rly long long long' },
 ]
 
-const story = storiesOf('Design System/Molecules/Dropdown/NativeDropdown', module)
+const story = storiesOf('Design System/Molecules/ NativeDropdown', module)
 
 story.add(
   'Initial',
@@ -81,7 +81,7 @@ story.add(
       },
       margin: text('margin', ''),
       padding: text('padding', ''),
-      icon: <IconShare />,
+      icon: <StyleguideImportExport />,
       iconRotate: select('iconRotate', [0, 90, 180, 270], 0),
     })
 
@@ -109,7 +109,7 @@ story.add(
       },
       margin: text('margin', ''),
       padding: text('padding', ''),
-      iconMobile: <IconShare />,
+      iconMobile: <StyleguideImportExport />,
       iconRotate: select('iconRotate', [0, 90, 180, 270], 90),
       iconMobileRotate: select('iconMobileRotate', [0, 90, 180, 270], 0),
     })

@@ -44,6 +44,7 @@ export const StyledGroupedActionLinksWrapper = styled(Cell)`
 export const StyledFooterWrapper = styled.div<{ padding?: BoxDimensions }>(
   ({ theme, color, padding }) => css`
     ${padding ? `padding: ${getBoxDimension(theme, padding) || 0};` : ''}
+      background: ${({ theme }) => theme.color[theme.header.topBar]};
   `
 )
 

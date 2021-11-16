@@ -1,3 +1,5 @@
+import React from 'react'
+
 type DisplayTypes = 'radio' | 'button'
 type SelectableSizes = 'large' | 'small'
 type SelectableTypes = 'checkbox' | 'radio'
@@ -16,6 +18,7 @@ export interface SelectableProps {
   state?: SelectableState
   type: SelectableTypes
   value?: string
+  inputRef?: React.Ref<HTMLInputElement>
 }
 
 export type CheckboxProps = Omit<SelectableProps, 'type'>

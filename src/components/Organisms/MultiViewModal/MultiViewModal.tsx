@@ -1,15 +1,12 @@
 import React, { FC, Children, PropsWithChildren, useMemo } from 'react'
 import { Portal, Modal, Button, styled, Icon } from '../../../index'
 import { useMultiViewModalState, useMultiViewModalAction } from './MultiViewModal.store'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
+import { IconArrow } from '@matthill8286/atomic-icon-library'
 
 export type MultiViewModalProps = {
   targetId: string
   withScrollableContent?: boolean
   hideCloseButton?: boolean
-  backButtonText?: string
-  canClose?: boolean
-  showBackButton?: boolean
 }
 
 const StyledBackButton = styled(Button)`
@@ -26,10 +23,7 @@ export const MultiViewModal: FC<PropsWithChildren<MultiViewModalProps>> = ({
   targetId,
   children,
   withScrollableContent,
-  backButtonText,
   hideCloseButton = false,
-  canClose = true,
-  showBackButton = true,
 }) => {
   const { isActive, activeViewId, hasBackButton } = useMultiViewModalState()
   const { goHome, close } = useMultiViewModalAction()
@@ -42,18 +36,17 @@ export const MultiViewModal: FC<PropsWithChildren<MultiViewModalProps>> = ({
     <Portal targetRootId={targetId}>
       <Modal
         onClose={close}
-        canClose={canClose}
         primaryButtonProps={activeChild?.props.primaryButtonProps}
         secondaryButtonProps={activeChild?.props.secondaryButtonProps}
         withScrollableContent={withScrollableContent}
         hideCloseButton={hideCloseButton}>
         <>
-          {hasBackButton && showBackButton && (
+          {hasBackButton && (
             <StyledBackButton actionType="ghost" onClick={goHome}>
               <StyledBackArrow rotate={180} width="sm" height="sm">
-                <StyleguideArrow />
+                <IconArrow />
               </StyledBackArrow>
-              {backButtonText}
+              {'multiViewModal.backButtonText'}
             </StyledBackButton>
           )}
           {activeChild}

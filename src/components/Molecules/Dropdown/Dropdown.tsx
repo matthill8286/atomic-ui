@@ -2,7 +2,6 @@ import React, { FC, useState } from 'react'
 import { InputDivider as Divider } from '@/components/Atoms/Input/InputDivider'
 import { CopyText } from '@/components/Atoms/Typography'
 import { withDropdownState } from '@/components/Helper/withDropdownState'
-import { IconArrow, StyleguideArrow } from '@matthill8286/atomic-icon-library'
 import { DropdownPropsEnhanced } from './Dropdown.interface'
 import {
   StyledContainer,
@@ -14,6 +13,7 @@ import {
   StyledTypo,
 } from './Dropdown.styled'
 import { DropdownOption } from './DropdownOption'
+import { IconArrow } from '@matthill8286/atomic-icon-library'
 
 const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
   const {
@@ -22,12 +22,9 @@ const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
     label,
     listType = 'custom',
     onChange,
-    placeholder,
     options = [],
     showDropdown,
     toggleDropdown,
-    withBackground,
-    noBorder,
   } = props
 
   let setupCurrentIndex = -1
@@ -60,23 +57,26 @@ const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
   return (
     <StyledContainer onClick={toggleDropdown}>
       {label && (
-        <CopyText tag="label" color={isFilled ? 'grey5' : 'grey4'} data-label-filled={isFilled}>
+        <CopyText tag="label" color={isFilled ? 'grey5' : 'grey2'} data-label-filled={isFilled}>
           {label}
         </CopyText>
       )}
       {listType === 'custom' ? (
-        <StyledDropdown hasLabel={!!label} withBackground={withBackground}>
-          <StyledTypo fontSize="sm" limitLines={1} lineHeight="sm" tag="span">
-            {currentIndex !== -1 ? options[currentIndex].label : placeholder}
-          </StyledTypo>
-          <StyledIcon rotate={showDropdown ? -90 : 90}>
-            <StyleguideArrow width={'md'} height={'md'} />
+        <StyledDropdown hasLabel={!!label}>
+          {currentIndex !== -1 && (
+            <StyledTypo fontSize="sm" limitLines={1} lineHeight="sm" tag="span">
+              {options[currentIndex].label}
+            </StyledTypo>
+          )}
+          <StyledIcon width={16} height={16} rotate={showDropdown ? 270 : 90}>
+            <IconArrow />
           </StyledIcon>
 
           <StyledList active={!!showDropdown} isSearchable={false}>
             {options.map((item, index) => (
               <DropdownOption
                 key={index}
+                isFocused={false}
                 active={index === currentIndex}
                 label={item.label}
                 onClick={handleItemClick(index)}
@@ -85,9 +85,8 @@ const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
           </StyledList>
         </StyledDropdown>
       ) : (
-        <StyledFieldWrapper noBorder={noBorder} hasLabel={!!label}>
+        <StyledFieldWrapper hasLabel={!!label}>
           <StyledDropdownSelect
-            listType={listType}
             onChange={handleSelectChange}
             {...(selectedItem?.id ? { value: selectedItem.id } : {})}
             {...(autoComplete ? { autoComplete } : {})}>
@@ -104,6 +103,7 @@ const DropdownWithoutState: FC<DropdownPropsEnhanced> = props => {
           </StyledIcon>
         </StyledFieldWrapper>
       )}
+      <Divider color="grey3" />
     </StyledContainer>
   )
 }

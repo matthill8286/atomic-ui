@@ -7,7 +7,7 @@ import {
   Timebox,
   CollectionData,
 } from '@/components/Organisms/ProductTile'
-import { FeatureListType } from '@/components/Molecules/FeatureList'
+import { FeatureListProps } from '@/components/Molecules/FeatureList'
 
 export type ProductType = { __typename: string; name: ProductTypeName; id: number }
 
@@ -41,7 +41,7 @@ export interface Product {
   published?: string
   sponsored?: boolean
   language?: string
-  mainFeatures?: FeatureListType[] | null
+  mainFeatures?: FeatureListProps[] | null
   competencies?: (Skills | null)[]
   id: number
   description: string

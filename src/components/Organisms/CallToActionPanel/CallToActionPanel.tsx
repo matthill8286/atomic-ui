@@ -7,12 +7,9 @@ import {
   ActionElement,
   CallToActionElement,
 } from '@/components/Organisms/CallToActionPanel/CallToActionElement'
-import {
-  ProductTile,
-  ProductTileProduct,
-  ProductTileLayout,
-} from '@/components/Organisms/ProductTile'
+import { ProductTile, ProductTileLayout } from '@/components/Organisms/ProductTile'
 import { ShowMoreProps } from '@/components/Atoms/ShowMore'
+import { Product } from '@/types'
 
 interface ItemProps {
   order: number
@@ -103,7 +100,7 @@ export interface CallToActionPanelProps {
   svg?: JSX.Element
   alignment: CtaImageAlignment
   withLQIP?: boolean
-  product?: ProductTileProduct
+  product?: Product
   element: ActionElement
   showMore?: ShowMoreProps
   isOpenProduct?: boolean
@@ -157,7 +154,7 @@ export const CallToActionPanel: React.FC<CallToActionPanelProps> = ({
               product={product}
               isOpenProduct={isOpenProduct}
               showFeatured={showFeatured}
-              competencyLabel={product?.competency}
+              competencyLabel={product?.competencies?.[0]?.text}
               layout={ProductTileLayout.gridItem}
               onClick={onProductClick}
             />

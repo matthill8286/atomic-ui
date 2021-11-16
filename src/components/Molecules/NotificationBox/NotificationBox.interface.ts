@@ -3,14 +3,14 @@ import { ButtonProps } from '@/components/Atoms/Button/Button.interface'
 import { Corners, Shape } from '@/components/Atoms/Card/Card.interface'
 import { LinkProps } from '@/components/Atoms/Link'
 import { FontSizeMap } from '@/components/Atoms/Typography/Typo/Typo.interface'
-import { FlexAlignItemsOptions } from '@/components/Helper/FlexBox'
-import { BoxDimensions, ThemeFontSizes } from '@/types'
+import { FlexAlignItemsOptions } from '@/components/Helper'
+import { BoxDimensions, MarginMap, ThemeFontSizes, VerticalMarginMap } from '@/types'
 export type AnimationType = 'fadeIn' | 'fadeOut' | 'shake'
 export type ArrowPosition = 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right'
 export type NotificationBoxType = 'alert' | 'error' | 'info' | 'success' | 'hot'
 export type ButtonLayout = 'row' | 'column'
 
-export interface ToolTipData {
+export interface TooltipData {
   arrowPosition: ArrowPosition
   arrowleft?: number
   left: number
@@ -51,7 +51,7 @@ export interface NotificationBoxProps
   animation?: AnimationType
   body?: string
   bodyFontSize?: ThemeFontSizes | FontSizeMap
-  bodyMargin?: string | BoxDimensions
+  bodyMargin?: BoxDimensions | string | undefined
   buttonLayout?: ButtonLayout
   links?: NotificationLink[]
   cardShape?: Shape | Corners<Shape>
@@ -62,7 +62,7 @@ export interface NotificationBoxProps
   rootPosition?: 'relative' | 'absolute'
   title?: string | React.ReactElement
   onClick?: React.MouseEventHandler<HTMLDivElement>
-  tooltip?: ToolTipData
+  tooltip?: TooltipData
   type?: NotificationBoxType
   titleIconSelfAlign?: FlexAlignItemsOptions
   sort?: NotificationContentSort

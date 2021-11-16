@@ -182,7 +182,7 @@ Array [
 }
 
 .c13 {
-  color: #999999;
+  color: #CCCCCC;
   font-size: 14px;
   line-height: 20px;
   font-family: "Oswald","Raleway",Arial,sans-serif;
@@ -193,22 +193,10 @@ Array [
   letter-spacing: normal;
 }
 
-.c21 {
-  color: #666666;
+.c20 {
+  color: #CCCCCC;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-}
-
-.c25 {
-  color: #666666;
-  font-size: 14px;
-  line-height: 20px;
   font-family: "Oswald","Raleway",Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
@@ -285,7 +273,7 @@ Array [
   align-self: center;
 }
 
-.c23 {
+.c21 {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -360,7 +348,7 @@ Array [
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  border-bottom-color: #999999;
+  border-bottom-color: #CCCCCC;
   padding: 16px;
   line-height: normal;
   -webkit-font-smoothing: inherit;
@@ -374,7 +362,7 @@ Array [
   display: none;
   bottom: -2px;
   height: 1px;
-  background-color: #999999;
+  background-color: #CCCCCC;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -418,7 +406,7 @@ Array [
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  border-bottom-color: #999999;
+  border-bottom-color: #CCCCCC;
   padding: 16px;
 }
 
@@ -428,7 +416,7 @@ Array [
   display: none;
   bottom: -2px;
   height: 1px;
-  background-color: #999999;
+  background-color: #CCCCCC;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -449,63 +437,9 @@ Array [
   transform: scale(1,1);
 }
 
-.c20 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  color: inherit;
-  opacity: 1.0;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  position: relative;
-  border-bottom-color: #666666;
-  padding: 16px;
-}
-
-.c20::after {
-  content: '';
-  position: absolute;
-  display: none;
-  bottom: -2px;
-  height: 1px;
-  background-color: #666666;
-  -webkit-transform-origin: right center;
-  -ms-transform-origin: right center;
-  transform-origin: right center;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
-  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
-  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
-  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
-}
-
-.c20:hover::after {
-  -webkit-transform-origin: left center;
-  -ms-transform-origin: left center;
-  transform-origin: left center;
-  -webkit-transform: scale(1,1);
-  -ms-transform: scale(1,1);
-  transform: scale(1,1);
-}
-
 .c14 {
   display: inline;
-  color: #999999;
-}
-
-.c22 {
-  display: inline;
-  color: #666666;
+  color: #CCCCCC;
 }
 
 .c10 {
@@ -550,6 +484,7 @@ Array [
 
 .c0 {
   padding: 8px 56px;
+  background: #FFFFFF;
 }
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
@@ -701,7 +636,7 @@ Array [
 }
 
 @supports (display:grid) {
-  .c23 {
+  .c21 {
     margin: 0;
     width: auto;
     grid-column-end: span 4;
@@ -709,14 +644,14 @@ Array [
 }
 
 @supports (display:grid) {
-  .c23 {
+  .c21 {
     width: auto;
     grid-column-end: span 4;
   }
 }
 
 @media (min-width:512px) {
-  .c23 {
+  .c21 {
     display: block;
     margin: calc(16px / 2);
     width: calc(50% - 16px);
@@ -725,7 +660,7 @@ Array [
 }
 
 @media (min-width:752px) {
-  .c23 {
+  .c21 {
     display: block;
     margin: calc(24px / 2);
     width: calc(50% - 24px);
@@ -734,7 +669,7 @@ Array [
 }
 
 @media (min-width:1008px) {
-  .c23 {
+  .c21 {
     display: block;
     margin: calc(24px / 2);
     width: calc(33.33333% - 24px);
@@ -743,7 +678,7 @@ Array [
 }
 
 @media (min-width:1232px) {
-  .c23 {
+  .c21 {
     display: block;
     margin: calc(24px / 2);
     width: calc(33.33333% - 24px);
@@ -773,20 +708,20 @@ Array [
 }
 
 @media (min-width:320px) {
-  .c24 {
+  .c22 {
     justify-self: flex-start;
     padding-left: 16px;
   }
 }
 
 @media (min-width:1008px) {
-  .c24 {
+  .c22 {
     justify-self: center;
   }
 }
 
 @media (min-width:1232px) {
-  .c24 {
+  .c22 {
     justify-self: flex-end;
   }
 }
@@ -885,7 +820,7 @@ Array [
               >
                 <span
                   className="c13 c14"
-                  color="grey4"
+                  color="grey3"
                   fontSize="xs"
                 >
                   Profile
@@ -907,7 +842,7 @@ Array [
               >
                 <span
                   className="c13 c14"
-                  color="grey4"
+                  color="grey3"
                   fontSize="xs"
                 >
                   Comments
@@ -924,12 +859,12 @@ Array [
             >
               <button
                 className="c15"
-                color="grey4"
+                color="grey3"
                 onClick={[Function]}
               >
                 <span
                   className="c13 c14"
-                  color="grey4"
+                  color="grey3"
                   fontSize="xs"
                 >
                   Goals
@@ -955,13 +890,13 @@ Array [
                         data-test="grouped-action-links-undefined"
                       >
                         <a
-                          className="c20"
+                          className="c12"
                           href="/"
                           onClick={[Function]}
                         >
                           <span
-                            className="c21 c22"
-                            color="grey5"
+                            className="c20 c14"
+                            color="grey3"
                             fontSize="sm"
                           >
                             Profile
@@ -977,13 +912,13 @@ Array [
                         data-test="grouped-action-links-undefined"
                       >
                         <a
-                          className="c20"
+                          className="c12"
                           href="/"
                           onClick={[Function]}
                         >
                           <span
-                            className="c21 c22"
-                            color="grey5"
+                            className="c20 c14"
+                            color="grey3"
                             fontSize="sm"
                           >
                             Comments
@@ -999,13 +934,13 @@ Array [
                         data-test="grouped-action-links-undefined"
                       >
                         <a
-                          className="c20"
+                          className="c12"
                           href="/"
                           onClick={[Function]}
                         >
                           <span
-                            className="c21 c22"
-                            color="grey5"
+                            className="c20 c14"
+                            color="grey3"
                             fontSize="sm"
                           >
                             Goals
@@ -1032,7 +967,7 @@ Array [
               >
                 <span
                   className="c13 c14"
-                  color="grey4"
+                  color="grey3"
                   fontSize="xs"
                 >
                   Progress
@@ -1043,11 +978,11 @@ Array [
         </div>
       </div>
       <div
-        className="c23 c24"
+        className="c21 c22"
       >
         <span
-          className="c25"
-          color="grey5"
+          className="c13"
+          color="grey3"
           fontSize="xs"
         >
           Digital Agility powered by saiyan

@@ -1,118 +1,41 @@
 import { boolean, select } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { Table, TableBody, TableCell, TableHead, TableRow } from './index'
-import { cryptoCurrenciesMock, customTableElements } from './Table.mock'
-import Readme from './Table.readme.md'
+import { Table, TableBody, TableCell, TableHead, TableRow } from './'
 import {
-  StyledColoredData,
-  StyledGhostRow,
-  StyledGhostSprite,
-} from '@/components/Atoms/Table/TableRow'
-import { CopyText } from '@/components/Atoms/Typography'
-import { styled } from '@/styles'
+  bitsHistoryData,
+  salesSlipData,
+  salesSlipMobileData,
+  salesSlipTotalPricesData,
+  tableData,
+} from './Table.mock'
+import Readme from './Table.readme.md'
 
-interface TableRowType {
+interface TableRow {
   type: string
   value: string
 }
 
-interface RichTextRow {
+interface SalesSlipRow {
   product: string | React.ReactNode
   productNumber?: string
+  quantity?: number
+  unitPrice?: string
+  totalPrice: string
   noBorder: boolean
 }
 
-const StyledTableWrapper = styled.div`
-  max-width: 600px;
-`
+interface SalesSlipPriceRow {
+  priceLabel: string | React.ReactNode
+  price: string | React.ReactNode
+}
 
 storiesOf('Design System/Atoms/Table', module)
   .add(
     'default',
     () => {
       const tableKnobs = {
-        layout: select('table-layout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
-        withBorderRadius: boolean('withBorderRadius', true, 'Table'),
-        ariaLabel: 'this is a table',
-      }
-
-      const tableCellKnobs = {
-        borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
-        noBorder: boolean('noBorder', false, 'Cell'),
-      }
-
-      return (
-        <StyledTableWrapper>
-          <Table {...tableKnobs} withBackground>
-            <TableHead backgroundColor="secondary" borderColor="grey2" isOutlineRequired>
-              <TableRow isReversed disableHover backgroundColor="secondary">
-                <TableCell cellType="th" {...tableCellKnobs}>
-                  <CopyText padding="0" margin="0" color="grey4" toUpperCase>
-                    Price
-                  </CopyText>
-                </TableCell>
-                <TableCell cellType="th" {...tableCellKnobs}>
-                  <CopyText padding="0" margin="0" color="grey4" toUpperCase>
-                    Size
-                  </CopyText>
-                </TableCell>
-                <TableCell cellType="th" {...tableCellKnobs}>
-                  <CopyText padding="0" margin="0" color="grey4" toUpperCase>
-                    Total
-                  </CopyText>
-                </TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody backgroundColor="secondary">
-              {Object.keys(cryptoCurrenciesMock.asks).map(crypto => {
-                const values = cryptoCurrenciesMock.asks[crypto]
-                const colorSpriteWidth =
-                  (cryptoCurrenciesMock.asks[crypto].total / cryptoCurrenciesMock.maxPriceSize) *
-                  100
-                return (
-                  <>
-                    <StyledGhostRow>
-                      <StyledGhostSprite isReversed>
-                        {cryptoCurrenciesMock.ticker === 'PI_XBTUSD' ? (
-                          <StyledColoredData color="error" showPercentage={colorSpriteWidth} />
-                        ) : null}
-                      </StyledGhostSprite>
-                    </StyledGhostRow>
-                    <TableRow key={values.price} isReversed disableHover backgroundColor="white">
-                      <TableCell {...tableCellKnobs} mobileHeadline cellColor="white">
-                        <CopyText bold padding="0" margin="0" color="error">
-                          {values.price}
-                        </CopyText>
-                      </TableCell>
-                      <TableCell cellColor="white" {...tableCellKnobs}>
-                        <CopyText bold padding="0" margin="0" color="white">
-                          {values.size}
-                        </CopyText>
-                      </TableCell>
-                      <TableCell cellColor="white" {...tableCellKnobs}>
-                        <CopyText bold padding="0" margin="0" color="white">
-                          {values.total}
-                        </CopyText>
-                      </TableCell>
-                    </TableRow>
-                  </>
-                )
-              })}
-            </TableBody>
-          </Table>
-        </StyledTableWrapper>
-      )
-    },
-    {
-      info: Readme,
-    }
-  )
-  .add(
-    'customTableElements | desktop',
-    () => {
-      const tableKnobs = {
-        layout: select('table-layout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
+        layout: select('table-laylout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
         withBorderRadius: boolean('withBorderRadius', true, 'Table'),
         ariaLabel: 'this is a table',
       }
@@ -125,20 +48,124 @@ storiesOf('Design System/Atoms/Table', module)
         <Table {...tableKnobs}>
           <TableHead>
             <TableRow>
-              <TableCell cellType="th" collapsible {...tableCellKnobs}>
-                <div>Allow</div>
+              <TableCell cellType="th" {...tableCellKnobs}>
+                <div>Technische Merkmale</div>
               </TableCell>
+              <TableCell cellType="th" {...tableCellKnobs} noPadding />
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {tableData.map((row: TableRow) => (
+              <TableRow key={row.type}>
+                <TableCell {...tableCellKnobs} cellWidth={30} mobileHeadline>
+                  {row.type}
+                </TableCell>
+                <TableCell {...tableCellKnobs} cellWidth={50}>
+                  {row.value}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      )
+    },
+    {
+      info: Readme,
+    }
+  )
+  .add(
+    'salesslip | mobile',
+    () => {
+      const tableKnobs = {
+        layout: select('table-laylout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
+        withBorderRadius: boolean('withBorderRadius', true, 'Table'),
+        ariaLabel: 'this is a table',
+      }
+
+      const tableCellKnobs = {
+        borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
+        noBorder: boolean('noBorder', false, 'Cell'),
+      }
+      return (
+        <Table {...tableKnobs}>
+          <TableHead>
+            <TableRow>
               <TableCell cellType="th" collapsible={false} {...tableCellKnobs}>
-                <div>Category</div>
+                <div>Hersteller/Bezeichnung</div>
+              </TableCell>
+              <TableCell cellType="th" collapsible={false} textAlign={'right'} {...tableCellKnobs}>
+                <div>Gesamtpreis</div>
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {customTableElements.map((row: RichTextRow, index) => (
-              <TableRow key={index}>
+            {salesSlipMobileData.map((row: SalesSlipRow, index) => (
+              <TableRow key={index} verticalAlign={'top'} collapsible={false}>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={30}
+                  collapsible={false}
+                  noBorder={row.noBorder}>
+                  {row.product}
+                </TableCell>
                 <TableCell
                   {...tableCellKnobs}
                   cellWidth={10}
+                  textAlign={'right'}
+                  collapsible={false}
+                  noBorder={row.noBorder}>
+                  {row.totalPrice}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      )
+    },
+    {
+      info: Readme,
+    }
+  )
+  .add(
+    'salesslip | desktop',
+    () => {
+      const tableKnobs = {
+        layout: select('table-laylout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
+        withBorderRadius: boolean('withBorderRadius', true, 'Table'),
+        ariaLabel: 'this is a table',
+      }
+
+      const tableCellKnobs = {
+        borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
+        noBorder: boolean('noBorder', false, 'Cell'),
+      }
+      return (
+        <Table {...tableKnobs}>
+          <TableHead>
+            <TableRow>
+              <TableCell cellType="th" collapsible={false} {...tableCellKnobs}>
+                <div>Hersteller/Bezeichnung</div>
+              </TableCell>
+              <TableCell cellType="th" collapsible={false} {...tableCellKnobs}>
+                <div>Art.-Nr</div>
+              </TableCell>
+              <TableCell cellType="th" collapsible={false} {...tableCellKnobs}>
+                <div>Anzahl</div>
+              </TableCell>
+              <TableCell cellType="th" collapsible={false} textAlign={'right'} {...tableCellKnobs}>
+                <div>Stückpreis</div>
+              </TableCell>
+              <TableCell cellType="th" collapsible={false} textAlign={'right'} {...tableCellKnobs}>
+                <div>Gesamtpreis</div>
+              </TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {salesSlipData.map((row: SalesSlipRow, index) => (
+              <TableRow key={index}>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={60}
                   collapsible={false}
                   noBorder={row.noBorder}>
                   {row.product}
@@ -149,6 +176,159 @@ storiesOf('Design System/Atoms/Table', module)
                   collapsible={false}
                   noBorder={row.noBorder}>
                   {row.productNumber}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  textAlign={'center'}
+                  cellWidth={10}
+                  collapsible={false}
+                  noBorder={row.noBorder}>
+                  {row.quantity}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  textAlign={'right'}
+                  cellWidth={10}
+                  collapsible={false}
+                  noBorder={row.noBorder}>
+                  {row.unitPrice}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  textAlign={'right'}
+                  cellWidth={10}
+                  collapsible={false}
+                  noBorder={row.noBorder}>
+                  {row.totalPrice}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      )
+    },
+    {
+      info: Readme,
+    }
+  )
+  .add(
+    'salesslip | prices',
+    () => {
+      const tableKnobs = {
+        layout: select('table-laylout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
+        withBorderRadius: boolean('withBorderRadius', true, 'Table'),
+        ariaLabel: 'this is a table',
+      }
+
+      const tableCellKnobs = {
+        borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
+        noBorder: boolean('noBorder', true, 'Cell'),
+      }
+      return (
+        <Table {...tableKnobs}>
+          <TableBody>
+            {salesSlipTotalPricesData.map((row: SalesSlipPriceRow, index) => (
+              <TableRow key={index} collapsible={false}>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  noBorder
+                  noPadding
+                  textAlign={'right'}
+                  collapsible={false}>
+                  {row.priceLabel}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  noBorder
+                  noPadding
+                  textAlign={'right'}
+                  collapsible={false}>
+                  {row.price}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      )
+    },
+    {
+      info: Readme,
+    }
+  )
+  .add(
+    'bitsHistory',
+    () => {
+      const tableKnobs = {
+        layout: select('table-laylout', ['auto', 'fixed', 'initial'], 'auto', 'Table'),
+        withBorderRadius: boolean('withBorderRadius', true, 'Table'),
+        isScrollable: boolean('isScrollable', false, 'Table'),
+        ariaLabel: 'this is a table',
+      }
+
+      const tableCellKnobs = {
+        borderDirection: select('border-direction', ['right', 'bottom'], 'bottom', 'Cell'),
+        noBorder: boolean('noBorder', false, 'Cell'),
+      }
+      return (
+        <Table {...tableKnobs} fullBorder withBorderRadius={false}>
+          <TableHead isOutlineRequired>
+            <TableRow disableHover>
+              {bitsHistoryData.header.map((header, index) => (
+                <TableCell key={index} cellType="th" collapsible={false} {...tableCellKnobs}>
+                  {header}
+                </TableCell>
+              ))}
+            </TableRow>
+          </TableHead>
+          <TableBody fullBorder>
+            {bitsHistoryData.rows.map((row, index) => (
+              <TableRow key={index} collapsible={false}>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  collapsible={false}
+                  fullBorder
+                  noBorder={false}
+                  borderDirection={'right'}>
+                  {row.date}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  collapsible={false}
+                  fullBorder
+                  noBorder={false}
+                  borderDirection={'right'}>
+                  {row.bits}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  collapsible={false}
+                  fullBorder
+                  noBorder={false}
+                  borderDirection={'right'}>
+                  {row.action}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  collapsible={false}
+                  fullBorder
+                  noBorder={false}
+                  borderDirection={'right'}>
+                  {row.place}
+                </TableCell>
+                <TableCell
+                  {...tableCellKnobs}
+                  cellWidth={10}
+                  collapsible={false}
+                  fullBorder
+                  noBorder={false}
+                  borderDirection={'right'}>
+                  {row.amount}
                 </TableCell>
               </TableRow>
             ))}

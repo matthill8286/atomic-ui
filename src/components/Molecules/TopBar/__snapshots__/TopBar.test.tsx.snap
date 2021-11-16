@@ -226,7 +226,7 @@ exports[`TopBar renders correctly 1`] = `
 }
 
 .c1 {
-  background: #FFFFFF;
+  background: white;
 }
 
 @media (min-width:752px) {

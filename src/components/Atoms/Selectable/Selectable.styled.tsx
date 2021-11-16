@@ -3,38 +3,38 @@ import { Card } from '@/components/Atoms/Card'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { styled } from '@/styles/styled'
-import {
-  SelectableState,
+// eslint-disable-next-line prettier/prettier
+import type {
   StyledLabelProps,
   StyledNativeSelectableProps,
   StyledSelectedCheckMarkProps,
 } from './Selectable.interface'
 
-const getSelectableSize = (selectableSize: string) => (selectableSize === 'large' ? '24px' : '20px')
-
-const getSelectableFillingColor = (state: SelectableState, theme) =>
-  state === 'disabled' ? theme.color.grey4 : theme.color.primary
+const setSelectableSize = ({ selectableSize }) => (selectableSize === 'large' ? '24px' : '20px')
+const setFillingColor = ({ state, theme: { color } }) =>
+  state === 'disabled' ? color.grey4 : color.primary
 
 export const StyledIcon = styled(Icon)<StyledSelectedCheckMarkProps>`
   display: none;
   position: absolute;
   top: 0;
   left: 0;
-  width: ${({ selectableSize }) => getSelectableSize(selectableSize)};
-  height: ${({ selectableSize }) => getSelectableSize(selectableSize)};
+  width: ${setSelectableSize};
+  height: ${setSelectableSize};
   svg {
-    fill: ${({ theme, state }) => getSelectableFillingColor(state, theme)};
+    fill: ${setFillingColor};
+    width: 22px;
     height: 100%;
   }
 `
 export const StyledRadioMark = styled.span<StyledSelectedCheckMarkProps>`
-  width: ${({ selectableSize }) => getSelectableSize(selectableSize)};
-  height: ${({ selectableSize }) => getSelectableSize(selectableSize)};
+  width: ${setSelectableSize};
+  height: ${setSelectableSize};
   position: absolute;
   display: none;
   &:before {
     content: '';
-    background: ${({ state, theme }) => getSelectableFillingColor(state, theme)};
+    background: ${setFillingColor};
     width: ${({ selectableSize }) => (selectableSize === 'large' ? '12px' : '10px')};
     height: ${({ selectableSize }) => (selectableSize === 'large' ? '12px' : '10px')};
     border-radius: 50%;
@@ -63,8 +63,8 @@ export const StyledLabel = styled.label<StyledLabelProps>`
     content: '';
     top: 0;
     position: absolute;
-    width: ${({ selectableSize }) => getSelectableSize(selectableSize)};
-    height: ${({ selectableSize }) => getSelectableSize(selectableSize)};
+    width: ${setSelectableSize};
+    height: ${setSelectableSize};
     border-radius: ${({ theme, type }) =>
       type === 'radio' ? '50%' : theme.dimension.borderRadius1};
     border: solid 1px
@@ -81,8 +81,8 @@ export const StyledFocusedIndicator = styled.span`
 `
 
 export const StyledNativeSelectable = styled.input<StyledNativeSelectableProps>`
-  width: ${({ selectableSize }) => getSelectableSize(selectableSize)};
-  height: ${({ selectableSize }) => getSelectableSize(selectableSize)};
+  width: ${setSelectableSize};
+  height: ${setSelectableSize};
   position: relative;
   z-index: -1;
   display: flex;
@@ -109,8 +109,8 @@ export const StyledNativeSelectable = styled.input<StyledNativeSelectableProps>`
   }`};
 
   &:focus ~ ${StyledFocusedIndicator} {
-    width: ${({ selectableSize }) => getSelectableSize(selectableSize)};
-    height: ${({ selectableSize }) => getSelectableSize(selectableSize)};
+    width: ${setSelectableSize};
+    height: ${setSelectableSize};
     box-shadow: ${({ theme }) => theme.dimension.elevationLevel1};
     position: absolute;
     top: 0;
@@ -135,6 +135,7 @@ export const StyledSelectableButton = styled.input`
 export const StyledSelectableContent = styled.div`
   display: flex;
   align-items: center;
+  margin: -13px;
 `
 
 export const StyledSelectableButtonContentWrapper = styled(Card)`
@@ -151,6 +152,5 @@ export const StyledButtonLabel = styled.label`
 
 export const StyledButtonText = styled(CopyText).attrs(() => ({ tag: 'div' }))`
   line-height: ${({ theme }) => theme.font.lineHeight.sm};
-  margin-left: ${({ theme }) => theme.spacing.base.xxs};
   width: 100%;
 `

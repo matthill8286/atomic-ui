@@ -7,10 +7,8 @@ import {
   ReadMoreLabelProps,
 } from '@/components/Molecules/ReadMoreLabel/ReadMoreLabel'
 import { Checkbox } from '@/components/Atoms/Checkbox/Checkbox'
-import { NotificationBox, NotificationBoxProps } from '@/components/Molecules/NotificationBox'
-import { boolean, number, select, text } from '@storybook/addon-knobs'
-import { props } from '@/components/Molecules/FilterList/FilterList.mocks'
-import { Filters, FilterType } from '@/components/Molecules/FilterList'
+import { boolean, number, text } from '@storybook/addon-knobs'
+import { Filter } from '@/components/Molecules/Filter'
 
 const StyledCopyText = styled(CopyText)`
   margin: 0;
@@ -58,17 +56,8 @@ const Default = ({ ...args }: ReadMoreLabelProps) => {
   )
 }
 
-interface InitialState {
-  items: FilterType[]
-}
-
-const initialState: InitialState = {
-  items: [...props.items],
-}
-
 const CheckboxTemplate = ({ ...args }: ReadMoreLabelProps) => {
   const [isOpen, setIsOpen] = React.useState<boolean>(!!args.isOpen)
-  const [isChecked, setIsChecked] = React.useState<boolean>(false)
 
   return (
     <ReadMoreLabel
@@ -77,7 +66,17 @@ const CheckboxTemplate = ({ ...args }: ReadMoreLabelProps) => {
       onChange={collapsed => {
         setIsOpen(!collapsed)
       }}>
-      <Filters {...props} items={initialState.items} onChange={() => setIsChecked(true)} />
+      <StyledCopyText bold withMargins margin="0">
+        Lorem Ipsum is simply dummy text
+      </StyledCopyText>
+      <StyledCopyText>
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown
+        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+        survived not only five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop publishing software like
+        Aldus PageMaker including versions of Lorem Ipsum.
+      </StyledCopyText>
     </ReadMoreLabel>
   )
 }

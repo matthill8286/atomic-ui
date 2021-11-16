@@ -1,11 +1,9 @@
-import React, { FC, MouseEventHandler } from 'react'
+import React, { FC } from 'react'
 import { BadgeActionType, BadgeType } from '@/components/Atoms/Badge'
 import { Product, ProductType, Elevation, ThemeColors, ThemeFontSizes } from '@/types'
-import { FeatureListType } from '@/components/Molecules/FeatureList'
+import { Feature, FeatureListItemProps } from '@/components/Molecules/FeatureList'
 import { FlexAlignItemsOptions } from '@/components/Helper'
-import { FlexDirectionProperty, FlexFlowProperty } from 'csstype'
 import { CardNoBorder } from '@/components/Atoms/Card'
-import { boolean } from '@storybook/addon-knobs'
 
 export enum ProductTileLayout {
   auto = 'auto',
@@ -276,7 +274,7 @@ export interface ProductTileProduct {
   published?: string
   sponsored?: boolean
   language?: string
-  mainFeatures?: FeatureListType[] | null
+  mainFeatures?: Feature[] | null
   competencies?: (Skills | null)[]
   id: number
   description: string

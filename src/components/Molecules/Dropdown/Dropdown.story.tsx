@@ -1,11 +1,10 @@
 import { action } from '@storybook/addon-actions'
-import { boolean, number, text } from '@storybook/addon-knobs'
+import { number, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { Dropdown } from './Dropdown'
 import { DropdownProps } from './Dropdown.interface'
 import readme from './Dropdown.readme.md'
-import { StyleguideArrow } from '@matthill8286/atomic-icon-library'
 
 const options = [
   { id: '0', label: 'BMW' },
@@ -20,7 +19,7 @@ const commonKnobs = {
   options,
 }
 
-const story = storiesOf('Design System/Molecules/Dropdown/Dropdown', module)
+const story = storiesOf('Design System/Molecules/ Dropdown', module)
 
 story.add(
   'Initial',
@@ -28,10 +27,9 @@ story.add(
     const knobs: DropdownProps = {
       ...commonKnobs,
       label: text('label', 'type a label'),
-      withBackground: boolean('With Background Color', true),
     }
 
-    return <Dropdown {...knobs} placeholder={'Placeholder'} />
+    return <Dropdown {...knobs} />
   },
   { info: readme }
 )
@@ -58,7 +56,6 @@ story.add(
       label: text('Label', 'type a label'),
       initialIndex: number('initialIndex', 0),
       listType: 'native',
-      noBorder: boolean('No Border', false),
     }
 
     return <Dropdown {...knobs} />

@@ -46,17 +46,19 @@ const polished: Polished = {
 }
 
 const header: Header = {
-  background: color.white,
-  topBar: color.white,
+  background: 'white',
+  topBar: 'white',
+  color: 'grey3',
   statusType: 'white',
   height: '80px',
   padding: 'xs xxxl',
 }
 
 const footer: Footer = {
-  background: color.white,
+  background: 'white',
   statusType: 'white',
   height: '80px',
+  color: 'grey3',
   padding: 'xs xxxl',
 }
 
@@ -75,9 +77,9 @@ const heading: HeadingTheme = {
 
 const font: Font = {
   family: {
-    default: '"Oswald", "Raleway", Arial, sans-serif',
-    featured: '"SourceSansPro", "Oswald", Arial, sans-serif',
-    meta: '"Oswald", "SourceSansPro", Arial, sans-serif',
+    default: 'OswaldLight, Arial, sans-serif',
+    featured: 'OswaldBold, Arial, sans-serif',
+    meta: 'OswaldStencilBold, Arial, sans-serif',
   },
   spacing: {
     base: '0.4px',
@@ -153,6 +155,7 @@ const hero: HeroTheme = {
     lg: '400px',
   },
   color: 'primary',
+  family: 'featured',
   intro: {
     font: {
       size: font.size.sm,

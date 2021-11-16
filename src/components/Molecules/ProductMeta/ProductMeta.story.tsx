@@ -54,6 +54,7 @@ storiesOf('Design System/Organisms/ProductMeta', module)
 
       return (
         <ProductMeta
+          features={[]}
           shareHandler={action('Share Clicked')}
           bookmarkHandler={(): void => toggleBookmarked()}
           completed={store.state.completed}
@@ -67,34 +68,14 @@ storiesOf('Design System/Organisms/ProductMeta', module)
     })
   )
   .add(
-    'Live chat',
+    'Compact Version',
     withState({ bookmarked: false, completed: false }, store => {
       const toggleBookmarked = (): void => setBookMark(store, !store.state.bookmarked)
       const toggleCompleted = (): void => setCompleted(store, !store.state.completed)
 
       return (
         <ProductMeta
-          shareHandler={action('Share Clicked')}
-          bookmarkHandler={(): void => toggleBookmarked()}
-          completed={store.state.completed}
-          bookmarked={store.state.bookmarked}
-          completedHandler={() => toggleCompleted()}
-          savePlaylistHandler={action('Save Clicked')}
-          chatSrc="https://vimeo.com/event/1024953/chat/b887943750"
-          {...componentProps}
-          {...knobs()}
-        />
-      )
-    })
-  )
-  .add(
-    'Landing Page Version',
-    withState({ bookmarked: false, completed: false }, store => {
-      const toggleBookmarked = (): void => setBookMark(store, !store.state.bookmarked)
-      const toggleCompleted = (): void => setCompleted(store, !store.state.completed)
-
-      return (
-        <ProductMeta
+          features={[]}
           savePlaylistHandler={action('Save Clicked')}
           isCreatePlaylistInteraction={false}
           isBookmarkInteraction={false}

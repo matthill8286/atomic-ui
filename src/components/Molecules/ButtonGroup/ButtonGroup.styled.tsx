@@ -57,9 +57,9 @@ const StyledButton = styled.button.attrs({ type: 'button' })`
 export const BorderedButton = styled(StyledButton)<StyledOptionProps>(
   ({ selected, theme }) => css`
     ${Boolean(selected) &&
-      css`
-        border-color: ${theme.color.primary};
-        box-shadow: ${innerShadowColor(theme.color.primary)};
-      `}
+    css`
+      border-color: ${theme.color.primary};
+      box-shadow: ${innerShadowColor(theme.color.primary)};
+    `}
   `
 )

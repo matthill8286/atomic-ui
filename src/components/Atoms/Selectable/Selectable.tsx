@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { StyleguideCheckmarkSquare } from '@matthill8286/atomic-icon-library'
 import { Icon } from '../Icon'
 import { CopyText } from '../Typography'
 import { SelectableProps } from './Selectable.interface'
@@ -17,6 +16,7 @@ import {
   StyledSelectableContent,
   StyledSelectableContentWrapper,
 } from './Selectable.styled'
+import { IconDone } from '@matthill8286/atomic-icon-library'
 
 export const Selectable: React.FC<SelectableProps> = ({
   children,
@@ -32,16 +32,17 @@ export const Selectable: React.FC<SelectableProps> = ({
   type,
   value = '',
   name,
+  inputRef,
   ...otherProps
 }) => {
   const onInputChange = event => {
-    onChangeValue(event.target.checked, event.target.value)
+    onChangeValue?.(event.target.checked, event.target.value)
   }
 
   const isCheckedValue = isChecked && { checked: isChecked }
   const showError = state === 'error' && errorMessage
 
-  const SelectableRadio = (
+  const SelectableRadioOrCheckbox = (
     <StyledLabel
       key={selectableId + isChecked}
       selectableSize={selectableSize}
@@ -58,10 +59,11 @@ export const Selectable: React.FC<SelectableProps> = ({
         state={state}
         selectableSize={selectableSize}
         onChange={e => onInputChange(e)}
+        ref={inputRef}
       />
       {type === 'checkbox' && (
         <StyledIcon selectableSize={selectableSize} state={state}>
-          <StyleguideCheckmarkSquare fill={'primary'} />
+          <IconDone />
         </StyledIcon>
       )}
       {type === 'radio' && <StyledRadioMark selectableSize={selectableSize} state={state} />}
@@ -73,7 +75,13 @@ export const Selectable: React.FC<SelectableProps> = ({
           {children || label}
         </StyledCopyText>
         {showError && (
-          <CopyText tag="div" color="error" fontSize="xxs" margin="xs 0 0 0" padding="0 0 0 xs">
+          <CopyText
+            tag="div"
+            color="error"
+            fontSize="xxs"
+            margin="xs 0 0 0"
+            padding="0 0 0 xs"
+            data-test={`${name}__error`}>
             {errorMessage}
           </CopyText>
         )}
@@ -91,6 +99,7 @@ export const Selectable: React.FC<SelectableProps> = ({
         name={name}
         value={value}
         onChange={e => onInputChange(e)}
+        ref={inputRef}
       />
       <StyledSelectableButtonContentWrapper
         elevation={isChecked ? 1 : 0}
@@ -116,5 +125,5 @@ export const Selectable: React.FC<SelectableProps> = ({
     </StyledButtonLabel>
   )
 
-  return displayType === 'button' ? SelectableButton : SelectableRadio
+  return displayType === 'button' ? SelectableButton : SelectableRadioOrCheckbox
 }

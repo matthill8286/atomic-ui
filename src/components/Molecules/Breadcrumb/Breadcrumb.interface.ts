@@ -12,8 +12,6 @@ export type BreadcrumbProps = {
   homeLink?: string
   paths: BreadcrumbPath[]
   hideLastElement?: boolean
-  isHomeRouterLink?: boolean
-  homeValue?: string
   textColor?: ThemeColors
   iconColor?: ThemeColors
   linkColor?: ThemeColors

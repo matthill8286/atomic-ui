@@ -1,10 +1,15 @@
 import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { Link } from '@/components/Atoms/Link'
-import { IconForwardSlash, StyleguideHomeVs } from '@matthill8286/atomic-icon-library'
+import {
+  IconRightArrow,
+  StyleguideArrow,
+  StyleguideArrowRightCircle,
+  StyleguideHomeVs,
+  StyleguideHomeVs2Outlined,
+} from '@matthill8286/atomic-icon-library'
 import { BreadcrumbPath, BreadcrumbProps } from './Breadcrumb.interface'
 import { StyledBreadcrumb, StyledHomeLink, StyledLi, StyledUl } from './Breadcrumb.styled'
-import { useWindowDimensions } from '@/components/Helper'
 
 const _renderSEOMeta = (paths: BreadcrumbPath[], homeLink: string): JSX.Element => {
   const breadcrumbSeoPaths: BreadcrumbPath[] = [...paths]
@@ -40,18 +45,13 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({
   loading = false,
   homeLink = '/',
   hideLastElement = false,
-  isHomeRouterLink = true,
-  homeValue = 'Home',
-  textColor = 'grey5',
+  textColor = 'black',
   linkColor = 'grey5',
-  iconColor = 'grey5',
+  iconColor = 'black',
   decorationColor,
   ...otherProps
 }): JSX.Element => {
-  const { breakpointName } = useWindowDimensions()
-  const smallScreens = ['xs', undefined].includes(breakpointName)
-  const visiblePaths = hideLastElement || smallScreens ? [...paths].slice(0, -1) : paths
-
+  const visiblePaths = hideLastElement ? [...paths].slice(0, -1) : paths
   return (
     <>
       {_renderSEOMeta(paths, homeLink)}
@@ -60,19 +60,17 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({
         margin={margin}
         padding={padding}
         isLoading={loading}
-        data-test="saiyan-breadcrumb-ul"
+        data-test="mms-breadcrumb-v2-ul"
         data-paths-count={paths.length}
         {...otherProps}>
         <StyledUl>
           <StyledLi isLastButOne={false}>
             <StyledHomeLink
-              inline
-              {...(isHomeRouterLink ? { to: homeLink } : { href: homeLink })}
-              fontSize="xs"
-              underline={false}
+              aria-label="home-link"
+              href={homeLink}
               iconLeft={
                 <Icon height="sm" width="sm" color={iconColor}>
-                  {!loading && <StyleguideHomeVs fill={iconColor} />}
+                  {!loading && <StyleguideHomeVs2Outlined />}
                 </Icon>
               }
             />
@@ -85,11 +83,10 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({
                 <StyledLi key={item.name} isLastButOne={isLastButOne}>
                   <Link
                     fontSize="sm"
-                    inline
-                    underline={false}
-                    disabled={!smallScreens && isLast}
+                    disabled={isLast}
+                    color={linkColor}
                     decorationColor={decorationColor}
-                    iconLeft={<Icon color={iconColor}>{!loading && <IconForwardSlash />}</Icon>}
+                    iconLeft={<Icon color={iconColor}>{!loading && <IconRightArrow />}</Icon>}
                     {...(item.isRouterLink ? { to: item.link } : { href: item.link })}>
                     {item.name}
                   </Link>

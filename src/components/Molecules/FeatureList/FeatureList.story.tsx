@@ -1,17 +1,20 @@
+import { boolean, number } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
-import { text } from '@storybook/addon-knobs'
 import * as React from 'react'
 import { FeatureList } from './FeatureList'
+import { featureListMockItems } from './FeatureList.mock'
+import Readme from './FeatureList.readme.md'
 
-storiesOf('Design System/Molecules/FeatureList', module).add('Default', () => (
-  <div style={{ width: '400px' }}>
+storiesOf('Design System/Molecules/FeatureList', module).add(
+  'Default',
+  () => (
     <FeatureList
-      list={[
-        { label: text('Provider', 'Provider'), value: 'Youtube' },
-        { label: text('Primary competency', 'Primary competency'), value: 'Digital Marketing' },
-        { label: text('Type', 'Type'), value: 'Article' },
-        { label: text('Length', 'Length'), value: '16 minutes' },
-      ]}
+      features={featureListMockItems}
+      showCount={number('Show Count', 4, { range: true, min: 1, max: featureListMockItems.length })}
+      loading={boolean('Loading State', false)}
     />
-  </div>
-))
+  ),
+  {
+    info: Readme,
+  }
+)

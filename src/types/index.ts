@@ -1,3 +1,6 @@
 export * from './common'
 export * from './theme'
 export * from './product'
+export * from './product2'
+export * from './availabilityState'
+export * from './onlineStatus'

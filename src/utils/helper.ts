@@ -40,4 +40,6 @@ export const useTheme = (): Theme => {
   return useContext(ThemeContext)
 }
 
+export const colorsList = Object.keys(saiyanTheme.color) as ThemeColors[]
+
 export const containsHtmlTags = /<.+?>/g

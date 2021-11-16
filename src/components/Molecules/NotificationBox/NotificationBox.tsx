@@ -3,13 +3,6 @@ import { Card } from '@/components/Atoms/Card'
 import { Icon } from '@/components/Atoms/Icon'
 import { Link } from '@/components/Atoms/Link'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
-import {
-  IconArrow,
-  IconCheckmarkCircleOutlined,
-  IconClear,
-  IconClearCircleOutlined,
-  IconInfoOutlined,
-} from '@matthill8286/atomic-icon-library'
 import { Padding } from '@/types/theme'
 import {
   NotificationBoxProps,
@@ -23,10 +16,18 @@ import {
   StyledButtonDiv,
   StyledCopyTextDiv,
   StyledLinkDiv,
-  StyledNotificationBoxWrapper,
+  StyledNotificationboxWrapper,
   StyledNotificationClose,
   StyledNotificationHeadline,
 } from './NotificationBoxStyled'
+import {
+  IconArrow,
+  IconCheckmarkCircleOutlined,
+  IconClear,
+  IconClearCircleOutlined,
+  IconInfoOutlined,
+  IconSwapHorizontal,
+} from '@matthill8286/atomic-icon-library'
 
 export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxProps>(
   (
@@ -64,6 +65,8 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
           return <IconInfoOutlined />
         case 'error':
           return <IconClearCircleOutlined />
+        case 'hot':
+          return <IconSwapHorizontal />
         default:
           return <IconInfoOutlined />
       }
@@ -76,7 +79,7 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
       if (iconLeft === null) return undefined
       if (iconLeft === undefined)
         return (
-          <Icon color="grey6">
+          <Icon color="primary">
             <IconArrow />
           </Icon>
         )
@@ -90,8 +93,8 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
           {(links as NotificationLink[]).map(({ label, iconLeft, ...linkProps }) => (
             <Link
               iconLeft={getIconLeft(iconLeft)}
-              color="grey4"
-              decorationColor="grey4"
+              color="white"
+              decorationColor="white"
               key={label}
               scale="large"
               {...linkProps}>
@@ -105,7 +108,7 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
     const padding = tooltip ? ({ mobile: 'sm', tablet: 'md', top: 'md' } as Padding) : 'md'
 
     return (
-      <StyledNotificationBoxWrapper
+      <StyledNotificationboxWrapper
         data-test="notification-box"
         tooltip={tooltip}
         type={type}
@@ -114,23 +117,20 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
         ref={ref}
         {...otherProps}>
         <StyledNotificationClose onClick={onClose}>
-          <Icon width={16} height={16} color={'grey6'}>
+          <Icon width={16} height={16} color={'white'}>
             {isClosable && <IconClear />}
           </Icon>
         </StyledNotificationClose>
         {arrowPos && <StyledArrow arrowLeft={tooltip?.arrowleft} arrowPosition={arrowPos} />}
-        <Card elevation={1} padding={padding} shape={cardShape} surface="white">
-          {title && (
+        <Card elevation={1} padding={padding} shape={cardShape} surface="black">
+          {title && hasTitleIcon && (
             <StyledNotificationHeadline>
-              {hasTitleIcon && (
-                <Icon width={16} height={16} color="grey6" alignSelf={titleIconSelfAlign}>
-                  {renderIcon(type)}
-                </Icon>
-              )}
+              <Icon width={16} height={16} color="white" alignSelf={titleIconSelfAlign}>
+                {renderIcon(type)}
+              </Icon>
               <CopyText
                 data-test="notification-box-title"
-                color="grey6"
-                display="flex"
+                color="white"
                 tag="div"
                 bold={isTitleFontBold}>
                 {title}
@@ -141,6 +141,7 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
             <StyledCopyTextDiv margin={bodyMargin}>
               <CopyText
                 data-test="notification-box-body"
+                color="white"
                 fontSize={bodyFontSize}
                 margin={bodyMargin}>
                 {
@@ -172,7 +173,7 @@ export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxP
           )}
           {sort === NotificationContentSort.ButtonsLinks && renderLinks()}
         </Card>
-      </StyledNotificationBoxWrapper>
+      </StyledNotificationboxWrapper>
     )
   }
 )

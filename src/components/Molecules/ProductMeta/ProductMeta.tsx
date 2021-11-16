@@ -5,7 +5,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { Tag } from '@/components/Atoms/Tag'
 import { TagProps } from '@/components/Atoms/Tag/Tag.interface'
 import { FlexBox, FlexItem } from '@/components/Helper/FlexBox'
-import { FeatureList, FeatureListType } from '@/components/Molecules/FeatureList'
+import { Feature, FeatureList } from '@/components/Molecules/FeatureList'
 import {
   IconBookmark,
   IconBookmarkActive,
@@ -37,7 +37,7 @@ export interface ProductMetaProps {
   trackingHandler?: () => void
   buttonTextLaunch?: string
   buttonTextComplete?: string
-  list: FeatureListType[]
+  features: Feature[] | null
   competencyCopy: string
   tags: TagProps[]
   chatSrc?: string
@@ -59,7 +59,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
   completedHandler,
   buttonTextLaunch,
   buttonTextComplete,
-  list,
+  features,
   competencyCopy,
   tags = [],
   chatSrc = '',
@@ -137,7 +137,7 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
               {buttonTextComplete}
             </CompleteButton>
           )}
-          {list && <FeatureList list={list} />}
+          <FeatureList features={features} loading={false} showCount={4} />
           <CompetencyText padding="sm 0">{competencyCopy}</CompetencyText>
           <FlexBox flexWrap="wrap">
             {tags.map(({ text }: { text: TagProps['text'] }, idx: number) => (

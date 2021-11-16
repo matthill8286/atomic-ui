@@ -2,15 +2,15 @@ import React, { FunctionComponent } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import { CopyText } from '@/components/Atoms/Typography'
 import { css, styled } from '@/styles/styled'
-import { Theme } from '@/types/theme'
+import { Theme, ThemeColors } from '@/types/theme'
 import { LinkRouterProps, StyledLinkProps } from './Link.interface'
 
 export const linkStyles = css<StyledLinkProps>`
   display: ${({ isInline }) => (isInline ? `inline-flex` : 'flex')};
   align-items: center;
   width: max-content;
-  color: ${({ theme, isDisabled, isInline }) =>
-    (isDisabled && theme.color.grey2) || (isInline && 'inherit') || theme.color.grey4};
+  color: ${({ theme, isDisabled, isInline, color }) =>
+    (isDisabled && theme.color.grey2) || (isInline && 'inherit') || (color && theme.color[color])};
   opacity: ${({ theme, isDisabled }) => (isDisabled ? theme.polished.inactive : `1.0`)};
   text-decoration: none;
   cursor: ${({ isDisabled, cursor }) => (isDisabled ? 'initial' : cursor || 'pointer')};
@@ -47,7 +47,7 @@ export const linkStyles = css<StyledLinkProps>`
 `
 
 export const StyledLinkAnchor = styled.a<StyledLinkProps>`
-  ${linkStyles}
+  ${linkStyles};
 `
 
 export const StyledLinkButton = styled.button<StyledLinkProps>`
@@ -56,7 +56,7 @@ export const StyledLinkButton = styled.button<StyledLinkProps>`
   border: 0;
   padding: 0;
 
-  ${linkStyles}
+  ${linkStyles};
 
   /* Normalize line-height. Cannot be changed from normal in Firefox 4+. */
   line-height: normal;
@@ -84,7 +84,7 @@ const RouterLinkWrapper: FunctionComponent<LinkRouterProps<
 )
 
 export const StyledLinkRouter = styled(RouterLinkWrapper)`
-  ${linkStyles}
+  ${linkStyles};
 `
 
 export const StyledIconWrapper = styled.span<StyledLinkProps>`
@@ -97,11 +97,14 @@ export const StyledIconWrapper = styled.span<StyledLinkProps>`
   }
 `
 
-export const Text = styled(CopyText)<{ isInline: boolean; isBranded?: boolean }>`
+export const Text = styled(CopyText)<{
+  isInline: boolean
+  isBranded?: boolean
+  color?: ThemeColors
+}>`
   display: ${props => (props.isInline ? 'inline' : 'block')};
-  background-color: ${({ theme, color, isBranded }) => isBranded && theme.color.primary};
-  color: ${({ theme, isBranded, color }) =>
-    !isBranded ? color && theme.color[color] : theme.color.white};
+  background-color: ${({ theme, isBranded }) => isBranded && theme.color.primary};
+  color: ${({ theme, color }) => (color && theme.color[color]) || theme.color.grey2};
   padding: ${({ theme, isBranded }) =>
     isBranded && `${theme.spacing.base.xs} ${theme.spacing.base.sm}`};
   border-radius: ${({ isBranded, theme }) => isBranded && theme.dimension.borderRadius6};

@@ -1,52 +1,71 @@
 import React from 'react'
-import { Divider } from '@/components/Atoms/Divider'
-import { CopyText } from '@/components/Atoms/Typography'
-import { FlexBox } from '@/components/Helper/FlexBox'
-import { Cell, Grid, Row } from '@/components/Helper/Grid'
-import { styled } from '@/styles'
+import { SkeletonInlineItem } from '@/components/Atoms/Skeleton'
+import { Typo } from '@/components/Atoms/Typography'
+import { styled } from '@/styles/styled'
+import { FeatureListItemProps, FeatureListProps } from './FeatureList.interface'
 
-export type FeatureListType = { label?: string; value: string }
-
-export interface FeatureListProps {
-  list: FeatureListType[]
-}
-
-export const ListWrapper = styled.div`
-  padding-top: ${({ theme }) => theme.spacing.base.sm};
-  padding-bottom: ${({ theme }) => theme.spacing.base.sm};
+const StyledUl = styled.ul`
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 `
 
-export const FeatureList: React.FC<FeatureListProps> = ({ list }): JSX.Element | null => {
-  if (!list || !Array.isArray(list) || !list.length) {
+const StyledLi = styled.li`
+  padding-bottom: ${({ theme }) => theme.spacing.base.xs};
+`
+
+const FeatureListItem: React.FC<FeatureListItemProps> = ({ name, value, unit }) => (
+  <StyledLi>
+    <Typo tag="div" color="grey4" fontSize="xxs" limitLines={1}>
+      {name}
+    </Typo>
+    <Typo tag="div" color="black" fontSize="xs" weight="semibold" limitLines={1}>
+      {unit ? `${value} ${unit}` : value}
+    </Typo>
+  </StyledLi>
+)
+
+const FeatureListLoadingItem: React.FC = () => (
+  <StyledLi>
+    <SkeletonInlineItem fontSize="xxs" minLength={10} length={30} />
+    <SkeletonInlineItem fontSize="xs" minLength={5} length={15} newLine />
+  </StyledLi>
+)
+
+export const FeatureList: React.FC<FeatureListProps> = ({
+  features = [],
+  showCount = 4,
+  loading = false,
+}) => {
+  if (loading) {
+    return (
+      <StyledUl>
+        {[...Array(showCount)].map((_feature, index) => (
+          <FeatureListLoadingItem key={index} />
+        ))}
+      </StyledUl>
+    )
+  }
+
+  if (!features?.length) {
     return null
   }
 
+  const items = features.slice(0, showCount)
+
   return (
-    <FlexBox display="flex" flexDirection="column">
-      {list.map((item, idx) =>
-        item.label !== '' && item.label ? (
-          <React.Fragment key={`FeatureList-${item.label}-${idx}`}>
-            <ListWrapper>
-              <Grid noPadding>
-                <Row noMargin>
-                  <Cell columns={6} colsMd={4} colsSm={4} colsXs={2}>
-                    <CopyText weight="semibold" color="grey5" margin="0">
-                      {item.label}
-                    </CopyText>
-                  </Cell>
-                  <Cell columns={6} colsMd={4} colsSm={4} colsXs={2}>
-                    <CopyText color="grey5" margin="0">
-                      {item.value}
-                    </CopyText>
-                  </Cell>
-                </Row>
-              </Grid>
-            </ListWrapper>
-            <Divider color="grey2" height={1} />
-          </React.Fragment>
-        ) : null
-      )}
-    </FlexBox>
+    <StyledUl data-test="feature-list">
+      {items.map((feature, index) => (
+        <FeatureListItem
+          key={index}
+          name={feature.name}
+          value={feature.value}
+          unit={feature.unit}
+        />
+      ))}
+    </StyledUl>
   )
 }
 

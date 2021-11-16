@@ -1,18 +1,11 @@
 import React from 'react'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
-import { ActionLink } from '../ActionLink'
-import { GroupedActionLinks, GroupedActionLinksProps } from './GroupedActionLinks'
+import { GroupedActionLinks, GroupedActionLinksProps } from './'
+import { ActionLink } from '..'
 import { actionLinks } from './GroupedActionLinks.mocks'
 
 describe('<GroupedActionLinks /> component', () => {
-  const props: GroupedActionLinksProps = {
-    links: actionLinks,
-    fontSize: 'sm',
-    padding: '0 sm',
-    color: 'grey4',
-    flexed: false,
-  }
-
+  const props: GroupedActionLinksProps = { links: actionLinks }
   const defaultGroupedActionLinks = <GroupedActionLinks {...props} />
 
   test('should render with 2 <ActionLink /> children', () => {

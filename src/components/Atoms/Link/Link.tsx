@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link as RouterLink } from 'react-router-dom'
 import { smoothScrollWithEvent } from '@/utils'
 import { LinkProps, StyledLinkProps } from './Link.interface'
 import {

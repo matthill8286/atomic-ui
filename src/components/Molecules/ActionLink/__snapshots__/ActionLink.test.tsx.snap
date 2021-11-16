@@ -1,16 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ActionLink /> component should render a <Link /> component 1`] = `
-.c1 {
-  color: #999999;
+.c3 {
+  color: #272422;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
-  font-weight: 400;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
+}
+
+.c3 a,
+.c3 a:focus,
+.c3 a:hover,
+.c3 a:active,
+.c3 a:visited {
+  color: inherit;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  cursor: inherit;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #df0000;
 }
 
 .c0 {
@@ -22,25 +47,26 @@ exports[`<ActionLink /> component should render a <Link /> component 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  color: #999999;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #000000;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  padding: 16px;
 }
 
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
-  height: 1px;
-  background-color: #999999;
+  height: 2px;
+  left: 24px;
+  width: calc( 100% - 24px );
+  background-color: #df0000;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -61,19 +87,45 @@ exports[`<ActionLink /> component should render a <Link /> component 1`] = `
   transform: scale(1,1);
 }
 
-.c2 {
+.c1 {
+  margin-left: 0px;
+  margin-right: 4px;
+}
+
+.c1 svg {
+  height: 20px;
+  width: 20px;
+}
+
+.c4 {
   display: block;
-  color: #999999;
 }
 
 <a
   className="c0"
-  color="grey4"
   target="_self"
 >
   <span
-    className="c1 c2"
-    color="grey4"
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="primary"
+    >
+      <svg
+        height={32}
+        viewBox="0 0 24 24"
+        width={32}
+      >
+        <path
+          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+        />
+      </svg>
+    </div>
+  </span>
+  <span
+    className="c3 c4"
+    color="grey5"
     fontSize="sm"
   >
     Click me

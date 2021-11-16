@@ -1,18 +1,15 @@
-import React, { MouseEvent } from 'react'
-import { TranslatedTextType } from '@/types'
-import { LinkProps } from '@/components/Atoms/Link'
+import { MouseEvent } from 'react'
+import { LinkProps } from '../../Atoms/Link/Link.interface'
+import { TranslatedTextType } from '../../../types'
 
 export interface ActionLinkProps extends LinkProps {
-  children: TranslatedTextType | React.ReactNode
+  children: TranslatedTextType
 }
 
 export interface QuickAction {
   actionLabel: string
-  id?: string
-  href?: string | null
+  href?: string
   to?: string
   target?: string
-  branded?: boolean
   onClick?: (e: MouseEvent<HTMLElement>) => void
-  links: QuickAction[] | []
 }

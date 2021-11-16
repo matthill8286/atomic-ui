@@ -22,7 +22,7 @@ export const ProductsTableDesktop: React.FC<ProductsTableProps> = ({
 }) => {
   return (
     <StyledDesktopTable>
-      <Table layout={'tableRow'}>
+      <Table layout={'auto'}>
         <TableHead>
           <TableRow>
             <TableCell key={'blank cell'} cellType="th">

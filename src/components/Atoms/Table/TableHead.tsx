@@ -5,7 +5,7 @@ import { ThemeColors } from '@/types'
 
 export interface TableHeadProps {
   children: React.ReactNode
-  isMMTheme?: boolean
+  isMainTheme?: boolean
   isOutlineRequired?: boolean
   className?: string
   backgroundColor?: ThemeColors
@@ -33,9 +33,8 @@ const StyledTableHeadSaturn = css<TableHeadProps>`
 `
 
 const StyledTableHead = styled.thead<TableHeadProps>`
-  display: flex;
-  flex-direction: row;
-  ${({ isMMTheme }) => (isMMTheme ? StyledTableHeadMedia : StyledTableHeadSaturn)}
+  display: table-header-group;
+  ${({ isMainTheme }) => (isMainTheme ? StyledTableHeadMedia : StyledTableHeadSaturn)}
 `
 
 export const TableHead: React.FC<TableHeadProps> = ({
@@ -47,7 +46,7 @@ export const TableHead: React.FC<TableHeadProps> = ({
 }) => {
   return (
     <StyledTableHead
-      isMMTheme={isSaiyanTheme()}
+      isMainTheme={isSaiyanTheme()}
       isOutlineRequired={isOutlineRequired}
       className={className}
       backgroundColor={backgroundColor}

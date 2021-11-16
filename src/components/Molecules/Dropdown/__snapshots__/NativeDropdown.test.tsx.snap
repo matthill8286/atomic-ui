@@ -9,6 +9,7 @@ exports[`NativeDropdown should match snapshot 1`] = `
 }
 
 .c3 svg {
+  cursor: inherit;
   width: 20px;
   height: 20px;
   -webkit-transform: rotate(90deg);
@@ -17,16 +18,11 @@ exports[`NativeDropdown should match snapshot 1`] = `
   fill: currentColor;
 }
 
-.c3 svg g,
-.c3 svg p {
-  fill: currentColor;
-}
-
 .c0 {
-  color: #666666;
+  color: #272422;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: SourceSansPro,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -34,15 +30,22 @@ exports[`NativeDropdown should match snapshot 1`] = `
   letter-spacing: normal;
 }
 
+.c0 a,
+.c0 a:focus,
+.c0 a:hover,
+.c0 a:active,
+.c0 a:visited {
+  color: inherit;
+}
+
 .c1 {
   position: relative;
-  display: block;
+  display: grid;
   width: calc(100% - 24px);
   height: 48px;
   padding: 0 12px;
-  border: 2px solid #666666;
-  border-radius: 12px;
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  border: 2px solid #272422;
+  border-radius: 4px;
 }
 
 .c2 {
@@ -60,40 +63,49 @@ exports[`NativeDropdown should match snapshot 1`] = `
   cursor: pointer;
   width: 100%;
   height: 48px;
-  padding: 8px 0;
+  padding: 8px 24px 8px 0;
   z-index: 1;
   color: #000000;
 }
 
 .c4 {
   position: absolute;
-  z-index: -1;
-  background-color: #FFFFFF;
+  z-index: 0;
+  background-color: #fff;
   right: 14px;
   top: 14px;
 }
 
-@media (max-width:512px) {
+@media (max-width:511.98px) {
   .c1 {
     width: 32px;
     height: 32px;
     padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
-@media (max-width:512px) {
+@media (max-width:511.98px) {
   .c2 {
-    width: 32px;
-    height: 32px;
+    width: 100%;
+    height: 48px;
     padding: 0;
     color: transparent;
   }
 }
 
-@media (max-width:512px) {
+@media (max-width:511.98px) {
   .c4 {
     right: 6px;
-    top: 6px;
+    top: 0;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
   }
 }
 
@@ -125,14 +137,12 @@ exports[`NativeDropdown should match snapshot 1`] = `
     width={20}
   >
     <svg
-      height={16}
-      width={16}
-      xmlns="http://www.w3.org/2000/svg"
+      height={32}
+      viewBox="0 0 24 24"
+      width={32}
     >
       <path
-        d="M9.944 0a.74.74 0 01.106.007L9.944 0a.733.733 0 01.442.148l.07.06 4.332 4.267c.025.024.048.05.069.078l-.069-.078a.714.714 0 01.128.17l.011.022a.67.67 0 01.033.077l.007.023a.647.647 0 01.033.21v8.534c0 1.178-.97 2.133-2.167 2.133H4.167C2.97 15.644 2 14.69 2 13.511V2.133C2 .955 2.97 0 4.167 0zm-.722 1.422H4.167a.717.717 0 00-.723.711v11.378c0 .393.324.711.723.711h8.666a.717.717 0 00.723-.71l-.001-7.824h-3.61a.719.719 0 01-.716-.614l-.007-.096V1.422zm2.167 9.245c.399 0 .722.318.722.71a.717.717 0 01-.722.712H5.61a.717.717 0 01-.722-.711c0-.393.323-.711.722-.711zm0-2.845c.399 0 .722.319.722.711a.717.717 0 01-.722.711H5.61a.717.717 0 01-.722-.71c0-.393.323-.712.722-.712zM7.056 4.978c.398 0 .722.318.722.71a.717.717 0 01-.722.712H5.61a.717.717 0 01-.722-.711c0-.393.323-.711.722-.711zm3.61-2.551v1.84l1.867-.001-1.867-1.839z"
-        fill="#666"
-        fillRule="evenodd"
+        d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
       />
     </svg>
   </div>

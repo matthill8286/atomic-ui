@@ -109,7 +109,7 @@
     "react/display-name": 0,
     "react/jsx-no-target-blank": 2,
     "react/jsx-no-undef": 2,
-    "prettier/prettier": 2,
+    "prettier/prettier": 0,
     "@styled-components-a11y/click-events-have-key-events": 0,
     "@styled-components-a11y/no-static-element-interactions": 0
   }

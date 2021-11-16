@@ -6,47 +6,56 @@ import { SearchableDropdown } from './SearchableDropdown'
 
 describe('SearchableDropdown', () => {
   const props = {
-    index: -1,
+    selectedOption: 'id-2',
     inputValue: undefined,
     label: 'oh my label',
     onSelectChange: jest.fn(),
     onInputChange: jest.fn(),
   }
-  it('renders', () => {
-    const wrapper = renderWithTheme(
-      <SearchableDropdown {...props} options={[{ label: 'one' }, { label: 'two' }]} />
-    )
+
+  const options = [
+    { id: 'id-1', label: 'one' },
+    { id: 'id-2', label: 'two' },
+  ]
+
+  test('Renders', () => {
+    const wrapper = renderWithTheme(<SearchableDropdown {...props} options={options} />)
     expect(wrapper).toMatchSnapshot()
   })
-  it('toggles the dropdown on click', () => {
-    const wrapper = mountWithTheme(
-      <SearchableDropdown {...props} options={[{ label: 'one' }, { label: 'two' }]} />
-    )
+
+  test('Toggles the dropdown on click', () => {
+    const wrapper = mountWithTheme(<SearchableDropdown {...props} options={options} />)
     const button = wrapper.find('div').first()
     button.simulate('click')
-    expect(wrapper.find(StyledList).findWhere(item => item.props().active))
+    expect(wrapper.find(StyledList).findWhere((item) => item.props().active)).toHaveLength(2)
   })
-  it('accepts an optional label prop', () => {
+
+  test('Accepts an optional label prop', () => {
     const wrapper = mountWithTheme(
-      <SearchableDropdown
-        {...props}
-        label="Label text"
-        options={[{ label: 'one' }, { label: 'two' }]}
-      />
+      <SearchableDropdown {...props} label="Label text" options={options} />
     )
     const label = wrapper.find('label')
     expect(label.length).toEqual(1)
     expect(label.text()).toEqual('Label text')
   })
-  it('should select the option with given index prop', () => {
+
+  test('Should accept optional help text ', () => {
     const wrapper = mountWithTheme(
-      <SearchableDropdown {...props} index={1} options={[{ label: 'one' }, { label: 'two' }]} />
+      <SearchableDropdown {...props} options={options} label="Label text" helpText="Help Text" />
     )
+    const span = wrapper.find('span')
+    expect(span.length).toEqual(2)
+    const helpText = span.at(1)
+    expect(helpText.text()).toEqual('Help Text')
+  })
+
+  test('Should select the option with given selectedOption prop', () => {
+    const wrapper = mountWithTheme(<SearchableDropdown {...props} options={options} />)
     expect(
-      wrapper.find(DropdownOption).findWhere(item => {
-        const props = item.props()
-        return props.active && props.children === 'two'
+      wrapper.find(DropdownOption).findWhere((opt) => {
+        const props = opt.props()
+        return props.active === true && props.label === 'two'
       })
-    )
+    ).toHaveLength(1)
   })
 })

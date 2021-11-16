@@ -2,11 +2,11 @@ import { Section } from '@/components/Atoms/Section'
 import { FlexItem } from '@/components/Helper/FlexBox'
 import { css, styled } from '@/styles'
 import { BoxDimensions } from '@/types'
-import { getBoxDimension } from '@/styles/sc-shared-functions'
+import { padding } from '@/styles/sc-shared-functions'
 
 export const StyledSection = styled(Section)`
-  background: ${({ theme }) => theme.header.topBar};
-  height: ${({ theme }) => theme.header.height};
+  background: ${({ theme }) => theme.color[theme.header.topBar]};
+  height: ${({ theme }) => theme.header.height + 20};
   z-index: 10;
   top: 0;
   left: auto;
@@ -14,9 +14,9 @@ export const StyledSection = styled(Section)`
   position: fixed;
 `
 
-export const StyledHeaderWrapper = styled.div<{ padding?: BoxDimensions }>(
-  ({ theme, color, padding }) => css`
-    ${padding ? `padding: ${getBoxDimension(theme, padding) || 0};` : ''}
+export const StyledHeaderWrapper = styled.div<{ paddingString?: BoxDimensions }>(
+  ({ theme, color, paddingString }) => css`
+    ${paddingString ? `${padding({ theme, padding: paddingString })};` : ''}
     box-shadow: ${({ theme }) => theme.dimension.elevationLevel1};
     display: flex;
     flex-direction: row;
@@ -38,6 +38,7 @@ export const StyledActionItems = styled.div`
 
 export const StyledItemWrapper = styled(FlexItem)`
   align-self: center;
+  flex-direction: column;
   margin-left: ${({ theme }) => theme.spacing.gap.narrow};
   margin-right: ${({ theme }) => theme.spacing.gap.narrow};
 `

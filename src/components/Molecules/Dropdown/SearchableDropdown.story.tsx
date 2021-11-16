@@ -1,57 +1,55 @@
-import { withState } from '@dump247/storybook-state'
-import { text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import React from 'react'
+import { Meta, Story } from '@storybook/react/types-6-0'
+import React, { useState, ChangeEvent } from 'react'
 import { SearchableDropdown } from './SearchableDropdown'
-import readme from './SearchableDropdown.readme.md'
+import { SearchableDropdownProps, DropdownOptionProps } from './Dropdown.interface'
 
-const options = [
-  { id: '1', label: 'BMW', category: 'cars' },
-  { id: '2', label: 'Audi', category: 'cars' },
-  { id: '3', label: 'Mercedes', category: 'cars' },
-  { id: '4', label: 'Porsche', category: 'cars' },
-  { id: '5', label: 'Very long text item that is long rly rly long long long', category: 'others' },
-  { id: '6', label: 'banana', category: 'fruits' },
-  { id: '7', label: 'apple', category: 'fruits' },
-  { id: '8', label: 'avocado', category: 'fruits' },
-  { id: '9', label: 'pomegranate', category: 'fruits' },
-  { id: '10', label: 'strawberry', category: 'fruits' },
-  { id: '11', label: 'orange', category: 'fruits' },
-  { id: '12', label: 'kiwi', category: 'fruits' },
-  { id: '13', label: 'carrot', category: 'fruits' },
-  { id: '14', label: 'mango', category: 'fruits' },
-  { id: '15', label: 'pineapple', category: 'fruits' },
+const options: DropdownOptionProps[] = [
+  { id: '1', label: 'BMW' },
+  { id: '2', label: 'Audi' },
+  { id: '3', label: 'Mercedes' },
+  { id: '4', label: 'Porsche' },
+  { id: '5', label: 'Very long text item that is long rly rly long long long' },
+  { id: '6', label: 'banana' },
+  { id: '7', label: 'apple' },
+  { id: '8', label: 'avocado' },
+  { id: '9', label: 'pomegranate' },
+  { id: '10', label: 'strawberry' },
+  { id: '11', label: 'orange' },
+  { id: '12', label: 'kiwi' },
+  { id: '13', label: 'carrot' },
+  { id: '14', label: 'mango' },
+  { id: '15', label: 'pineapple' },
 ]
 
-const story = storiesOf('Design System/Molecules/Dropdown/SearchableDropdown', module)
+export default {
+  title: 'Design System/Molecules/SearchableDropdown',
+  component: SearchableDropdown,
+} as Meta
 
-story.add(
-  'Inital',
-  withState({ index: -1, inputValue: '' }, store => {
-    const onSelectChange = (item, index) => {
-      store.set({ index, inputValue: item.label })
-    }
+const Template: Story<SearchableDropdownProps> = (args: SearchableDropdownProps) => {
+  const [selectedOption, setSelectedOption] = useState<string | undefined>('')
+  const [inputValue, setInputValue] = useState('')
+  const ref = React.createRef<HTMLInputElement>()
 
-    const onInputChange = event => {
-      store.set({
-        inputValue: event.target.value,
-      })
-    }
+  const props = {
+    ...args,
+    onSelectChange: item => {
+      setSelectedOption(item.id)
+      setInputValue(item.label)
+    },
+    inputValue,
+    onInputChange: (event: ChangeEvent<HTMLInputElement>) => setInputValue(event.target.value),
+    selectedOption,
+    id: 'dd1',
+    name: 'cars',
+    inputRef: ref,
+  } as SearchableDropdownProps
+  return <SearchableDropdown {...props} />
+}
 
-    const knobs = () => ({
-      label: text('label', 'type a label'),
-    })
-
-    return (
-      <SearchableDropdown
-        {...knobs()}
-        index={store.state.index}
-        inputValue={store.state.inputValue}
-        options={options}
-        onSelectChange={onSelectChange}
-        onInputChange={onInputChange}
-      />
-    )
-  }),
-  { info: readme }
-)
+export const Default = Template.bind({})
+Default.args = {
+  label: 'type a label',
+  helpText: 'Help text',
+  options,
+}

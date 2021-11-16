@@ -1,19 +1,24 @@
 import React from 'react'
 import { CopyText } from '@/components/Atoms/Typography'
-import { IconDone } from '@matthill8286/atomic-icon-library'
 import { DropdownOptionProps, StyledDropdownOptionProps } from './Dropdown.interface'
-import { StyledDone, StyledDropdownOption } from './Dropdown.styled'
+import { StyledDropdownOption } from './Dropdown.styled'
 
-export const DropdownOption: React.FC<DropdownOptionProps & StyledDropdownOptionProps> = props => {
-  const { active, label, onClick, checkmark } = props
+export const DropdownOption: React.FC<DropdownOptionProps & StyledDropdownOptionProps> = ({
+  active,
+  id,
+  isFocused = false,
+  label,
+  onClick,
+}) => {
   return (
-    <StyledDropdownOption active={active} onClick={onClick} checkmark={checkmark}>
-      {checkmark && active && (
-        <StyledDone width={16} height={16} color="grey5">
-          <IconDone />
-        </StyledDone>
-      )}
-      <CopyText tag="strong" color={active ? 'grey6' : 'grey4'} fontSize="sm">
+    <StyledDropdownOption
+      active={active}
+      aria-selected={isFocused ? 'true' : undefined}
+      id={id ?? label}
+      isFocused={isFocused}
+      onClick={onClick}
+      role="option">
+      <CopyText tag="strong" color={active ? 'primary' : 'grey5'} fontSize="sm">
         {label}
       </CopyText>
     </StyledDropdownOption>

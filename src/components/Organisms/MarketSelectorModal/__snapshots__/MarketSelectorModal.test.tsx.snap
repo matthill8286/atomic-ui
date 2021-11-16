@@ -1,0 +1,673 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarketSelectorModal /> renders correct 1`] = `
+.c7 {
+  margin: 0;
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 600;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+.c7 a,
+.c7 a:focus,
+.c7 a:hover,
+.c7 a:active,
+.c7 a:visited {
+  color: inherit;
+}
+
+.c15 {
+  color: #272422;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 600;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.c15 a,
+.c15 a:focus,
+.c15 a:hover,
+.c15 a:active,
+.c15 a:visited {
+  color: inherit;
+}
+
+.c21 {
+  color: #272422;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c21 a,
+.c21 a:focus,
+.c21 a:hover,
+.c21 a:active,
+.c21 a:visited {
+  color: inherit;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 svg {
+  cursor: inherit;
+  width: 16px;
+  height: 16px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: currentColor;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c13 svg {
+  cursor: inherit;
+  width: 108px;
+  height: 108px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: currentColor;
+}
+
+.c27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c27 svg {
+  cursor: inherit;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #918e8c;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  height: 48px;
+  border: 1px solid #cfcbca;
+  background: #fff;
+  color: #000000;
+}
+
+.c25 .c4 {
+  padding: 0 8px;
+}
+
+.c25 .Status-sc-80qxcr-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c25:hover {
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+}
+
+.c25 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c26 {
+  height: 20px;
+  padding: 0 8px;
+  min-width: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.c26:hover {
+  border: none;
+  box-shadow: none;
+}
+
+.c26 > div,
+.c26 > span {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  right: unset !important;
+  top: unset !important;
+}
+
+.c28 {
+  height: 1px;
+  background: #272422;
+  border-width: 0;
+}
+
+.c18 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c18 .c4 {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  outline: none;
+}
+
+.c18 .c4:focus svg {
+  fill: #000000;
+}
+
+.c23 {
+  border: 0;
+  box-sizing: content-box;
+  display: block;
+  font-size: 16px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  margin: 24px 0 0 0;
+  min-width: 0;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  outline: none;
+  position: relative;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c23::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c23::-moz-placeholder {
+  opacity: 0;
+}
+
+.c23:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c23::placeholder {
+  opacity: 0;
+}
+
+.c23:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.c23:focus::-moz-placeholder {
+  opacity: 1;
+}
+
+.c23:focus:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.c23:focus::placeholder {
+  opacity: 1;
+}
+
+.c29 {
+  height: 2px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.c24 {
+  top: 0;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.c24 > button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  top: 28px;
+  outline: none;
+}
+
+.c24 > button:focus svg {
+  fill: #000000;
+}
+
+.c20 {
+  margin-right: 32px;
+}
+
+.c22 {
+  position: absolute;
+  margin-top: 8px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms, top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
+  transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms, top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
+  top: 20px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.c0 {
+  z-index: 201;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.c1 {
+  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.c2 {
+  background: #fff;
+  border-radius: 0;
+  box-sizing: border-box;
+  z-index: 101;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.c10 {
+  max-width: 100%;
+}
+
+.c10 img {
+  max-width: 100%;
+}
+
+.c8 {
+  padding: 0 16px 16px 16px;
+  max-width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c6 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c19 input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.c19 input::-moz-placeholder {
+  opacity: 1;
+}
+
+.c19 input:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.c19 input::placeholder {
+  opacity: 1;
+}
+
+.c19 .c4 {
+  cursor: pointer;
+}
+
+.c17 {
+  position: relative;
+  min-height: auto;
+}
+
+.c14 svg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c12 {
+  max-width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c16 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c11 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+@media (min-width:512px) {
+  .c1 {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (min-width:512px) {
+  .c2 {
+    top: 48px;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    margin-bottom: 64px;
+    left: 50%;
+    display: block;
+    padding: 32px 24px;
+    border-radius: 4px;
+    height: auto;
+    max-width: 756px;
+  }
+}
+
+@media (min-width:512px) {
+  .c8 {
+    overflow: visible;
+    padding: 0;
+  }
+}
+
+@media (min-width:512px) {
+  .c3 {
+    padding: 0 0 16px 0;
+  }
+}
+
+@media (min-width:752px) {
+  .c11 {
+    max-width: 650px;
+  }
+}
+
+<div
+  className="c0"
+  id="mms-styled-modal-wrapper"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  />
+  <div
+    className="c2"
+    onClick={[Function]}
+    size="lg"
+  >
+    <div
+      className="c3"
+    >
+      <div
+        className="c4 c5 c6"
+        height={16}
+        onClick={[Function]}
+        width={16}
+      >
+        <svg
+          data-test="modal-close-button"
+          viewBox="0 0 100 100"
+        >
+          <path
+            d="M76.875 12.25l-29 29 29 29-7.375 7.375-29-29-29 29-7.375-7.375 29-29-29-29L11.5 4.875l29 29 29-29z"
+          />
+        </svg>
+      </div>
+      <div>
+        <h3
+          className="c7"
+          color="black"
+          fontFamily="default"
+          fontSize="lg"
+          spacing="base"
+        >
+          Choose a market
+        </h3>
+      </div>
+    </div>
+    <div
+      className="c8"
+      id="mms-styled-modal-desktop-wrapper"
+    >
+      <div
+        className="c9"
+      >
+        <div
+          className="c10"
+        >
+          <div
+            className="c11"
+          >
+            <div
+              className="c12"
+            >
+              <div
+                className="c4 c13 c14"
+                height={108}
+                width={108}
+              >
+                <svg
+                  viewBox="0 0 80 80"
+                >
+                  <path
+                    d="M2.86 20.048l9.46-17.5C13.157.997 15.008 0 17.049 0h42.95c2.04 0 3.892.997 4.729 2.547l9.459 17.5c2.692 4.976-1.248 10.869-7.799 11.205h-.69c-3.892-.003-7.43-1.878-9.083-4.81-1.637 2.912-5.139 4.783-9.002 4.81-3.863.027-7.402-1.794-9.098-4.683-1.697 2.889-5.235 4.71-9.099 4.683-3.863-.027-7.364-1.898-9.002-4.81-1.632 2.95-5.17 4.847-9.073 4.862h-.69C4.071 30.916.168 25.03 2.86 20.048zm2.81 46.039h38.07l-.555-.688a18.402 18.402 0 01-3.31-6.337h-23.43V38.261c-1.537.55-3.173.835-4.825.84h-.927c-.651-.042-1.299-.127-1.936-.258v20.22H5.67C3.616 59.148 2 60.695 2 62.574S3.616 66 5.67 66.087zm58.84 12.29C63.715 79.398 62.455 80 61.115 80c-1.34 0-2.6-.602-3.395-1.622L47.225 64.892c-8.256-10.584-.998-25.967 12.87-26.631h2.05c13.886.664 21.152 16.047 12.887 26.63L64.51 78.379zm3.548-22.725c0-3.842-3.108-6.956-6.942-6.956s-6.942 3.114-6.942 6.956c0 3.842 3.108 6.957 6.942 6.957a6.935 6.935 0 004.928-2.028 6.964 6.964 0 002.043-4.929h-.029z"
+                  />
+                </svg>
+              </div>
+              <p
+                className="c15 c16"
+                color="grey5"
+                fontSize="md"
+              >
+                Please enter your postal code or city, to view markets in your area.
+              </p>
+              <div
+                className="c17"
+                data-test="mms-market-search-field"
+              >
+                <div
+                  className="c18 c19"
+                >
+                  <div
+                    className="c20"
+                  >
+                    <label
+                      className="c21 c22"
+                      color="grey5"
+                      fontSize="sm"
+                      id="undefined-label"
+                    >
+                      
+                    </label>
+                    <input
+                      aria-invalid={false}
+                      aria-required={false}
+                      autoFocus={true}
+                      className="c23"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      placeholder="Search..."
+                      required={false}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    className="c24"
+                  >
+                    <button
+                      className="c25 c26"
+                      disabled={false}
+                      height={20}
+                      onClick={[Function]}
+                      size="md"
+                      type="button"
+                      width={20}
+                    >
+                      <span
+                        className="c4 c27"
+                        color="grey3"
+                        height={20}
+                        width={20}
+                      >
+                        <svg
+                          height={32}
+                          viewBox="0 0 24 24"
+                          width={32}
+                        >
+                          <path
+                            d="M20.85 19.44l-4-4a2.44 2.44 0 00-.43-.35l-1-.69A7 7 0 1010 17a7 7 0 004.37-1.53l.75 1a2.6 2.6 0 00.3.36l4 4a.5.5 0 00.71 0l.7-.7a.5.5 0 00.02-.69zM10 15a5 5 0 115-5 5 5 0 01-5 5z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="c28 c29"
+                    color="grey5"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

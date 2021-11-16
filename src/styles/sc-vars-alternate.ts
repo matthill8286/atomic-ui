@@ -58,16 +58,18 @@ const button: ButtonTheme = {
 }
 
 const header: Header = {
-  background: color.grey5,
-  topBar: color.grey4,
+  background: 'grey5',
+  topBar: 'grey4',
+  color: 'white',
   statusType: 'white',
   height: '80px',
   padding: 'xs xxxl',
 }
 
 const footer: Footer = {
-  background: color.grey5,
+  background: 'grey5',
   statusType: 'white',
+  color: 'white',
   height: '80px',
   padding: 'xs xxxl',
 }
@@ -87,9 +89,9 @@ const heading: HeadingTheme = {
 
 const font: Font = {
   family: {
-    default: 'Arial, sans-serif',
-    featured: 'Arial, sans-serif',
-    meta: 'Arial, sans-serif',
+    default: 'Raleway, Arial, sans-serif',
+    featured: 'RalewayBlack, Arial, sans-serif',
+    meta: 'RalewayLight, Arial, sans-serif',
   },
   spacing: {
     base: '0.4px',
@@ -164,6 +166,7 @@ const hero: HeroTheme = {
     lg: '400px',
   },
   color: 'white',
+  family: 'featured',
   intro: {
     font: {
       size: font.size.md,

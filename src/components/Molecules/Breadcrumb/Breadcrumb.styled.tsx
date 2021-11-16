@@ -12,6 +12,7 @@ export const StyledBreadcrumb = styled.div<StyledBreadcrumbProps>`
 
   text-indent: ${({ isLoading }) => isLoading && '-9999px'};
   ${({ isLoading }) => isLoading && skeleton}
+
   min-height: ${({ theme }) => theme.font.lineHeight.sm};
 `
 
@@ -23,17 +24,20 @@ export const StyledUl = styled.ul`
 
 export const StyledLi = styled.li<StyledLiProps>`
   display: inline-block;
-  margin-right: ${({ theme }) => theme.spacing.base.xs};
-  color: ${({ theme }) => theme.color.grey4};
   ${({ isLastButOne }) =>
     !isLastButOne
       ? css`
           display: none;
-          ${media.xs} {
+          ${media.md} {
             display: inline-block;
           }
         `
       : css`
+          ${Icon} {
+            & > svg {
+              transform: rotate(180deg);
+            }
+          }
           ${media.md} {
             ${Icon} {
               & > svg {

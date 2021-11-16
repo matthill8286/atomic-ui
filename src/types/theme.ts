@@ -7,7 +7,6 @@ export type ThemeFontWeights = keyof typeof saiyanTheme.font.weight
 export type ThemeFontFamilies = keyof typeof saiyanTheme.font.family
 export type ThemeFontLineHeight = keyof typeof saiyanTheme.font.lineHeight | string
 export type ThemeFontLetterSpacing = keyof typeof saiyanTheme.font.spacing
-export type ThemeSpacing = keyof typeof saiyanTheme.font.spacing
 export type BoxDimensions = string
 
 export type Elevation = 0 | 1 | 2 | 3 | 4
@@ -132,9 +131,10 @@ export interface Container {
 }
 
 export interface Header {
-  background: string
+  background: ThemeColors
   statusType: 'black' | 'white'
   topBar: string
+  color: ThemeColors
   height: string
   padding: PaddingMap
 }
@@ -160,6 +160,7 @@ export interface HeroTheme {
     md: string
     lg: string
   }
+  family: ThemeFontFamilies
   color?: ThemeColors
   intro: {
     font: HeroFont

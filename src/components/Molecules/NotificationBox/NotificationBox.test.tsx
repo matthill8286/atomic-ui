@@ -2,7 +2,7 @@ import React from 'react'
 import { renderWithTheme } from '@/testRenderer'
 import { NotificationBox } from './NotificationBox'
 
-describe('NotificationBox', () => {
+describe('Notificationbox', () => {
   it('renders corretly', () => {
     const tree = renderWithTheme(
       <NotificationBox

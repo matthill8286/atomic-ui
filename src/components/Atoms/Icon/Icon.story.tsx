@@ -3,9 +3,7 @@ import React from 'react'
 import { FlexBox } from '@/components/Helper/FlexBox'
 import {
   IconArrowRightCircle,
-  IconArrowThin,
   IconArticle,
-  IconProduct,
   IconBookmark,
   IconClose,
   IconCompleteChecked,
@@ -13,7 +11,6 @@ import {
   IconUseful,
   SocialFacebook,
   StyleguideArrowRightCircle,
-  StyleguideDone,
 } from '@matthill8286/atomic-icon-library'
 import { Icon } from './Icon'
 import { Spacer } from '@/components/Atoms/Spacer'

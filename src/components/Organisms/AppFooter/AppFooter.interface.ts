@@ -1,9 +1,8 @@
 import { FlexItemProps } from '@/components/Helper/FlexBox'
-import { GroupedActionLinksProps } from '@/components/Molecules/ActionLink'
-import React from 'react'
+import { QuickAction } from '@/components/Molecules/ActionLink'
 
 export interface AppFooterProps extends FlexItemProps {
-  links?: GroupedActionLinksProps['links']
+  links?: QuickAction[]
   logoUrl: string
   altText?: string
   twitterLink?: string

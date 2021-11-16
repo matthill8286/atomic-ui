@@ -1,25 +1,25 @@
 import React from 'react'
-import { renderWithThemeAndRouter } from '@/testRenderer'
+import { renderWithTheme } from '@/testRenderer'
 import { Breadcrumb } from './Breadcrumb'
 
 const paths = [
   {
-    name: 'Dashboard',
+    name: 'Computer & Büro',
     link: '',
   },
   {
-    name: 'Learning Product',
+    name: 'Drucker & Scanner',
     link: '',
   },
   {
-    name: 'Learning Product: Watch about Genomes',
+    name: 'Multifunktionsdrucker',
     link: '',
   },
 ]
 
 describe('Heading', () => {
   it('renders correctly', () => {
-    const tree = renderWithThemeAndRouter(<Breadcrumb paths={paths} />)
+    const tree = renderWithTheme(<Breadcrumb paths={paths} />)
     expect(tree).toMatchSnapshot()
   })
 })

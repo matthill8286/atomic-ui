@@ -3,46 +3,71 @@
 exports[`<GroupedActionLinks /> component should render with 2 <ActionLink /> children 1`] = `
 Array [
   .c3 {
-  color: #999999;
+  color: #272422;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
-  font-weight: 400;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
 }
 
+.c3 a,
+.c3 a:focus,
+.c3 a:hover,
+.c3 a:active,
+.c3 a:visited {
+  color: inherit;
+}
+
 .c2 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  cursor: inherit;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #df0000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  color: inherit;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #000000;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  border-bottom-color: #999999;
-  padding: 16px;
 }
 
-.c2::after {
+.c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
-  height: 1px;
-  background-color: #999999;
+  height: 2px;
+  left: 24px;
+  width: calc( 100% - 24px );
+  background-color: #df0000;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -54,7 +79,7 @@ Array [
   transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
 }
 
-.c2:hover::after {
+.c0:hover::after {
   -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
   transform-origin: left center;
@@ -63,112 +88,118 @@ Array [
   transform: scale(1,1);
 }
 
-.c4 {
-  display: inline;
-  background-color: #00C8DC;
-  color: #FFFFFF;
-  padding: 8px 16px;
-  border-radius: 25px;
-}
-
-.c0 {
-  list-style: none;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-top: 0;
-  margin-right: 16px;
-}
-
-.c0:hover {
-  cursor: pointer;
-}
-
 .c1 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+  margin-left: 0px;
+  margin-right: 4px;
 }
 
-.c1 > a {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+.c1 svg {
+  height: 20px;
+  width: 20px;
 }
 
-<div
+.c4 {
+  display: block;
+}
+
+<a
     className="c0"
+    href="http://mediamarkt.de"
+    rel="noopener noreferrer"
+    target="_blank"
   >
-    <div
+    <span
       className="c1"
-      data-test="grouped-action-links-undefined"
     >
-      <a
+      <div
         className="c2"
-        color="grey4"
-        href="http://saiyan.content-learning.com"
-        rel="noopener noreferrer"
-        target="_blank"
+        color="primary"
       >
-        <span
-          className="c3 c4"
-          color="grey4"
-          fontSize="sm"
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
         >
-          Action Link 1
-        </span>
-      </a>
-    </div>
-  </div>,
+          <path
+            d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+          />
+        </svg>
+      </div>
+    </span>
+    <span
+      className="c3 c4"
+      color="grey5"
+      fontSize="sm"
+    >
+      Action Link 1
+    </span>
+  </a>,
   .c3 {
-  color: #999999;
+  color: #272422;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
-  font-weight: 400;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
 }
 
+.c3 a,
+.c3 a:focus,
+.c3 a:hover,
+.c3 a:active,
+.c3 a:visited {
+  color: inherit;
+}
+
 .c2 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  cursor: inherit;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #df0000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  color: inherit;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #000000;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  border-bottom-color: #999999;
-  padding: 16px;
 }
 
-.c2::after {
+.c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
-  height: 1px;
-  background-color: #999999;
+  height: 2px;
+  left: 24px;
+  width: calc( 100% - 24px );
+  background-color: #df0000;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -180,7 +211,7 @@ Array [
   transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
 }
 
-.c2:hover::after {
+.c0:hover::after {
   -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
   transform-origin: left center;
@@ -189,67 +220,51 @@ Array [
   transform: scale(1,1);
 }
 
-.c4 {
-  display: inline;
-  color: #999999;
-}
-
-.c0 {
-  list-style: none;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-top: 0;
-  margin-right: 16px;
-}
-
-.c0:hover {
-  cursor: pointer;
-}
-
 .c1 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+  margin-left: 0px;
+  margin-right: 4px;
 }
 
-.c1 > a {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+.c1 svg {
+  height: 20px;
+  width: 20px;
 }
 
-<div
+.c4 {
+  display: block;
+}
+
+<a
     className="c0"
+    href="http://mediamarkt.de"
+    rel="noopener noreferrer"
+    target="_blank"
   >
-    <div
+    <span
       className="c1"
-      data-test="grouped-action-links-undefined"
     >
-      <a
+      <div
         className="c2"
-        color="grey4"
-        href="http://saiyan.content-learning.com"
-        rel="noopener noreferrer"
-        target="_blank"
+        color="primary"
       >
-        <span
-          className="c3 c4"
-          color="grey4"
-          fontSize="sm"
+        <svg
+          height={32}
+          viewBox="0 0 24 24"
+          width={32}
         >
-          Action Link 2
-        </span>
-      </a>
-    </div>
-  </div>,
+          <path
+            d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+          />
+        </svg>
+      </div>
+    </span>
+    <span
+      className="c3 c4"
+      color="grey5"
+      fontSize="sm"
+    >
+      Action Link 2
+    </span>
+  </a>,
 ]
 `;

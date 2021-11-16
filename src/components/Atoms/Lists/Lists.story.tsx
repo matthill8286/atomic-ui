@@ -1,33 +1,44 @@
-import { array, boolean } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
+import { Meta, Story } from '@storybook/react/types-6-0'
 import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
-import { IconCheckmarkCircle } from '@matthill8286/atomic-icon-library'
-import { Lists } from './Lists'
+import { Lists, ListsProps } from './Lists'
+import { colorsList } from '@/utils/helper'
+import { StyleguideCheckmarkCircle } from '@matthill8286/atomic-icon-library'
 
-storiesOf('Design System/Atoms/Lists', module).add('Lists', () => {
-  const ListItems = array('List items', [
-    'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ',
-    'Dolore est',
-    'Testing this',
-  ])
-  const icon = boolean('Icon', false)
-  const ordered = boolean('Ordered', false)
-  const margin = boolean('With Margin', false)
+const ListItems = [
+  'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ',
+  'Dolore est',
+  'Testing this',
+]
 
-  return (
-    <Lists icon={icon} ordered={ordered} withMargin={margin}>
-      {ListItems.map((item, index) => (
-        <li key={index}>
-          {icon && (
-            <Icon color={'grey4'} width={24} height={24}>
-              <IconCheckmarkCircle />
-            </Icon>
-          )}
-          {<CopyText>{item}</CopyText>}
-        </li>
-      ))}
-    </Lists>
-  )
-})
+// eslint-disable-next-line import/no-default-export
+export default {
+  title: 'Design System/Atoms/Lists',
+  component: Lists,
+  argTypes: {
+    color: {
+      control: {
+        type: 'select',
+        options: colorsList,
+      },
+    },
+  },
+} as Meta
+
+const Template: Story<ListsProps> = (args: ListsProps) => (
+  <Lists {...args}>
+    {ListItems.map((item, index) => (
+      <li key={index}>
+        {args.icon && (
+          <Icon color="success" width={24} height={24}>
+            <StyleguideCheckmarkCircle />
+          </Icon>
+        )}
+        {<CopyText>{item}</CopyText>}
+      </li>
+    ))}
+  </Lists>
+)
+
+export const Default = Template.bind({})

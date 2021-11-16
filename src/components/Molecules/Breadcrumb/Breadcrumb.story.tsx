@@ -2,23 +2,19 @@ import { boolean, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { Breadcrumb } from './Breadcrumb'
-import { BreadcrumbPath } from '@/components/Molecules/Breadcrumb/Breadcrumb.interface'
 
-const paths: BreadcrumbPath[] = [
+const paths = [
   {
-    name: 'Dashboard',
-    link: '/dashboard',
-    isRouterLink: true,
+    name: 'Computer & Büro',
+    link: '',
   },
   {
-    name: 'Learning Product',
-    link: '/learning-product/3215',
-    isRouterLink: true,
+    name: 'Drucker & Scanner',
+    link: '',
   },
   {
-    name: 'Learning Product: Watch about Genomes',
-    link: '/learning-product/3215-watch-about-genomes',
-    isRouterLink: true,
+    name: 'Multifunktionsdrucker',
+    link: '',
   },
 ]
 

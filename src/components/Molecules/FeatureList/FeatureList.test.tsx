@@ -1,47 +1,30 @@
 import React from 'react'
+import { SkeletonInlineItem } from '@/components/Atoms/Skeleton'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
-import { FeatureList, ListWrapper } from './FeatureList'
-import { text } from '@storybook/addon-knobs'
-import { TabItem } from '@/components/Molecules/TabBar'
+import { FeatureList } from './FeatureList'
+import { featureListMockItems } from './FeatureList.mock'
 
-describe('Meta Feature list', () => {
-  let inputProps
-  beforeEach(() => {
-    inputProps = [
-      { label: 'Provider', value: 'Youtube' },
-      { label: 'Primary competency', value: 'Digital Marketing' },
-      { label: 'Type', value: 'Article' },
-      { label: 'Length', value: '16 minutes' },
-    ]
-  })
-
-  it('renders feature list', () => {
-    const wrapper = renderWithTheme(<FeatureList list={inputProps} />)
+describe('FeatureList', () => {
+  it('should render with items', () => {
+    const wrapper = renderWithTheme(<FeatureList features={featureListMockItems} />)
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('renders feature list with 3 children', () => {
-    const component = mountWithTheme(<FeatureList list={inputProps.slice(0, 3)} />)
-    const find = component.find(ListWrapper)
-    expect(find.length).toBe(3)
+  it('should show the number of items as specified by chowCount', () => {
+    const wrapper = mountWithTheme(<FeatureList features={featureListMockItems} showCount={4} />)
+
+    expect(wrapper).toBeDefined()
+    expect(wrapper.find('li')).toHaveLength(4)
   })
 
-  it('removes the entry with no valid label', () => {
-    const listWithMissingLabel = [
-      { label: '', value: 'Youtube' },
-      { label: 'Type', value: 'Article' },
-      { label: 'Primary competency', value: 'Digital Marketing' },
-      { label: 'Type', value: 'Article' },
-    ]
+  it('should render items with reduced count', () => {
+    const wrapper = renderWithTheme(<FeatureList features={featureListMockItems} showCount={4} />)
 
-    const component = mountWithTheme(<FeatureList list={listWithMissingLabel} />)
-    const child = component.childAt(0)
-    const childProps = child.props().list
+    expect(wrapper).toMatchSnapshot()
+  })
 
-    expect(childProps).toStrictEqual(listWithMissingLabel)
-    expect(childProps.length).toBe(4)
-
-    const find = component.find(ListWrapper)
-    expect(find.length).toBe(3)
+  it('should render loading state without items', () => {
+    const wrapper = mountWithTheme(<FeatureList loading={true} showCount={4} />)
+    expect(wrapper.find(SkeletonInlineItem)).toHaveLength(8)
   })
 })

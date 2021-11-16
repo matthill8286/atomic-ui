@@ -53,18 +53,11 @@ export const AppFooter: React.FC<AppFooterProps> = ({
             colsXs={4}
             align="middle">
             <StyledGroupedActionLinks>
-              {links && (
-                <GroupedActionLinks
-                  fontSize={isMobile ? 'xxs' : 'xs'}
-                  color="grey4"
-                  padding={'0 sm'}
-                  links={links}
-                />
-              )}
+              {links && <GroupedActionLinks links={links} />}
             </StyledGroupedActionLinks>
           </StyledGroupedActionLinksWrapper>
           <StyledCopyText colsXl={3} colsLg={12} colsMd={8} colsSm={8} colsXs={4} align="middle">
-            <CopyText tag="span" fontSize={isMobile ? 'xxs' : 'xs'}>
+            <CopyText color={footer.color} tag="span" fontSize={isMobile ? 'xxs' : 'xs'}>
               {text}
             </CopyText>
           </StyledCopyText>

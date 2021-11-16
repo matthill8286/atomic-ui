@@ -2,10 +2,10 @@
 
 exports[`Lists renders correctly 1`] = `
 .c1 {
-  color: #666666;
+  color: #272422;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: SourceSansPro,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -13,11 +13,18 @@ exports[`Lists renders correctly 1`] = `
   letter-spacing: normal;
 }
 
+.c1 a,
+.c1 a:focus,
+.c1 a:hover,
+.c1 a:active,
+.c1 a:visited {
+  color: inherit;
+}
+
 .c0 {
   margin: 0;
   padding: 0 0 0 16px;
   font-size: 14px;
-  color: #999999;
 }
 
 .c0 li {
@@ -34,9 +41,20 @@ exports[`Lists renders correctly 1`] = `
   margin-bottom: 0;
 }
 
+.c0 .Icon-sc-1vrq823-0 {
+  float: left;
+  position: relative;
+  top: -2px;
+  margin-right: 8px;
+}
+
 @media (min-width:752px) {
   .c0 {
     font-size: 16px;
+  }
+
+  .c0 .Icon-sc-1vrq823-0 {
+    top: 0;
   }
 }
 
@@ -64,24 +82,20 @@ exports[`Lists renders correctly with icon 1`] = `
 }
 
 .c3 svg {
+  cursor: inherit;
   width: 24px;
   height: 24px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #55e1a7;
-}
-
-.c3 svg g,
-.c3 svg p {
-  fill: #55e1a7;
+  fill: #70c118;
 }
 
 .c1 {
-  color: #666666;
+  color: #272422;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: SourceSansPro,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -89,11 +103,18 @@ exports[`Lists renders correctly with icon 1`] = `
   letter-spacing: normal;
 }
 
+.c1 a,
+.c1 a:focus,
+.c1 a:hover,
+.c1 a:active,
+.c1 a:visited {
+  color: inherit;
+}
+
 .c0 {
   margin: 0;
   padding: 0 0 0 16px;
   font-size: 14px;
-  color: #999999;
 }
 
 .c0 li {
@@ -143,8 +164,9 @@ exports[`Lists renders correctly with icon 1`] = `
         width={24}
       >
         <svg
+          height={32}
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+          width={32}
         >
           <path
             d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.35 7.73l-5.62 5.62a.48.48 0 01-.7 0L7.65 13a.5.5 0 010-.71l.53-.53a.48.48 0 01.7 0l1.5 1.49 4.74-4.74a.5.5 0 01.7 0l.53.53a.5.5 0 010 .69z"

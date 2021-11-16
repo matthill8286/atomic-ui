@@ -11,7 +11,7 @@ interface StyledListsProps {
   color?: ThemeColors
 }
 
-interface ListsProps extends React.HTMLProps<HTMLElement> {
+export interface ListsProps extends React.HTMLProps<HTMLElement> {
   icon?: boolean
   ordered?: boolean
   children: React.ReactNode
@@ -24,9 +24,9 @@ const StyledList = styled.ul<StyledListsProps>`
     withMargin ? `${theme.spacing.base.xs} 0 ${theme.spacing.base.md}` : '0'};
   padding: ${({ theme, icon }) => (icon ? '0' : `0 0 0 ${theme.spacing.base.sm}`)};
   font-size: ${({ theme }) => theme.font.size.xs};
-  
+
   ${({ icon }) => icon && 'list-style-type: none;'}
-  ${({ theme, color }) => `color: ${color ? theme.color[color] : theme.color.grey4};`}
+  ${({ theme, color }) => color && `color: ${theme.color[color]};`}
 
   ${media.md} {
     font-size: ${({ theme }) => theme.font.size.sm};
@@ -58,7 +58,7 @@ const StyledList = styled.ul<StyledListsProps>`
   }
 `
 
-export const Lists: React.FC<ListsProps> = props => {
+export const Lists: React.FC<ListsProps> = (props) => {
   const { ordered = false, icon = false, withMargin = false, children, className, color } = props
   return (
     <StyledList

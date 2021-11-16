@@ -12,11 +12,11 @@ describe('Product page meta', () => {
         shareHandler={() => jest.fn()}
         bookmarkHandler={() => jest.fn()}
         savePlaylistHandler={() => jest.fn()}
-        list={[
-          { label: 'Provider', value: 'Youtube' },
-          { label: 'Primary competency', value: 'Digital Marketing' },
-          { label: 'Type', value: 'Article' },
-          { label: 'Length', value: '16 minutes' },
+        features={[
+          { name: 'Provider', value: 'Youtube' },
+          { name: 'Primary competency', value: 'Digital Marketing' },
+          { name: 'Type', value: 'Article' },
+          { name: 'Length', value: '16 minutes' },
         ]}
         competencyCopy="5 competencies featured in this learning product:"
         tags={[

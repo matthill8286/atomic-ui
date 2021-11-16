@@ -1,25 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dropdown renders 1`] = `
-.c2 {
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.c7 {
+  height: 1px;
+  background: #918e8c;
+  border-width: 0;
 }
 
 .c8 {
-  color: #999999;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.c6 {
+  color: #272422;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: SourceSansPro,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -27,24 +26,28 @@ exports[`Dropdown renders 1`] = `
   letter-spacing: normal;
 }
 
-.c4 {
+.c6 a,
+.c6 a:focus,
+.c6 a:hover,
+.c6 a:active,
+.c6 a:visited {
+  color: inherit;
+}
+
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c4 svg {
-  width: 25px;
-  height: 25px;
+.c2 svg {
+  cursor: inherit;
+  width: 16px;
+  height: 16px;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  fill: currentColor;
-}
-
-.c4 svg g,
-.c4 svg p {
   fill: currentColor;
 }
 
@@ -55,11 +58,28 @@ exports[`Dropdown renders 1`] = `
 
 .c0 label {
   margin-top: 8px;
-  margin-left: 8px;
-  line-height: 28px;
-  font-size: 18px;
-  color: #000000;
-  position: relative;
+  line-height: 20px;
+  position: absolute;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: color 200ms cubic-bezier(0,0,0.2,1) 0ms,top 200ms cubic-bezier(0,0,0.2,1) 0ms;
+  transition: color 200ms cubic-bezier(0,0,0.2,1) 0ms,top 200ms cubic-bezier(0,0,0.2,1) 0ms;
+}
+
+.c0 [data-label-filled='true'] {
+  top: 0;
+  font-size: 12px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.c0 [data-label-filled='false'] {
+  top: 16px;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
 }
 
 .c1 {
@@ -67,13 +87,13 @@ exports[`Dropdown renders 1`] = `
   position: relative;
   display: inline-block;
   margin-top: 0;
-  line-height: 44px;
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
-  border-radius: 8px;
+  height: 24px;
+  line-height: 24px;
 }
 
 .c1 span {
-  margin-left: 20px;
+  position: absolute;
+  left: 0;
 }
 
 .c1 + hr {
@@ -83,33 +103,26 @@ exports[`Dropdown renders 1`] = `
 }
 
 .c3 {
-  max-width: calc(100% - 16px);
-}
-
-.c5 {
   pointer-events: none;
   position: absolute;
-  top: 50%;
-  right: 20px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  top: 0;
+  right: 0;
 }
 
-.c6 {
+.c4 {
   min-width: 100%;
   max-width: 100%;
   max-height: 320px;
   overflow-y: scroll;
   position: absolute;
-  top: 50px;
+  top: 32px;
   z-index: 3;
   list-style: none;
   padding: 8px 0;
-  margin: 16px 0;
+  margin: 0;
   box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
   background-color: white;
-  border-radius: 8px;
+  border-radius: 4px;
   -webkit-transform: scaleY(0);
   -ms-transform: scaleY(0);
   transform: scaleY(0);
@@ -122,19 +135,13 @@ exports[`Dropdown renders 1`] = `
   -webkit-transition: -webkit-transform 0.15s ease;
   -webkit-transition: transform 0.15s ease;
   transition: transform 0.15s ease;
-  overflow-x: hidden;
 }
 
-.c7 {
+.c5 {
   display: block;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   max-width: 100%;
-  min-width: 100%;
   padding: 8px 16px;
-  background: #FFFFFF;
+  background: #fff;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -142,9 +149,9 @@ exports[`Dropdown renders 1`] = `
   text-align: left;
 }
 
-.c7:hover {
+.c5:hover {
   cursor: pointer;
-  background: #FAFAFA;
+  background: #f4f4f4;
 }
 
 <div>
@@ -155,42 +162,48 @@ exports[`Dropdown renders 1`] = `
     <div
       className="c1"
     >
-      <span
-        className="c2 c3"
-        fontSize="sm"
-      />
       <div
-        className="c4 c5"
+        className="c2 c3"
+        height={16}
         rotate={90}
+        width={16}
       >
         <svg
           height={32}
           viewBox="0 0 24 24"
           width={32}
-        />
+        >
+          <path
+            d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+          />
+        </svg>
       </div>
       <ol
-        className="c6"
+        className="c4"
       >
         <li
-          className="c7"
+          className="c5"
+          id="one"
           onClick={[Function]}
+          role="option"
         >
           <strong
-            className="c8"
-            color="grey4"
+            className="c6"
+            color="grey5"
             fontSize="sm"
           >
             one
           </strong>
         </li>
         <li
-          className="c7"
+          className="c5"
+          id="two"
           onClick={[Function]}
+          role="option"
         >
           <strong
-            className="c8"
-            color="grey4"
+            className="c6"
+            color="grey5"
             fontSize="sm"
           >
             two
@@ -198,6 +211,10 @@ exports[`Dropdown renders 1`] = `
         </li>
       </ol>
     </div>
+    <hr
+      className="c7 c8"
+      color="grey3"
+    />
   </div>
 </div>
 `;

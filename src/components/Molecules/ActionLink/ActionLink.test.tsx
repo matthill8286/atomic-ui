@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from '@/components/Atoms/Link'
-import { mountWithTheme, renderWithTheme } from '@/testRenderer'
-import { ActionLink } from './ActionLink'
+import { Link } from '../../../'
+import { ActionLink } from './index'
 import { ActionLinkProps } from './ActionLink.interface'
+import { mountWithTheme, renderWithTheme } from '../../../testRenderer'
 
 describe('<ActionLink /> component', () => {
   const props: ActionLinkProps = {
@@ -16,13 +16,5 @@ describe('<ActionLink /> component', () => {
     const wrapper = mountWithTheme(defaultActionLink)
     expect(wrapper.find(Link)).toHaveLength(1)
     expect(actionLink).toMatchSnapshot()
-  })
-
-  test('should trigger onClick', () => {
-    const onClick = jest.fn()
-    const wrapper = mountWithTheme(<ActionLink {...props} onClick={onClick} />)
-
-    wrapper.find(Link).simulate('click')
-    expect(onClick).toHaveBeenCalled()
   })
 })

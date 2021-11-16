@@ -11,14 +11,14 @@ describe('Dropdown', () => {
   it('renders and show options list', () => {
     const wrapper = mountWithTheme(<Dropdown options={[{ label: 'one' }, { label: 'two' }]} />)
     wrapper.find('DropdownWithoutState').simulate('click')
-    const dropDownWithOptions = wrapper.findWhere(item => item.props().showDropdown === true)
+    const dropDownWithOptions = wrapper.findWhere((item) => item.props().showDropdown === true)
     expect(dropDownWithOptions).toBeDefined()
   })
   it('toggles the dropdown on click', () => {
     const wrapper = mountWithTheme(<Dropdown options={[{ label: 'one' }, { label: 'two' }]} />)
     const button = wrapper.find('div').first()
     button.simulate('click')
-    expect(wrapper.find(StyledList).findWhere(item => item.props().active))
+    expect(wrapper.find(StyledList).findWhere((item) => item.props().active))
   })
   it('accepts an optional label prop', () => {
     const wrapper = mountWithTheme(
@@ -37,7 +37,7 @@ describe('Dropdown', () => {
       />
     )
     expect(
-      wrapper.find(StyledDropdownOption).findWhere(item => {
+      wrapper.find(StyledDropdownOption).findWhere((item) => {
         const props = item.props()
         return props.active && props.children === 'two'
       })

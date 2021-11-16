@@ -13,12 +13,12 @@ import {
   NotificationBoxType,
   NotificationButton,
   NotificationContentSort,
-  ToolTipData,
+  TooltipData,
 } from './NotificationBox.interface'
 
 const animation: AnimationType[] = ['fadeIn', 'fadeOut', 'shake']
 const arrowPosition: ArrowPosition[] = ['top-left', 'top-right', 'bottom-left', 'bottom-right']
-const types: NotificationBoxType[] = ['alert', 'error', 'info', 'success']
+const types: NotificationBoxType[] = ['alert', 'error', 'info', 'success', 'hot']
 const buttonLayout: ButtonLayout[] = ['column', 'row']
 const actionButtonTypes: ButtonActionType[] = [
   'ghost',
@@ -33,11 +33,11 @@ const knobs = (): NotificationBoxProps => {
   return {
     body: text(
       'Body',
-      'Please complete the products in the collection before this one to unlock this product'
+      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.'
     ),
     hasTitleIcon: boolean('Icon', true),
     isClosable: boolean('Closable', true),
-    title: text('Title', 'Product not available yet!'),
+    title: text('Title', 'This is the result of your last action!'),
     type: select('Type', types, types[1]),
     animation: select('Animation', animation, undefined),
     buttonLayout: select('Button Layout', buttonLayout, buttonLayout[0]),
@@ -45,12 +45,11 @@ const knobs = (): NotificationBoxProps => {
 }
 const buttonKnobs = (): NotificationButton =>
   ({
-    actionBtnLabel: text('Button Label', 'OK'),
+    actionBtnLabel: text('Button Label', 'Lets do it...'),
     onClick: action('click'),
-    actionType: select('Button Type #1', actionButtonTypes, 'primary'),
   } as NotificationButton)
 
-const tooltipKnobs = (): ToolTipData => {
+const tooltipKnobs = (): TooltipData => {
   return {
     arrowleft: number('Arrow left', 0),
     arrowPosition: select('Arrow Position', arrowPosition, arrowPosition[0]),
@@ -67,18 +66,14 @@ storiesOf('Design System/Molecules/Notification Box', module)
   .add('Title and button', () => (
     <NotificationBox
       {...knobs()}
-      buttons={[
-        { actionBtnLabel: 'Self Destruct', onClick: action('onClick'), actionType: 'primary' },
-      ]}
+      buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]}
       body=""
     />
   ))
-  .add('As ToolTip', () => (
+  .add('As Tooltip', () => (
     <NotificationBox
       {...knobs()}
-      buttons={[
-        { actionBtnLabel: 'Self Destruct', onClick: action('onClick'), actionType: 'primary' },
-      ]}
+      buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]}
       body=""
       tooltip={{ ...tooltipKnobs() }}
     />
@@ -89,13 +84,13 @@ storiesOf('Design System/Molecules/Notification Box', module)
       buttons={[
         {
           actionBtnLabel: 'Button One',
-          actionType: select('Button Type #1', actionButtonTypes, 'outlined'),
-          onClick: action('onClickButon One'),
+          actionType: select('Button Type #1', actionButtonTypes, 'secondary'),
+          onClick: action('onClick'),
         },
         {
           actionBtnLabel: 'Button Two',
           actionType: select('Button Type #2', actionButtonTypes, 'primary'),
-          href: 'https://www.google.co.uk?learning',
+          href: 'https://www.mediamarkt.de',
           target: '_blank',
         },
       ]}
@@ -108,7 +103,7 @@ storiesOf('Design System/Molecules/Notification Box', module)
       <NotificationBox
         {...knobs()}
         links={[
-          { label: 'Link One', to: 'https://www.google.co.uk?learning' },
+          { label: 'Link One', to: 'https://mediamarkt.com/' },
           { label: 'Link Two', onClick: () => {} },
         ]}
         tooltip={{ ...tooltipKnobs() }}
@@ -123,16 +118,16 @@ storiesOf('Design System/Molecules/Notification Box', module)
         buttons={[
           {
             actionBtnLabel: 'Button',
-            actionType: select('Button Type #1', actionButtonTypes, 'primary'),
+            actionType: select('Button Type #1', actionButtonTypes, 'secondary'),
             onClick: action('onClick'),
           },
         ]}
         links={[
           {
             label: 'Link',
-            to: 'https://www.google.co.uk?learning',
+            to: 'https://mediamarkt.com/',
             target: '_blank',
-            decorationColor: 'prominent',
+            decorationColor: 'primary',
             bold: true,
             iconLeft: null,
             inline: false,
