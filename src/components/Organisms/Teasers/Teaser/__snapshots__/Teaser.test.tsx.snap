@@ -5,7 +5,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -18,7 +18,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -38,7 +38,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
   color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -56,7 +56,7 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
   color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -570,12 +570,11 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
                   color="primary"
                 >
                   <svg
-                    height={80}
-                    width={80}
+                    viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
+                      d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
                     />
                   </svg>
                 </div>
@@ -602,7 +601,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -622,7 +621,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -640,7 +639,7 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
   color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -1000,12 +999,11 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
                 width="sm"
               >
                 <svg
-                  height={80}
-                  width={80}
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
+                    d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
                   />
                 </svg>
               </div>
@@ -1053,12 +1051,11 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
                       color="primary"
                     >
                       <svg
-                        height={80}
-                        width={80}
+                        viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
+                          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
                         />
                       </svg>
                     </div>
@@ -1087,7 +1084,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -1107,7 +1104,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -1125,7 +1122,7 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
   color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -1516,12 +1513,11 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
                   color="primary"
                 >
                   <svg
-                    height={80}
-                    width={80}
+                    viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
+                      d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
                     />
                   </svg>
                 </div>
@@ -1548,7 +1544,7 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -1567,7 +1563,7 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -1973,12 +1969,11 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
                   color="primary"
                 >
                   <svg
-                    height={80}
-                    width={80}
+                    viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
+                      d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
                     />
                   </svg>
                 </div>
@@ -2005,7 +2000,7 @@ exports[`Teaser renders correctly as teaser with nothing but headline 1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -2242,7 +2237,7 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -2262,7 +2257,7 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
   color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -2542,12 +2537,11 @@ exports[`Teaser renders correctly as teaser without image 1`] = `
                 width="sm"
               >
                 <svg
-                  height={80}
-                  width={80}
+                  viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
+                    d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
                   />
                 </svg>
               </div>
@@ -2577,7 +2571,7 @@ exports[`Teaser renders correctly with custom headline tag 1`] = `
   color: #00C8DC;
   font-size: 40px;
   line-height: 44px;
-  font-family: "SourceSansPro","Oswald",Arial,sans-serif;
+  font-family: OswaldBold,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;

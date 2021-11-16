@@ -6,7 +6,7 @@ exports[`Radio button renders correctly 1`] = `
   color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;

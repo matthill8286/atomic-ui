@@ -5,7 +5,7 @@ exports[`TabBar render with a selected tab 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -78,7 +78,7 @@ exports[`TabBar render with a selected tab 1`] = `
   line-height: 1;
   place-items: center;
   place-content: center;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
@@ -261,7 +261,7 @@ exports[`TabBar renders correctly 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -334,7 +334,7 @@ exports[`TabBar renders correctly 1`] = `
   line-height: 1;
   place-items: center;
   place-content: center;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
@@ -519,7 +519,7 @@ exports[`TabItem render with a selected tab 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -547,7 +547,7 @@ exports[`TabItem render with a selected tab 1`] = `
   line-height: 1;
   place-items: center;
   place-content: center;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
@@ -635,7 +635,7 @@ exports[`TabItem renders basic 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -663,7 +663,7 @@ exports[`TabItem renders basic 1`] = `
   line-height: 1;
   place-items: center;
   place-content: center;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;

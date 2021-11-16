@@ -221,14 +221,12 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
           width={20}
         >
           <svg
-            clipRule="evenodd"
-            fillRule="evenodd"
-            height={24}
-            width={24}
+            data-name="Layer 1"
+            viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M0 12v1h23v-1H0z"
+              d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
             />
           </svg>
         </div>
@@ -253,14 +251,11 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
           width={20}
         >
           <svg
-            clipRule="evenodd"
-            fillRule="evenodd"
-            height={24}
-            width={24}
+            viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+              d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
             />
           </svg>
         </div>

@@ -5,7 +5,7 @@ exports[`InfoText renders correctly 1`] = `
   color: #999999;
   font-size: 12px;
   line-height: 16px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;

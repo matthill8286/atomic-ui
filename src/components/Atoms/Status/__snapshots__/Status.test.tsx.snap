@@ -5,7 +5,7 @@ exports[`Status renders correctly 1`] = `
   width: 16px;
   height: 16px;
   background: #00C8DC;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-size: 12px;
   color: #FFFFFF;
   border-radius: 100%;

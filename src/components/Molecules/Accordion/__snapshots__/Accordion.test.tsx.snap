@@ -29,7 +29,7 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
 .c4 {
   margin: 0 16px;
   color: #666666;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -47,7 +47,7 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -69,7 +69,7 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   padding: 16px 0;
 }
 
@@ -130,14 +130,12 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 12v1h23v-1H0z"
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
           />
         </svg>
       </div>
@@ -193,14 +191,12 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 12v1h23v-1H0z"
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
           />
         </svg>
       </div>
@@ -256,14 +252,12 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 12v1h23v-1H0z"
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
           />
         </svg>
       </div>
@@ -317,14 +311,12 @@ exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 12v1h23v-1H0z"
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
           />
         </svg>
       </div>
@@ -394,7 +386,7 @@ exports[`Accordion has a large variant 1`] = `
 .c4 {
   margin: 0 16px;
   color: #666666;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -412,7 +404,7 @@ exports[`Accordion has a large variant 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -434,7 +426,7 @@ exports[`Accordion has a large variant 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   padding: 24px 0;
 }
 
@@ -491,14 +483,11 @@ exports[`Accordion has a large variant 1`] = `
         width={28}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
           />
         </svg>
       </div>
@@ -554,14 +543,12 @@ exports[`Accordion has a large variant 1`] = `
         width={28}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 12v1h23v-1H0z"
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
           />
         </svg>
       </div>
@@ -617,14 +604,11 @@ exports[`Accordion has a large variant 1`] = `
         width={28}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
           />
         </svg>
       </div>
@@ -678,14 +662,11 @@ exports[`Accordion has a large variant 1`] = `
         width={28}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
           />
         </svg>
       </div>
@@ -755,7 +736,7 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
 .c4 {
   margin: 0 16px;
   color: #666666;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -773,7 +754,7 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
   color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -795,7 +776,7 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
-  font-family: "Oswald","Raleway",Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   padding: 16px 0;
 }
 
@@ -852,14 +833,11 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
           />
         </svg>
       </div>
@@ -915,14 +893,12 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0 12v1h23v-1H0z"
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
           />
         </svg>
       </div>
@@ -978,14 +954,11 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
           />
         </svg>
       </div>
@@ -1039,14 +1012,11 @@ exports[`Accordion renders accordion with initial open entry correctly 1`] = `
         width={24}
       >
         <svg
-          clipRule="evenodd"
-          fillRule="evenodd"
-          height={24}
-          width={24}
+          viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
           />
         </svg>
       </div>

@@ -7,7 +7,7 @@ exports[`ButtonGroup renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .c0 button,
