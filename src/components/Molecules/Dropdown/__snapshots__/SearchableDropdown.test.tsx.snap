@@ -9,76 +9,56 @@ exports[`SearchableDropdown Renders 1`] = `
 }
 
 .c8 svg {
-  cursor: inherit;
   width: 20px;
   height: 20px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #918e8c;
+  fill: #CCCCCC;
+}
+
+.c8 svg g,
+.c8 svg p {
+  fill: #CCCCCC;
 }
 
 .c3 {
-  color: #918e8c;
+  color: #CCCCCC;
   font-size: 16px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c3 a,
-.c3 a:focus,
-.c3 a:hover,
-.c3 a:active,
-.c3 a:visited {
-  color: inherit;
-}
-
-.c13 {
-  color: #272422;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-}
-
-.c13 a,
-.c13 a:focus,
-.c13 a:hover,
-.c13 a:active,
-.c13 a:visited {
-  color: inherit;
-}
-
-.c14 {
-  color: #df0000;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-}
-
-.c14 a,
-.c14 a:focus,
-.c14 a:hover,
-.c14 a:active,
-.c14 a:visited {
-  color: inherit;
 }
 
 .c11 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c12 {
+  color: #00C8DC;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c9 {
   min-width: 100%;
   max-width: 100%;
   max-height: 320px;
@@ -106,11 +86,11 @@ exports[`SearchableDropdown Renders 1`] = `
   transition: transform 0.15s ease;
 }
 
-.c12 {
+.c10 {
   display: block;
   max-width: 100%;
   padding: 8px 16px;
-  background: #fff;
+  background: #FFFFFF;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -118,9 +98,9 @@ exports[`SearchableDropdown Renders 1`] = `
   text-align: left;
 }
 
-.c12:hover {
+.c10:hover {
   cursor: pointer;
-  background: #f4f4f4;
+  background: #FAFAFA;
 }
 
 .c0 {
@@ -156,15 +136,17 @@ exports[`SearchableDropdown Renders 1`] = `
   box-sizing: content-box;
   display: block;
   font-size: 16px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   margin: 24px 0 0 0;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  border-radius: 12px;
+  background-color: #FFFFFF;
   min-width: 0;
   width: 100%;
-  height: 24px;
-  line-height: 24px;
+  padding: 8px 16px;
+  line-height: 40px;
   outline: none;
   position: relative;
-  background: transparent;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -200,23 +182,10 @@ exports[`SearchableDropdown Renders 1`] = `
   opacity: 1;
 }
 
-.c9 {
-  height: 1px;
-  background: #918e8c;
-  border-width: 0;
-}
-
-.c10 {
-  height: 2px;
-  width: 100%;
-  margin-bottom: 0;
-  margin-top: 4px;
-}
-
 .c6 {
-  top: 0;
   position: absolute;
-  right: 0;
+  top: 16px;
+  right: 16px;
   height: 100%;
 }
 
@@ -239,13 +208,13 @@ exports[`SearchableDropdown Renders 1`] = `
 
 .c4 {
   position: absolute;
-  margin-top: 8px;
+  margin-top: 4px;
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
-  -webkit-transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms, top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
-  transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms, top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
-  top: 20px;
+  -webkit-transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms,top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
+  transition: color 0.25s cubic-bezier(0,0,0.2,1) 0ms,top 0.25s cubic-bezier(0,0,0.2,1) 0ms;
+  top: 24px;
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
@@ -270,14 +239,10 @@ exports[`SearchableDropdown Renders 1`] = `
           className="c3 c4"
           color="grey3"
           fontSize="sm"
-          id="undefined-label"
         >
           oh my label
         </label>
         <input
-          aria-activedescendant=""
-          aria-autocomplete="both"
-          aria-controls="undefined-list"
           aria-invalid={false}
           aria-required={false}
           autoFocus={false}
@@ -306,9 +271,8 @@ exports[`SearchableDropdown Renders 1`] = `
           width={20}
         >
           <svg
-            height={32}
             viewBox="0 0 24 24"
-            width={32}
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M20.85 19.44l-4-4a2.44 2.44 0 00-.43-.35l-1-.69A7 7 0 1010 17a7 7 0 004.37-1.53l.75 1a2.6 2.6 0 00.3.36l4 4a.5.5 0 00.71 0l.7-.7a.5.5 0 00.02-.69zM10 15a5 5 0 115-5 5 5 0 01-5 5z"
@@ -316,27 +280,23 @@ exports[`SearchableDropdown Renders 1`] = `
           </svg>
         </span>
       </div>
-      <hr
-        className="c9 c10"
-        color="grey3"
-      />
     </div>
   </div>
   <ol
     aria-labelledby="undefined-label"
-    className="c11"
+    className="c9"
     data-test="undefined-dropdown-list"
     id="undefined-list"
     role="listbox"
   >
     <li
-      className="c12"
+      className="c10"
       id="undefined-opt-id-1"
       onClick={[Function]}
       role="option"
     >
       <strong
-        className="c13"
+        className="c11"
         color="grey5"
         fontSize="sm"
       >
@@ -344,13 +304,13 @@ exports[`SearchableDropdown Renders 1`] = `
       </strong>
     </li>
     <li
-      className="c12"
+      className="c10"
       id="undefined-opt-id-2"
       onClick={[Function]}
       role="option"
     >
       <strong
-        className="c14"
+        className="c12"
         color="primary"
         fontSize="sm"
       >

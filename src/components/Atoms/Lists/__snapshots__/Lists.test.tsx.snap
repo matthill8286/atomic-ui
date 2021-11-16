@@ -2,23 +2,15 @@
 
 exports[`Lists renders correctly 1`] = `
 .c1 {
-  color: #272422;
+  color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c1 a,
-.c1 a:focus,
-.c1 a:hover,
-.c1 a:active,
-.c1 a:visited {
-  color: inherit;
 }
 
 .c0 {
@@ -41,20 +33,9 @@ exports[`Lists renders correctly 1`] = `
   margin-bottom: 0;
 }
 
-.c0 .Icon-sc-1vrq823-0 {
-  float: left;
-  position: relative;
-  top: -2px;
-  margin-right: 8px;
-}
-
 @media (min-width:752px) {
   .c0 {
     font-size: 16px;
-  }
-
-  .c0 .Icon-sc-1vrq823-0 {
-    top: 0;
   }
 }
 
@@ -82,33 +63,29 @@ exports[`Lists renders correctly with icon 1`] = `
 }
 
 .c3 svg {
-  cursor: inherit;
   width: 24px;
   height: 24px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #70c118;
+  fill: #55e1a7;
+}
+
+.c3 svg g,
+.c3 svg p {
+  fill: #55e1a7;
 }
 
 .c1 {
-  color: #272422;
+  color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c1 a,
-.c1 a:focus,
-.c1 a:hover,
-.c1 a:active,
-.c1 a:visited {
-  color: inherit;
 }
 
 .c0 {
@@ -167,11 +144,7 @@ exports[`Lists renders correctly with icon 1`] = `
           height={32}
           viewBox="0 0 24 24"
           width={32}
-        >
-          <path
-            d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.35 7.73l-5.62 5.62a.48.48 0 01-.7 0L7.65 13a.5.5 0 010-.71l.53-.53a.48.48 0 01.7 0l1.5 1.49 4.74-4.74a.5.5 0 01.7 0l.53.53a.5.5 0 010 .69z"
-          />
-        </svg>
+        />
         Lorem ipsum
       </div>
     </p>

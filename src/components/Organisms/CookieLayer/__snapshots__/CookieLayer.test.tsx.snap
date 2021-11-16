@@ -21,34 +21,36 @@ exports[`Button Should render cookie layer wrapper 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0px 24px;
+  -webkit-appearance: none;
+  padding: 12px 24px;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 48px;
-  background: #272422;
-  border: 2px solid #272422;
-  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  background: #00C8DC;
+  border: 2px solid #00C8DC;
+  color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-.c6 .Icon-sc-1vrq823-0 {
-  padding: 0 8px;
-}
-
-.c6 .Status-sc-80qxcr-0 {
+.c6 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
 }
 
 .c6:hover {
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
 }
 
-.c6 color:#fff > span {
+.c6 > span {
   color: inherit;
   display: block;
   text-align: center;
@@ -57,10 +59,9 @@ exports[`Button Should render cookie layer wrapper 1`] = `
 
 .c4 {
   margin: 0;
-  color: #000000;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 28px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: 0.4px;
   -moz-letter-spacing: 0.4px;
@@ -68,33 +69,17 @@ exports[`Button Should render cookie layer wrapper 1`] = `
   letter-spacing: 0.4px;
 }
 
-.c4 a,
-.c4 a:focus,
-.c4 a:hover,
-.c4 a:active,
-.c4 a:visited {
-  color: inherit;
-}
-
 .c5 {
   margin: 8px 0 24px;
-  color: #272422;
+  color: #666666;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c5 a,
-.c5 a:focus,
-.c5 a:hover,
-.c5 a:active,
-.c5 a:visited {
-  color: inherit;
 }
 
 .c3 {
@@ -138,17 +123,17 @@ exports[`Button Should render cookie layer wrapper 1`] = `
   left: 0;
   width: 100%;
   padding: 16px;
-  background: #fff;
+  background: #FFFFFF;
   z-index: 200;
   box-sizing: border-box;
 }
 
 .c0 a {
-  color: #272422;
+  color: #666666;
 }
 
 .c0 a:hover {
-  color: #df0000;
+  color: #00C8DC;
 }
 
 @supports (display:grid) {
@@ -292,7 +277,6 @@ exports[`Button Should render cookie layer wrapper 1`] = `
       >
         <h2
           className="c4"
-          color="black"
           fontFamily="default"
           fontSize="xl"
           spacing="base"

@@ -3,10 +3,10 @@
 exports[`CampaignInfobox renders correctly 1`] = `
 .c6 {
   margin: 24px 0 8px 0;
-  color: #272422;
-  font-size: 16px;
+  color: #666666;
+  font-size: 18px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 600;
   -webkit-letter-spacing: 0.2px;
   -moz-letter-spacing: 0.2px;
@@ -20,14 +20,6 @@ exports[`CampaignInfobox renders correctly 1`] = `
   -webkit-box-orient: vertical;
 }
 
-.c6 a,
-.c6 a:focus,
-.c6 a:hover,
-.c6 a:active,
-.c6 a:visited {
-  color: inherit;
-}
-
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -37,15 +29,16 @@ exports[`CampaignInfobox renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
+  padding: 16px;
 }
 
 .c0::after {
@@ -54,7 +47,7 @@ exports[`CampaignInfobox renders correctly 1`] = `
   display: none;
   bottom: -2px;
   height: 1px;
-  background-color: #df0000;
+  background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -77,10 +70,15 @@ exports[`CampaignInfobox renders correctly 1`] = `
 
 .c3 {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
 }
 
 .c3 img {
-  width: 100%;
   object-fit: contain;
 }
 
@@ -90,9 +88,9 @@ exports[`CampaignInfobox renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: #fff;
+  background-color: #FFFFFF;
   border-radius: 4px;
-  border: 1px solid #cfcbca;
+  border: 1px solid #E5E5E5;
 }
 
 .c2:hover {
@@ -100,7 +98,7 @@ exports[`CampaignInfobox renders correctly 1`] = `
   -webkit-transform: translateY(-1px);
   -ms-transform: translateY(-1px);
   transform: translateY(-1px);
-  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06), 0 5px 5px -3px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.1);
   border-color: rgba(0,0,0,0);
 }
 
@@ -147,7 +145,7 @@ exports[`CampaignInfobox renders correctly 1`] = `
 
 @media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
   .c3 {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -155,6 +153,7 @@ exports[`CampaignInfobox renders correctly 1`] = `
   .c3 img {
     max-width: 100%;
     width: auto;
+    height: auto;
   }
 }
 
@@ -175,7 +174,6 @@ exports[`CampaignInfobox renders correctly 1`] = `
 
 <a
   className="c0 c1"
-  data-test="mms-router-link"
   href="/"
   onClick={[Function]}
 >
@@ -184,12 +182,21 @@ exports[`CampaignInfobox renders correctly 1`] = `
   >
     <div
       className="c3 c4"
+      width="100%"
     >
-      <picture>
+      <picture
+        style={
+          Object {
+            "height": undefined,
+            "width": "100%",
+          }
+        }
+      >
         <img
-          crossOrigin="anonymous"
+          alt="image"
           loading="eager"
           src="public/images/teasers/versandkostenfrei.jpeg"
+          width="100%"
         />
       </picture>
     </div>
@@ -200,7 +207,7 @@ exports[`CampaignInfobox renders correctly 1`] = `
         className="c6"
         color="grey5"
         fontFamily="default"
-        fontSize="sm"
+        fontSize="md"
         spacing="half"
       >
         Jetzt gratis liefern lassen ab einem Warenkorbwert von 100€.

@@ -3,23 +3,15 @@
 exports[`<GroupedActionLinks /> component should render with 2 <ActionLink /> children 1`] = `
 Array [
   .c3 {
-  color: #272422;
+  color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c3 a,
-.c3 a:focus,
-.c3 a:hover,
-.c3 a:active,
-.c3 a:visited {
-  color: inherit;
 }
 
 .c2 {
@@ -30,13 +22,17 @@ Array [
 }
 
 .c2 svg {
-  cursor: inherit;
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #df0000;
+  fill: #00C8DC;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: #00C8DC;
 }
 
 .c0 {
@@ -48,15 +44,16 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
+  padding: 16px;
 }
 
 .c0::after {
@@ -67,7 +64,7 @@ Array [
   height: 2px;
   left: 24px;
   width: calc( 100% - 24px );
-  background-color: #df0000;
+  background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -100,16 +97,19 @@ Array [
 
 .c4 {
   display: block;
+  color: #999999;
 }
 
 <a
     className="c0"
+    color="grey4"
     href="http://mediamarkt.de"
     rel="noopener noreferrer"
     target="_blank"
   >
     <span
       className="c1"
+      color="grey4"
     >
       <div
         className="c2"
@@ -119,39 +119,27 @@ Array [
           height={32}
           viewBox="0 0 24 24"
           width={32}
-        >
-          <path
-            d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
-          />
-        </svg>
+        />
       </div>
     </span>
     <span
       className="c3 c4"
-      color="grey5"
+      color="grey4"
       fontSize="sm"
     >
       Action Link 1
     </span>
   </a>,
   .c3 {
-  color: #272422;
+  color: #999999;
   font-size: 16px;
   line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c3 a,
-.c3 a:focus,
-.c3 a:hover,
-.c3 a:active,
-.c3 a:visited {
-  color: inherit;
 }
 
 .c2 {
@@ -162,13 +150,17 @@ Array [
 }
 
 .c2 svg {
-  cursor: inherit;
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #df0000;
+  fill: #00C8DC;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: #00C8DC;
 }
 
 .c0 {
@@ -180,15 +172,16 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
+  padding: 16px;
 }
 
 .c0::after {
@@ -199,7 +192,7 @@ Array [
   height: 2px;
   left: 24px;
   width: calc( 100% - 24px );
-  background-color: #df0000;
+  background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -232,16 +225,19 @@ Array [
 
 .c4 {
   display: block;
+  color: #999999;
 }
 
 <a
     className="c0"
+    color="grey4"
     href="http://mediamarkt.de"
     rel="noopener noreferrer"
     target="_blank"
   >
     <span
       className="c1"
+      color="grey4"
     >
       <div
         className="c2"
@@ -251,16 +247,12 @@ Array [
           height={32}
           viewBox="0 0 24 24"
           width={32}
-        >
-          <path
-            d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
-          />
-        </svg>
+        />
       </div>
     </span>
     <span
       className="c3 c4"
-      color="grey5"
+      color="grey4"
       fontSize="sm"
     >
       Action Link 2

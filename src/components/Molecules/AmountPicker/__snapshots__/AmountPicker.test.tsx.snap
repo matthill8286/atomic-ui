@@ -9,13 +9,17 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
 }
 
 .c4 svg {
-  cursor: inherit;
   width: 20px;
   height: 20px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #df0000;
+  fill: #00C8DC;
+}
+
+.c4 svg g,
+.c4 svg p {
+  fill: #00C8DC;
 }
 
 .c1 {
@@ -38,17 +42,22 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0px 24px;
+  -webkit-appearance: none;
+  padding: 12px 24px;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 48px;
-  border: 2px solid #fff;
-  background: #fff;
-  color: #272422;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #666666;
   opacity: 0.4;
 }
 
@@ -56,7 +65,7 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
   padding: 0 8px;
 }
 
-.c1 .Status-sc-80qxcr-0 {
+.c1 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -89,37 +98,40 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0px 24px;
+  -webkit-appearance: none;
+  padding: 12px 24px;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 48px;
-  border: 2px solid #fff;
-  background: #fff;
-  color: #272422;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #666666;
 }
 
 .c5 .c3 {
   padding: 0 8px;
 }
 
-.c5 .Status-sc-80qxcr-0 {
+.c5 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
 }
 
 .c5:hover {
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
 }
 
 .c5:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  box-shadow: none;
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
 }
 
 .c5 > span {
@@ -140,15 +152,15 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
 .c2 .c3 svg {
   width: 16px;
   height: 16px;
-  fill: #272422;
+  fill: #666666;
 }
 
 .c2:active .c3 svg {
-  fill: #df0000;
+  fill: #4bcade;
 }
 
 .c2:disabled .c3 svg {
-  fill: #cfcbca;
+  fill: #E5E5E5;
 }
 
 .c0 {
@@ -158,12 +170,12 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border-radius: 4px;
-  border: 1px solid #cfcbca;
+  border: 1px solid #E5E5E5;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-size: 16px;
   height: 40px;
   -webkit-box-pack: center;
@@ -209,11 +221,14 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
           width={20}
         >
           <svg
-            data-name="Layer 1"
-            viewBox="0 0 24 24"
+            clipRule="evenodd"
+            fillRule="evenodd"
+            height={24}
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+              d="M0 12v1h23v-1H0z"
             />
           </svg>
         </div>
@@ -238,12 +253,14 @@ exports[`AmountPicker Should render an AmountPicker 1`] = `
           width={20}
         >
           <svg
-            height={32}
-            viewBox="0 0 24 24"
-            width={32}
+            clipRule="evenodd"
+            fillRule="evenodd"
+            height={24}
+            width={24}
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+              d="M11 11V0h1v11h11v1H12v11h-1V12H0v-1h11z"
             />
           </svg>
         </div>

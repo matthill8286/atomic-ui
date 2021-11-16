@@ -9,11 +9,11 @@ exports[`CounterWithTimer should render 1`] = `
 }
 
 .c2 {
-  stroke: #cfcbca;
+  stroke: #E5E5E5;
 }
 
 .c3 {
-  stroke: #df0000;
+  stroke: #00C8DC;
 }
 
 .c0 {

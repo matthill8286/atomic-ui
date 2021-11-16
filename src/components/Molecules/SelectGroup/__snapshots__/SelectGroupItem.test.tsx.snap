@@ -11,10 +11,11 @@ exports[`SelectGroupItem renders a divider 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c4 {
@@ -28,23 +29,14 @@ exports[`SelectGroupItem renders a divider 1`] = `
   width: 90%;
   margin: 0 auto;
   z-index: 1;
-  background: #cfcbca;
+  background: #E5E5E5;
   height: 1px;
 }
 
 .c1 {
   position: relative;
   outline: none;
-}
-
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  width: 100%;
 }
 
 .c0 {
@@ -62,12 +54,7 @@ exports[`SelectGroupItem renders a divider 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1b4w28x-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -106,25 +93,17 @@ exports[`SelectGroupItem renders correctly 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c1 {
   position: relative;
   outline: none;
-}
-
-.c1 .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  width: 100%;
 }
 
 .c0 {
@@ -138,12 +117,7 @@ exports[`SelectGroupItem renders correctly 1`] = `
 }
 
 @media (min-width:512px) {
-  .c1:hover .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0,
-  .c1:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1b4w28x-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div

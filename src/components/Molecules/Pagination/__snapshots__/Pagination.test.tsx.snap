@@ -26,7 +26,7 @@ exports[`Pagination renders DotsPagination 1`] = `
 .c2 {
   height: 8px;
   width: 8px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 1px solid #000000;
   border-radius: 50%;
   display: inline-block;
@@ -93,12 +93,16 @@ exports[`Pagination renders PagesPagination 1`] = `
 }
 
 .c3 svg {
-  cursor: inherit;
   width: 16px;
   height: 16px;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+  fill: currentColor;
+}
+
+.c3 svg g,
+.c3 svg p {
   fill: currentColor;
 }
 
@@ -110,12 +114,16 @@ exports[`Pagination renders PagesPagination 1`] = `
 }
 
 .c13 svg {
-  cursor: inherit;
   width: 16px;
   height: 16px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  fill: currentColor;
+}
+
+.c13 svg g,
+.c13 svg p {
   fill: currentColor;
 }
 
@@ -139,28 +147,33 @@ exports[`Pagination renders PagesPagination 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -webkit-appearance: none;
   padding: 0;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
   width: 40px;
   height: 40px;
-  background: #272422;
-  border: 2px solid #272422;
-  color: #cfcbca;
+  background: #00C8DC;
+  border: 2px solid #00C8DC;
+  color: #E5E5E5;
   opacity: 0.4;
-  color: #cfcbca;
+  color: #E5E5E5;
 }
 
 .c1 .c2 {
   padding: 0 8px;
 }
 
-.c1 .Status-sc-80qxcr-0 {
+.c1 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
@@ -193,36 +206,42 @@ exports[`Pagination renders PagesPagination 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -webkit-appearance: none;
   padding: 0;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
   width: 40px;
   height: 40px;
-  background: #272422;
-  border: 2px solid #272422;
-  color: #fff;
+  background: #00C8DC;
+  border: 2px solid #00C8DC;
+  color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .c12 .c2 {
   padding: 0 8px;
 }
 
-.c12 .Status-sc-80qxcr-0 {
+.c12 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
 }
 
 .c12:hover {
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
 }
 
-.c12 color:#fff > span {
+.c12 > span {
   color: inherit;
   display: block;
   text-align: center;
@@ -233,7 +252,7 @@ exports[`Pagination renders PagesPagination 1`] = `
   color: #000000;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -241,52 +260,28 @@ exports[`Pagination renders PagesPagination 1`] = `
   letter-spacing: normal;
 }
 
-.c6 a,
-.c6 a:focus,
-.c6 a:hover,
-.c6 a:active,
-.c6 a:visited {
-  color: inherit;
-}
-
 .c8 {
   color: #000000;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c8 a,
-.c8 a:focus,
-.c8 a:hover,
-.c8 a:active,
-.c8 a:visited {
-  color: inherit;
 }
 
 .c10 {
-  color: #918e8c;
+  color: #CCCCCC;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c10 a,
-.c10 a:focus,
-.c10 a:hover,
-.c10 a:active,
-.c10 a:visited {
-  color: inherit;
 }
 
 .c0 {
@@ -371,12 +366,12 @@ exports[`Pagination renders PagesPagination 1`] = `
       width={16}
     >
       <svg
-        height={32}
-        viewBox="0 0 24 24"
-        width={32}
+        height={80}
+        width={80}
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+          d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
         />
       </svg>
     </div>
@@ -477,12 +472,12 @@ exports[`Pagination renders PagesPagination 1`] = `
       width={16}
     >
       <svg
-        height={32}
-        viewBox="0 0 24 24"
-        width={32}
+        height={80}
+        width={80}
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+          d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
         />
       </svg>
     </div>
@@ -511,35 +506,37 @@ exports[`Pagination renders ProgressPagination 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0px 24px;
+  -webkit-appearance: none;
+  padding: 12px 24px;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
   width: 100%;
-  background: #272422;
-  border: 2px solid #272422;
-  color: #fff;
+  background: #00C8DC;
+  border: 2px solid #00C8DC;
+  color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-.c4 .Icon-sc-1vrq823-0 {
-  padding: 0 8px;
-}
-
-.c4 .Status-sc-80qxcr-0 {
+.c4 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
 }
 
 .c4:hover {
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
 }
 
-.c4 color:#fff > span {
+.c4 > span {
   color: inherit;
   display: block;
   text-align: center;
@@ -554,47 +551,39 @@ exports[`Pagination renders ProgressPagination 1`] = `
   position: relative;
   height: 4px;
   border: none;
-  background: #cfcbca;
+  background: #E5E5E5;
   background-size: auto;
   width: 100%;
   overflow: hidden;
-  color: #df0000;
+  color: #00C8DC;
 }
 
 .c3::-webkit-progress-value {
-  background: #df0000;
+  background: #00C8DC;
 }
 
 .c3::-webkit-progress-bar {
-  background: #cfcbca;
+  background: #E5E5E5;
 }
 
 .c3::-moz-progress-bar {
-  background: #df0000;
+  background: #00C8DC;
 }
 
 .c3::-ms-fill {
-  background: #df0000;
+  background: #00C8DC;
 }
 
 .c1 {
-  color: #000000;
+  color: #999999;
   font-size: 12px;
   line-height: 16px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c1 a,
-.c1 a:focus,
-.c1 a:hover,
-.c1 a:active,
-.c1 a:visited {
-  color: inherit;
 }
 
 .c2 {
@@ -615,19 +604,14 @@ exports[`Pagination renders ProgressPagination 1`] = `
 >
   <span
     className="c1 c2"
-    color="black"
+    color="grey4"
     fontSize="xxs"
   >
     progressLabel
   </span>
   <progress
-    aria-busy="true"
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={0}
     className="c3"
     max={100}
-    role="progressbar"
     value={0}
   />
   <button

@@ -26,12 +26,16 @@ Array [
 }
 
 .c7 svg {
-  cursor: inherit;
   width: 16px;
   height: 16px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
+  fill: #000000;
+}
+
+.c7 svg g,
+.c7 svg p {
   fill: #000000;
 }
 
@@ -43,33 +47,29 @@ Array [
 }
 
 .c9 svg {
-  cursor: inherit;
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
   fill: #000000;
 }
 
+.c9 svg g,
+.c9 svg p {
+  fill: #000000;
+}
+
 .c10 {
-  color: #272422;
+  color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c10 a,
-.c10 a:focus,
-.c10 a:hover,
-.c10 a:active,
-.c10 a:visited {
-  color: inherit;
 }
 
 .c3 {
@@ -81,15 +81,16 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
+  padding: 16px;
 }
 
 .c3::after {
@@ -100,7 +101,7 @@ Array [
   height: 1px;
   left: 20px;
   width: calc( 100% - 20px );
-  background-color: #df0000;
+  background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -130,15 +131,16 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #666666;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
+  padding: 16px;
 }
 
 .c8::after {
@@ -149,7 +151,7 @@ Array [
   height: 1px;
   left: 20px;
   width: calc( 100% - 20px );
-  background-color: #272422;
+  background-color: #666666;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -179,15 +181,16 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #494745;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #E5E5E5;
   opacity: 0.4;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: initial;
   position: relative;
+  padding: 16px;
 }
 
 .c13::after {
@@ -198,7 +201,7 @@ Array [
   height: 1px;
   left: 20px;
   width: calc( 100% - 20px );
-  background-color: #494745;
+  background-color: #E5E5E5;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
   transform-origin: right center;
@@ -222,6 +225,7 @@ Array [
 
 .c11 {
   display: block;
+  color: #666666;
 }
 
 .c0 {
@@ -260,7 +264,7 @@ Array [
 }
 
 .c4:hover .c6 > svg:hover {
-  fill: #494745;
+  fill: #999999;
 }
 
 @media (min-width:752px) {
@@ -291,11 +295,13 @@ Array [
         <a
           aria-label="home-link"
           className="c3 c4"
+          color="grey4"
           href="/"
           target="_self"
         >
           <span
             className="c5"
+            color="grey4"
           >
             <div
               className="c6 c7"
@@ -307,14 +313,7 @@ Array [
                 height={32}
                 viewBox="0 0 24 24"
                 width={32}
-              >
-                <path
-                  d="M21.71 10.71l-7.42-7.42a1 1 0 00-.7-.29h-3.18a1 1 0 00-.7.29l-7.42 7.42a1 1 0 00-.29.7v1.09a.5.5 0 00.5.5H4v7a1 1 0 001 1h3a1 1 0 001-1v-5.5a.5.5 0 01.5-.5h5a.5.5 0 01.5.5V20a1 1 0 001 1h3a1 1 0 001-1v-7h1.5a.5.5 0 00.5-.5v-1.09a1 1 0 00-.29-.7z"
-                />
-                <path
-                  d="M21.71 10.71l-7.42-7.42a1 1 0 00-.7-.29h-3.18a1 1 0 00-.7.29l-7.42 7.42a1 1 0 00-.29.7v1.09a.5.5 0 00.5.5H4v7a1 1 0 001 1h3a1 1 0 001-1v-5.5a.5.5 0 01.5-.5h5a.5.5 0 01.5.5V20a1 1 0 001 1h3a1 1 0 001-1v-7h1.5a.5.5 0 00.5-.5v-1.09a1 1 0 00-.29-.7z"
-                />
-              </svg>
+              />
             </div>
           </span>
         </a>
@@ -337,12 +336,11 @@ Array [
               color="black"
             >
               <svg
-                height={32}
-                viewBox="0 0 24 24"
-                width={32}
+                height={306}
+                width={306}
               >
                 <path
-                  d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+                  d="M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z"
                 />
               </svg>
             </div>
@@ -374,12 +372,11 @@ Array [
               color="black"
             >
               <svg
-                height={32}
-                viewBox="0 0 24 24"
-                width={32}
+                height={306}
+                width={306}
               >
                 <path
-                  d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+                  d="M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z"
                 />
               </svg>
             </div>
@@ -410,12 +407,11 @@ Array [
               color="black"
             >
               <svg
-                height={32}
-                viewBox="0 0 24 24"
-                width={32}
+                height={306}
+                width={306}
               >
                 <path
-                  d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+                  d="M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z"
                 />
               </svg>
             </div>

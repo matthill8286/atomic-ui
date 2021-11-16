@@ -21,13 +21,14 @@ exports[`SelectGroup renders correctly 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c4 {
@@ -40,14 +41,15 @@ exports[`SelectGroup renders correctly 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-width: 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c5 {
@@ -60,29 +62,21 @@ exports[`SelectGroup renders correctly 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-width: 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   height: 100%;
+  width: 100%;
 }
 
 .c2 {
   position: relative;
   outline: none;
-}
-
-.c2 .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  width: 100%;
 }
 
 .c1 {
@@ -96,12 +90,7 @@ exports[`SelectGroup renders correctly 1`] = `
 }
 
 @media (min-width:512px) {
-  .c2:hover .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0,
-  .c2:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1b4w28x-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -267,13 +256,14 @@ exports[`SelectGroup renders direction column 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c4 {
@@ -286,14 +276,15 @@ exports[`SelectGroup renders direction column 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-width: 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c5 {
@@ -306,29 +297,21 @@ exports[`SelectGroup renders direction column 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-width: 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   height: 100%;
+  width: 100%;
 }
 
 .c2 {
   position: relative;
   outline: none;
-}
-
-.c2 .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  width: 100%;
 }
 
 .c1 {
@@ -342,12 +325,7 @@ exports[`SelectGroup renders direction column 1`] = `
 }
 
 @media (min-width:512px) {
-  .c2:hover .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0,
-  .c2:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1b4w28x-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div
@@ -513,13 +491,14 @@ exports[`SelectGroup renders with direction row 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-top-left-radius: 4px;
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c4 {
@@ -532,14 +511,15 @@ exports[`SelectGroup renders with direction row 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-left-width: 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   height: 100%;
+  width: 100%;
 }
 
 .c5 {
@@ -552,29 +532,21 @@ exports[`SelectGroup renders with direction row 1`] = `
   padding-bottom: 32px;
   padding-left: 24px;
   color: #000000;
-  border: 1px solid #cfcbca;
-  background-color: #fff;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
   border-left-width: 0px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   height: 100%;
+  width: 100%;
 }
 
 .c2 {
   position: relative;
   outline: none;
-}
-
-.c2 .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  width: 100%;
 }
 
 .c1 {
@@ -588,12 +560,7 @@ exports[`SelectGroup renders with direction row 1`] = `
 }
 
 @media (min-width:512px) {
-  .c2:hover .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0,
-  .c2:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1b4w28x-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 <div

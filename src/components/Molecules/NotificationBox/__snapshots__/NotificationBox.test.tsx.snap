@@ -2,10 +2,10 @@
 
 exports[`Notificationbox renders corretly 1`] = `
 .c7 {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 700;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -13,32 +13,16 @@ exports[`Notificationbox renders corretly 1`] = `
   letter-spacing: normal;
 }
 
-.c7 a,
-.c7 a:focus,
-.c7 a:hover,
-.c7 a:active,
-.c7 a:visited {
-  color: inherit;
-}
-
 .c9 {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 16px;
   line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c9 a,
-.c9 a:focus,
-.c9 a:hover,
-.c9 a:active,
-.c9 a:visited {
-  color: inherit;
 }
 
 .c5 {
@@ -48,10 +32,11 @@ exports[`Notificationbox renders corretly 1`] = `
   overflow: hidden;
   padding: 24px;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
-  color: #fff;
-  background-color: #272422;
+  color: #FFFFFF;
+  background-color: #333333;
   border-radius: 4px;
   height: 100%;
+  width: 100%;
 }
 
 .c5 h1,
@@ -60,22 +45,13 @@ exports[`Notificationbox renders corretly 1`] = `
 .c5 h4,
 .c5 h5,
 .c5 h6 {
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c4 {
   position: relative;
   outline: none;
-}
-
-.c4 .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0 {
-  -webkit-transition-duration: 0.15s;
-  transition-duration: 0.15s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  width: 100%;
 }
 
 .c3 {
@@ -86,13 +62,17 @@ exports[`Notificationbox renders corretly 1`] = `
 }
 
 .c3 svg {
-  cursor: inherit;
   width: 16px;
   height: 16px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-  fill: #fff;
+  fill: #FFFFFF;
+}
+
+.c3 svg g,
+.c3 svg p {
+  fill: #FFFFFF;
 }
 
 .c12 {
@@ -115,37 +95,42 @@ exports[`Notificationbox renders corretly 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0px 24px;
+  -webkit-appearance: none;
+  padding: 12px 24px;
   position: relative;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: SourceSansPro,Arial,sans-serif;
-  font-weight: bold;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
   font-size: 16px;
   height: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
   width: 100%;
-  border: 2px solid #fff;
-  background: #272422;
-  color: #fff;
+  border: 2px solid #FFFFFF;
+  background: #999999;
+  color: #FFFFFF;
 }
 
 .c12 .c2 {
   padding: 0 8px;
 }
 
-.c12 .Status-sc-80qxcr-0 {
+.c12 .Status-y46az8-0 {
   position: absolute;
   top: -6px;
   right: -6px;
 }
 
 .c12:hover {
-  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
 }
 
 .c12:hover {
   box-shadow: none;
-  background: #494745;
+  background: #999999;
 }
 
 .c12 > span {
@@ -206,7 +191,7 @@ exports[`Notificationbox renders corretly 1`] = `
   margin-top: 24px;
 }
 
-.c11 .NotificationBoxStyled__StyledButton-sc-10c7jil-2:nth-child(n + 2) {
+.c11 .NotificationBoxStyled__StyledButton-sd03yo-2:nth-child(n + 2) {
   margin-top: 8px;
 }
 
@@ -263,12 +248,7 @@ exports[`Notificationbox renders corretly 1`] = `
 }
 
 @media (min-width:512px) {
-  .c4:hover .Cardstyled__StyledBadgeLineWrapper-sc-1b4w28x-0,
-  .c4:hover .Cardstyled__StyledFeaturedAssetsContainer-sc-1b4w28x-3 {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
+
 }
 
 @media (min-width:752px) {
@@ -300,9 +280,8 @@ exports[`Notificationbox renders corretly 1`] = `
       width={16}
     >
       <svg
-        height={32}
         viewBox="0 0 24 24"
-        width={32}
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path
           d="M17.85 16.44a.5.5 0 010 .71l-.7.7a.5.5 0 01-.71 0L12 13.41l-4.44 4.44a.5.5 0 01-.71 0l-.7-.7a.5.5 0 010-.71L10.59 12 6.15 7.56a.5.5 0 010-.71l.7-.7a.5.5 0 01.71 0L12 10.59l4.44-4.44a.5.5 0 01.71 0l.7.7a.5.5 0 010 .71L13.41 12z"
@@ -329,9 +308,8 @@ exports[`Notificationbox renders corretly 1`] = `
           width={16}
         >
           <svg
-            height={32}
             viewBox="0 0 24 24"
-            width={32}
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8zm3.09-10.56l-.53-.53a.48.48 0 00-.7 0L12 10.76l-1.86-1.85a.48.48 0 00-.7 0l-.53.53a.48.48 0 000 .7L10.76 12l-1.85 1.86a.48.48 0 000 .7l.53.53a.48.48 0 00.7 0L12 13.24l1.86 1.85a.48.48 0 00.7 0l.53-.53a.48.48 0 000-.7L13.24 12l1.85-1.86a.48.48 0 000-.7z"
@@ -370,7 +348,7 @@ exports[`Notificationbox renders corretly 1`] = `
         className="c11"
       >
         <button
-          className="c12 NotificationBoxStyled__StyledButton-sc-10c7jil-2"
+          className="c12 NotificationBoxStyled__StyledButton-sd03yo-2"
           disabled={false}
           onClick={[Function]}
           size="sm"

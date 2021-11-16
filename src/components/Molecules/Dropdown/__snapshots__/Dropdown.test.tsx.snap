@@ -2,36 +2,31 @@
 
 exports[`Dropdown renders 1`] = `
 .c7 {
-  height: 1px;
-  background: #918e8c;
+  height: 8px;
+  width: 100%;
+  background: #CCCCCC;
   border-width: 0;
+  margin: 0;
 }
 
 .c8 {
   height: 2px;
   width: 100%;
   margin-bottom: 0;
+  color: #CCCCCC;
   margin-top: 4px;
 }
 
 .c6 {
-  color: #272422;
+  color: #666666;
   font-size: 16px;
   line-height: 24px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
-}
-
-.c6 a,
-.c6 a:focus,
-.c6 a:hover,
-.c6 a:active,
-.c6 a:visited {
-  color: inherit;
 }
 
 .c2 {
@@ -42,12 +37,16 @@ exports[`Dropdown renders 1`] = `
 }
 
 .c2 svg {
-  cursor: inherit;
   width: 16px;
   height: 16px;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  fill: currentColor;
+}
+
+.c2 svg g,
+.c2 svg p {
   fill: currentColor;
 }
 
@@ -141,7 +140,7 @@ exports[`Dropdown renders 1`] = `
   display: block;
   max-width: 100%;
   padding: 8px 16px;
-  background: #fff;
+  background: #FFFFFF;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -151,7 +150,7 @@ exports[`Dropdown renders 1`] = `
 
 .c5:hover {
   cursor: pointer;
-  background: #f4f4f4;
+  background: #FAFAFA;
 }
 
 <div>
@@ -169,12 +168,12 @@ exports[`Dropdown renders 1`] = `
         width={16}
       >
         <svg
-          height={32}
-          viewBox="0 0 24 24"
-          width={32}
+          height={80}
+          width={80}
+          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+            d="M70.56 15L80 24.44l-40 40-40-40L9.44 15 40 45.72z"
           />
         </svg>
       </div>

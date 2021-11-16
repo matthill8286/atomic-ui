@@ -2,10 +2,10 @@
 
 exports[`FeatureList should render items with reduced count 1`] = `
 .c2 {
-  color: #494745;
+  color: #999999;
   font-size: 12px;
   line-height: 16px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -14,22 +14,13 @@ exports[`FeatureList should render items with reduced count 1`] = `
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 100%;
-}
-
-.c2 a,
-.c2 a:focus,
-.c2 a:hover,
-.c2 a:active,
-.c2 a:visited {
-  color: inherit;
 }
 
 .c3 {
   color: #000000;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 600;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -38,15 +29,6 @@ exports[`FeatureList should render items with reduced count 1`] = `
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 100%;
-}
-
-.c3 a,
-.c3 a:focus,
-.c3 a:hover,
-.c3 a:active,
-.c3 a:visited {
-  color: inherit;
 }
 
 .c0 {
@@ -142,10 +124,10 @@ exports[`FeatureList should render items with reduced count 1`] = `
 
 exports[`FeatureList should render with items 1`] = `
 .c2 {
-  color: #494745;
+  color: #999999;
   font-size: 12px;
   line-height: 16px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -154,22 +136,13 @@ exports[`FeatureList should render with items 1`] = `
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 100%;
-}
-
-.c2 a,
-.c2 a:focus,
-.c2 a:hover,
-.c2 a:active,
-.c2 a:visited {
-  color: inherit;
 }
 
 .c3 {
   color: #000000;
   font-size: 14px;
   line-height: 20px;
-  font-family: SourceSansPro,Arial,sans-serif;
+  font-family: OswaldLight,Arial,sans-serif;
   font-weight: 600;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -178,15 +151,6 @@ exports[`FeatureList should render with items 1`] = `
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 100%;
-}
-
-.c3 a,
-.c3 a:focus,
-.c3 a:hover,
-.c3 a:active,
-.c3 a:visited {
-  color: inherit;
 }
 
 .c0 {

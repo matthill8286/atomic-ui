@@ -37,7 +37,7 @@ exports[`Pagination renders Round Animated Pagination 1`] = `
 }
 
 <svg
-  className=""
+  className="Round__StyledIcon-d6rvg7-2"
   height={24}
   onClick={[MockFunction]}
   width={24}
