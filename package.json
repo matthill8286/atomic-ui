@@ -1,7 +1,7 @@
 {
   "name": "react-atomic-ui-components",
-  "version": "1.3.40",
-  "description": "Shared React components for e-commerce products, which are for external purposes",
+  "version": "1.3.41",
+  "description": "Shared React components for e-commerce products",
   "repository": {
     "type": "git",
     "url": "https://github.com/matthill8286/atomic-ui.git"
