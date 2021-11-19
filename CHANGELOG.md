@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.41](https://github.com/matthill8286/atomic-ui/compare/v1.3.40...v1.3.41) (2021-11-19)
+
+
+### Other
+
+* updating the name ([5b283fc](https://github.com/matthill8286/atomic-ui/commit/5b283fcbaf0b57c23298bbded753d57b3bb873b8))
+
 ### [1.3.40](https://github.com/matthill8286/atomic-ui/compare/v1.3.39...v1.3.40) (2021-11-16)
 
 
