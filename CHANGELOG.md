@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.48](https://github.com/matthill8286/atomic-ui/compare/v1.3.47...v1.3.48) (2022-02-18)
+
+
+### Reverts
+
+* target esnext ([4f3afe3](https://github.com/matthill8286/atomic-ui/commit/4f3afe330d200f1daca1c3e985d24c998ee5a2b9))
+* target esnext ([9e52daa](https://github.com/matthill8286/atomic-ui/commit/9e52daa509dd8dd24744be1d1539e2a784148aa9))
+
 ### [1.3.47](https://github.com/matthill8286/atomic-ui/compare/v1.3.46...v1.3.47) (2022-02-18)
 
 ### [1.3.46](https://github.com/matthill8286/atomic-ui/compare/v1.3.45...v1.3.46) (2022-02-18)
