@@ -16,7 +16,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "prebuild": "yarn clean && cross-env BABEL_ENV=build NODE_ENV=production yarn jest  --env=jsdom  && yarn typecheck",
+    "prebuild": "yarn clean && cross-env BABEL_ENV=build NODE_ENV=production yarn test --env=jsdom  && yarn typecheck",
     "build": "yarn clean && cross-env BABEL_ENV=build NODE_ENV=production yarn generate:dts && yarn build:babel",
     "build-storybook": "cross-env build-storybook -c config/storybook -o static",
     "build:babel": "babel src --out-dir dist --config-file ./babel.config.js --source-maps --extensions .ts,.tsx,.js --no-comments",
