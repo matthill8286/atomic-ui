@@ -8,6 +8,6 @@
     "declarationDir": "./dist",
     "outDir": "./dist"
   },
-  "include": ["src", "public"],
+  "include": ["src"],
   "exclude": ["**/*.story.*", "**/*.test.*", "node_modules"]
 }
