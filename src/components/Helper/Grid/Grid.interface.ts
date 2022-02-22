@@ -10,6 +10,7 @@ export interface StyledGridProps {
   align?: 'left' | 'right'
   fixedColumnWidth?: boolean
   noPadding?: boolean
+  fullWidth?: boolean
 }
 
 export interface RowProps {

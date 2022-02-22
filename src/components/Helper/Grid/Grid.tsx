@@ -31,7 +31,7 @@ export const handleGridPadding = (noPadding: boolean) => {
 const StyledGrid = styled.div<StyledGridProps>`
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1472px;
+  ${({ fullWidth }) => !fullWidth && `max-width: 1472px;`};
   ${({ noPadding }) => handleGridPadding(!!noPadding)}
 
   ${({ align }) => {
