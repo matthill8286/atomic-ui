@@ -1,7 +1,12 @@
 import React, { useState } from 'react'
 import { CopyText } from '../Typography'
 import { InputAreaProps, MapStateToColor } from './Input.interface'
-import { StyledHelpWrapper, StyledInputArea, StyledInputWrapper } from './Input.styled'
+import {
+  StyledErrorDivider,
+  StyledHelpWrapper,
+  StyledInputArea,
+  StyledInputWrapper,
+} from './Input.styled'
 import { InputDivider } from './InputDivider'
 import { InputIcon, InputIconState } from './InputIcon'
 import { InputLabel } from './InputLabel'
@@ -117,15 +122,14 @@ export const InputArea: React.FC<InputAreaProps> = props => {
 
   return (
     <StyledInputWrapper className={className} margin={margin} padding={padding}>
-      <InputLabel color={color} label={label} shrink={shrink} inputStyle={inputStyle}>
+      <InputLabel color={color} label={label} inputStyle={inputStyle}>
         {<StyledInputArea {...combinedInputProps} ref={inputRef} />}
+        {showError && <StyledErrorDivider height={1.75} color={color} />}
       </InputLabel>
 
       {showIcon && (
         <InputIcon iconState={iconState} icon={inputIcon} onClick={onClickIconHandler} />
       )}
-
-      {showError && <InputDivider color={color} />}
 
       {helper && <StyledHelpWrapper inputStyle={inputStyle}>{helper}</StyledHelpWrapper>}
 

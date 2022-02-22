@@ -1,7 +1,13 @@
 import React, { useState } from 'react'
 import { CopyText } from '../Typography'
 import { InputProps, MapStateToColor } from './Input.interface'
-import { StyledHelpWrapper, StyledInput, StyledInputMask, StyledInputWrapper } from './Input.styled'
+import {
+  StyledErrorDivider,
+  StyledHelpWrapper,
+  StyledInput,
+  StyledInputMask,
+  StyledInputWrapper,
+} from './Input.styled'
 import { InputDivider } from './InputDivider'
 import { InputIcon, InputIconState } from './InputIcon'
 import { InputLabel } from './InputLabel'
@@ -51,12 +57,12 @@ export const Input: React.FC<InputProps> = props => {
     value,
   } = props
 
-  const [shrink, changeShrink] = useState<boolean>(!!value)
+  const [shrink, changeShrink] = useState<boolean>(false)
   const [isFocus, changeFocus] = useState<boolean>(autofocus)
   const [isHover, changeHover] = useState<boolean>(false)
 
   React.useEffect(() => {
-    changeShrink(isFocus || !!value)
+    // changeShrink(isFocus || !!value)
   }, [value])
 
   const onMouseEnterHandler = (ev: React.MouseEvent<HTMLInputElement>) => {
@@ -134,12 +140,7 @@ export const Input: React.FC<InputProps> = props => {
 
   return (
     <StyledInputWrapper className={className} margin={margin} padding={padding}>
-      <InputLabel
-        color={color}
-        htmlFor={inputProps?.id}
-        inputStyle={inputStyle}
-        label={label}
-        shrink={shrink}>
+      <InputLabel color={color} htmlFor={inputProps?.id} inputStyle={inputStyle} label={label}>
         {inputMaskProps ? (
           <StyledInputMask
             {...inputMaskProps}
@@ -156,6 +157,7 @@ export const Input: React.FC<InputProps> = props => {
             ref={inputRef}
           />
         )}
+        {showError && <StyledErrorDivider height={1.75} color={color} />}
       </InputLabel>
 
       {showIcon && (
@@ -167,8 +169,6 @@ export const Input: React.FC<InputProps> = props => {
           onClick={onClickIcon ? onClickIconHandler : undefined}
         />
       )}
-
-      {showError && <InputDivider color={color} />}
 
       {showError && (
         <StyledHelpWrapper inputStyle={inputStyle}>
