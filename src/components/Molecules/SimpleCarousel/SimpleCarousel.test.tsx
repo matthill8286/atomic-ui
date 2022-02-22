@@ -1,12 +1,12 @@
 import React from 'react'
-import { renderWithTheme } from '@/testRenderer'
+import { mountWithTheme } from '@/testRenderer'
 import { SimpleCarousel } from './SimpleCarousel'
 import { pictureEntries } from './SimpleCarousel.data'
 import { renderWithPictureComponent } from './SimpleCarousel.story'
 
 describe('SimpleCarousel', () => {
   it('renders correctly', () => {
-    const tree = renderWithTheme(
+    const tree = mountWithTheme(
       <SimpleCarousel
         items={pictureEntries}
         renderSlide={renderWithPictureComponent}

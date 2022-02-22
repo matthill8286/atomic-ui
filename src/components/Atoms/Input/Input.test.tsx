@@ -26,7 +26,7 @@ describe('Input', () => {
     expect(wrapper).toMatchSnapshot()
   })
   it('should render with masked input', () => {
-    const wrapper = renderWithTheme(<Input inputMaskProps={{ mask: '11.11.1111' }} />)
+    const wrapper = mountWithTheme(<Input inputMaskProps={{ mask: '11.11.1111' }} />)
     expect(wrapper).toMatchSnapshot()
   })
   it('should render with dense inputStyle', () => {

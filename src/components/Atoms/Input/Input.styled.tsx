@@ -5,6 +5,7 @@ import { getBoxDimension } from '@/styles/sc-shared-functions'
 import { styled } from '@/styles/styled'
 import { BoxDimensions } from '@/types'
 import { InputStyle } from './Input.interface'
+import { Divider } from '../Divider/Divider'
 
 export const StyledInputWrapper = styled.div<{ margin: BoxDimensions; padding: BoxDimensions }>`
   display: inline-flex;
@@ -39,8 +40,7 @@ export const StyledInput = styled.input`
   font-size: ${({ theme }) => theme.font.size.sm};
   font-family: ${({ theme }) => theme.font.family.default};
   margin: ${({ theme }) => theme.spacing.base.md} 0 0 0;
-  box-shadow: ${({ theme }) => theme.dimension.elevationLevel2};
-  border-radius: ${({ theme }) => theme.dimension.borderRadius3};
+  border-bottom: 1px solid ${({ theme }) => theme.color.grey4};
   background-color: ${({ theme }) => theme.color.white};
   min-width: 0;
   width: 100%;
@@ -51,10 +51,6 @@ export const StyledInput = styled.input`
   -webkit-tap-highlight-color: transparent;
 
   ::placeholder {
-    opacity: 0;
-  }
-
-  :focus::placeholder {
     opacity: 1;
   }
 `
@@ -65,8 +61,7 @@ export const StyledInputArea = styled.textarea`
   font-size: ${({ theme }) => theme.font.size.sm};
   font-family: ${({ theme }) => theme.font.family.default};
   margin: ${({ theme }) => theme.spacing.base.md} 0 0 0;
-  box-shadow: ${({ theme }) => theme.dimension.elevationLevel2};
-  border-radius: ${({ theme }) => theme.dimension.borderRadius3};
+  border-bottom: 1px solid ${({ theme }) => theme.color.grey4};
   background-color: ${({ theme }) => theme.color.white};
   min-width: 0;
   width: 100%;
@@ -76,10 +71,6 @@ export const StyledInputArea = styled.textarea`
   -webkit-tap-highlight-color: transparent;
 
   ::placeholder {
-    opacity: 0;
-  }
-
-  :focus::placeholder {
     opacity: 1;
   }
 `
@@ -103,10 +94,6 @@ export const StyledInputMask = styled(InputMask as any)`
   -webkit-tap-highlight-color: transparent;
 
   ::placeholder {
-    opacity: 0;
-  }
-
-  :focus::placeholder {
     opacity: 1;
   }
 `
@@ -114,4 +101,10 @@ export const StyledInputMask = styled(InputMask as any)`
 export const StyledHelpWrapper = styled.div<{ inputStyle: InputStyle }>`
   margin-top: ${({ theme, inputStyle }) =>
     inputStyle === 'dense' ? theme.spacing.base.xxs : theme.spacing.base.xs};
+`
+
+export const StyledErrorDivider = styled(Divider)`
+  position: absolute;
+  left: 0;
+  z-index: 99;
 `

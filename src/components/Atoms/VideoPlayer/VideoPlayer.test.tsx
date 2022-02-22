@@ -1,10 +1,10 @@
 import React from 'react'
-import { renderWithTheme } from '@/testRenderer'
+import { mountWithTheme } from '@/testRenderer'
 import { VideoPlayerCore } from '@/components/Atoms/VideoPlayer/VideoPlayerCore'
 
 describe('VideoPlayer', () => {
   it('renders correctly', () => {
-    const tree = renderWithTheme(
+    const tree = mountWithTheme(
       <VideoPlayerCore url="https://www.youtube.com/embed/-BdbiZcNBXg" />
     )
     expect(tree).toMatchSnapshot()
