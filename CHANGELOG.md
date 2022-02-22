@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.51](https://github.com/matthill8286/atomic-ui/compare/v1.3.50...v1.3.51) (2022-02-22)
+
+
+### Styling
+
+* input styles adjsted ([#9](https://github.com/matthill8286/atomic-ui/issues/9)) ([faca4f2](https://github.com/matthill8286/atomic-ui/commit/faca4f2460eb1f9914cc14ea919a98cdf2859c9a))
+
 ### [1.3.50](https://github.com/matthill8286/atomic-ui/compare/v1.3.49...v1.3.50) (2022-02-18)
 
 
