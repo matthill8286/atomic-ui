@@ -68,5 +68,5 @@ const StyledGrid = styled.div<StyledGridProps>`
 `
 
 export const Grid: FunctionComponent<GridProps> = ({ tag = 'div', fullWidth = false, ...rest }) => {
-  return <StyledGrid as={tag} {...rest} />
+  return <StyledGrid as={tag} fullWidth={fullWidth} {...rest} />
 }
