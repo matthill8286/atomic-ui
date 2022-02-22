@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.53](https://github.com/matthill8286/atomic-ui/compare/v1.3.52...v1.3.53) (2022-02-22)
+
+
+### Styling
+
+* adjusting grid props ([ed2889c](https://github.com/matthill8286/atomic-ui/commit/ed2889cab008346599467f3bd7577d7ec0bf6f3e))
+* adjusting grid props ([4cb3329](https://github.com/matthill8286/atomic-ui/commit/4cb332911b3b196b40dfbe5393986c2fe3c5a7a9))
+
 ### [1.3.52](https://github.com/matthill8286/atomic-ui/compare/v1.3.51...v1.3.52) (2022-02-22)
 
 
