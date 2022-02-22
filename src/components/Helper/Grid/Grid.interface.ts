@@ -4,6 +4,7 @@ export interface GridProps {
   tag?: keyof JSX.IntrinsicElements | React.ComponentType
   noPadding?: boolean
   className?: string
+  fullWidth?: boolean
 }
 
 export interface StyledGridProps {
