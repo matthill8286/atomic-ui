@@ -1,6 +1,6 @@
 import React from 'react'
 import { SimpleCarousel } from '@/components/Molecules/SimpleCarousel'
-import { mountWithTheme, renderWithTheme } from '@/testRenderer'
+import { mountWithTheme } from '@/testRenderer'
 import { Product } from '@/types/product'
 import { LazyProductCarousel } from './LazyProductCarousel'
 import { productNames, mockProducts } from '@/components/Organisms/ProductTile'
@@ -29,12 +29,12 @@ describe('Lazy Product Carousel', () => {
   })
 
   it('renders without crashing', () => {
-    const wrapper = renderWithTheme(<LazyProductCarousel {...carouselProps} />)
+    const wrapper = mountWithTheme(<LazyProductCarousel {...carouselProps} />)
     expect(wrapper).toBeDefined()
   })
 
   it.skip('renders snapshot', () => {
-    const wrapper = renderWithTheme(<LazyProductCarousel {...carouselProps} />)
+    const wrapper = mountWithTheme(<LazyProductCarousel {...carouselProps} />)
     expect(wrapper).toMatchSnapshot()
   })
 

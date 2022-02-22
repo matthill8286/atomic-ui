@@ -1,6 +1,6 @@
 import { configure } from '@testing-library/react'
 import Enzyme from 'enzyme'
-import EnzymeAdapter from 'enzyme-adapter-react-16'
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17'
 
 if (typeof window !== 'undefined') {
   window.matchMedia =
@@ -35,5 +35,5 @@ Object.defineProperty(global, 'IntersectionObserver', {
 })
 
 // Setup enzyme's react adapter
-Enzyme.configure({ adapter: new EnzymeAdapter() })
+Enzyme.configure({ adapter: new Adapter() })
 configure({ testIdAttribute: 'data-test' })
