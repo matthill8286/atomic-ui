@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.52](https://github.com/matthill8286/atomic-ui/compare/v1.3.51...v1.3.52) (2022-02-22)
+
+
+### Styling
+
+* adjusting grid to allow full width ([7b5fe47](https://github.com/matthill8286/atomic-ui/commit/7b5fe470ff4adfae50bb9f3ac34092213a8dfa23))
+
 ### [1.3.51](https://github.com/matthill8286/atomic-ui/compare/v1.3.50...v1.3.51) (2022-02-22)
 
 
