@@ -50,11 +50,9 @@ exports[`<ArticleStage /> Renders without error 1`] = `
 .c11::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -100,11 +98,9 @@ exports[`<ArticleStage /> Renders without error 1`] = `
 .c16::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #00C8DC;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -150,11 +146,9 @@ exports[`<ArticleStage /> Renders without error 1`] = `
 .c21::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #E5E5E5;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

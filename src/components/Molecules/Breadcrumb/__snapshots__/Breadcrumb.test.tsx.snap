@@ -96,11 +96,9 @@ Array [
 .c3::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -146,11 +144,9 @@ Array [
 .c8::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #666666;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -196,11 +192,9 @@ Array [
 .c13::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #E5E5E5;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

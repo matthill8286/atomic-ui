@@ -177,19 +177,19 @@ Array [
   object-fit: contain;
 }
 
-.c13 {
+.c11 {
   color: #999999;
   font-size: 16px;
   line-height: 24px;
   font-family: OswaldLight,Arial,sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
 }
 
-.c17 {
+.c15 {
   color: #CCCCCC;
   font-size: 14px;
   line-height: 20px;
@@ -241,27 +241,6 @@ Array [
   margin-bottom: 0;
 }
 
-.c12 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c12 svg {
-  width: 25px;
-  height: 25px;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  fill: #00C8DC;
-}
-
-.c12 svg g,
-.c12 svg p {
-  fill: #00C8DC;
-}
-
 .c2 {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -290,7 +269,7 @@ Array [
   align-self: center;
 }
 
-.c15 {
+.c13 {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -305,10 +284,10 @@ Array [
 }
 
 .c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -316,13 +295,14 @@ Array [
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: #999999;
+  color: inherit;
   opacity: 1.0;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  padding: 16px;
+  border-bottom-color: #999999;
+  padding: 0;
 }
 
 .c10::after {
@@ -330,9 +310,9 @@ Array [
   position: absolute;
   display: block;
   bottom: -2px;
-  height: 2px;
-  left: 24px;
-  width: calc( 100% - 24px );
+  height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -354,18 +334,8 @@ Array [
   transform: scale(1,1);
 }
 
-.c11 {
-  margin-left: 0px;
-  margin-right: 4px;
-}
-
-.c11 svg {
-  height: 20px;
-  width: 20px;
-}
-
-.c14 {
-  display: block;
+.c12 {
+  display: inline;
   color: #999999;
 }
 
@@ -523,7 +493,7 @@ Array [
 }
 
 @supports (display:grid) {
-  .c15 {
+  .c13 {
     margin: 0;
     width: auto;
     grid-column-end: span 4;
@@ -531,14 +501,14 @@ Array [
 }
 
 @supports (display:grid) {
-  .c15 {
+  .c13 {
     width: auto;
     grid-column-end: span 4;
   }
 }
 
 @media (min-width:512px) {
-  .c15 {
+  .c13 {
     display: block;
     margin: calc(16px / 2);
     width: calc(50% - 16px);
@@ -547,7 +517,7 @@ Array [
 }
 
 @media (min-width:752px) {
-  .c15 {
+  .c13 {
     display: block;
     margin: calc(24px / 2);
     width: calc(50% - 24px);
@@ -556,7 +526,7 @@ Array [
 }
 
 @media (min-width:1008px) {
-  .c15 {
+  .c13 {
     display: block;
     margin: calc(24px / 2);
     width: calc(33.33333% - 24px);
@@ -565,7 +535,7 @@ Array [
 }
 
 @media (min-width:1232px) {
-  .c15 {
+  .c13 {
     display: block;
     margin: calc(24px / 2);
     width: calc(33.33333% - 24px);
@@ -591,20 +561,20 @@ Array [
 }
 
 @media (min-width:320px) {
-  .c16 {
+  .c14 {
     justify-self: flex-start;
     padding-left: 16px;
   }
 }
 
 @media (min-width:1008px) {
-  .c16 {
+  .c14 {
     justify-self: center;
   }
 }
 
 @media (min-width:1232px) {
-  .c16 {
+  .c14 {
     justify-self: flex-end;
   }
 }
@@ -695,25 +665,7 @@ Array [
             onClick={[Function]}
           >
             <span
-              className="c11"
-              color="grey4"
-            >
-              <div
-                className="c12"
-                color="primary"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
-                  />
-                </svg>
-              </div>
-            </span>
-            <span
-              className="c13 c14"
+              className="c11 c12"
               color="grey4"
               fontSize="sm"
             >
@@ -726,25 +678,7 @@ Array [
             onClick={[Function]}
           >
             <span
-              className="c11"
-              color="grey4"
-            >
-              <div
-                className="c12"
-                color="primary"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
-                  />
-                </svg>
-              </div>
-            </span>
-            <span
-              className="c13 c14"
+              className="c11 c12"
               color="grey4"
               fontSize="sm"
             >
@@ -757,25 +691,7 @@ Array [
             onClick={[Function]}
           >
             <span
-              className="c11"
-              color="grey4"
-            >
-              <div
-                className="c12"
-                color="primary"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
-                  />
-                </svg>
-              </div>
-            </span>
-            <span
-              className="c13 c14"
+              className="c11 c12"
               color="grey4"
               fontSize="sm"
             >
@@ -788,25 +704,7 @@ Array [
             onClick={[Function]}
           >
             <span
-              className="c11"
-              color="grey4"
-            >
-              <div
-                className="c12"
-                color="primary"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
-                  />
-                </svg>
-              </div>
-            </span>
-            <span
-              className="c13 c14"
+              className="c11 c12"
               color="grey4"
               fontSize="sm"
             >
@@ -816,10 +714,10 @@ Array [
         </div>
       </div>
       <div
-        className="c15 c16"
+        className="c13 c14"
       >
         <span
-          className="c17"
+          className="c15"
           color="grey3"
           fontSize="xs"
         >

@@ -6,7 +6,7 @@ import { padding } from '@/styles/sc-shared-functions'
 
 export const StyledSection = styled(Section)`
   background: ${({ theme }) => theme.color[theme.header.topBar]};
-  height: ${({ theme }) => theme.header.height + 20};
+  height: ${({ theme }) => theme.header.height};
   z-index: 10;
   top: 0;
   left: auto;
@@ -15,7 +15,7 @@ export const StyledSection = styled(Section)`
 `
 
 export const StyledHeaderWrapper = styled.div<{ paddingString?: BoxDimensions }>(
-  ({ theme, color, paddingString }) => css`
+  ({ theme, paddingString }) => css`
     ${paddingString ? `${padding({ theme, padding: paddingString })};` : ''}
     box-shadow: ${({ theme }) => theme.dimension.elevationLevel1};
     display: flex;
@@ -31,7 +31,7 @@ export const StyledLogo = styled.div`
 `
 
 export const StyledActionItems = styled.div`
-  display: flex;
+  display: inline-flex;
   flex-grow: 2;
   justify-content: flex-end;
 `

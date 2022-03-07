@@ -44,9 +44,11 @@ exports[`CampaignInfobox renders correctly 1`] = `
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
   height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

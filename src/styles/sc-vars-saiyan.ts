@@ -10,6 +10,7 @@ import {
   HeroTheme,
   Polished,
   Theme,
+  PriceConfig,
   Transition,
 } from '@/types/theme'
 import { breakpoints, button, container, defaultSpacing, spacing } from './sc-vars-global'
@@ -80,6 +81,8 @@ const font: Font = {
     default: 'OswaldLight, Arial, sans-serif',
     featured: 'OswaldBold, Arial, sans-serif',
     meta: 'OswaldStencilBold, Arial, sans-serif',
+    branded: 'MMHeadline, Arial, sans-serif',
+    price: 'MMPrice, sans-serif',
   },
   spacing: {
     base: '0.4px',
@@ -203,6 +206,149 @@ const transition: Transition = {
   defaultEasing: 'ease-in-out',
 }
 
+const price: PriceConfig = {
+  default: color.grey1,
+  invert: color.grey1,
+  shadow:
+    '0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0,0,0,.2) 0.05em 0 0.05em, rgba(0,0,0,.2) 0 0.05em 0.05em, rgba(0,0,0,.2) 0.05em 0.05em 0.05em',
+  shadowInvert: 0,
+  prefix: {
+    shadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white',
+  },
+  branded: {
+    color: {
+      default: color.black,
+      invert: color.black,
+    },
+    size: {
+      small: 'xxl',
+      large: 'xxxxxl',
+      responsive: 'responsive',
+    },
+    prefixSize: {
+      small: 'lg',
+      large: 'xxl',
+      responsive: 'responsive',
+    },
+    letterSpacing: {
+      small: '1px',
+      large: '2px',
+    },
+    lineHeight: {
+      small: 'lg',
+      large: 'xxxxxl',
+    },
+    flexWrapper: {
+      padding: {
+        small: '0px 6px 0px 0px',
+        large: '0px 6px 0px 0px',
+        responsive: '0px 6px 0px 0px',
+      },
+    },
+    prefix: {
+      lineHeight: {
+        small: '35px',
+        large: '26px',
+      },
+      fontSize: {
+        small: '14px',
+        large: '28px',
+      },
+    },
+    whole: {
+      lineHeight: {
+        small: '44px',
+        large: '44px',
+      },
+      fontSize: {
+        small: '28px',
+        large: '48px',
+      },
+    },
+    decimal: {
+      lineHeight: {
+        small: '40px',
+        large: '38px',
+      },
+      fontSize: {
+        small: '12px',
+        large: '24px',
+      },
+      top: {
+        small: '-4px',
+        large: '-7px',
+      },
+    },
+  },
+  regular: {
+    color: {
+      default: color.black,
+      invert: color.white,
+    },
+    size: {
+      small: 'sm',
+      large: 'lg',
+      responsive: 'responsive',
+    },
+    prefixSize: {
+      small: 'lg',
+      large: 'xxl',
+      responsive: 'responsive',
+    },
+    lineHeight: {
+      small: 'xs',
+      large: 'md',
+    },
+    energyEfficiency: {
+      marginTop: {
+        small: '7px',
+        large: '1px',
+      },
+    },
+  },
+  strikeInfo: {
+    color: color.grey4,
+    height: {
+      small: '20px',
+      large: '28px',
+    },
+    superPrice: {
+      fontSize: {
+        small: '14px',
+        large: '18px',
+      },
+      left: {
+        small: '-3px',
+        large: '-2px',
+      },
+    },
+    priceWrapper: {
+      paddingBottom: {
+        small: '4px',
+        large: '4px',
+      },
+      bottom: {
+        small: '-4px',
+        large: '4px',
+      },
+      right: {
+        small: '-6px',
+        large: '-7px',
+      },
+    },
+  },
+  strikePrice: {
+    sup: {
+      small: '12px',
+      large: '15px',
+    },
+    span: {
+      small: '18px',
+      large: '24px',
+    },
+  },
+}
+
 export const saiyanTheme: Theme = {
   name,
   button,
@@ -212,6 +358,7 @@ export const saiyanTheme: Theme = {
   container,
   header,
   footer,
+  price,
   hero,
   heading,
   defaultSpacing,

@@ -15,7 +15,6 @@ export const linkStyles = css<StyledLinkProps>`
   text-decoration: none;
   cursor: ${({ isDisabled, cursor }) => (isDisabled ? 'initial' : cursor || 'pointer')};
   position: relative;
-  border-bottom: ${({ isUnderlined, isInline }) => (isUnderlined && isInline ? '1px solid' : '')};
   ${({ theme, color, isInline }) =>
     isInline && color && `border-bottom-color: ${theme.color[color]}`};
   padding: ${({ theme, isInline, isGrouped }) =>
@@ -24,10 +23,10 @@ export const linkStyles = css<StyledLinkProps>`
   &::after {
     content: '';
     position: absolute;
-    display: ${({ isUnderlined }) => (isUnderlined ? 'block' : 'none')};
+    display: ${({ isUnderlined }) => (!isUnderlined ? 'block' : 'none')};
     bottom: -2px;
     height: ${({ isBold }) => (isBold ? 2 : 1)}px;
-    ${({ isUnderlined }) => (isUnderlined ? widthAndPosForUnderline : '')}
+    ${({ isUnderlined }) => (!isUnderlined ? widthAndPosForUnderline : '')}
     background-color: ${({ theme, color, isDisabled }) =>
       (isDisabled && theme.color.grey2) || (color && theme.color[color]) || theme.color.primary};
     transform-origin: right center;

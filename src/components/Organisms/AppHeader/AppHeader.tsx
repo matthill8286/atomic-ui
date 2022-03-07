@@ -8,14 +8,12 @@ import {
   StyledItemWrapper,
   StyledLogo,
   StyledSection,
-} from './AppHeader.styled'
+} from '@/components/Organisms/AppHeader/AppHeader.styled'
 import { AppHeaderProps } from '@/components/Organisms/AppHeader/AppHeader.interface'
-import { useTheme } from '@/utils'
 
 export const AppHeaderComponent = React.memo(
   ({ headerContent, renderSearchBar, logo, onLogoClick }: AppHeaderProps) => {
     const internalLogoClick = useCallback(() => onLogoClick?.(), [])
-    const theme = useTheme()
 
     return (
       <StyledSection>

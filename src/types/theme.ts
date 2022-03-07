@@ -182,6 +182,7 @@ export type HeroFont = {
 export interface SizeSL {
   small: ThemeFontSizes
   large: ThemeFontSizes
+  responsive: string
 }
 
 export interface Size {
@@ -222,7 +223,7 @@ export interface Dimension {
 }
 
 export interface Font {
-  family: { default: string; meta: string; featured: string }
+  family: { default: string; meta: string; price: string; branded: string; featured: string }
   spacing: { half: string; base: string }
   size: Size
   lineHeight: Size
@@ -239,6 +240,100 @@ export interface Transition {
   medium: string
   long: string
   defaultEasing: string
+}
+
+export interface PriceConfig {
+  default: string
+  invert: string
+  shadow: string
+  shadowInvert: number
+  prefix: { shadow: string }
+  branded: {
+    color: { default: string; invert: string }
+    size: SizeSL
+    prefixSize: SizeSL
+    letterSpacing: { small: string; large: string }
+    lineHeight: { small: ThemeFontLineHeight; large: ThemeFontLineHeight }
+    flexWrapper: {
+      padding: {
+        [key: string]: string
+      }
+    }
+    prefix: {
+      lineHeight: {
+        [key: string]: string
+      }
+      fontSize: {
+        [key: string]: string
+      }
+    }
+    whole: {
+      lineHeight: {
+        [key: string]: string
+      }
+      fontSize: {
+        [key: string]: string
+      }
+    }
+    decimal: {
+      lineHeight: {
+        [key: string]: string
+      }
+      fontSize: {
+        [key: string]: string
+      }
+      top: {
+        [key: string]: string
+      }
+    }
+  }
+  regular: {
+    color: { default: string; invert: string }
+    size: SizeSL
+    prefixSize: SizeSL
+    lineHeight: { small: ThemeFontLineHeight; large: ThemeFontLineHeight }
+    energyEfficiency: {
+      marginTop: {
+        small: string
+        large: string
+      }
+    }
+  }
+  strikeInfo: {
+    color: ThemeColors
+    height: {
+      [key: string]: string
+    }
+    superPrice: {
+      fontSize: {
+        [key: string]: string
+      }
+      left: {
+        [key: string]: string
+      }
+    }
+    priceWrapper: {
+      paddingBottom: {
+        [key: string]: string
+      }
+      bottom: {
+        [key: string]: string
+      }
+      right: {
+        [key: string]: string
+      }
+    }
+  }
+  strikePrice: {
+    sup?: {
+      small: string
+      large: string
+    }
+    span?: {
+      small: string
+      large: string
+    }
+  }
 }
 
 export interface Polished {
@@ -259,6 +354,7 @@ export interface Theme {
   footer: Footer
   heading: HeadingTheme
   hero: HeroTheme
+  price: PriceConfig
   button: ButtonTheme
   defaultSpacing: number
   spacing: Spacing
