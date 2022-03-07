@@ -191,9 +191,11 @@ exports[`TopTeaser renders correctly: ProductTeaser 1`] = `
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
   height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -942,9 +944,11 @@ exports[`TopTeaser renders correctly: default ProductTeaser with maximum configu
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
   height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -1661,9 +1665,11 @@ exports[`TopTeaser renders correctly: default ProductTeaser with minimal configu
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
   height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

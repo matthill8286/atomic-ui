@@ -47,11 +47,9 @@ exports[`<Link /> component should render a button tag against the "onClick" att
 .c0::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 0;
-  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -135,11 +133,9 @@ exports[`<Link /> component should render an anchor tag against the "href" attri
 .c0::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 0;
-  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -219,11 +215,9 @@ exports[`<Link /> component should render an anchor tag from a router link again
 .c0::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 0;
-  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -323,11 +317,9 @@ exports[`<Link /> component should render an anchor tag with a left icon 1`] = `
 .c0::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 24px;
-  width: calc( 100% - 24px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -454,10 +446,9 @@ exports[`<Link /> component should render an anchor tag with a right icon 1`] = 
 .c0::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  width: calc( 100% - 20px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

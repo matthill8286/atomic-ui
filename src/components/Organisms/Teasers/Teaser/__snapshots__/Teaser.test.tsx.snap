@@ -236,11 +236,9 @@ exports[`Teaser renders correctly as default teaser with badges 1`] = `
 .c20::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -762,11 +760,9 @@ exports[`Teaser renders correctly as foldable teaser  1`] = `
 .c15::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -1235,11 +1231,9 @@ exports[`Teaser renders correctly as teaser in portrait mode 1`] = `
 .c13::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -1608,14 +1602,14 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   width: 100%;
 }
 
-.c16 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c16 svg {
+.c15 svg {
   width: 25px;
   height: 25px;
   -webkit-transform: rotate(0deg);
@@ -1624,8 +1618,8 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
   fill: #00C8DC;
 }
 
-.c16 svg g,
-.c16 svg p {
+.c15 svg g,
+.c15 svg p {
   fill: #00C8DC;
 }
 
@@ -1653,11 +1647,9 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
 .c9::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 0;
-  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -1680,61 +1672,11 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
 }
 
 .c14 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  color: #999999;
-  opacity: 1.0;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  cursor: pointer;
-  position: relative;
-  padding: 16px;
-}
-
-.c14::after {
-  content: '';
-  position: absolute;
-  display: block;
-  bottom: -2px;
-  height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
-  background-color: #999999;
-  -webkit-transform-origin: right center;
-  -ms-transform-origin: right center;
-  transform-origin: right center;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
-  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
-  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
-  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
-}
-
-.c14:hover::after {
-  -webkit-transform-origin: left center;
-  -ms-transform-origin: left center;
-  transform-origin: left center;
-  -webkit-transform: scale(1,1);
-  -ms-transform: scale(1,1);
-  transform: scale(1,1);
-}
-
-.c15 {
   margin-left: 0px;
   margin-right: 4px;
 }
 
-.c15 svg {
+.c14 svg {
   height: 16px;
   width: 16px;
 }
@@ -1956,16 +1898,16 @@ exports[`Teaser renders correctly as teaser with link list 1`] = `
             className="c13"
           >
             <a
-              className="c14"
+              className="c9"
               href="/"
               onClick={[Function]}
             >
               <span
-                className="c15"
+                className="c14"
                 color="grey4"
               >
                 <div
-                  className="c16"
+                  className="c15"
                   color="primary"
                 >
                   <svg

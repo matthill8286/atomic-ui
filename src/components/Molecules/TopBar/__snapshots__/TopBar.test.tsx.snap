@@ -43,7 +43,6 @@ exports[`TopBar renders correctly 1`] = `
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  border-bottom: 1px solid;
   border-bottom-color: #FFFFFF;
   padding: 0;
 }
@@ -51,11 +50,9 @@ exports[`TopBar renders correctly 1`] = `
 .c11::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 0;
-  width: calc(100%);
   background-color: #FFFFFF;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

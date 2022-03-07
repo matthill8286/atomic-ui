@@ -1,17 +1,13 @@
 import React, { FC } from 'react'
-import { Icon, Link, LinkProps } from '../../../'
+import { Link, LinkProps } from '@/index'
 import { ActionLinkProps } from './ActionLink.interface'
-import { OtherArrow } from "@matthill8286/atomic-icon-library";
 
-export const ActionLink: FC<ActionLinkProps> = ({ children, bold = true, ...baseLinkProps }) => {
+export const ActionLink: FC<ActionLinkProps> = ({ children, bold = false, ...baseLinkProps }) => {
   const linkProps: LinkProps = {
     ...baseLinkProps,
-    iconLeft: (
-      <Icon color="primary">
-        <OtherArrow />
-      </Icon>
-    ),
     scale: 'large',
+    inline: true,
+    underline: false,
     bold,
   }
 

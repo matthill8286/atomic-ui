@@ -286,9 +286,11 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with maximum c
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
   height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -1017,9 +1019,11 @@ exports[`CampaignTeaser renders correctly: default CampaignTeaser with minimal c
 .c0::after {
   content: '';
   position: absolute;
-  display: none;
+  display: block;
   bottom: -2px;
   height: 1px;
+  left: 0;
+  width: calc(100%);
   background-color: #999999;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;

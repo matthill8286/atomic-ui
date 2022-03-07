@@ -70,7 +70,7 @@ storiesOf('Design System/Molecules/Notification Box', module)
       body=""
     />
   ))
-  .add('As Tooltip', () => (
+  .add('As ToolTip', () => (
     <NotificationBox
       {...knobs()}
       buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]}

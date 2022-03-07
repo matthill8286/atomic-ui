@@ -169,11 +169,9 @@ exports[`StepByStepSection renders correctly with different style options render
 .c18::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #000000;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -993,11 +991,9 @@ exports[`StepByStepSection renders correctly with different style options render
 .c18::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #FFFFFF;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -1789,11 +1785,9 @@ exports[`StepByStepSection renders correctly with different style options render
 .c18::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #000;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -2613,11 +2607,9 @@ exports[`StepByStepSection renders correctly with different style options render
 .c18::after {
   content: '';
   position: absolute;
-  display: block;
+  display: none;
   bottom: -2px;
   height: 1px;
-  left: 20px;
-  width: calc( 100% - 20px );
   background-color: #fff;
   -webkit-transform-origin: right center;
   -ms-transform-origin: right center;
